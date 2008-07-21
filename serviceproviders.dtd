@@ -1,0 +1,25 @@
+<!ELEMENT serviceproviders (country*)>
+<!ATTLIST serviceproviders format CDATA #REQUIRED>
+
+<!ELEMENT country (provider*)>
+<!ATTLIST country code CDATA #REQUIRED>
+
+<!ELEMENT provider ( name+,
+                     (gsm|cdma),
+                     username?,
+                     password?,
+                     dns*,
+                     gateway?)>
+                     
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name xml:lang CDATA #IMPLIED>
+
+<!ELEMENT gsm (apn)>
+<!ELEMENT apn (#PCDATA)>
+
+<!ELEMENT cdma EMPTY>
+
+<!ELEMENT username (#PCDATA)> 
+<!ELEMENT password (#PCDATA)>
+<!ELEMENT dns (#PCDATA)>
+<!ELEMENT gateway (#PCDATA)>
