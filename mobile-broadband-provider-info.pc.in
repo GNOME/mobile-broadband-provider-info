@@ -1,0 +1,13 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir
+datarootdir = @datarootdir@
+pkgdatadir=${datarootdir}/@PACKAGE@
+includedir=@includedir@
+database=${pkgdatadir}/serviceproviders.xml
+
+Name: mobile-broadband-provider-info
+Description: Mobile Broadband Service Provider Information Database
+Requires:
+Version: @VERSION@
+Cflags: -DMOBILE_BROADBAND_PROVIDER_INFO='\"${database}\"'
