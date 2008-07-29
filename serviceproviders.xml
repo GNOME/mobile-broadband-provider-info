@@ -3217,86 +3217,40 @@ conceived.
 
 <!-- Sweden -->
 <country code="se">
+	<!-- http://www.halebop.se/halebop_kundtjanst/vanliga_fragor_kontantkort/ -->
 	<provider>
-		<name>Europolitan</name>
+		<name>Halebop</name>
 		<gsm>
-			<apn>none</apn>
+			<apn>halebop.telia.se</apn>
 		</gsm>
-		<dns>192.165.99.231</dns>
-		<dns>192.165.99.232</dns>
 	</provider>
+	<!-- http://www.tele2.se/internet-via-gprs.html -->
 	<provider>
-		<name>Tele2 (3G)</name>
-		<gsm>
-			<apn>internet.tele2.se</apn>
-		</gsm>
-		<username>wap</username>
-		<password>wap</password>
-		<dns>130.244.127.161 </dns>
-		<dns>130.244.127.169</dns>
-	</provider>
-	<provider>
-		<name>Tele2 (Comviq)</name>
+		<name>Tele2/Comviq</name>
 		<gsm>
 			<apn>internet.tele2.se</apn>
 		</gsm>
-		<username>gprs</username>
-		<password>internet</password>
-		<dns>130.244.127.161</dns>
-		<dns>130.244.127.169</dns>
 	</provider>
-	<provider>
-		<name>Telia</name>
-		<gsm>
-			<apn>online.telia.se</apn>
-		</gsm>
-		<dns>10.254.254.254</dns>
-	</provider>
+	<!-- http://www.telenor.se/224.jsp -->
 	<provider>
 		<name>Telenor</name>
 		<gsm>
 			<apn>internet.telenor.se</apn>
 		</gsm>
-		<dns>217.174.065.061</dns>
-		<dns>217.174.065.062</dns>
 	</provider>
+	<!-- http://www3.telia.se/foretag/mobilguiden/ -->
 	<provider>
-		<name>Tele2, Comviq</name>
+		<name>Telia</name>
 		<gsm>
-			<apn>isplnk1.swip.net</apn>
-		</gsm>
-		<username>gprs</username>
-		<password>internet</password>
-	</provider>
-	<provider>
-		<name>Telenor (3G)</name>
-		<gsm>
-			<apn>services.vodafone.net</apn>
+			<apn>online.telia.se</apn>
 		</gsm>
 	</provider>
+	<!-- http://www.tre.se/templates/Sporg3_02.aspx?id=4231 -->
 	<provider>
-		<name>Vodafone (Europolitan)</name>
+		<name>Tre</name>
 		<gsm>
-			<apn>internet.vodafone.net</apn>
+			<apn>data.tre.se</apn>
 		</gsm>
-		<dns>217.174.65.61 </dns>
-		<dns>217.174.65.62</dns>
-	</provider>
-	<provider>
-		<name>Tre (3G)</name>
-		<gsm>
-			<apn>internet.djuice.se</apn>
-		</gsm>
-		<dns>217.174.65.61</dns>
-		<dns>217.174.65.62</dns>
-	</provider>
-	<provider>
-		<name>Vodafone (3G)</name>
-		<gsm>
-			<apn>services.vodafone.net</apn>
-		</gsm>
-		<dns>217.174.65.61 </dns>
-		<dns>217.174.65.62</dns>
 	</provider>
 </country>
 
