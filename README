@@ -26,5 +26,5 @@ for more info, see:
 http://live.gnome.org/NetworkManager/MobileBroadband/ServiceProviders
 
 
-If you are using pkg-config variable MOBILE_BROADBAND_PROVIDER_INFO contains
+If you are using pkg-config, variable MOBILE_BROADBAND_PROVIDER_INFO contains
 the full path to the database.

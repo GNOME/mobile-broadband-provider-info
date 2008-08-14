@@ -1,4 +1,4 @@
-Edit instructions can be found from:
+Edit instructions are found from:
 http://live.gnome.org/NetworkManager/MobileBroadband/ServiceProviders
 
 MAKE SURE YOU VALIDATE THE DATABASE AFTER CHANGES!!
@@ -7,3 +7,6 @@ MAKE SURE YOU VALIDATE THE DATABASE AFTER CHANGES!!
 If you wish to install the package execute:
     $ auroreconf -i
 to bootstrap the package.
+
+if you make any commits to the repository add your information to 
+authors.svn2cl
