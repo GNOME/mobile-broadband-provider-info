@@ -1,1 +1,39 @@
+2008-08-14  Antti Kaijanmäki <antti@kaijanmaki.fi>
+
+	* configure.ac:
+	  prepare for release
+	* generate_cl.sh:
+	  add linebreak after file list
+	* NEWS, README, README.svn, authors.svn2cl, generate_cl.sh:
+	  * added script to generate ChangeLog
+	  * added NEWS
+
+2008-07-29  Antti Kaijanmäki <antti@kaijanmaki.fi>
+
+	* configure.ac, serviceproviders.xml:
+	  Christoffer Sawicki updated Swedish provider information
+
+2008-07-25  Antti Kaijanmäki <antti@kaijanmaki.fi>
+
+	* mobile-broadband-provider-info.pc.in:
+	  added .pc
+	* Makefile.am, README, README.svn, configure.ac:
+	  added .pc
+
+2008-07-22  Antti Kaijanmäki <antti@kaijanmaki.fi>
+
+	* Makefile.am, README.svn, configure.ac:
+	  Use the GNU Build Tools for configuration and installation (and
+	  place them in trunk this time ;)
+
+2008-07-21  Antti Kaijanmäki <antti@kaijanmaki.fi>
+
+	* COPYING, ChangeLog, MAINTAINERS, README, README.svn,
+	  serviceproviders.dtd, serviceproviders.xml:
+	  initial commit
+
+2008-07-21  gnomecvs
+
+	* .:
+	  Initial project roots
 
