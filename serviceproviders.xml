@@ -3636,85 +3636,31 @@ conceived.
 	<provider>
 		<name>AT&amp;T</name>
 		<gsm>
-			<apn>proxy</apn>
+			<apn>WAP.CINGULAR</apn>
 		</gsm>
-		<dns>10.250.1.10</dns>
-		<dns>10.250.1.11</dns>
+		<username>WAP@CINGULARGPRS.COM</username>
+		<password>CINGULAR1</password>
 	</provider>
 	<provider>
-		<name>Cingular (NO acceleration)</name>
+		<name>AT&amp;T (Tethering)</name>
 		<gsm>
 			<apn>ISP.CINGULAR</apn>
 		</gsm>
 		<username>ISP@CINGULARGPRS.COM</username>
 		<password>CINGULAR1</password>
-		<dns>66.102.163.231 </dns>
-		<dns>66.102.163.232</dns>
 	</provider>
 	<provider>
-		<name>Cingular (non-contract)</name>
-		<gsm>
-			<apn>WAP.CINGULAR</apn>
-		</gsm>
-		<username>WAP@CINGULARGPRS.COM</username>
-		<password>CINGULAR1</password>
-		<dns>66.102.163.231 </dns>
-		<dns>66.102.163.232</dns>
-	</provider>
-	<provider>
-		<name>Cingular (With acceleration)</name>
+		<name>AT&amp;T (Tethering with data acceleration)</name>
 		<gsm>
 			<apn>ISP.CINGULAR</apn>
 		</gsm>
 		<username>ISPDA@CINGULARGPRS.COM</username>
 		<password>CINGULAR1</password>
-		<dns>66.102.163.231</dns>
-		<dns>66.102.163.232</dns>
 	</provider>
 	<provider>
-		<name>T-Mobile</name>
-		<gsm>
-			<apn>internet2.voicestream.com</apn>
-		</gsm>
-		<dns>66.94.9.120</dns>
-		<dns>66.94.25.120</dns>
-	</provider>
-	<provider>
-		<name>T-Mobile (non-contract)</name>
+		<name>T-Mobile (Web)</name>
 		<gsm>
 			<apn>wap.voicestream.com</apn>
-		</gsm>
-		<dns>66.94.9.120</dns>
-		<dns>66.94.25.120</dns>
-	</provider>
-	<provider>
-		<name>T-Mobile (VPN)</name>
-		<gsm>
-			<apn>internet3.voicestream.com</apn>
-		</gsm>
-		<dns>66.94.25.120</dns>
-		<dns>66.94.9.120</dns>
-	</provider>
-	<provider>
-		<name>VoiceStream</name>
-		<gsm>
-			<apn>internet2.voicestream.com</apn>
-		</gsm>
-		<dns>216.155.175.40</dns>
-		<dns>216.155.175.41</dns>
-	</provider>
-	<provider>
-		<name>VoiceStream Central</name>
-		<gsm>
-			<apn>internet2.voicestream.com</apn>
-		</gsm>
-		<dns>216.155.175.105</dns>
-		<dns>216.155.175.106</dns>
-	</provider>
-	<provider>
-		<name>Cingular (ex AT&amp;T)</name>
-		<gsm>
-			<apn>proxy</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -3722,8 +3668,12 @@ conceived.
 		<gsm>
 			<apn>internet2.voicestream.com</apn>
 		</gsm>
-		<dns>216.155.175.105</dns>
-		<dns>216.155.175.106</dns>
+	</provider>
+	<provider>
+		<name>T-Mobile (Internet with VPN)</name>
+		<gsm>
+			<apn>internet3.voicestream.com</apn>
+		</gsm>
 	</provider>
 </country>
 
