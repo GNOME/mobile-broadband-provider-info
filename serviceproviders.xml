@@ -1780,6 +1780,14 @@ conceived.
 <!-- India -->
 <country code="in">
 	<provider>
+		<name>Airtel</name>
+		<gsm>
+			<apn>airtelgprs.com</apn>
+		</gsm>
+		<dns>202.56.230.5 </dns>
+		<dns>202.56.240.5</dns>
+	</provider>
+	<provider>
 		<name>BPL</name>
 		<gsm>
 			<apn>bplgprs.com</apn>
@@ -1789,12 +1797,11 @@ conceived.
 		<dns>202.169.129.40</dns>
 	</provider>
 	<provider>
-		<name>Orange</name>
+		<name>BSNL</name>
 		<gsm>
-			<apn>portalnmms</apn>
+			<apn>celloneportal</apn>
 		</gsm>
-		<dns>10.11.206.51</dns>
-		<dns>10.11.206.50</dns>
+		<dns>192.168.051.163</dns>
 	</provider>
 	<provider>
 		<name>BSNL Prepaid (West Bengal)</name>
@@ -1805,23 +1812,23 @@ conceived.
 		<dns>218.248.240.135</dns>
 	</provider>
 	<provider>
-		<name>Telekomsel</name>
+		<name>Hutch (normal)</name>
 		<gsm>
-			<apn>internet</apn>
+			<apn>www</apn>
 		</gsm>
-		<username>wap</username>
-		<password>wap123</password>
+		<dns>10.11.206.51</dns>
+		<dns>10.11.206.50</dns>
 	</provider>
 	<provider>
-		<name>Airtel</name>
+		<name>Hutch (Gujarat)</name>
 		<gsm>
-			<apn>airtelgprs.com</apn>
+			<apn>web</apn>
 		</gsm>
-		<dns>202.56.230.5 </dns>
-		<dns>202.56.240.5</dns>
+		<dns>10.11.206.51</dns>
+		<dns>10.11.206.50</dns>
 	</provider>
 	<provider>
-		<name>Idea Cellulat</name>
+		<name>Idea Cellular</name>
 		<gsm>
 			<apn>internet</apn>
 		</gsm>
@@ -1830,7 +1837,7 @@ conceived.
 	<provider>
 		<name>MTNL Delhi</name>
 		<gsm>
-			<apn>gprsmtnldel></apn>
+			<apn>gprsmtnldel</apn>
 		</gsm>
 		<username>mtnl</username>
 		<password>mtnl123</password>
@@ -1852,14 +1859,6 @@ conceived.
 		<password>mtnl123</password>
 	</provider>
 	<provider>
-		<name>Orange (Hutch)</name>
-		<gsm>
-			<apn>www</apn>
-		</gsm>
-		<dns>10.11.206.51</dns>
-		<dns>10.11.206.50</dns>
-	</provider>
-	<provider>
 		<name>MTNL Mumbai (Plan 2)</name>
 		<gsm>
 			<apn>gprsmtnlmum</apn>
@@ -1868,35 +1867,12 @@ conceived.
 		<password>mtnl123</password>
 	</provider>
 	<provider>
-		<name>BSNL</name>
+		<name>Orange</name>
 		<gsm>
-			<apn>celloneportal</apn>
-		</gsm>
-		<dns>192.168.051.163</dns>
-	</provider>
-	<provider>
-		<name>Hutch (normal)</name>
-		<gsm>
-			<apn>www</apn>
+			<apn>portalnmms</apn>
 		</gsm>
 		<dns>10.11.206.51</dns>
 		<dns>10.11.206.50</dns>
-	</provider>
-	<provider>
-		<name>Hutch (Gujarat)</name>
-		<gsm>
-			<apn>web</apn>
-		</gsm>
-		<dns>10.11.206.51</dns>
-		<dns>10.11.206.50</dns>
-	</provider>
-	<provider>
-		<name>Vodafone</name>
-		<gsm>
-			<apn>www</apn>
-		</gsm>
-		<username>guest</username>
-		<password>guest</password>
 	</provider>
 	<provider>
 		<name>Spice telecom</name>
@@ -1911,6 +1887,28 @@ conceived.
 		<gsm>
 			<apn>simplydownload</apn>
 		</gsm>
+	</provider>
+	<provider>
+		<name>Tata Indicom (Plug2Surf)</name>
+		<cdma/>
+		<username>internet</username>
+		<password>internet</password>
+	</provider>
+	<provider>
+		<name>Telekomsel</name>
+		<gsm>
+			<apn>internet</apn>
+		</gsm>
+		<username>wap</username>
+		<password>wap123</password>
+	</provider>
+	<provider>
+		<name>Vodafone</name>
+		<gsm>
+			<apn>www</apn>
+		</gsm>
+		<username>guest</username>
+		<password>guest</password>
 	</provider>
 </country>
 
