@@ -3476,53 +3476,37 @@ conceived.
 <!-- Taiwan -->
 <country code="tw">
 	<provider>
-		<name>Chunghwa</name>
-		<gsm>
-			<apn>emome</apn>
-		</gsm>
-		<dns>168.95.1.1</dns>
-		<dns>168.95.192.1</dns>
-	</provider>
-	<provider>
-		<name>Far EasTone</name>
-		<gsm>
-			<apn>fetnet01</apn>
-		</gsm>
-		<dns>210.241.199.199</dns>
-	</provider>
-	<provider>
-		<name>Hinet</name>
+		<name>Chunghwa Telecom (emome)</name>
+		<name xml:lang="zh">中華電信 (emome)</name>
 		<gsm>
 			<apn>internet</apn>
 		</gsm>
 	</provider>
 	<provider>
-		<name>KGT Online</name>
+		<name>Far EasTone / KGT</name>
+		<name xml:lang="zh">遠傳電信 / 和信電訊</name>
 		<gsm>
 			<apn>internet</apn>
 		</gsm>
 	</provider>
 	<provider>
-		<name>Taiwan Cellular</name>
+		<name>TW Mobile / TransAsia</name>
+		<name xml:lang="zh">台湾大哥大 / 泛亞電信</name>
 		<gsm>
 			<apn>internet</apn>
 		</gsm>
 	</provider>
 	<provider>
-		<name>Telering</name>
+		<name>Vibo Telecom / Aurora</name>
+		<name xml:lang="zh">威寶電信 (Vibo) / 震旦電信 (Aurora)</name>
 		<gsm>
-			<apn>web</apn>
+			<apn>vibo</apn>
 		</gsm>
-		<username>web@telering.at</username>
-		<password>web</password>
-		<dns>212.95.31.11</dns>
-		<dns>212.95.31.35</dns>
 	</provider>
 	<provider>
-		<name>TransAsia</name>
-		<gsm>
-			<apn>internet</apn>
-		</gsm>
+		<name>Asia Pacific Telecom (APBW)</name>
+		<name xml:lang="zh">亞太電信 (亞太行動寬頻電信)</name>
+		<cdma />
 	</provider>
 </country>
 
