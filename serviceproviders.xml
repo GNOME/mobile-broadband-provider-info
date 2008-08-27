@@ -918,6 +918,13 @@ conceived.
 		<dns>212.97.206.131</dns>
 		<dns>212.97.206.161</dns>
 	</provider>
+	<!-- http://www.ice-net.dk/mobiltbredbaand.php -->
+	<provider>
+		<name>ice.net (Nordisk Mobiltelefon)</name>
+		<cdma />
+		<username>cdma</username>
+		<password>cdma</password>
+	</provider>
 	<provider>
 		<name>Sonofon</name>
 		<gsm>
@@ -2684,6 +2691,13 @@ conceived.
 		<dns>212.169.123.67 </dns>
 		<dns>212.45.188.254</dns>
 	</provider>
+	<!-- http://www.ice.no/Mobilt-bredb%C3%A5nd-1046.aspx -->
+	<provider>
+		<name>ice.net (Nordisk Mobiltelefon)</name>
+		<cdma />
+		<username>cdma</username>
+		<password>cdma</password>
+	</provider>
 	<provider>
 		<name>Telenor</name>
 		<gsm>
@@ -3215,6 +3229,26 @@ conceived.
 
 <!-- Sweden -->
 <country code="se">
+	<!-- http://www.tre.se/templates/Sporg3_02.aspx?id=4231 -->
+	<provider>
+		<name>3 (kontantkort)</name>
+		<gsm>
+			<apn>data.tre.se</apn>
+		</gsm>
+	</provider>
+	<!-- http://www.tre.se/templates/Sporg3_02.aspx?id=4231 -->
+	<provider>
+		<name>3 (abbonemang)</name>
+		<gsm>
+			<apn>bredband.tre.se</apn>
+		</gsm>
+	</provider>	<!-- http://mobiltbredband.glocalnet.se/ -->
+	<provider>
+		<name>Glocalnet</name>
+		<gsm>
+			<apn>internet.glocalnet.se</apn>
+	</gsm>
+	</provider>
 	<!-- http://www.halebop.se/halebop_kundtjanst/vanliga_fragor_kontantkort/ -->
 	<provider>
 		<name>Halebop</name>
@@ -3222,11 +3256,18 @@ conceived.
 			<apn>halebop.telia.se</apn>
 		</gsm>
 	</provider>
+	<!-- http://www.ice.net/Mobilt-bredband-1373.aspx -->
+	<provider>
+		<name>ice.net (Nordisk Mobiltelefon)</name>
+		<cdma />
+		<username>cdma</username>
+		<password>cdma</password>
+	</provider>
 	<!-- http://www.tele2.se/internet-via-gprs.html -->
 	<provider>
 		<name>Tele2/Comviq</name>
 		<gsm>
-			<apn>internet.tele2.se</apn>
+			<apn>mobileinternet.tele2.se</apn>
 		</gsm>
 	</provider>
 	<!-- http://www.telenor.se/224.jsp -->
@@ -3243,13 +3284,7 @@ conceived.
 			<apn>online.telia.se</apn>
 		</gsm>
 	</provider>
-	<!-- http://www.tre.se/templates/Sporg3_02.aspx?id=4231 -->
-	<provider>
-		<name>Tre</name>
-		<gsm>
-			<apn>data.tre.se</apn>
-		</gsm>
-	</provider>
+
 </country>
 
 <!-- Singapore -->
