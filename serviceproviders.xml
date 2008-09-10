@@ -2991,6 +2991,12 @@ conceived.
 		<dns>193.230.161.3</dns>
 		<dns>193.230.161.4</dns>
 	</provider>
+	<provider>
+		<name>Zapp</name>
+		<cdma />
+		<username>zapp</username>
+		<password>zapp</password>
+	</provider>
 </country>
 
 <!-- Serbia -->
