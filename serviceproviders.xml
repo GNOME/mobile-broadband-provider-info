@@ -2927,6 +2927,22 @@ conceived.
 <!-- Portugal -->
 <country code="pt">
 	<provider>
+		<name>Kanguru</name>
+		<gsm>
+			<apn>myconnection</apn>
+		</gsm>
+		<dns>62.169.67.172</dns>
+		<dns>62.169.67.171</dns>
+	</provider>
+	<provider>
+		<name>Kanguru (fixo)</name>
+		<gsm>
+			<apn>kangurufixo</apn>
+		</gsm>
+		<dns>62.169.67.172</dns>
+		<dns>62.169.67.171</dns>
+	</provider>
+	<provider>
 		<name>Optimus</name>
 		<gsm>
 			<apn>internet</apn>
@@ -2943,14 +2959,6 @@ conceived.
 	</provider>
 	<provider>
 		<name>Vodafone</name>
-		<gsm>
-			<apn>internet.vodafone.pt</apn>
-		</gsm>
-		<dns>212.18.160.133</dns>
-		<dns>212.18.160.134</dns>
-	</provider>
-	<provider>
-		<name>Vodafone (Telecel)</name>
 		<gsm>
 			<apn>internet.vodafone.pt</apn>
 		</gsm>
