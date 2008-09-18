@@ -3052,6 +3052,7 @@ conceived.
 <country code="ru">
 	<provider>
 		<name>BaikalWestCom</name>
+		<name xml:lang="ru">БайкалВестКом</name>
 		<gsm>
 			<apn>inet.bwc.ru</apn>
 		</gsm>
@@ -3062,6 +3063,7 @@ conceived.
 	</provider>
 	<provider>
 		<name>Beeline</name>
+		<name xml:lang="ru">Билайн</name>
 		<gsm>
 			<apn>internet.beeline.ru</apn>
 		</gsm>
@@ -3072,6 +3074,7 @@ conceived.
 	</provider>
 	<provider>
 		<name>Megafon (nw)</name>
+		<name xml:lang="ru">Мегафон - Северо-Запад</name>
 		<gsm>
 			<apn>internet.nw</apn>
 		</gsm>
@@ -3080,6 +3083,7 @@ conceived.
 	</provider>
 	<provider>
 		<name>MTS</name>
+		<name>МТС</name>
 		<gsm>
 			<apn>internet.mts.ru</apn>
 		</gsm>
@@ -3096,6 +3100,7 @@ conceived.
 	</provider>
 	<provider>
 		<name>Megafon (ugsm)</name>
+		<name xml:lang="ru">Мегафон - Урал</name>
 		<gsm>
 			<apn>internet.ugsm</apn>
 		</gsm>
@@ -3104,6 +3109,7 @@ conceived.
 	</provider>
 	<provider>
 		<name>Megafon (usi)</name>
+		<name xml:lang="ru">Мегафон (usi)</name>
 		<gsm>
 			<apn>internet.usi.ru</apn>
 		</gsm>
@@ -3112,6 +3118,7 @@ conceived.
 	</provider>
 	<provider>
 		<name>Megafon (dv)</name>
+		<name xml:lang="ru">Мегафон - Дальний Восток</name>
 		<gsm>
 			<apn>internet.dv</apn>
 		</gsm>
@@ -3120,6 +3127,7 @@ conceived.
 	</provider>
 	<provider>
 		<name>Megafon (kvk)</name>
+		<name xml:lang="ru">Megafon - Кавказ</name>
 		<gsm>
 			<apn>internet.kvk</apn>
 		</gsm>
@@ -3136,6 +3144,7 @@ conceived.
 	</provider>
 	<provider>
 		<name>Megafon (sib)</name>
+		<name xml:lang="ru">Мегафон - Сибирь</name>
 		<gsm>
 			<apn>internet.sib</apn>
 		</gsm>
@@ -3144,6 +3153,7 @@ conceived.
 	</provider>
 	<provider>
 		<name>Megafon (volga)</name>
+		<name>Megafon - Поволжье</name>
 		<gsm>
 			<apn>internet.volga</apn>
 		</gsm>
@@ -3152,6 +3162,7 @@ conceived.
 	</provider>
 	<provider>
 		<name>Megafon (mc)</name>
+		<name xml:lang="ru">Мегафон - Центр</name>
 		<gsm>
 			<apn>internet.mc</apn>
 		</gsm>
@@ -3177,6 +3188,7 @@ conceived.
 	</provider>
 	<provider>
 		<name>Megafon (Moscow)</name>
+		<name xml:lang="ru">Мегафон - Москва</name>
 		<gsm>
 			<apn>internet.msk</apn>
 		</gsm>
@@ -3185,6 +3197,7 @@ conceived.
 	</provider>
 	<provider>
 		<name>Enisey TeleCom</name>
+		<name xml:lang="ru">Енисей Телеком</name>
 		<gsm>
 			<apn>internet.etk.ru</apn>
 		</gsm>
@@ -3194,6 +3207,7 @@ conceived.
 	</provider>
 	<provider>
 		<name>Motiv</name>
+		<name xml:lang="ru">Мотив</name>
 		<gsm>
 			<apn>inet.ycc.ru</apn>
 		</gsm>
@@ -3203,6 +3217,7 @@ conceived.
 	</provider>
 	<provider>
 		<name>Tatincom</name>
+		<name xml:lang="ru">Татинком</name>
 		<gsm>
 			<apn>internet.tatincom.ru</apn>
 		</gsm>
@@ -3213,12 +3228,20 @@ conceived.
 	</provider>
 	<provider>
 		<name>Tele2</name>
+		<name xml:lang="ru">Теле2</name>
 		<gsm>
 			<apn>wap.tele2.ru</apn>
 		</gsm>
 		<username>gprs</username>
 		<dns>130.244.127.161</dns>
 		<dns>130.244.127.169</dns>
+	</provider>
+	<provider>
+		<name>Skylink (Moscow)</name>
+		<name xml:lang="ru">Скайлинк Москва</name>
+		<cdma />
+		<username>mobile@skylink.msk.ru</username>
+		<password>internet</password>
 	</provider>
 </country>
 
