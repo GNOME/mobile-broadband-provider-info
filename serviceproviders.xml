@@ -1754,6 +1754,14 @@ conceived.
 		<password>vodafone</password>
 		<dns>10.24.59.100</dns>
 	</provider>
+	<provider>
+		<name>Three Ireland</name>
+		<gsm>
+			<apn>3ireland.ie</apn>
+		</gsm>
+		<dns>172.31.140.69</dns>
+		<dns>172.30.140.69</dns>
+	</provider>
 </country>
 
 <!-- Israel -->
