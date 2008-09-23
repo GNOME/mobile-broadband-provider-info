@@ -2556,15 +2556,9 @@ conceived.
 		<username>wap</username>
 		<password>wap</password>
 	</provider>
+
 	<provider>
-		<name>Globacom</name>
-		<gsm>
-			<apn>gprs</apn>
-		</gsm>
-		<username>wap</username>
-	</provider>
-	<provider>
-		<name>Celtel</name>
+		<name>Zain</name>
 		<gsm>
 			<apn>wap</apn>
 		</gsm>
@@ -2576,24 +2570,16 @@ conceived.
 		<gsm>
 			<apn>web.gprs.mtnnigeria.net</apn>
 		</gsm>
-		<username>dona</username>
-		<password>westend</password>
+		<username>web</username>
+		<password>web</password>
 	</provider>
 	<provider>
-		<name>MTN</name>
+		<name>Glo-Ng (Postpaid)</name>
 		<gsm>
-			<apn>web.gprs.mtnnigeria.net</apn>
+			<apn>glodirect</apn>
 		</gsm>
-		<username>wap</username>
-		<password>gprs</password>
-	</provider>
-	<provider>
-		<name>Globacom (WAP)</name>
-		<gsm>
-			<apn>glowap</apn>
-		</gsm>
-		<username>wap</username>
-		<password>wap</password>
+		<username>glodirect</username>
+		<password>glodirect</password>
 		<dns>-</dns>
 	</provider>
 </country>
