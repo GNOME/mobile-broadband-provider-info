@@ -2184,19 +2184,19 @@ conceived.
 <!-- Sri Lanka -->
 <country code="lk">
 	<provider>
-		<name>cellterl [FTD]</name>
+		<name>Tigo</name>
 		<gsm>
 			<apn>wap</apn>		
 		</gsm>
 	</provider>
 	<provider>
-		<name>Dialog GSM (post-paid)</name>
+		<name>Dialog GSM (Post-Paid)</name>
 		<gsm>
 			<apn>www.dialogsl.com</apn>
 		</gsm>
 	</provider>
 	<provider>
-		<name>Dialog GSM (pre-paid)</name>
+		<name>Dialog GSM (Pre-Paid)</name>
 		<gsm>
 			<apn>ppinternet</apn>
 		</gsm>
@@ -2205,6 +2205,12 @@ conceived.
 		<name>Mobitel</name>
 		<gsm>
 			<apn>isp</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Hutch</name>
+		<gsm>
+			<apn>htwap</apn>		
 		</gsm>
 	</provider>
 </country>
