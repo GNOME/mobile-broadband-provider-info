@@ -2668,14 +2668,10 @@ conceived.
 		<password>vodafone</password>
 	</provider>
 	<provider>
-		<name>KPN Mobile</name>
+		<name>XS4ALL Mobiel Internet</name>
 		<gsm>
-			<apn>internet</apn>
+			<apn>umts.xs4all.nl</apn>
 		</gsm>
-		<username>KPN</username>
-		<password>gprs</password>
-		<dns>62.133.126.28</dns>
-		<dns>62.133.126.29</dns>
 	</provider>
 </country>
 
