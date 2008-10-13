@@ -1,3 +1,9 @@
+2008-10-13  Carlos Perelló Marín <carlos@gnome.org>
+
+	* serviceproviders.xml: Added Simyo and Orange to the Spanish list.
+	While adding them, sorted the entries in Spain to keep a "sane order"
+	as the wiki page asks.
+
 2008-08-21  Antti Kaijanmäki <antti@kaijanmaki.fi>
 
 	* [r15] serviceproviders.xml:
