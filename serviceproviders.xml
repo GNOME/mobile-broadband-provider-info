@@ -854,7 +854,7 @@ conceived.
 		<dns>212.23.97.3</dns>
 	</provider>
 	<provider>
-		<name>O2 (pay-by-MB)</name>
+		<name>o2 (pay-by-MB)</name>
 		<gsm>
 			<apn>internet</apn>
 		</gsm>
@@ -862,7 +862,7 @@ conceived.
 		<dns>62.134.11.4</dns>
 	</provider>
 	<provider>
-		<name>O2 (pay-by-time)</name>
+		<name>o2 (pay-by-time)</name>
 		<gsm>
 			<apn>surfo2</apn>
 		</gsm>
@@ -870,7 +870,7 @@ conceived.
 		<dns>62.134.11.4</dns>
 	</provider>
 	<provider>
-		<name>O2 Viag Interkom</name>
+		<name>o2 Viag Interkom</name>
 		<gsm>
 			<apn>internet</apn>
 		</gsm>
@@ -1265,7 +1265,7 @@ conceived.
 		<dns>212.9.0.136</dns>
 	</provider>
 	<provider>
-		<name>O2 (contract)</name>
+		<name>o2 (contract)</name>
 		<gsm>
 			<apn>mobile.o2.co.uk</apn>
 		</gsm>
@@ -1275,7 +1275,7 @@ conceived.
 		<dns>193.113.200.201</dns>
 	</provider>
 	<provider>
-		<name>O2 (pre-pay)</name>
+		<name>o2 (pre-pay)</name>
 		<gsm>
 			<apn>payandgo.o2.co.uk</apn>
 		</gsm>
@@ -1337,7 +1337,7 @@ conceived.
 		<dns>172.29.1.11</dns>
 	</provider>
 	<provider>
-		<name>O2 (contract-faster)</name>
+		<name>o2 (contract-faster)</name>
 		<gsm>
 			<apn>mobile.o2.co.uk</apn>
 		</gsm>
@@ -1718,7 +1718,7 @@ conceived.
 <!-- Ireland -->
 <country code="ie">
 	<provider>
-		<name>O2 (contract)</name>
+		<name>o2 (contract)</name>
 		<gsm>
 			<apn>open.internet</apn>
 		</gsm>
@@ -1728,7 +1728,7 @@ conceived.
 		<dns>62.40.32.34</dns>
 	</provider>
 	<provider>
-		<name>O2 (pre-pay)</name>
+		<name>o2 (pre-pay)</name>
 		<gsm>
 			<apn>pp.internet</apn>
 		</gsm>
@@ -2637,7 +2637,7 @@ conceived.
 		<dns>62.133.126.29</dns>
 	</provider>
 	<provider>
-		<name>O2</name>
+		<name>o2</name>
 		<gsm>
 			<apn>internet</apn>
 		</gsm>
