@@ -910,14 +910,6 @@ conceived.
 
 <!-- Denmark -->
 <country code="dk">
-	<provider>
-		<name>Orange</name>
-		<gsm>
-			<apn>web.orange.dk</apn>
-		</gsm>
-		<dns>212.97.206.131</dns>
-		<dns>212.97.206.161</dns>
-	</provider>
 	<!-- http://www.ice-net.dk/mobiltbredbaand.php -->
 	<provider>
 		<name>ice.net (Nordisk Mobiltelefon)</name>
