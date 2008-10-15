@@ -1269,7 +1269,7 @@ conceived.
 		<gsm>
 			<apn>mobile.o2.co.uk</apn>
 		</gsm>
-		<username>web</username>
+		<username>o2web</username>
 		<password>password</password>
 		<dns>193.113.200.200</dns>
 		<dns>193.113.200.201</dns>
