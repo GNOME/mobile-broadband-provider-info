@@ -3835,9 +3835,9 @@ conceived.
 		<dns>196.7.142.132</dns>
 	</provider>
 	<provider>
-		<name>Vodacom (vpn)</name>
+		<name>Vodacom (unrestricted APN)</name>
 		<gsm>
-			<apn>internetvpn</apn>
+			<apn>unrestricted</apn>
 		</gsm>
 		<dns>196.207.32.69</dns>
 		<dns>196.43.45.190</dns>
