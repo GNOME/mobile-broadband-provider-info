@@ -1,3 +1,25 @@
+mobile-broadband-provider-info 20081015
+=======================================
+ * Andreas Schildbach pointed out that o2 is spelled o2 (small
+   letter) or (capital letter, subscript digit), but never O2
+   (capital letter, plain digit)
+ * Chris Jones fixed APN of UK o2
+ * Stefano Rivera updated Vodacom South Africa
+ * Stefan Andersen removed Danish service provider Orange as it has
+   been merged with Telia
+ * Carlos Perelló Marín sdded Simyo and Orange to the Spanish list. 
+ * Martijn van de Streek added Dutch service provider xs4all
+ * Pramod Dematagoda updated Sri Lankan provider information
+ * Fanen Ahua updated Nigerian provider information
+ * Raphael Finke provided information for Irish provider Three
+ * Vitja Makarov added xml:lang=ru names for Russian providers and
+ * provided information for service provider Skylink (Moscow)
+ * Carlos Santiago updated Portuguese provider information
+ * Istvan Szollosi provided information for Romanian service
+   provider Zapp
+ * Daniel Nylander updated Swedish provider information and provided
+   information for Scandinavian operator ice.net
+
 mobile-broadband-provider-info 20080822
 =======================================
  * Dan Williams updated the United States provider information
