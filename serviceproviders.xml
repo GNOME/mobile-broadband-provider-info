@@ -3733,6 +3733,10 @@ conceived.
 			<apn>internet3.voicestream.com</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<name>Verizon EV-DO (Internet)</name>
+		<cdma />
+	</provider>
 </country>
 
 <!-- Uruguay -->
