@@ -148,7 +148,7 @@ conceived.
 		<dns>194.48.124.202</dns>
 	</provider>
 	<provider>
-		<name>OneNet</name>
+		<name>Orange</name>
 		<gsm>
 			<apn>web.one.at</apn>
 		</gsm>
