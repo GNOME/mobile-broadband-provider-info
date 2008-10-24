@@ -3716,10 +3716,6 @@ conceived.
 		<password>CINGULAR1</password>
 	</provider>
 	<provider>
-		<name>Sprint CDMA (Internet)</name>
-		<cdma />
-	</provider>
-	<provider>
 		<name>T-Mobile (Web)</name>
 		<gsm>
 			<apn>wap.voicestream.com</apn>
@@ -3738,7 +3734,39 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Verizon EV-DO (Internet)</name>
+		<name>Sprint</name>
+		<cdma />
+	</provider>
+	<provider>
+		<name>Boost Mobile (Prepaid)</name>
+		<cdma />
+	</provider>
+	<provider>
+		<name>Verizon</name>
+		<cdma />
+	</provider>
+	<provider>
+		<name>US Cellular</name>
+		<cdma />
+	</provider>
+	<provider>
+		<name>Alltel</name>
+		<cdma />
+	</provider>
+	<provider>
+		<name>Leap Wireless</name>
+		<cdma />
+	</provider>
+	<provider>
+		<name>Cricket Communications</name>
+		<cdma />
+	</provider>
+	<provider>
+		<name>Jump Mobile (Prepaid)</name>
+		<cdma />
+	</provider>
+	<provider>
+		<name>MetroPCS</name>
 		<cdma />
 	</provider>
 </country>
