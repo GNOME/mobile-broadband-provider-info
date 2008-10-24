@@ -2562,14 +2562,6 @@ conceived.
 
 <!-- Nigeria -->
 <country code="ng">
-	<provider>
-		<name>Glo-Ng</name>
-		<gsm>
-			<apn>glogwap</apn>
-		</gsm>
-		<username>wap</username>
-		<password>wap</password>
-	</provider>
 
 	<provider>
 		<name>Zain</name>
@@ -2588,12 +2580,12 @@ conceived.
 		<password>web</password>
 	</provider>
 	<provider>
-		<name>Glo-Ng (Postpaid)</name>
+		<name>Glo-Ng</name>
 		<gsm>
-			<apn>glodirect</apn>
+			<apn>glosecure</apn>
 		</gsm>
-		<username>glodirect</username>
-		<password>glodirect</password>
+		<username>gprs</username>
+		<password>gprs</password>
 		<dns>-</dns>
 	</provider>
 </country>
