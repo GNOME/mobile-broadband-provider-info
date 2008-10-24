@@ -3716,6 +3716,10 @@ conceived.
 		<password>CINGULAR1</password>
 	</provider>
 	<provider>
+		<name>Sprint CDMA (Internet)</name>
+		<cdma />
+	</provider>
+	<provider>
 		<name>T-Mobile (Web)</name>
 		<gsm>
 			<apn>wap.voicestream.com</apn>
