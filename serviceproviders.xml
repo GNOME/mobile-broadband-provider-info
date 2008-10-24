@@ -1945,6 +1945,14 @@ conceived.
 		<dns>213.176.128.51</dns>
 		<dns>213.176.128.50</dns>
 	</provider>
+	<provider>
+		<name>Nova</name>
+		<gsm>
+			<apn>internet.nova.is</apn>
+		</gsm>
+		<dns>192.168.190.54</dns>
+		<dns>192.168.190.55</dns>
+	</provider>
 </country>
 
 <!-- Italy -->
