@@ -1,5 +1,44 @@
+2008-10-29  Antti Kaijanmäki <antti@kaijanmaki.net>
+
+	* [r47] serviceproviders.xml:
+	  Removed German Quam as suggested by Julius Bloch (LP: #287115)
+	* [r46] serviceproviders.xml:
+	  Piotr Makowski added Polish operator Play Online
+	* [r45] serviceproviders.xml:
+	  Daniel Wiberg added operator 3 for Denmark and fixed some
+	  settings for 3 Sweden
+	* [r44] serviceproviders.xml:
+	  Alejandro Romero Herrera Mexican Iusacell
+	* [r43] serviceproviders.xml:
+	  Kenneth Mokkelbost added Norwegian TDC
+
+2008-10-25  Antti Kaijanmäki <antti@kaijanmaki.net>
+
+	* [r42] authors.svn2cl:
+	  added Dan to authors.svn2cl
+
+2008-10-24  Dan Williams <dcbw@redhat.com>
+
+	* [r41] serviceproviders.xml:
+	  Update OneNet -> Orange for Austria (Wolfgang Silbermayr)
+	* [r40] serviceproviders.xml:
+	  Update US CDMA providers
+
+2008-10-24  Antti Kaijanmäki <antti@kaijanmaki.net>
+
+	* [r39] serviceproviders.xml:
+	  Ævar Arnfjörð Bjarmason added Icelandic provider Nova
+	* [r38] serviceproviders.xml:
+	  Fanen Ahua updated Nigerian provider information
+	* [r37] serviceproviders.xml:
+	  Gilbert Mendoza added Sprint CDMA for US
+	* [r36] serviceproviders.xml:
+	  Gilbert Mendoza added Verizon EV-DO for US
+
 2008-10-15  Antti Kaijanmäki <antti@kaijanmaki.net>
 
+	* [r34] ChangeLog, NEWS, configure.ac:
+	  prepare for release
 	* [r33] authors.svn2cl:
 	  Added carlos
 	* [r32] README.svn:

@@ -1,3 +1,18 @@
+mobile-broadband-provider-info 20081029
+=======================================
+ * Removed German Quam as suggested by Julius Bloch
+ * Piotr Makowski added Polish operator Play Online
+ * Daniel Wiberg added operator 3 for Denmark and fixed some
+   settings for 3 Sweden
+ * Alejandro Romero Herrera added Mexican Iusacell
+ * Kenneth Mokkelbost added Norwegian TDC
+ * Update OneNet -> Orange for Austria (Wolfgang Silbermayr)
+ * Dan Williams updated US CDMA providers
+ * Ævar Arnfjörð Bjarmason added Icelandic provider Nova
+ * Fanen Ahua updated Nigerian provider information
+ * Gilbert Mendoza added Sprint CDMA for US
+ * Gilbert Mendoza added Verizon EV-DO for US
+
 mobile-broadband-provider-info 20081015
 =======================================
  * Andreas Schildbach pointed out that o2 is spelled o2 (small
