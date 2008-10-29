@@ -910,6 +910,25 @@ conceived.
 
 <!-- Denmark -->
 <country code="dk">
+	<provider>
+		<name>3 (Bredbånd)</name>
+		<gsm>
+                        <apn>bredband.tre.dk</apn>
+                </gsm>
+	</provider>
+	<provider>
+		<name>3 (Bredbånd Premium Kontant)</name>
+		<gsm>
+                        <apn>net.tre.dk</apn>
+                </gsm>
+	</provider>
+	<provider>
+		<name>3 (Mobil Abonnement)</name>
+		<gsm>
+                        <apn>data.tre.dk</apn>
+                </gsm>
+	</provider>
+
 	<!-- http://www.ice-net.dk/mobiltbredbaand.php -->
 	<provider>
 		<name>ice.net (Nordisk Mobiltelefon)</name>
@@ -3284,19 +3303,25 @@ conceived.
 <country code="se">
 	<!-- http://www.tre.se/templates/Sporg3_02.aspx?id=4231 -->
 	<provider>
-		<name>3 (kontantkort)</name>
+		<name>3 (Mobiltelefon)</name>
 		<gsm>
 			<apn>data.tre.se</apn>
 		</gsm>
 	</provider>
 	<!-- http://www.tre.se/templates/Sporg3_02.aspx?id=4231 -->
 	<provider>
-		<name>3 (abbonemang)</name>
+		<name>3 (Bredband)</name>
 		<gsm>
 			<apn>bredband.tre.se</apn>
 		</gsm>
-	</provider>	<!-- http://mobiltbredband.glocalnet.se/ -->
+	</provider>
 	<provider>
+		<name>3 (Bredband Kontantkort)</name>
+		<gsm>
+			<apn>net.tre.se</apn>
+		</gsm>
+	</provider>
+	<provider>  <!-- http://mobiltbredband.glocalnet.se/ -->
 		<name>Glocalnet</name>
 		<gsm>
 			<apn>internet.glocalnet.se</apn>
