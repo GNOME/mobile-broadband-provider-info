@@ -2922,6 +2922,12 @@ conceived.
 		<dns>217.17.34.10</dns>
 	</provider>
 	<provider>
+		<name>Play Online</name>
+		<gsm>
+			<apn>Internet</apn>
+		</gsm>
+        </provider>
+	<provider>
 		<name>Polkomtel</name>
 		<gsm>
 			<apn>www.plusgsm.pl</apn>
