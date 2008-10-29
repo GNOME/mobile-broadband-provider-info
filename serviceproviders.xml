@@ -2493,6 +2493,10 @@ conceived.
 		<dns>148.233.151.245</dns>
 		<dns>148.233.151.245</dns>
 	</provider>
+	<provider>
+		<name>Iusacell</name>
+		<cdma />
+	</provider>
 </country>
 
 <!-- Malaysia -->
