@@ -878,16 +878,6 @@ conceived.
 		<dns>62.134.11.4</dns>
 	</provider>
 	<provider>
-		<name>Quam</name>
-		<gsm>
-			<apn>quam.de</apn>
-		</gsm>
-		<username>quam</username>
-		<password>quam</password>
-		<dns>193.189.244.192</dns>
-		<dns>193.189.244.205</dns>
-	</provider>
-	<provider>
 		<name>T-mobile (D1)</name>
 		<gsm>
 			<apn>internet.t-d1.de</apn>
