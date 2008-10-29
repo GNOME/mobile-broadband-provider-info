@@ -2710,6 +2710,14 @@ conceived.
 		<dns>212.17.131.3</dns>
 		<dns>148.122.161.2</dns>
 	</provider>
+	<provider>
+		<name>TDC</name>
+		<gsm>
+			<apn>internet.no</apn>
+		</gsm>
+		<dns>80.232.41.10</dns>
+		<dns>80.232.41.20</dns>
+	</provider>
 </country>
 
 <!-- Nepal -->
