@@ -1587,7 +1587,7 @@ conceived.
 <!-- Hungary -->
 <country code="hu">
 	<provider>
-		<name>Pannon (atalanydijas)</name>
+		<name>Pannon (átalánydíjas)</name>
 		<gsm>
 			<apn>netx</apn>
 		</gsm>
@@ -1595,7 +1595,7 @@ conceived.
 		<dns>194.149.0.157</dns>
 	</provider>
 	<provider>
-		<name>Pannon (normal)</name>
+		<name>Pannon (normál)</name>
 		<gsm>
 			<apn>net</apn>
 		</gsm>
@@ -1607,13 +1607,11 @@ conceived.
 		<gsm>
 			<apn>internet</apn>
 		</gsm>
-		<username>wap</username>
-		<password>Wap</password>
 		<dns>212.51.115.1 </dns>
 		<dns>194.176.224.6</dns>
 	</provider>
 	<provider>
-		<name>Pannon (compressed)</name>
+		<name>Pannon (tömörített)</name>
 		<gsm>
 			<apn>snet</apn>
 		</gsm>
@@ -1630,7 +1628,7 @@ conceived.
 		<dns>194.176.224.3</dns>
 	</provider>
 	<provider>
-		<name>Vodafone (elof. norm.)</name>
+		<name>Vodafone (előf. norm.)</name>
 		<gsm>
 			<apn>standardnet.vodafone.net</apn>
 		</gsm>
@@ -1640,7 +1638,7 @@ conceived.
 		<dns>80.244.96.1</dns>
 	</provider>
 	<provider>
-		<name>Vodafone (elof. tom.)</name>
+		<name>Vodafone (előf. töm.)</name>
 		<gsm>
 			<apn>internet.vodafone.net</apn>
 		</gsm>
@@ -1658,7 +1656,7 @@ conceived.
 		<dns>80.244.96.1</dns>
 	</provider>
 	<provider>
-		<name>Vodafone (felt. tom.)</name>
+		<name>Vodafone (felt. töm.)</name>
 		<gsm>
 			<apn>vitamax.internet.vodafone.net</apn>
 		</gsm>
