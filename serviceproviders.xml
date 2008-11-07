@@ -960,6 +960,16 @@ conceived.
 	</provider>
 </country>
 
+<!-- Ecuador -->
+<country code="ec">
+	<provider>
+		<name>Porta 3G</name>
+		<gsm>
+			<apn>internet.porta.com.ec</apn>
+		</gsm>
+	</provider>
+</country>
+
 <!-- Estonia -->
 <country code="ee">
 	<provider>
