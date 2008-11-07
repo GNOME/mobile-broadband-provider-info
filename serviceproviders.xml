@@ -896,6 +896,16 @@ conceived.
 		<dns>139.7.30.125</dns>
 		<dns>139.7.30.126</dns>
 	</provider>
+        <provider>
+                <name>Vodafone (D2) WebSessions</name>
+                <gsm>
+                        <apn>event.vodafone.de</apn>
+                </gsm>
+                <username>vodafone</username>
+                <password>vodafone</password>
+                <dns>139.7.30.125</dns>
+                <dns>139.7.30.126</dns>
+        </provider>
 </country>
 
 <!-- Denmark -->
