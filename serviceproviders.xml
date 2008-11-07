@@ -562,7 +562,7 @@ conceived.
 	<provider>
 		<name>Orange</name>
 		<gsm>
-			<apn>click</apn>
+			<apn>mobileoffice3g</apn>
 		</gsm>
 		<dns>213.55.128.1 </dns>
 		<dns>213.55.128.2</dns>
