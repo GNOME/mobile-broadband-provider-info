@@ -1462,7 +1462,7 @@ conceived.
 	<provider>
 		<name>Vodafone</name>
 		<gsm>
-			<apn>internet.vodafone.gr</apn>
+			<apn>internet</apn>
 		</gsm>
 	</provider>
 	<provider>
