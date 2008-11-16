@@ -188,6 +188,12 @@ conceived.
 <!-- Australia -->
 <country code="au">
 	<provider>
+		<name>Exetel</name>
+		<gsm>
+			<apn>exetel1</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Optus</name>
 		<gsm>
 			<apn>internet</apn>
