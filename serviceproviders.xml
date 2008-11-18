@@ -457,6 +457,14 @@ conceived.
 		<password>iesgprs2002</password>
 		<dns>66.36.250.14</dns>
 	</provider>
+	<provider>
+		<name>Vivo</name>
+		<gsm>
+			<apn>zap.vivo.com.br</apn>
+		</gsm>
+		<username>vivo</username>
+		<password>vivo</password>
+	</provider>
 </country>
 
 <!-- Belarus -->
