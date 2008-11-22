@@ -2763,6 +2763,42 @@ conceived.
 		<dns>80.232.41.10</dns>
 		<dns>80.232.41.20</dns>
 	</provider>
+	<provider>
+		<name>NetworkNorway</name>
+		<gsm>
+			<apn>internet</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>OneCall</name>
+		<gsm>
+			<apn>internet</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Lebara</name>
+		<gsm>
+			<apn>internet</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Altibox</name>
+		<gsm>
+			<apn>internet</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>SheTalks</name>
+		<gsm>
+			<apn>internet</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Telipol</name>
+		<gsm>
+			<apn>internet</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Nepal -->
