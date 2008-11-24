@@ -1,3 +1,16 @@
+mobile-broadband-provider-info 20081124
+=======================================
+ * Bjørn Lie added NetworkNorway and a bunch of other operatorusing the same
+   network
+ * Matheus Pacheco de Andrade added Brazilian provider Vivo
+ * Anton Blanchard added Australian provider Exetel
+ * Joseph Price fixed the APN of 3 UK
+ * Konstantinos Togias fixed the APN of Vodafone Greece
+ * Martin Pitt and Alejandro Romero Herrera provided WebSessions
+ * Aldo Bassanini added Ecuadorian provider Porta 3G
+ * Gabor Kelemen updated Hungarian providers
+ * Florian Eberle updated APN of Orange Switzerland
+
 mobile-broadband-provider-info 20081029
 =======================================
  * Removed German Quam as suggested by Julius Bloch

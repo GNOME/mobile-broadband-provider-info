@@ -1,5 +1,42 @@
+2008-11-22  Antti Kaijanmäki <antti@kaijanmaki.net>
+
+	* [r58] serviceproviders.xml:
+	  Bjørn Lie added NetworkNorway and a bunch of other operators
+	  using the same network
+
+2008-11-18  Antti Kaijanmäki <antti@kaijanmaki.net>
+
+	* [r57] serviceproviders.xml:
+	  Matheus Pacheco de Andrade added Brazilian provider Vivo
+
+2008-11-16  Antti Kaijanmäki <antti@kaijanmaki.net>
+
+	* [r56] serviceproviders.xml:
+	  Anton Blanchard added Australian provider Exetel
+
+2008-11-14  Antti Kaijanmäki <antti@kaijanmaki.net>
+
+	* [r55] serviceproviders.xml:
+	  Joseph Price fixed the APN of 3 UK
+	* [r54] serviceproviders.xml:
+	  Konstantinos Togias fixed the APN of Vodafone Greece
+
+2008-11-07  Antti Kaijanmäki <antti@kaijanmaki.net>
+
+	* [r53] serviceproviders.xml:
+	  Martin Pitt and Alejandro Romero Herrera provided WebSessions
+	  profile for Vodafone Germany
+	* [r52] serviceproviders.xml:
+	  Aldo Bassanini added Ecuadorian provider Porta 3G
+	* [r51] serviceproviders.xml:
+	  Gabor Kelemen updated Hungarian providers
+	* [r50] serviceproviders.xml:
+	  Florian Eberle updated APN of Orange Switzerland
+
 2008-10-29  Antti Kaijanmäki <antti@kaijanmaki.net>
 
+	* [r48] ChangeLog, NEWS, README.svn, configure.ac:
+	  prepare for release
 	* [r47] serviceproviders.xml:
 	  Removed German Quam as suggested by Julius Bloch (LP: #287115)
 	* [r46] serviceproviders.xml:
