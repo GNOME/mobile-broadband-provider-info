@@ -325,6 +325,15 @@ conceived.
 	</provider>
 </country>
 
+<!-- Barbados -->
+<country code="bb">
+	<provider>
+		<name>Digicel</name>
+		<gsm>
+			<apn>isp.digicelbarbados.com</apn>
+		</gsm>
+	</provider>
+</country>
 
 <!-- Belgium -->
 <country code="be">
