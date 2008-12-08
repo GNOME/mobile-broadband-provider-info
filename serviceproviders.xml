@@ -618,7 +618,15 @@ conceived.
 	<provider>
 		<name>Claro Chile</name>
 		<gsm>
-			<apn>wap.clarochile.cl</apn>		
+			<apn>bam.clarochile.cl</apn>
+		</gsm>
+		<username>clarochile</username>
+		<password>clarochile</password>
+	</provider>
+	<provider>
+		<name>Claro Chile - WAP</name>
+		<gsm>
+			<apn>wap.clarochile.cl</apn>
 		</gsm>
 		<username>clarochile</username>
 		<password>clarochile</password>
@@ -630,26 +638,30 @@ conceived.
 		</gsm>
 		<username>entelpcs</username>
 		<password>entelpcs</password>
-		<dns>164.77.252.197 </dns>
-		<dns>164.77.252.198</dns>
+	</provider>
+	<provider>
+		<name>Entel PCS - WAP</name>
+		<gsm>
+			<apn>bam.entelpcs.cl</apn>
+		</gsm>
+		<username>entelpcs</username>
+		<password>entelpcs</password>
 	</provider>
 	<provider>
 		<name>Movistar</name>
-		<gsm>
-			<apn>wap.tmovil.cl</apn>		
-		</gsm>
-		<username>wap</username>
-		<password>wap</password>
-	</provider>
-	<provider>
-		<name>Telefonica Movil</name>
 		<gsm>
 			<apn>web.tmovil.cl</apn>
 		</gsm>
 		<username>web</username>
 		<password>web</password>
-		<dns>200.68.32.180</dns>
-		<dns>200.30.193.15</dns>
+	</provider>
+	<provider>
+		<name>Movistar - WAP</name>
+		<gsm>
+			<apn>wap.tmovil.cl</apn>
+		</gsm>
+		<username>wap</username>
+		<password>wap</password>
 	</provider>
 </country>
 
