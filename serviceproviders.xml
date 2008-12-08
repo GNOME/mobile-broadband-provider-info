@@ -183,6 +183,12 @@ conceived.
 			<apn>drei.at</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<name>Yesss</name>
+		<gsm>
+			<apn>web.yesss.at</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Australia -->
