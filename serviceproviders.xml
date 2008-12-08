@@ -716,6 +716,19 @@ conceived.
 	</provider>
 </country>
 
+<!-- Colombia -->
+<country code="co">
+	<provider>
+		<name>Comcel</name>
+		<gsm>
+			<apn>internet.comcel.com.co</apn>
+		</gsm>
+		<username>COMCELWEB</username>
+		<password>COMCELWEB</password>
+	</provider>
+
+</country>
+
 <!-- Czech Republic -->
 <country code="cz">
 	<provider>
