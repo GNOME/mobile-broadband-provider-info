@@ -639,6 +639,14 @@ conceived.
 		<password>clarochile</password>
 	</provider>
 	<provider>
+		<name>Claro Chile - Prepago</name>
+		<gsm>
+			<apn>bap.clarochile.cl</apn>
+		</gsm>
+		<username>clarochile</username>
+		<password>clarochile</password>
+	</provider>
+	<provider>
 		<name>Claro Chile - WAP</name>
 		<gsm>
 			<apn>wap.clarochile.cl</apn>
