@@ -1031,6 +1031,12 @@ conceived.
 			<apn>www.internet.mtelia.dk</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<name>BiBoB</name>
+		<gsm>
+			<apn>internet.bibob.dk</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Dominican Republic -->
