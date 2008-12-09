@@ -1,3 +1,21 @@
+2008-12-08  Antti Kaijanmäki <antti@kaijanmaki.net>
+
+	* [r65] serviceproviders.xml:
+	  Rodrigo Linfati added Claro Chile - Prepago
+	* [r64] serviceproviders.xml:
+	  added Austrian provider Yesss
+	* [r63] serviceproviders.xml:
+	  Paul Sisnett added Digicel Barbados
+	* [r62] serviceproviders.xml:
+	  Steven Lizarazo added Colombian provider Comcel
+	* [r61] serviceproviders.xml:
+	  Rodrigo Linfati updated Chilean service providers
+
+2008-11-24  Antti Kaijanmäki <antti@kaijanmaki.net>
+
+	* [r59] ChangeLog, NEWS, configure.ac:
+	  prepare for release
+
 2008-11-22  Antti Kaijanmäki <antti@kaijanmaki.net>
 
 	* [r58] serviceproviders.xml:
