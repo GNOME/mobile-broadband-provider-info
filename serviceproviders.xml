@@ -2213,6 +2213,30 @@ conceived.
 		<dns>61.195.195.153</dns>
 		<dns>61.195.194.26</dns>
 	</provider>
+	<provider>
+		<name>Softbank Mobile</name>
+		<cdma />
+		<username>ai@softbank</username>
+		<password>softbank</password>
+	</provider>
+	<provider>
+		<name>e-mobile</name>
+		<cdma />
+		<username>em</username>
+		<password>em</password>
+	</provider>
+	<provider>
+		<name>NTTdocomo</name>
+		<cdma />
+	</provider>
+	<provider>
+		<name>au(KDDI)</name>
+		<cdma />
+		<username>au@au-win.ne.jp</username>
+		<password>au</password>
+		<dns>210.196.3.183</dns>
+		<dns>210.141.112.163</dns>
+	</provider>
 </country>
 
 <!-- Kenya -->
