@@ -3865,6 +3865,12 @@ conceived.
 		<dns>80.255.64.23</dns>
 		<dns>80.255.64.24</dns>
 	</provider>
+	<provider>
+		<name>Utel</name>
+		<gsm>
+			<apn>3g.utel.ua</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Uganda -->
