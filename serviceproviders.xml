@@ -1001,6 +1001,13 @@ conceived.
                         <apn>data.tre.dk</apn>
                 </gsm>
 	</provider>
+	<!-- http://oister.dk - Same network as 3.dk -->
+	<provider>
+		<name>OiSTER</name>
+		<gsm>
+			<apn>bredband.oister.dk</apn>
+		</gsm>
+	</provider>
 
 	<!-- http://www.ice-net.dk/mobiltbredbaand.php -->
 	<provider>
