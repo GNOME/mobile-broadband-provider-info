@@ -261,6 +261,16 @@ conceived.
 		<dns>202.124.76.66</dns>
 	</provider>
 	<provider>
+		<name>Three Prepaid</name>
+		<gsm>
+			<apn>3services</apn>
+		</gsm>
+		<username>a</username>
+		<password>a</password>
+		<dns>202.124.68.130</dns>
+		<dns>202.124.76.66</dns>
+	</provider>
+	<provider>
 		<name>Virgin Mobile</name>	
 		<gsm>
 			<apn>VirginInternet</apn>		
