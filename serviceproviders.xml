@@ -68,6 +68,15 @@ conceived.
 	</provider>
 </country>
 
+<!-- Angola -->
+<country code="ao">
+	<provider>
+		<name>Movinet</name>
+		<cdma />
+		<username>uname</username>
+	</provider>
+</country>
+
 <!-- Argentina -->
 <country code="ar">
 	<provider>
