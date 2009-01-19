@@ -1329,6 +1329,12 @@ conceived.
 		<password>orange</password>
 	</provider>
 	<provider>
+		<name>Orange Internet Everywhere 3G</name>
+		<gsm>
+			<apn>orange.ie</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>SFR</name>
 		<gsm>
 			<apn>websfr</apn>
