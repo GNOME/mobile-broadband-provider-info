@@ -1026,6 +1026,12 @@ conceived.
                 <dns>139.7.30.125</dns>
                 <dns>139.7.30.126</dns>
         </provider>
+        <provider>
+                <name>FONIC</name>
+                <gsm>
+                        <apn>pinternet.interkom.de</apn>
+                </gsm>
+        </provider>
 </country>
 
 <!-- Denmark -->
