@@ -1064,6 +1064,14 @@ conceived.
 		<dns>193.162.153.164</dns>
 	</provider>
 	<provider>
+		<name>Fullrate</name>
+		<gsm>
+			<apn>internet</apn>
+		</gsm>
+		<username>Fullrate</username>
+		<password>Fullrate</password>
+	</provider>
+	<provider>
 		<name>Telia</name>
 		<gsm>
 			<apn>www.internet.mtelia.dk</apn>
