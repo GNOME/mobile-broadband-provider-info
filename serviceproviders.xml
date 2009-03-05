@@ -2366,6 +2366,12 @@ conceived.
 		</gsm>
 		<dns>10.10.10.30</dns>
 	</provider>
+	<provider>
+		<name>Wataniya</name>
+		<gsm>
+			<apn>action.wataniya.com</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Kazakhstan -->
