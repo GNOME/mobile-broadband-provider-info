@@ -2325,6 +2325,12 @@ conceived.
 		<username>web</username>
 		<password>web</password>
 	</provider>
+	<provider>
+		<name>Econet</name>
+		<gsm>
+			<apn>internet.econet.co.ke</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Kuwait -->
