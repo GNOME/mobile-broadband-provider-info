@@ -108,6 +108,16 @@ conceived.
 	</provider>
 </country>
 
+<!-- Angola -->
+<country code="ao">
+	<provider>
+		<name>Unitel</name>
+		<gsm>
+			<apn>internet.unitel.co.ao</apn>
+		</gsm>
+	</provider>
+</country>
+
 <!-- Austria -->
 <country code="at">
 	<provider>
