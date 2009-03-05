@@ -1479,6 +1479,12 @@ conceived.
 		<dns>172.29.1.11</dns>
 	</provider>
 	<provider>
+		<name>Vodafone (TopUp and Go)</name>
+		<gsm>
+			<apn>pp.internet</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>o2 (contract-faster)</name>
 		<gsm>
 			<apn>mobile.o2.co.uk</apn>
