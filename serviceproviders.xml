@@ -157,12 +157,12 @@ conceived.
 		<dns>213.162.64.2</dns>
 	</provider>
 	<provider>
-		<name>Mobilkom</name>
+		<name>Mobilkom/A1</name>
 		<gsm>
 			<apn>a1.net</apn>
 		</gsm>
 		<username>ppp@a1plus.at</username>
-		<password>pp</password>
+		<password>ppp</password>
 		<dns>194.48.139.254</dns>
 		<dns>194.48.124.202</dns>
 	</provider>
@@ -252,11 +252,27 @@ conceived.
 		<dns>203.50.2.71</dns>
 	</provider>
 	<provider>
+		<name>Telstra (UMTS/HSDPA)</name>
+		<gsm>
+			<apn>telstra.internet</apn>
+		</gsm>
+		<dns>139.130.4.4</dns>
+		<dns>203.50.170.2</dns>
+	</provider>
+	<provider>
 		<name>Telstra (3G PC pack - pay by time)</name>
 		<gsm>
 			<apn>telstra.pcpack</apn>
 		</gsm>
 		<password>Telstra</password>
+		<dns>139.130.4.4</dns>
+		<dns>203.50.2.71</dns>
+	</provider>
+	<provider>
+		<name>Telstra (Next G card)</name>
+		<gsm>
+			<apn></apn>
+		</gsm>
 		<dns>139.130.4.4</dns>
 		<dns>203.50.2.71</dns>
 	</provider>
@@ -1914,7 +1930,15 @@ conceived.
 		<dns>62.40.32.34</dns>
 	</provider>
 	<provider>
-		<name>Vodafone</name>
+		<name>Vodafone (HSDPA/GPRS/EDGE/UMTS)</name>
+		<gsm>
+			<apn>hs.vodafone.ie</apn>
+		</gsm>
+		<username>vodafone</username>
+		<password>vodafone</password>
+	</provider>
+	<provider>
+		<name>Vodafone (GPRS/EDGE/UMTS) (old)</name>
 		<gsm>
 			<apn>isp.vodafone.ie</apn>
 		</gsm>
@@ -2165,18 +2189,10 @@ conceived.
 		<dns>213.230.155.94</dns>
 		<dns>213.230.130.222</dns>
 	</provider>
-		<provider>
-		<name>H3G (Post-paid)</name>
-		<gsm>
-			<apn>tre.it</apn>
-		</gsm>
-		<dns>62.13.171.1</dns>
-		<dns>62.13.171.2</dns>
-	</provider>
 	<provider>
-		<name>H3G (pre-paid)</name>
+		<name>H3G (abbonamento)</name>
 		<gsm>
-			<apn>pre.h3g.it</apn>
+			<apn>datacard.tre.it</apn>
 		</gsm>
 		<dns>62.13.175.1</dns>
 		<dns>62.13.171.2</dns>
@@ -2242,9 +2258,9 @@ conceived.
 		<dns>83.224.65.134</dns>
 	</provider>
 	<provider>
-		<name>H3G (Naviga3)</name>
+		<name>H3G (ricaricabile)</name>
 		<gsm>
-			<apn>naviga.tre.it</apn>
+			<apn>tre.it</apn>
 		</gsm>
 		<dns>62.13.171.1</dns>
 		<dns>62.13.171.2</dns>
@@ -3036,6 +3052,16 @@ conceived.
 	</provider>
 </country>
 
+ <!-- Oman -->
+<country code="om">
+	<provider>
+		<name>Nawras</name>
+		<gsm>
+			<apn>isp.nawras.com.om</apn>
+		</gsm>
+	</provider>
+</country>
+
 <!-- Peru -->
 <country code="pe">
 	<provider>
@@ -3586,7 +3612,7 @@ conceived.
 	<provider>
 		<name>Tele2/Comviq</name>
 		<gsm>
-			<apn>mobileinternet.tele2.se</apn>
+			<apn>internet.tele2.se</apn>
 		</gsm>
 	</provider>
 	<!-- http://www.telenor.se/224.jsp -->
