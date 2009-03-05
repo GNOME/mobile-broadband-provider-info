@@ -1604,6 +1604,12 @@ conceived.
 		<username>web</username>
 		<password></password>
 	</provider>
+	<provider>
+		<name>Zain</name>
+		<gsm>
+			<apn>internet</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Greece -->
