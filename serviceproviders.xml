@@ -2544,6 +2544,12 @@ conceived.
 		<username>gprs</username>
 		<password>gprs</password>
 	</provider>
+	<provider>
+		<name>Eventis</name>
+		<gsm>
+			<apn>internet.md</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Montenegro -->
