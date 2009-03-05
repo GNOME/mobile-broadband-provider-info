@@ -765,6 +765,8 @@ conceived.
 		<gsm>
 			<apn>internet.comcel.com.co</apn>
 		</gsm>
+		<username>COMCELWEB</username>
+		<password>COMCELWEB</password>
 	</provider>
 	<provider>
 		<name>Tigo</name>
