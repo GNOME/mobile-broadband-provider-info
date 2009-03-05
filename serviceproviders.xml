@@ -1489,6 +1489,12 @@ conceived.
 	<provider>
 		<name>3</name>
 		<gsm>
+			<apn>3internet</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>3 (handsets)</name>
+		<gsm>
 			<apn>three.co.uk</apn>
 		</gsm>
 	</provider>
