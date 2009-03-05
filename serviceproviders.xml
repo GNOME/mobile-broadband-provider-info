@@ -1469,6 +1469,8 @@ conceived.
 		<gsm>
 			<apn>orangeinternet</apn>
 		</gsm>
+		<username>orange</username>
+		<password>orange</password>
 		<dns>193.35.133.10 </dns>
 		<dns>193.35.134.10</dns>
 	</provider>
