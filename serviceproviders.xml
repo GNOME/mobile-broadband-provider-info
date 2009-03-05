@@ -1226,6 +1226,12 @@ conceived.
 			<apn>Internet</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<name>Jazztel</name>
+		<gsm>
+			<apn>jazzinternet</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Finland -->
