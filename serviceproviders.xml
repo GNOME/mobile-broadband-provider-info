@@ -2368,9 +2368,9 @@ conceived.
 <!-- Sri Lanka -->
 <country code="lk">
 	<provider>
-		<name>Tigo</name>
+		<name>Airtel</name>
 		<gsm>
-			<apn>wap</apn>		
+			<apn>www.wap.airtel.lk</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -2386,15 +2386,21 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>Hutch</name>
+		<gsm>
+			<apn>htwap</apn>		
+		</gsm>
+	</provider>
+	<provider>
 		<name>Mobitel</name>
 		<gsm>
 			<apn>isp</apn>
 		</gsm>
 	</provider>
 	<provider>
-		<name>Hutch</name>
+		<name>Tigo</name>
 		<gsm>
-			<apn>htwap</apn>		
+			<apn>wap</apn>		
 		</gsm>
 	</provider>
 </country>
