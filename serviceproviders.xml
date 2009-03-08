@@ -2188,12 +2188,10 @@ conceived.
 		<dns>212.17.192.209</dns>
 	</provider>
 	<provider>
-		<name>Omnitel</name>
+		<name>Vodafone</name>
 		<gsm>
 			<apn>web.omnitel.it</apn>
 		</gsm>
-		<dns>83.224.65.134 </dns>
-		<dns>83.224.65.134</dns>
 	</provider>
 	<provider>
 		<name>TIM (new)</name>
@@ -2204,39 +2202,25 @@ conceived.
 		<dns>213.230.130.222</dns>
 	</provider>
 	<provider>
-		<name>H3G (abbonamento)</name>
-		<gsm>
-			<apn>datacard.tre.it</apn>
-		</gsm>
-		<dns>62.13.175.1</dns>
-		<dns>62.13.171.2</dns>
-	</provider>
-	<provider>
-		<name>TIM</name>
+		<name>TIM (WAP)</name>
 		<gsm>
 			<apn>wap.tim.it</apn>
 		</gsm>
 		<username>WAPTIM</username>
 		<dns>213.230.155.94 </dns>
 		<dns>213.230.130.222</dns>
-	</provider>	
+	</provider>
+	<provider>
+		<name>TIM</name>
+		<gsm>
+			<apn>ibox.tim.it</apn>
+		</gsm>
+	</provider>
 	<provider>
 		<name>Wind</name>
 		<gsm>
 			<apn>internet.wind</apn>
 		</gsm>
-		<username>Wind</username>
-		<password>Wind</password>
-		<dns>212.245.255.2 </dns>
-		<dns>212.141.84.12</dns>
-	</provider>
-	<provider>
-		<name>TIM (ibox - 3G)</name>
-		<gsm>
-			<apn>ibox.tim.it</apn>
-		</gsm>
-		<dns>213.230.130.222 </dns>
-		<dns>213.230.155.94</dns>
 	</provider>
 	<provider>
 		<name>Wind (Business)</name>
@@ -2245,39 +2229,30 @@ conceived.
 		</gsm>
 		<username>Wind</username>
 		<password>Wind</password>
-		<dns>212.245.255.2 </dns>
-		<dns>212.141.84.12</dns>
-	</provider>
-	<provider>
-		<name>Vodafone (Omnitel)</name>
-		<gsm>
-			<apn>web.omnitel.it</apn>
-		</gsm>
-		<dns>83.224.65.134</dns>
-	</provider>
-	<provider>
-		<name>TIM</name>
-		<gsm>
-			<apn>ibox.tim.it</apn>
-		</gsm>
-		<dns>213.230.155.94</dns>
-		<dns>213.230.130.222</dns>
-	</provider>
-	<provider>
-		<name>Vodafone (Omnitel)</name>
-		<gsm>
-			<apn>web.omnitel.it</apn>
-		</gsm>
-		<dns>83.224.66.134</dns>
-		<dns>83.224.65.134</dns>
 	</provider>
 	<provider>
 		<name>H3G (ricaricabile)</name>
 		<gsm>
 			<apn>tre.it</apn>
 		</gsm>
-		<dns>62.13.171.1</dns>
-		<dns>62.13.171.2</dns>
+	</provider>
+	<provider>
+		<name>H3G (abbonamento)</name>
+		<gsm>
+			<apn>datacard.tre.it</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Fastweb (ricaricabile)</name>
+		<gsm>
+			<apn>apn.fastweb.it</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Fastweb (Abbonamento)</name>
+		<gsm>
+			<apn>datacard.fastweb.it</apn>
+		</gsm>
 	</provider>
 </country>
 
