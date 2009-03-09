@@ -1,4 +1,4 @@
-AC_INIT([mobile-broadband-provider-info], [20081124])
+AC_INIT([mobile-broadband-provider-info], [20090309])
 AM_INIT_AUTOMAKE([-Wall -Werror foreign])
 
 AC_CONFIG_FILES([

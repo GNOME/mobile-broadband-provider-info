@@ -1,3 +1,36 @@
+mobile-broadband-provider-info 20090309
+=======================================	
+ * Andres Mujica added Tele2, Lithuania
+ * Updated Italian information
+ * Andres Mujica and Andreas Kostyrka added FONIC, Germany
+ * Andres Mujica added Wataniya, Kuwait
+ * Andres Mujica and Chris Jones added user/pass to Orange (contact), UK
+ * Felix Danso-Quayson added Zain, Ghana
+ * Savvas Radevic provided multiple fixes gathered from ubuntu bug tracker
+ * Timothy Kyalo added Econet, Kenya
+ * Andrei Bordei added Eventis, Republic of Moldova
+ * Edison Mera added Jazztel, Spain
+ * Stefan Andersen added Fullrate Denmark
+ * Val Zak added provider Unitel, Angola
+ * Dominic Evans added Vodafone (TopUp and Go) UK
+ * Carlos Arenas added authentication credentials for Comcel Colombia
+ * Pramod Dematagoda added Sri Lankan provider Airtel
+ * 3 UK: Separate APNs for dedicated mobile broadband devices and handsets.
+ * Andrés Mauricio Mujica Zalamea added Orange Internet Everywhere 3G in France
+ * Thomas Lee added Three Prepaid in Australia
+ * Serge de Souza added Movinet Angola
+ * Jacob Nielsen added Danish provider Oister.dk
+ * Mykhailo Korbakov added Ukrainian provider Utel
+ * Sunatomo Masuda added some Japanese CDMA providers
+ * Johannes Hessellund added Danish provider BiBoB
+ * Manuel Gomez added Colombian providers Tigo and Movistar, and removed
+   redundant user/pass from Comcel
+ * Rodrigo Linfati added Claro Chile - Prepago
+ * Andreas Kostyrka added Austrian provider Yesss
+ * Paul Sisnett added Digicel Barbados
+ * Steven Lizarazo added Colombian provider Comcel
+ * Rodrigo Linfati updated Chilean service providers
+
 mobile-broadband-provider-info 20081124
 =======================================
  * Bjørn Lie added NetworkNorway and a bunch of other operatorusing the same

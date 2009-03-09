@@ -1,3 +1,78 @@
+2009-03-09  Antti Kaijanmäki <antti@kaijanmaki.net>
+
+	* [r89] serviceproviders.xml:
+	  Andres Mujica added Tele2, Lithuania
+
+2009-03-08  Antti Kaijanmäki <antti@kaijanmaki.net>
+
+	* [r88] serviceproviders.xml:
+	  Update Italian information
+
+2009-03-05  Antti Kaijanmäki <antti@kaijanmaki.net>
+
+	* [r87] serviceproviders.xml:
+	  Andres Mujica and Andreas Kostyrka added FONIC, Germany
+	* [r86] serviceproviders.xml:
+	  Andres Mujica added Wataniya, Kuwait
+	* [r85] serviceproviders.xml:
+	  Andres Mujica and Chris Jones added user/pass to Orange
+	  (contact), UK
+	* [r84] serviceproviders.xml:
+	  Felix Danso-Quayson added Zain, Ghana
+	* [r83] serviceproviders.xml:
+	  Savvas Radevic provided multiple fixes gathered from ubuntu bug
+	  tracker
+	* [r82] serviceproviders.xml:
+	  Timothy Kyalo added Econet, Kenya
+	* [r81] serviceproviders.xml:
+	  Andrei Bordei added Eventis, Republic of Moldova
+	* [r80] serviceproviders.xml:
+	  Edison Mera added Jazztel, Spain
+	* [r79] serviceproviders.xml:
+	  Stefan Andersen added Fullrate Denmark
+	* [r78] serviceproviders.xml:
+	  Val Zak added provider Unitel, Angola
+	* [r77] serviceproviders.xml:
+	  Dominic Evans added Vodafone (TopUp and Go) UK
+	* [r76] serviceproviders.xml:
+	  Carlos Arenas added authentication credentials for Comcel
+	  Colombia
+	* [r75] serviceproviders.xml:
+	  Pramod Dematagoda added Sri Lankan provider Airtel
+	* [r74] serviceproviders.xml:
+	  3 UK: Separate APNs for dedicated mobile broadband devices and
+	  handsets.
+
+2009-01-19  Antti Kaijanmäki <antti@kaijanmaki.net>
+
+	* [r73] serviceproviders.xml:
+	  Andrés Mauricio Mujica Zalamea added Orange Internet Everywhere
+	  3G in France
+	* [r72] serviceproviders.xml:
+	  Thomas Lee added Three Prepaid in Australia
+	* [r71] serviceproviders.xml:
+	  Serge de Souza added Movinet Angola
+
+2008-12-19  Antti Kaijanmäki <antti@kaijanmaki.net>
+
+	* [r70] serviceproviders.xml:
+	  Jacob Nielsen added Danish provider Oister.dk
+
+2008-12-17  Antti Kaijanmäki <antti@kaijanmaki.net>
+
+	* [r69] serviceproviders.xml:
+	  Mykhailo Korbakov added Ukrainian provider Utel
+	* [r68] serviceproviders.xml:
+	  Sunatomo Masuda added some Japanese CDMA providers
+
+2008-12-09  Antti Kaijanmäki <antti@kaijanmaki.net>
+
+	* [r67] serviceproviders.xml:
+	  Johannes Hessellund added Danish provider BiBoB
+	* [r66] ChangeLog, serviceproviders.xml:
+	  Manuel Gomez added Colombian providers Tigo and Movistar, and
+	  removed redundant user/pass from Comcel
+
 2008-12-08  Antti Kaijanmäki <antti@kaijanmaki.net>
 
 	* [r65] serviceproviders.xml:
