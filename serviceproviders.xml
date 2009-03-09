@@ -2466,6 +2466,13 @@ conceived.
 		<dns>193.219.88.36</dns>
 	</provider>
 	<provider>
+		<name>TELE2 GPRS</name>
+		<gsm>
+			<apn>internet.tele2.lt</apn>
+		</gsm>
+		<gateway>130.244.196.90</gateway>
+	</provider>
+	<provider>
 		<name>Omnitel (contract)</name>
 		<gsm>
 			<apn>gprs.omnitel.net</apn>
