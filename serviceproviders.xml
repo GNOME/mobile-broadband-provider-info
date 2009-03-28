@@ -2172,34 +2172,16 @@ conceived.
 <!-- Italy -->
 <country code="it">
 	<provider>
-		<name>Blu Contratto</name>
-		<gsm>
-			<apn>INTERNET</apn>
-		</gsm>
-		<dns>212.17.192.49</dns>
-		<dns>212.17.192.209</dns>
-	</provider>
-	<provider>
-		<name>Blu Prepagata</name>
-		<gsm>
-			<apn>PINTERNET</apn>
-		</gsm>
-		<dns>212.17.192.49</dns>
-		<dns>212.17.192.209</dns>
-	</provider>
-	<provider>
 		<name>Vodafone</name>
 		<gsm>
 			<apn>web.omnitel.it</apn>
 		</gsm>
 	</provider>
 	<provider>
-		<name>TIM (new)</name>
+		<name>TIM</name>
 		<gsm>
-			<apn>uni.tim.it</apn>
+			<apn>ibox.tim.it</apn>
 		</gsm>
-		<dns>213.230.155.94</dns>
-		<dns>213.230.130.222</dns>
 	</provider>
 	<provider>
 		<name>TIM (WAP)</name>
@@ -2211,45 +2193,37 @@ conceived.
 		<dns>213.230.130.222</dns>
 	</provider>
 	<provider>
-		<name>TIM</name>
-		<gsm>
-			<apn>ibox.tim.it</apn>
-		</gsm>
-	</provider>
-	<provider>
 		<name>Wind</name>
 		<gsm>
 			<apn>internet.wind</apn>
 		</gsm>
 	</provider>
 	<provider>
-		<name>Wind (Business)</name>
+		<name>Wind (business)</name>
 		<gsm>
 			<apn>internet.wind.biz</apn>
 		</gsm>
-		<username>Wind</username>
-		<password>Wind</password>
 	</provider>
 	<provider>
-		<name>H3G (ricaricabile)</name>
+		<name>3 (ricaricabile)</name>
 		<gsm>
 			<apn>tre.it</apn>
 		</gsm>
 	</provider>
 	<provider>
-		<name>H3G (abbonamento)</name>
+		<name>3 (abbonamento)</name>
 		<gsm>
 			<apn>datacard.tre.it</apn>
 		</gsm>
 	</provider>
 	<provider>
-		<name>Fastweb (ricaricabile)</name>
+		<name>Fastweb (SIM voce/dati)</name>
 		<gsm>
 			<apn>apn.fastweb.it</apn>
 		</gsm>
 	</provider>
 	<provider>
-		<name>Fastweb (Abbonamento)</name>
+		<name>Fastweb (SIM solo dati)</name>
 		<gsm>
 			<apn>datacard.fastweb.it</apn>
 		</gsm>
