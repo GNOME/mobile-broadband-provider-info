@@ -3468,7 +3468,7 @@ conceived.
 		<name>Megafon (Moscow)</name>
 		<name xml:lang="ru">Мегафон - Москва</name>
 		<gsm>
-			<apn>internet.msk</apn>
+			<apn>internet</apn>
 		</gsm>
 		<username>gdata</username>
 		<password>gdata</password>
