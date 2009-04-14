@@ -1154,6 +1154,14 @@ conceived.
 			<apn>internet</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<name>Tele2</name>
+		<gsm>
+			<apn>internet.tele2.ee</apn>
+		</gsm>
+		<username>wap</username>
+		<password>wap</password>
+	</provider>
 </country>
 
 <!-- Egypt -->
