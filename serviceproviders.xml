@@ -480,8 +480,6 @@ conceived.
 		</gsm>
 		<username>claro</username>
 		<password>claro</password>
-		<dns>200.169.126.15 </dns>
-		<dns>10.121.5.60</dns>
 	</provider>
 	<provider>
 		<name>Oi</name>
