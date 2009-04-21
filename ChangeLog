@@ -1,3 +1,8 @@
+2009-04-21  Daniel Nylander <po@danielnylander.se>
+
+	* [r90] serviceproviders.xml:
+	  Daniel Nylander added username/password for Telenor Sweden.
+
 2009-03-09  Antti Kaijanmäki <antti@kaijanmaki.net>
 
 	* [r89] serviceproviders.xml:

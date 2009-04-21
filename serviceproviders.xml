@@ -3603,6 +3603,8 @@ conceived.
 		<gsm>
 			<apn>internet.telenor.se</apn>
 		</gsm>
+		<username>dummy/username>
+		<password>dummy</password>
 	</provider>
 	<!-- http://www3.telia.se/foretag/mobilguiden/ -->
 	<provider>
