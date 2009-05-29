@@ -42,6 +42,7 @@ conceived.
 		<name>Etisalat</name>
 		<gsm>
 			<apn>mnet</apn>
+			<network-id mcc="424" mnc="02"/>
 		</gsm>
 		<username>mnet</username>
 		<password>mnet</password>
@@ -52,6 +53,7 @@ conceived.
 		<name>Etisalat 3G</name>
 		<gsm>
 			<apn>etisalat.ae</apn>		
+			<network-id mcc="424" mnc="02"/>
 		</gsm>
 		<username>etisalat.ae</username>
 		<password>etisalat.ae</password>
@@ -64,6 +66,7 @@ conceived.
 		<name>Vodafone</name>
 		<gsm>
 			<apn>Twa</apn>
+			<network-id mcc="276" mnc="02"/>
 		</gsm>
 	</provider>
 </country>
@@ -75,6 +78,13 @@ conceived.
 		<cdma />
 		<username>uname</username>
 	</provider>
+	<provider>
+		<name>Unitel</name>
+		<gsm>
+			<apn>internet.unitel.co.ao</apn>
+			<network-id mcc="631" mnc="02"/>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Argentina -->
@@ -83,6 +93,7 @@ conceived.
 		<name>Personal</name>
 		<gsm>
 			<apn>gprs.personal.com</apn>
+			<network-id mcc="722" mnc="340"/>
 		</gsm>
 		<username>gprs</username>
 		<password>adgj</password>
@@ -90,11 +101,15 @@ conceived.
 		<dns>172.25.7.7</dns>
 	</provider>
 	<provider>
-		<name>CTI</name>
+		<name>Claro</name>
 		<gsm>
-			<apn>internet.ctimovil.com.ar</apn>
+			<apn>igprs.claro.com.ar</apn>
+			<network-id mcc="722" mnc="310"/>
+			<network-id mcc="722" mnc="320"/>
+			<network-id mcc="722" mnc="330"/>
 		</gsm>
-		<username>ctigprs</username>
+		<username>clarogprs</username>
+		<password>clarogprs999</password>
 		<dns>170.51.255.100</dns>
 		<dns>170.51.242.18</dns>
 	</provider>
@@ -102,33 +117,16 @@ conceived.
 		<name>Movistar</name>
 		<gsm>
 			<apn>internet.gprs.unifon.com.ar</apn>
+			<network-id mcc="722" mnc="010"/>
+			<network-id mcc="722" mnc="070"/>
 		</gsm>
 		<username>wap</username>
 		<password>wap</password>
 	</provider>
 </country>
 
-<!-- Angola -->
-<country code="ao">
-	<provider>
-		<name>Unitel</name>
-		<gsm>
-			<apn>internet.unitel.co.ao</apn>
-		</gsm>
-	</provider>
-</country>
-
 <!-- Austria -->
 <country code="at">
-	<provider>
-		<name>Max Max Online Mobil</name>
-		<gsm>
-			<apn>gprsinternet</apn>
-		</gsm>
-		<username>GPRS</username>
-		<dns>213.162.64.1</dns>
-		<dns>213.162.64.2</dns>
-	</provider>
 	<provider>
 		<name>Max Online</name>
 		<gsm>
@@ -160,6 +158,7 @@ conceived.
 		<name>Mobilkom/A1</name>
 		<gsm>
 			<apn>a1.net</apn>
+			<network-id mcc="232" mnc="01"/>
 		</gsm>
 		<username>ppp@a1plus.at</username>
 		<password>ppp</password>
@@ -167,9 +166,19 @@ conceived.
 		<dns>194.48.124.202</dns>
 	</provider>
 	<provider>
+		<name>T-Mobile</name>
+		<gsm>
+			<apn>gprsinternet</apn>
+			<network-id mcc="232" mnc="03"/>
+		</gsm>
+		<username>t-mobile</username>
+		<password>tm</password>
+	</provider>
+	<provider>
 		<name>Orange</name>
 		<gsm>
 			<apn>web.one.at</apn>
+			<network-id mcc="232" mnc="05"/>
 		</gsm>
 		<username>web</username>
 		<password>web</password>
@@ -177,19 +186,10 @@ conceived.
 		<dns>194.24.128.102</dns>
 	</provider>
 	<provider>
-		<name>Tele.ring</name>
+		<name>T-Mobile (formerly tele.ring)</name>
 		<gsm>
 			<apn>web</apn>
-		</gsm>
-		<username>web@telering.at</username>
-		<password>web</password>
-		<dns>212.95.31.167 </dns>
-		<dns>212.95.31.168</dns>
-	</provider>
-	<provider>
-		<name>Telering</name>
-		<gsm>
-			<apn>web</apn>
+			<network-id mcc="232" mnc="07"/>
 		</gsm>
 		<username>web@telering.at</username>
 		<password>web</password>
@@ -200,6 +200,7 @@ conceived.
 		<name>Drei</name>
 		<gsm>
 			<apn>drei.at</apn>
+			<network-id mcc="232" mnc="10"/>
 		</gsm>
 	</provider>
 	<provider>
@@ -222,6 +223,7 @@ conceived.
 		<name>Optus</name>
 		<gsm>
 			<apn>internet</apn>
+			<network-id mcc="505" mnc="02"/>
 		</gsm>
 		<dns>202.139.83.3</dns>
 		<dns>192.65.91.129</dns>
@@ -230,6 +232,7 @@ conceived.
 		<name>Optus 3G</name>
 		<gsm>
 			<apn>CONNECT</apn>
+			<network-id mcc="505" mnc="02"/>
 		</gsm>
 		<dns>202.139.83.3</dns>
 		<dns>192.65.91.129</dns>
@@ -238,6 +241,7 @@ conceived.
 		<name>Telstra</name>
 		<gsm>
 			<apn>telstra.wap</apn>
+			<network-id mcc="505" mnc="01"/>
 		</gsm>
 		<dns>139.130.4.4</dns>
 		<dns>203.50.2.71</dns>
@@ -246,6 +250,7 @@ conceived.
 		<name>Telstra (3G data pack)</name>
 		<gsm>
 			<apn>telstra.datapack</apn>
+			<network-id mcc="505" mnc="01"/>
 		</gsm>
 		<password>Telstra</password>
 		<dns>139.130.4.4</dns>
@@ -255,6 +260,7 @@ conceived.
 		<name>Telstra (UMTS/HSDPA)</name>
 		<gsm>
 			<apn>telstra.internet</apn>
+			<network-id mcc="505" mnc="01"/>
 		</gsm>
 		<dns>139.130.4.4</dns>
 		<dns>203.50.170.2</dns>
@@ -263,15 +269,17 @@ conceived.
 		<name>Telstra (3G PC pack - pay by time)</name>
 		<gsm>
 			<apn>telstra.pcpack</apn>
+			<network-id mcc="505" mnc="01"/>
 		</gsm>
 		<password>Telstra</password>
 		<dns>139.130.4.4</dns>
 		<dns>203.50.2.71</dns>
 	</provider>
 	<provider>
-		<name>Telstra (Next G card)</name>
+		<name>Telstra (Next G)</name>
 		<gsm>
-			<apn></apn>
+			<apn>telstra.internet</apn>
+			<network-id mcc="505" mnc="01"/>
 		</gsm>
 		<dns>139.130.4.4</dns>
 		<dns>203.50.2.71</dns>
@@ -280,6 +288,7 @@ conceived.
 		<name>Three</name>
 		<gsm>
 			<apn>3netaccess</apn>
+			<network-id mcc="505" mnc="06"/>
 		</gsm>
 		<username>a</username>
 		<password>a</password>
@@ -290,6 +299,7 @@ conceived.
 		<name>Three Prepaid</name>
 		<gsm>
 			<apn>3services</apn>
+			<network-id mcc="505" mnc="06"/>
 		</gsm>
 		<username>a</username>
 		<password>a</password>
@@ -309,6 +319,7 @@ conceived.
 		<name>Vodafone</name>
 		<gsm>
 			<apn>vfinternet.au</apn>
+			<network-id mcc="505" mnc="03"/>
 		</gsm>
 		<dns>192.189.54.33</dns>
 		<dns>210.80.58.3</dns>
@@ -321,12 +332,14 @@ conceived.
 		<name>Azercell</name>
 		<gsm>
 			<apn>internet</apn>
+			<network-id mcc="400" mnc="01"/>
 		</gsm>
 	</provider>
 	<provider>
 		<name>Bakcell</name>	
 		<gsm>
 			<apn>mms</apn>
+			<network-id mcc="400" mnc="02"/>
 		</gsm>
 	</provider>
 </country>
@@ -337,16 +350,18 @@ conceived.
 		<name>BH GSM</name>
 		<gsm>
 			<apn>mms.bhmobile.ba</apn>
+			<network-id mcc="218" mnc="90"/>
 		</gsm>
 	</provider>
 </country>
 
-<!-- Bahamas -->
-<country code="bs">
+<!-- Barbados -->
+<country code="bb">
 	<provider>
-		<name>Batelco</name>
+		<name>Digicel</name>
 		<gsm>
-			<apn>internet.btcbahamas.com</apn>
+			<apn>isp.digicelbarbados.com</apn>
+			<network-id mcc="342" mnc="750"/>
 		</gsm>
 	</provider>
 </country>
@@ -357,6 +372,7 @@ conceived.
 		<name>AKTel</name>
 		<gsm>
 			<apn>atmmms</apn>
+			<network-id mcc="470" mnc="02"/>
 		</gsm>
 		<dns>192.168.023.007</dns>
 	</provider>
@@ -364,25 +380,17 @@ conceived.
 		<name>Banglalink</name>
 		<gsm>
 			<apn>blweb</apn>	
+			<network-id mcc="470" mnc="03"/>
 		</gsm>
 	</provider>
 	<provider>
 		<name>Grameen Phone</name>
 		<gsm>
 			<apn>gpinternet</apn>
+			<network-id mcc="470" mnc="01"/>
 		</gsm>
 		<dns>202.56.4.120</dns>
 		<dns>202.56.4.121</dns>
-	</provider>
-</country>
-
-<!-- Barbados -->
-<country code="bb">
-	<provider>
-		<name>Digicel</name>
-		<gsm>
-			<apn>isp.digicelbarbados.com</apn>
-		</gsm>
 	</provider>
 </country>
 
@@ -392,6 +400,7 @@ conceived.
 		<name>Mobistar (business)</name>
 		<gsm>
 			<apn>web.pro.be</apn>
+			<network-id mcc="206" mnc="10"/>
 		</gsm>
 		<username>mobistar</username>
 		<password>mobistar</password>
@@ -402,6 +411,7 @@ conceived.
 		<name>Mobistar (personal)</name>
 		<gsm>
 			<apn>internet.be</apn>
+			<network-id mcc="206" mnc="10"/>
 		</gsm>
 		<username>mobistar</username>
 		<password>mobistar</password>
@@ -412,6 +422,7 @@ conceived.
 		<name>Mobistar (Internet Everywhere)</name>
 		<gsm>
 			<apn>iew.be</apn>
+			<network-id mcc="206" mnc="10"/>
 		</gsm>
 		<username>mobistar</username>
 		<password>mobistar</password>
@@ -428,6 +439,7 @@ conceived.
 		<name>Proximus Inter</name>
 		<gsm>
 			<apn>internet.proximus.be</apn>
+			<network-id mcc="206" mnc="01"/>
 		</gsm>
 		<dns>195.238.2.21</dns>
 		<dns>195.238.2.22</dns>
@@ -436,6 +448,7 @@ conceived.
 		<name>Proximus Intra</name>
 		<gsm>
 			<apn>intraprox.be</apn>
+			<network-id mcc="206" mnc="01"/>
 		</gsm>
 		<dns>195.238.2.21</dns>
 		<dns>195.238.2.22</dns>
@@ -444,6 +457,7 @@ conceived.
 		<name>Base</name>
 		<gsm>
 			<apn>gprs.base.be</apn>
+			<network-id mcc="206" mnc="20"/>
 		</gsm>
 		<username>base</username>
 		<password>base</password>
@@ -456,6 +470,7 @@ conceived.
 		<name>GloBul</name>
 		<gsm>
 			<apn>internet.globul.bg</apn>
+			<network-id mcc="284" mnc="05"/>
 		</gsm>
 		<username>globul</username>
 		<dns>192.168.88.11</dns>
@@ -464,20 +479,12 @@ conceived.
 		<name>M-Tel</name>
 		<gsm>
 			<apn>inet-gprs.mtel.bg</apn>
+			<network-id mcc="284" mnc="01"/>
 		</gsm>
 		<username>mtel</username>
 		<password>mtel</password>
 		<dns>213.226.7.34</dns>
 		<dns>213.226.7.35</dns>
-	</provider>
-	<provider>
-		<name>GloBul</name>
-		<gsm>
-			<apn>internet.globul.bg</apn>
-		</gsm>
-		<username>globul</username>
-		<password>[none]</password>
-		<dns>192.168.88.11</dns>
 	</provider>
 </country>
 
@@ -487,6 +494,7 @@ conceived.
 		<name>Claro</name>
 		<gsm>
 			<apn>claro.com.br</apn>
+			<network-id mcc="724" mnc="05"/>
 		</gsm>
 		<username>claro</username>
 		<password>claro</password>
@@ -495,26 +503,36 @@ conceived.
 		<name>Oi</name>
 		<gsm>
 			<apn>gprs.oi.com.br</apn>
+			<network-id mcc="724" mnc="16"/>
+			<network-id mcc="724" mnc="31"/>
+			<network-id mcc="724" mnc="24"/>
 		</gsm>
+		<password>oioioi</password>
+	</provider>
+	<provider>
+		<name>Oi (WAP)</name>
+		<gsm>
+			<apn>wapgprs.oi.com.br</apn>
+			<network-id mcc="724" mnc="16"/>
+			<network-id mcc="724" mnc="31"/>
+			<network-id mcc="724" mnc="24"/>
+		</gsm>
+		<username>oiwap</username>
 		<password>oioioi</password>
 	</provider>
 	<provider>
 		<name>TIM</name>
 		<gsm>
 			<apn>tim.br</apn>
+			<network-id mcc="724" mnc="02"/>
+			<network-id mcc="724" mnc="03"/>
+			<network-id mcc="724" mnc="04"/>
+			<network-id mcc="724" mnc="08"/>
 		</gsm>
 		<username>tim</username>
 		<password>tim</password>
 		<dns>10.223.246.102</dns>
 		<dns>10.223.246.103</dns>
-	</provider>
-	<provider>
-		<name>Oi (WAP)</name>
-		<gsm>
-			<apn>wapgprs.oi.com.br</apn>
-		</gsm>
-		<username>oiwap</username>
-		<password>oioioi</password>
 	</provider>
 	<provider>
 		<name>Velox</name>
@@ -529,9 +547,24 @@ conceived.
 		<name>Vivo</name>
 		<gsm>
 			<apn>zap.vivo.com.br</apn>
+			<network-id mcc="724" mnc="06"/>
+			<network-id mcc="724" mnc="10"/>
+			<network-id mcc="724" mnc="11"/>
+			<network-id mcc="724" mnc="23"/>
 		</gsm>
 		<username>vivo</username>
 		<password>vivo</password>
+	</provider>
+</country>
+
+<!-- Bahamas -->
+<country code="bs">
+	<provider>
+		<name>Batelco</name>
+		<gsm>
+			<apn>internet.btcbahamas.com</apn>
+			<network-id mcc="364" mnc="390"/>
+		</gsm>
 	</provider>
 </country>
 
@@ -541,6 +574,7 @@ conceived.
 		<name>VELCOM</name>
 		<gsm>
 			<apn>wap.velcom.by</apn>
+			<network-id mcc="257" mnc="01"/>
 		</gsm>
 		<username>wap</username>
 		<password>wap</password>
@@ -549,6 +583,7 @@ conceived.
 		<name>VELCOM (Simple GPRS)</name>
 		<gsm>
 			<apn>web.velcom.by</apn>
+			<network-id mcc="257" mnc="01"/>
 		</gsm>
 		<username>web</username>
 		<password>web</password>
@@ -559,6 +594,7 @@ conceived.
 		<name>VELCOM (Web Plus)</name>
 		<gsm>
 			<apn>plus.velcom.by</apn>
+			<network-id mcc="257" mnc="01"/>
 		</gsm>
 		<username>plus</username>
 		<password>plus</password>
@@ -567,6 +603,7 @@ conceived.
 		<name>VELCOM (Privet)</name>
 		<gsm>
 			<apn>privet.velcom.by</apn>
+			<network-id mcc="257" mnc="01"/>
 		</gsm>
 		<username>privet</username>
 		<password>privet</password>
@@ -575,6 +612,7 @@ conceived.
 		<name>MTS</name>
 		<gsm>
 			<apn>internet.mts.by</apn>
+			<network-id mcc="257" mnc="02"/>
 		</gsm>
 		<username>mts</username>
 		<password>mts</password>
@@ -587,6 +625,7 @@ conceived.
 		<name>Mascom Wireless</name>
 		<gsm>
 			<apn>internet.mascom</apn>
+			<network-id mcc="652" mnc="01"/>
 		</gsm>
 	</provider>
 </country>
@@ -594,9 +633,10 @@ conceived.
 <!-- Canada -->
 <country code="ca">
 	<provider>
-		<name>Microcell Fido</name>
+		<name>Fido</name>
 		<gsm>
 			<apn>internet.fido.ca</apn>
+			<network-id mcc="302" mnc="370"/>
 		</gsm>
 		<username>fido</username>
 		<password>fido</password>
@@ -607,6 +647,7 @@ conceived.
 		<name>Rogers AT&amp;T</name>
 		<gsm>
 			<apn>internet.com</apn>
+			<network-id mcc="302" mnc="720"/>
 		</gsm>
 		<username>wapuser1</username>
 		<password>wap</password>
@@ -633,6 +674,7 @@ conceived.
 		<name>Vodafone</name>
 		<gsm>
 			<apn>vodanet</apn>
+			<network-id mcc="630" mnc="01"/>
 		</gsm>
 		<username>vodalive</username>
 		<dns>172.24.97.1</dns>
@@ -645,6 +687,7 @@ conceived.
 		<name>Orange</name>
 		<gsm>
 			<apn>mobileoffice3g</apn>
+			<network-id mcc="228" mnc="03"/>
 		</gsm>
 		<dns>213.55.128.1 </dns>
 		<dns>213.55.128.2</dns>
@@ -653,6 +696,7 @@ conceived.
 		<name>Sunrise</name>
 		<gsm>
 			<apn>internet</apn>
+			<network-id mcc="228" mnc="02"/>
 		</gsm>
 		<username>internet</username>
 		<password>internet</password>
@@ -663,6 +707,7 @@ conceived.
 		<name>Swisscom</name>
 		<gsm>
 			<apn>gprs.swisscom.ch</apn>
+			<network-id mcc="228" mnc="01"/>
 		</gsm>
 		<username>gprs</username>
 		<password>gprs</password>
@@ -674,10 +719,12 @@ conceived.
 <!-- Cote d'Ivoire -->
 <country code="ci">
 	<provider>
-		<name>internet</name>
+		<name>MTN</name>
 		<gsm>
-			<apn>172.16.100.5</apn>
+			<apn>internet</apn>
+			<network-id mcc="612" mnc="05"/>
 		</gsm>
+		<dns>172.16.100.5</dns>
 	</provider>
 </country>
 
@@ -687,6 +734,7 @@ conceived.
 		<name>Claro Chile</name>
 		<gsm>
 			<apn>bam.clarochile.cl</apn>
+			<network-id mcc="730" mnc="03"/>
 		</gsm>
 		<username>clarochile</username>
 		<password>clarochile</password>
@@ -695,6 +743,7 @@ conceived.
 		<name>Claro Chile - Prepago</name>
 		<gsm>
 			<apn>bap.clarochile.cl</apn>
+			<network-id mcc="730" mnc="03"/>
 		</gsm>
 		<username>clarochile</username>
 		<password>clarochile</password>
@@ -703,6 +752,7 @@ conceived.
 		<name>Claro Chile - WAP</name>
 		<gsm>
 			<apn>wap.clarochile.cl</apn>
+			<network-id mcc="730" mnc="03"/>
 		</gsm>
 		<username>clarochile</username>
 		<password>clarochile</password>
@@ -711,6 +761,7 @@ conceived.
 		<name>Entel PCS</name>
 		<gsm>
 			<apn>imovil.entelpcs.cl</apn>
+			<network-id mcc="730" mnc="01"/>
 		</gsm>
 		<username>entelpcs</username>
 		<password>entelpcs</password>
@@ -719,6 +770,7 @@ conceived.
 		<name>Entel PCS - WAP</name>
 		<gsm>
 			<apn>bam.entelpcs.cl</apn>
+			<network-id mcc="730" mnc="01"/>
 		</gsm>
 		<username>entelpcs</username>
 		<password>entelpcs</password>
@@ -727,6 +779,7 @@ conceived.
 		<name>Movistar</name>
 		<gsm>
 			<apn>web.tmovil.cl</apn>
+			<network-id mcc="730" mnc="10"/>
 		</gsm>
 		<username>web</username>
 		<password>web</password>
@@ -735,6 +788,7 @@ conceived.
 		<name>Movistar - WAP</name>
 		<gsm>
 			<apn>wap.tmovil.cl</apn>
+			<network-id mcc="730" mnc="10"/>
 		</gsm>
 		<username>wap</username>
 		<password>wap</password>
@@ -747,6 +801,7 @@ conceived.
 		<name>Orange</name>
 		<gsm>
 			<apn>orangecmgprs</apn>
+			<network-id mcc="624" mnc="02"/>
 		</gsm>
 		<username>orange</username>
 		<password>orange</password>
@@ -755,8 +810,10 @@ conceived.
 		<name>MTN</name>
 		<gsm>
 			<apn>INTERNET</apn>
+			<network-id mcc="624" mnc="01"/>
 		</gsm>
-		<dns>-</dns>
+		<username>guest</username>
+		<password>guest</password>
 	</provider>
 </country>
 
@@ -766,17 +823,22 @@ conceived.
 		<name>China Mobile</name>
 		<gsm>
 			<apn>cmnet</apn>
+			<network-id mcc="460" mnc="00"/>
+			<network-id mcc="460" mnc="02"/>
 		</gsm>
-		<dns>211.136.20.203 </dns>
+		<username>guest</username>
+		<password>guest</password>
+		<dns>211.136.20.203</dns>
 		<dns>211.136.20.203</dns>
 	</provider>
 	<provider>
 		<name>China Unicom</name>
 		<gsm>
-			<apn>none</apn>
+			<apn></apn>
+			<network-id mcc="460" mnc="01"/>
 		</gsm>
-		<dns>211.136.20.203 </dns>
-		<dns>211.136.20.203</dns>
+		<username>guest</username>
+		<password>guest</password>
 	</provider>
 </country>
 
@@ -786,7 +848,11 @@ conceived.
 		<name>IceCelular</name>
 		<gsm>
 			<apn>icecelular</apn>
+			<network-id mcc="712" mnc="01"/>
+			<network-id mcc="712" mnc="02"/>
 		</gsm>
+		<username>guest</username>
+		<password>guest</password>
 		<dns>208.133.206.44 </dns>
 		<dns>208.133.206.44</dns>
 	</provider>
@@ -798,6 +864,7 @@ conceived.
 		<name>Comcel</name>
 		<gsm>
 			<apn>internet.comcel.com.co</apn>
+			<network-id mcc="732" mnc="101"/>
 		</gsm>
 		<username>COMCELWEB</username>
 		<password>COMCELWEB</password>
@@ -806,12 +873,16 @@ conceived.
 		<name>Tigo</name>
 		<gsm>
 			<apn>web.colombiamovil.com.co</apn>
+			<network-id mcc="732" mnc="103"/>
+			<network-id mcc="732" mnc="111"/>
 		</gsm>
 	</provider>
 	<provider>
 		<name>Movistar</name>
 		<gsm>
 			<apn>internet.movistar.com.co</apn>
+			<network-id mcc="732" mnc="102"/>
+			<network-id mcc="732" mnc="123"/>
 		</gsm>
 		<username>movistar</username>
 		<password>movistar</password>
@@ -824,6 +895,7 @@ conceived.
 		<name>Cesky Mobil (postpaid)</name>
 		<gsm>
 			<apn>internet</apn>
+			<network-id mcc="230" mnc="98"/>
 		</gsm>
 		<dns>212.67.64.2</dns>
 		<dns>217.77.161.131</dns>
@@ -832,29 +904,43 @@ conceived.
 		<name>Cesky Mobil (prepaid)</name>
 		<gsm>
 			<apn>Cinternet</apn>
+			<network-id mcc="230" mnc="98"/>
 		</gsm>
 		<dns>212.67.64.2</dns>
 		<dns>217.77.161.131</dns>
 	</provider>
 	<provider>
-		<name></name>
-		<gsm>
-			<apn>cinternet</apn>
-		</gsm>
-		<dns>212.67.64.2</dns>
-	</provider>
-	<provider>
-		<name>EuroTel (Go)</name>
+		<name>EuroTel / Telefónica (Go)</name>
 		<gsm>
 			<apn>gointernet</apn>
+			<network-id mcc="230" mnc="02"/>
 		</gsm>
 		<dns>160.218.10.200 </dns>
 		<dns>160.218.43.200</dns>
 	</provider>
 	<provider>
-		<name>Oscar (Post p.)</name>
+		<name>EuroTel / Telefónica (contract)</name>
 		<gsm>
 			<apn>internet</apn>
+			<network-id mcc="230" mnc="02"/>
+		</gsm>
+		<dns>160.218.10.200</dns>
+		<dns>160.218.43.200</dns>
+	</provider>
+	<provider>
+		<name>Eurotel / Telefónica (contract - open)</name>
+		<gsm>
+			<apn>internet.open</apn>
+			<network-id mcc="230" mnc="02"/>
+		</gsm>
+		<dns>160.218.10.200 </dns>
+		<dns>160.218.43.200</dns>
+	</provider>
+	<provider>
+		<name>Oscar (postpaid)</name>
+		<gsm>
+			<apn>internet</apn>
+			<network-id mcc="230" mnc="03"/>
 		</gsm>
 		<username>wap</username>
 		<password>wap</password>
@@ -862,9 +948,10 @@ conceived.
 		<dns>217.77.161.131</dns>
 	</provider>
 	<provider>
-		<name>Oscar (Pre p.)</name>
+		<name>Oscar (prepaid)</name>
 		<gsm>
-			<apn>internet</apn>
+			<apn>ointernet</apn>
+			<network-id mcc="230" mnc="03"/>
 		</gsm>
 		<dns>217.77.161.130</dns>
 		<dns>217.77.161.131</dns>
@@ -895,57 +982,10 @@ conceived.
 		<name>T-Mobil</name>
 		<gsm>
 			<apn>internet.t-mobile.cz</apn>
+			<network-id mcc="230" mnc="01"/>
 		</gsm>
 		<dns>62.141.0.1</dns>
 		<dns>213.162.65.1</dns>
-	</provider>
-	<provider>
-		<name>Eurotel (contract)</name>
-		<gsm>
-			<apn>internet</apn>
-		</gsm>
-		<dns>160.218.10.200</dns>
-		<dns>160.218.43.200</dns>
-	</provider>
-	<provider>
-		<name>Eurotel (contract - open)</name>
-		<gsm>
-			<apn>internet.open</apn>
-		</gsm>
-		<dns>160.218.10.200 </dns>
-		<dns>160.218.43.200</dns>
-	</provider>
-	<provider>
-		<name>Vodafone (contract)</name>
-		<gsm>
-			<apn>internet</apn>
-		</gsm>
-		<dns>217.77.161.130</dns>
-		<dns>217.77.161.131</dns>
-	</provider>
-	<provider>
-		<name>Telefonica (contract)</name>
-		<gsm>
-			<apn>internet</apn>
-		</gsm>
-		<dns>160.218.10.200</dns>
-		<dns>160.218.43.200</dns>
-	</provider>
-	<provider>
-		<name>Vodafone (pre-pay)</name>
-		<gsm>
-			<apn>ointernet</apn>
-		</gsm>
-		<dns>217.77.161.130</dns>
-		<dns>217.77.161.131</dns>
-	</provider>
-	<provider>
-		<name>Telefonica (Go)</name>
-		<gsm>
-			<apn>gointernet</apn>
-		</gsm>
-		<dns>160.218.10.201</dns>
-		<dns>194.228.2.1</dns>
 	</provider>
 </country>
 
@@ -955,6 +995,9 @@ conceived.
 		<name>AldiTalk/MedionMobile</name>	
 		<gsm>
 			<apn>internet.eplus.de</apn>		
+			<network-id mcc="262" mnc="03"/>
+			<network-id mcc="262" mnc="05"/>
+			<network-id mcc="262" mnc="77"/>
 		</gsm>
 		<username>eplus</username>
 		<password>gprs</password>
@@ -965,6 +1008,9 @@ conceived.
 		<name>E-Plus (pre-pay)</name>
 		<gsm>
 			<apn>internet.eplus.de</apn>
+			<network-id mcc="262" mnc="03"/>
+			<network-id mcc="262" mnc="05"/>
+			<network-id mcc="262" mnc="77"/>
 		</gsm>
 		<username>eplus</username>
 		<password>gprs</password>
@@ -975,6 +1021,9 @@ conceived.
 		<name>E-Plus (contract)</name>
 		<gsm>
 			<apn>internet.eplus.de</apn>
+			<network-id mcc="262" mnc="03"/>
+			<network-id mcc="262" mnc="05"/>
+			<network-id mcc="262" mnc="77"/>
 		</gsm>
 		<username>eplus</username>
 		<password>gprs</password>
@@ -985,6 +1034,9 @@ conceived.
 		<name>o2 (pay-by-MB)</name>
 		<gsm>
 			<apn>internet</apn>
+			<network-id mcc="262" mnc="07"/>
+			<network-id mcc="262" mnc="08"/>
+			<network-id mcc="262" mnc="11"/>
 		</gsm>
 		<dns>195.182.110.132 </dns>
 		<dns>62.134.11.4</dns>
@@ -993,14 +1045,20 @@ conceived.
 		<name>o2 (pay-by-time)</name>
 		<gsm>
 			<apn>surfo2</apn>
+			<network-id mcc="262" mnc="07"/>
+			<network-id mcc="262" mnc="08"/>
+			<network-id mcc="262" mnc="11"/>
 		</gsm>
 		<dns>195.182.110.132 </dns>
 		<dns>62.134.11.4</dns>
 	</provider>
 	<provider>
-		<name>o2 Viag Interkom</name>
+		<name>o2 (Viag Interkom)</name>
 		<gsm>
 			<apn>internet</apn>
+			<network-id mcc="262" mnc="07"/>
+			<network-id mcc="262" mnc="08"/>
+			<network-id mcc="262" mnc="11"/>
 		</gsm>
 		<dns>195.182.110.132</dns>
 		<dns>62.134.11.4</dns>
@@ -1009,6 +1067,8 @@ conceived.
 		<name>T-mobile (D1)</name>
 		<gsm>
 			<apn>internet.t-d1.de</apn>
+			<network-id mcc="262" mnc="01"/>
+			<network-id mcc="262" mnc="06"/>
 		</gsm>
 		<password>t-d1</password>
 		<dns>193.254.160.1 </dns>
@@ -1018,6 +1078,9 @@ conceived.
 		<name>Vodafone (D2)</name>
 		<gsm>
 			<apn>web.vodafone.de</apn>
+			<network-id mcc="262" mnc="02"/>
+			<network-id mcc="262" mnc="04"/>
+			<network-id mcc="262" mnc="09"/>
 		</gsm>
 		<username>vodafone</username>
 		<password>vodafone</password>
@@ -1028,6 +1091,9 @@ conceived.
                 <name>Vodafone (D2) WebSessions</name>
                 <gsm>
                         <apn>event.vodafone.de</apn>
+			<network-id mcc="262" mnc="02"/>
+			<network-id mcc="262" mnc="04"/>
+			<network-id mcc="262" mnc="09"/>
                 </gsm>
                 <username>vodafone</username>
                 <password>vodafone</password>
@@ -1038,6 +1104,9 @@ conceived.
                 <name>FONIC</name>
                 <gsm>
                         <apn>pinternet.interkom.de</apn>
+			<network-id mcc="262" mnc="07"/>
+			<network-id mcc="262" mnc="08"/>
+			<network-id mcc="262" mnc="11"/>
                 </gsm>
         </provider>
 </country>
@@ -1048,18 +1117,21 @@ conceived.
 		<name>3 (Bredbånd)</name>
 		<gsm>
                         <apn>bredband.tre.dk</apn>
+			<network-id mcc="238" mnc="06"/>
                 </gsm>
 	</provider>
 	<provider>
 		<name>3 (Bredbånd Premium Kontant)</name>
 		<gsm>
                         <apn>net.tre.dk</apn>
+			<network-id mcc="238" mnc="06"/>
                 </gsm>
 	</provider>
 	<provider>
 		<name>3 (Mobil Abonnement)</name>
 		<gsm>
                         <apn>data.tre.dk</apn>
+			<network-id mcc="238" mnc="06"/>
                 </gsm>
 	</provider>
 	<!-- http://oister.dk - Same network as 3.dk -->
@@ -1067,6 +1139,7 @@ conceived.
 		<name>OiSTER</name>
 		<gsm>
 			<apn>bredband.oister.dk</apn>
+			<network-id mcc="238" mnc="06"/>
 		</gsm>
 	</provider>
 
@@ -1089,6 +1162,7 @@ conceived.
 		<name>TDC</name>
 		<gsm>
 			<apn>internet</apn>
+			<network-id mcc="238" mnc="01"/>
 		</gsm>
 		<dns>194.239.134.83</dns>
 		<dns>193.162.153.164</dns>
@@ -1105,6 +1179,7 @@ conceived.
 		<name>Telia</name>
 		<gsm>
 			<apn>www.internet.mtelia.dk</apn>
+			<network-id mcc="238" mnc="30"/>
 		</gsm>
 	</provider>
 	<provider>
@@ -1121,6 +1196,7 @@ conceived.
 		<name>Orange</name>
 		<gsm>
 			<apn>orangenet.com.do</apn>
+			<network-id mcc="370" mnc="01"/>
 		</gsm>
 	</provider>
 </country>
@@ -1131,6 +1207,7 @@ conceived.
 		<name>Porta 3G</name>
 		<gsm>
 			<apn>internet.porta.com.ec</apn>
+			<network-id mcc="740" mnc="01"/>
 		</gsm>
 	</provider>
 </country>
@@ -1141,6 +1218,7 @@ conceived.
 		<name>EMT</name>
 		<gsm>
 			<apn>internet.emt.ee</apn>
+			<network-id mcc="248" mnc="01"/>
 		</gsm>
 		<dns>217.71.32.116</dns>
 		<dns>217.71.32.115</dns>
@@ -1149,6 +1227,7 @@ conceived.
 		<name>Nordea</name>
 		<gsm>
 			<apn>internet.emt.ee</apn>
+			<network-id mcc="248" mnc="01"/>
 		</gsm>
 	</provider>
 	<provider>
@@ -1168,6 +1247,7 @@ conceived.
 		<name>Tele2</name>
 		<gsm>
 			<apn>internet.tele2.ee</apn>
+			<network-id mcc="248" mnc="03"/>
 		</gsm>
 		<username>wap</username>
 		<password>wap</password>
@@ -3991,6 +4071,12 @@ conceived.
 		<name>AT&amp;T</name>
 		<gsm>
 			<apn>WAP.CINGULAR</apn>
+			<network-id mcc="310" mnc="038"/>
+			<network-id mcc="310" mnc="090"/>
+			<network-id mcc="310" mnc="150"/>
+			<network-id mcc="310" mnc="410"/>
+			<network-id mcc="310" mnc="560"/>
+			<network-id mcc="310" mnc="680"/>
 		</gsm>
 		<username>WAP@CINGULARGPRS.COM</username>
 		<password>CINGULAR1</password>
@@ -3999,6 +4085,12 @@ conceived.
 		<name>AT&amp;T (Tethering)</name>
 		<gsm>
 			<apn>ISP.CINGULAR</apn>
+			<network-id mcc="310" mnc="038"/>
+			<network-id mcc="310" mnc="090"/>
+			<network-id mcc="310" mnc="150"/>
+			<network-id mcc="310" mnc="410"/>
+			<network-id mcc="310" mnc="560"/>
+			<network-id mcc="310" mnc="680"/>
 		</gsm>
 		<username>ISP@CINGULARGPRS.COM</username>
 		<password>CINGULAR1</password>
@@ -4007,6 +4099,12 @@ conceived.
 		<name>AT&amp;T (Tethering with data acceleration)</name>
 		<gsm>
 			<apn>ISP.CINGULAR</apn>
+			<network-id mcc="310" mnc="038"/>
+			<network-id mcc="310" mnc="090"/>
+			<network-id mcc="310" mnc="150"/>
+			<network-id mcc="310" mnc="410"/>
+			<network-id mcc="310" mnc="560"/>
+			<network-id mcc="310" mnc="680"/>
 		</gsm>
 		<username>ISPDA@CINGULARGPRS.COM</username>
 		<password>CINGULAR1</password>
@@ -4015,18 +4113,60 @@ conceived.
 		<name>T-Mobile (Web)</name>
 		<gsm>
 			<apn>wap.voicestream.com</apn>
+			<network-id mcc="310" mnc="160"/>
+			<network-id mcc="310" mnc="200"/>
+			<network-id mcc="310" mnc="210"/>
+			<network-id mcc="310" mnc="220"/>
+			<network-id mcc="310" mnc="230"/>
+			<network-id mcc="310" mnc="240"/>
+			<network-id mcc="310" mnc="250"/>
+			<network-id mcc="310" mnc="260"/>
+			<network-id mcc="310" mnc="270"/>
+			<network-id mcc="310" mnc="310"/>
+			<network-id mcc="310" mnc="490"/>
+			<network-id mcc="310" mnc="580"/>
+			<network-id mcc="310" mnc="660"/>
+			<network-id mcc="310" mnc="800"/>
 		</gsm>
 	</provider>
 	<provider>
 		<name>T-Mobile (Internet)</name>
 		<gsm>
 			<apn>internet2.voicestream.com</apn>
+			<network-id mcc="310" mnc="160"/>
+			<network-id mcc="310" mnc="200"/>
+			<network-id mcc="310" mnc="210"/>
+			<network-id mcc="310" mnc="220"/>
+			<network-id mcc="310" mnc="230"/>
+			<network-id mcc="310" mnc="240"/>
+			<network-id mcc="310" mnc="250"/>
+			<network-id mcc="310" mnc="260"/>
+			<network-id mcc="310" mnc="270"/>
+			<network-id mcc="310" mnc="310"/>
+			<network-id mcc="310" mnc="490"/>
+			<network-id mcc="310" mnc="580"/>
+			<network-id mcc="310" mnc="660"/>
+			<network-id mcc="310" mnc="800"/>
 		</gsm>
 	</provider>
 	<provider>
 		<name>T-Mobile (Internet with VPN)</name>
 		<gsm>
 			<apn>internet3.voicestream.com</apn>
+			<network-id mcc="310" mnc="160"/>
+			<network-id mcc="310" mnc="200"/>
+			<network-id mcc="310" mnc="210"/>
+			<network-id mcc="310" mnc="220"/>
+			<network-id mcc="310" mnc="230"/>
+			<network-id mcc="310" mnc="240"/>
+			<network-id mcc="310" mnc="250"/>
+			<network-id mcc="310" mnc="260"/>
+			<network-id mcc="310" mnc="270"/>
+			<network-id mcc="310" mnc="310"/>
+			<network-id mcc="310" mnc="490"/>
+			<network-id mcc="310" mnc="580"/>
+			<network-id mcc="310" mnc="660"/>
+			<network-id mcc="310" mnc="800"/>
 		</gsm>
 	</provider>
 	<provider>

@@ -14,8 +14,11 @@
 <!ELEMENT name (#PCDATA)>
 <!ATTLIST name xml:lang CDATA #IMPLIED>
 
-<!ELEMENT gsm (apn)>
+<!ELEMENT gsm (apn, network-id*)>
 <!ELEMENT apn (#PCDATA)>
+<!ELEMENT network-id EMPTY>
+<!ATTLIST network-id mcc CDATA #REQUIRED>
+<!ATTLIST network-id mnc CDATA #REQUIRED>
 
 <!ELEMENT cdma EMPTY>
 
