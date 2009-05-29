@@ -1365,7 +1365,7 @@ conceived.
 		<password>orange</password>
 	</provider>
 	<provider>
-		<name>Orange (no contact)</name>
+		<name>Orange (no contract)</name>
 		<gsm>
 			<apn>orange</apn>
 		</gsm>
