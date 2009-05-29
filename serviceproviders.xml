@@ -399,6 +399,26 @@ conceived.
 		<dns>212.65.63.145</dns>
 	</provider>
 	<provider>
+		<name>Mobistar (personal)</name>
+		<gsm>
+			<apn>internet.be</apn>
+		</gsm>
+		<username>mobistar</username>
+		<password>mobistar</password>
+		<dns>212.65.63.10</dns>
+		<dns>212.65.63.145</dns>
+	</provider>
+	<provider>
+		<name>Mobistar (Internet Everywhere)</name>
+		<gsm>
+			<apn>iew.be</apn>
+		</gsm>
+		<username>mobistar</username>
+		<password>mobistar</password>
+		<dns>212.65.63.10</dns>
+		<dns>212.65.63.145</dns>
+	</provider>
+	<provider>
 		<name>Orange</name>
 		<gsm>
 			<apn>orangeinternet</apn>
@@ -427,16 +447,6 @@ conceived.
 		</gsm>
 		<username>base</username>
 		<password>base</password>
-	</provider>
-	<provider>
-		<name>Mobistar (personal)</name>
-		<gsm>
-			<apn>internet.be</apn>
-		</gsm>
-		<username>mobistar</username>
-		<password>mobistar</password>
-		<dns>212.65.63.10</dns>
-		<dns>212.65.63.145</dns>
 	</provider>
 </country>
 
