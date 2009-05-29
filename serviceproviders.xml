@@ -1363,6 +1363,8 @@ conceived.
 		</gsm>
 		<username>orange</username>
 		<password>orange</password>
+		<dns>194.51.3.56</dns>
+		<dns>194.51.3.76</dns>
 	</provider>
 	<provider>
 		<name>Orange (no contract)</name>
@@ -1427,26 +1429,6 @@ conceived.
 		</gsm>
 		<username>orange</username>
 		<password>orange</password>
-	</provider>
-	<provider>
-		<name>Orange (business)</name>
-		<gsm>
-			<apn>internet-entreprise</apn>
-		</gsm>
-		<username>orange</username>
-		<password>orange</password>
-		<dns>194.51.3.56</dns>
-		<dns>194.51.3.76</dns>
-	</provider>
-	<provider>
-		<name>Orange (contract)</name>
-		<gsm>
-			<apn>orange.fr</apn>
-		</gsm>
-		<username>orange</username>
-		<password>orange</password>
-		<dns>194.51.3.56</dns>
-		<dns>194.51.3.76</dns>
 	</provider>
 </country>
 
