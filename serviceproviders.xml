@@ -4065,6 +4065,10 @@ conceived.
 		<name>MetroPCS</name>
 		<cdma />
 	</provider>
+	<provider>
+		<name>Virgin Mobile / Helio</name>
+		<cdma />
+	</provider>
 </country>
 
 <!-- Uruguay -->
