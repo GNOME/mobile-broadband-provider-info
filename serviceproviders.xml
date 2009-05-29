@@ -2116,6 +2116,10 @@ conceived.
 		<dns>10.11.206.50</dns>
 	</provider>
 	<provider>
+		<name>Reliance Netconnect</name>
+		<cdma/>
+	</provider>
+	<provider>
 		<name>Spice telecom</name>
 		<gsm>
 			<apn>Simplyenjoy</apn>
