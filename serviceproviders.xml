@@ -1325,6 +1325,12 @@ conceived.
 <!-- France -->
 <country code="fr">
 	<provider>
+		<name>A Mobile (Auchan Telecom)</name>
+		<gsm>
+			<apn>wap65</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Bouygues Telecom (B2Bouygtel)</name>
 		<gsm>
 			<apn>b2bouygtel.com</apn>
