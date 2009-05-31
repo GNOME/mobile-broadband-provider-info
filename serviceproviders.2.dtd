@@ -1,0 +1,38 @@
+<!ELEMENT serviceproviders (country*)>
+<!ATTLIST serviceproviders format CDATA #REQUIRED>
+
+<!ELEMENT country (provider*)>
+<!ATTLIST country code CDATA #REQUIRED>
+
+<!ELEMENT provider (name+, gsm?, cdma?)>
+
+<!ELEMENT gsm (network-id*, apn+)>
+<!ELEMENT apn (name*,
+               gateway?,
+               username?,
+               password?,
+               dns*)>
+<!ATTLIST apn value CDATA #REQUIRED>
+
+<!ELEMENT network-id EMPTY>
+<!ATTLIST network-id mcc CDATA #REQUIRED>
+<!ATTLIST network-id mnc CDATA #REQUIRED>
+
+<!ELEMENT username (#PCDATA)> 
+<!ELEMENT password (#PCDATA)>
+<!ELEMENT dns (#PCDATA)>
+<!ELEMENT gateway (#PCDATA)>
+
+<!ELEMENT cdma (name*,
+                username?,
+                password?,
+                dns*,
+                sid*)>
+
+<!ELEMENT sid EMPTY>
+<!ATTLIST sid value CDATA #REQUIRED>
+
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name xml:lang CDATA #IMPLIED>
+
+
