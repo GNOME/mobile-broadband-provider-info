@@ -993,7 +993,7 @@ conceived.
 <!-- Germany -->
 <country code="de">
 	<provider>
-		<name>AldiTalk/MedionMobile</name>	
+		<name>AldiTalk/MedionMobile</name>
 		<gsm>
 			<network-id mcc="262" mnc="03"/>
 			<network-id mcc="262" mnc="05"/>
@@ -1003,7 +1003,19 @@ conceived.
 				<password>gprs</password>
 				<dns>212.23.97.2</dns>
 				<dns>212.23.97.3</dns>
-			</apn>		
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>blau.de</name>
+		<gsm>
+			<network-id mcc="262" mnc="03"/>
+			<network-id mcc="262" mnc="05"/>
+			<network-id mcc="262" mnc="77"/>
+			<apn value="internet.eplus.de">
+				<username>eplus</username>
+				<password>gprs</password>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
