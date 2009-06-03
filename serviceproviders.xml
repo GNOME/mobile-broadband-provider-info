@@ -281,13 +281,13 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Virgin Mobile</name>	
+		<name>Virgin Mobile</name>
 		<gsm>
 			<apn value="VirginInternet">
 				<username>guest</username>
 				<password>guest</password>
 				<dns>61.88.88.88</dns>
-			</apn>		
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -312,7 +312,7 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Bakcell</name>	
+		<name>Bakcell</name>
 		<gsm>
 			<network-id mcc="400" mnc="02"/>
 			<apn value="mms"/>
@@ -1359,7 +1359,7 @@ conceived.
 		<gsm>
 			<network-id mcc="244" mnc="21"/>
 			<apn value="internet.saunalahti"/>
-		</gsm>	
+		</gsm>
 	</provider>
 	<provider>
 		<name>Sonera</name>
@@ -1382,7 +1382,7 @@ conceived.
 <!-- Fiji -->
 <country code="fj">
 	<provider>
-		<name>Vodafone</name>	
+		<name>Vodafone</name>
 		<gsm>
 			<network-id mcc="542" mnc="01"/>
 			<apn value="vfinternet.fj"/>
@@ -3029,7 +3029,7 @@ conceived.
 			<apn value="internet.movistar.ni">
 				<username>internet</username>
 				<password>internet</password>
-			</apn>		
+			</apn>
 		</gsm>
 	</provider>
 </country>
@@ -3190,14 +3190,14 @@ conceived.
 <!-- Nepal -->
 <country code="np">
 	<provider>
-		<name>Nepal Telecom</name>	
+		<name>Nepal Telecom</name>
 		<gsm>
 			<network-id mcc="429" mnc="01"/>
 			<apn value="ntnet"/>
 		</gsm>
 	</provider>
 	<provider>
-		<name>Mero Mobile</name>	
+		<name>Mero Mobile</name>
 		<gsm>
 			<network-id mcc="429" mnc="02"/>
 			<apn value="mero"/>
@@ -3278,7 +3278,7 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Movistar</name>	
+		<name>Movistar</name>
 		<gsm>
 			<network-id mcc="714" mnc="02"/>
 			<apn value="internet.movistar.pa">
@@ -3389,7 +3389,7 @@ conceived.
 			<apn value="internet">
 				<username>telenor</username>
 				<password>telenor</password>
-			</apn>		
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -3488,7 +3488,7 @@ conceived.
 				<name>Fixo</name>
 				<dns>62.169.67.172</dns>
 				<dns>62.169.67.171</dns>
-			</apn>			
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -4107,7 +4107,7 @@ conceived.
 			<apn value="internet">
 				<username>true</username>
 				<password>true</password>
-			</apn>		
+			</apn>
 		</gsm>
 	</provider>
 </country>
@@ -4172,7 +4172,7 @@ conceived.
 			<apn value="wap.digiceltt.com">
 				<username>wap</username>
 				<password>wap</password>
-			</apn>		
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -4182,7 +4182,7 @@ conceived.
 			<apn value="internet">
 				<username>wap</username>
 				<password>wap</password>
-			</apn>	
+			</apn>
 		</gsm>
 	</provider>
 </country>
@@ -4770,7 +4770,7 @@ conceived.
 				<name>Unrestricted</name>
 				<dns>196.207.32.69</dns>
 				<dns>196.43.45.190</dns>
-			</apn>		
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
