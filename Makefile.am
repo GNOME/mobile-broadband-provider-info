@@ -6,7 +6,7 @@ dist_pkgdata_DATA = $(SP_XML_DB) serviceproviders.2.dtd
 
 EXTRA_DIST = mobile-broadband-provider-info.pc.in
 
-pkgconfigdir = $(libdir)/pkgconfig
+pkgconfigdir = $(datadir)/pkgconfig
 pkgconfig_DATA = mobile-broadband-provider-info.pc
 
 check-local:
