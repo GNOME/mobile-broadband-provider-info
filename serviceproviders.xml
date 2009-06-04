@@ -1217,17 +1217,11 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Radiolinja</name>
+		<name>Elisa</name>
 		<gsm>
 			<apn value="internet">
 				<dns>194.204.0.1</dns>
 			</apn>
-		</gsm>
-	</provider>
-	<provider>
-		<name>RLE</name>
-		<gsm>
-			<apn value="internet"/>
 		</gsm>
 	</provider>
 	<provider>
