@@ -4366,13 +4366,16 @@ conceived.
 			<network-id mcc="310" mnc="800"/>
 
 			<apn value="wap.voicestream.com">
-				<name>Web</name>
+				<name>Web2Go/t-zones</name>
 			</apn>
 			<apn value="internet2.voicestream.com">
 				<name>Internet</name>
 			</apn>
 			<apn value="internet3.voicestream.com">
 				<name>Internet with VPN</name>
+			</apn>
+			<apn value="epc.tmobile.com">
+				<name>T-Mobile G1</name>
 			</apn>
 		</gsm>
 	</provider>
