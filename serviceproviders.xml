@@ -3930,10 +3930,12 @@ conceived.
 			<network-id mcc="240" mnc="06"/>
 			<network-id mcc="240" mnc="08"/>
 
-			<!-- http://www.telenor.se/224.jsp -->
+			<!-- http://www.telenor.se/privat/mobiltelefoni/alla-mobiltjanster/alla-mobiltjanster.html#C45-2100 -->
 			<apn value="internet.telenor.se">
-				<username>dummy</username>
-				<password>dummy</password>
+				<name>Mobilt bredband</name>
+			</apn>
+			<apn value="services.telenor.se">
+				<name>Mobilsurf med maxtaxa</name>
 			</apn>
 		</gsm>
 	</provider>
