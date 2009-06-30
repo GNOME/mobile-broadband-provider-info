@@ -474,6 +474,19 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>CTBC</name>
+		<gsm>
+			<network-id mcc="724" mnc="07"/>
+			<network-id mcc="724" mnc="32"/>
+			<network-id mcc="724" mnc="33"/>
+			<network-id mcc="724" mnc="34"/>
+			<apn value="ctbc.br">
+				<username>ctbc</username>
+				<password>1212</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Oi</name>
 		<gsm>
 			<network-id mcc="724" mnc="16"/>
