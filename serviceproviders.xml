@@ -1314,6 +1314,13 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>móbil R (Mundo-R)</name>
+		<gsm>
+			<network-id mcc="214" mnc="17"/>
+			<apn value="internet.mundo-r.com" />
+		</gsm>
+	</provider>
+	<provider>
 		<name>Ono</name>
 		<gsm>
 			<network-id mcc="214" mnc="18"/>
