@@ -2813,6 +2813,7 @@ conceived.
 		<gsm>
 			<network-id mcc="259" mnc="02"/>
 			<apn value="internet">
+				<name>Internet</name>
 				<username>gprs</username>
 				<password>gprs</password>
 			</apn>
@@ -2822,7 +2823,18 @@ conceived.
 		<name>Eventis</name>
 		<gsm>
 			<network-id mcc="259" mnc="04"/>
-			<apn value="internet.md"/>
+			<apn value="internet.md">
+				<name>Internet</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Orange</name>
+		<gsm>
+			<network-id mcc="259" mnc="01"/>
+			<apn value="internet">
+				<name>Internet</name>
+			</apn>
 		</gsm>
 	</provider>
 </country>
