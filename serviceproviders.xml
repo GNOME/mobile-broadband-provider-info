@@ -348,8 +348,9 @@ conceived.
 		<name>AKTel</name>
 		<gsm>
 			<network-id mcc="470" mnc="02"/>
-			<apn value="atmmms">
-				<dns>192.168.023.007</dns>
+			<apn value="internet">
+				<name>Internet</name>
+				<dns>192.168.23.7</dns>
 			</apn>
 		</gsm>
 	</provider>
@@ -357,16 +358,29 @@ conceived.
 		<name>Banglalink</name>
 		<gsm>
 			<network-id mcc="470" mnc="03"/>
-			<apn value="blweb"/>
+			<apn value="blweb">
+				<name>Web</name>
+				<dns>10.10.55.34</dns>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
-		<name>Grameen Phone</name>
+		<name>GrameenPhone</name>
 		<gsm>
 			<network-id mcc="470" mnc="01"/>
 			<apn value="gpinternet">
 				<dns>202.56.4.120</dns>
 				<dns>202.56.4.121</dns>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Warid</name>
+		<gsm>
+			<network-id mcc="470" mnc="07"/>
+			<apn value="internet">
+				<name>Internet</name>
+				<dns>10.6.0.2</dns>
 			</apn>
 		</gsm>
 	</provider>
