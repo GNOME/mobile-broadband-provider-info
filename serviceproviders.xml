@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
+<!-- -*- Mode: XML; tab-width: 4; indent-tabs-mode: t; c-basic-offset: 4 -*- -->
 <!DOCTYPE serviceproviders SYSTEM "serviceproviders.2.dtd">
 
 <!-- Authors:
@@ -1297,6 +1298,35 @@ conceived.
 <!-- Spain -->
 <country code="es">
 	<provider>
+		<name>Euskaltel</name>
+		<gsm>
+			<network-id mcc="214" mnc="08"/>
+			<apn value="internet.euskaltel.mobi">
+				<username>CLIENTE</username>
+				<password>EUSKALTEL</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Másmovil</name>
+		<gsm>
+			<apn value="internetmas" />
+		</gsm>
+	</provider>
+	<provider>
+		<name>Ono</name>
+		<gsm>
+			<network-id mcc="214" mnc="18"/>
+			<apn value="internet.ono.com" />
+		</gsm>
+	</provider>
+	<provider>
+		<name>Pepephone</name>
+		<gsm>
+			<apn value="gprs.pepephone.com" />
+		</gsm>
+	</provider>
+	<provider>
 		<name>Orange (Amena)</name>
 		<gsm>
 			<network-id mcc="214" mnc="03"/>
@@ -1314,6 +1344,16 @@ conceived.
 		<gsm>
 			<network-id mcc="214" mnc="19"/>
 			<apn value="gprs-service.com"/>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Telecable</name>
+		<gsm>
+			<network-id mcc="214" mnc="16"/>
+			<apn value="internet.telecable.es">
+				<username>telecable</username>
+				<password>telecable</password>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
