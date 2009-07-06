@@ -583,7 +583,6 @@ conceived.
 		<name>velcom</name>
 		<gsm>
 			<network-id mcc="257" mnc="01"/>
-
 			<apn value="wap.velcom.by">
 				<name>GPRS WAP</name>
 				<username>wap</username>
@@ -593,57 +592,36 @@ conceived.
 				<name>GPRS WEB</name>
 				<username>web</username>
 				<password>web</password>
-				<dns>212.98.162.154</dns>
-				<dns>193.232.248.2</dns>
 			</apn>
 			<apn value="plus.velcom.by">
 				<name>GPRS WEB PLUS</name>
 				<username>plus</username>
 				<password>plus</password>
-				<dns>212.98.162.154</dns>
-				<dns>193.232.248.2</dns>
 			</apn>
 			<apn value="privet.velcom.by">
 				<name>GPRS PRIVET</name>
 				<username>privet</username>
 				<password>privet</password>
-				<dns>212.98.162.154</dns>
-				<dns>193.232.248.2</dns>
-			</apn>
-			<apn value="privet.velcom.by">
-				<name>GPRS PRIVET</name>
-				<username>privet</username>
-				<password>privet</password>
-				<dns>212.98.162.154</dns>
-				<dns>193.232.248.2</dns>
 			</apn>
 			<apn value="web1.velcom.by">
 				<name>WEB BASIC</name>
 				<username>web1</username>
 				<password>web1</password>
-				<dns>212.98.162.154</dns>
-				<dns>193.232.248.2</dns>
 			</apn>
 			<apn value="web2.velcom.by">
 				<name>WEB 25</name>
 				<username>web2</username>
 				<password>web2</password>
-				<dns>212.98.162.154</dns>
-				<dns>193.232.248.2</dns>
 			</apn>
 			<apn value="web3.velcom.by">
 				<name>WEB 150</name>
 				<username>web3</username>
 				<password>web3</password>
-				<dns>212.98.162.154</dns>
-				<dns>193.232.248.2</dns>
 			</apn>
 			<apn value="vmi.velcom.by">
 				<name>WEB 500</name>
 				<username>vmi</username>
 				<password>vmi</password>
-				<dns>212.98.162.154</dns>
-				<dns>193.232.248.2</dns>
 			</apn>
 		</gsm>
 	</provider>
