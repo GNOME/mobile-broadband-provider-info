@@ -486,6 +486,11 @@ conceived.
 				<username>claro</username>
 				<password>claro</password>
 			</apn>
+			<apn value="bandalarga.claro.com.br">
+				<name>3G</name>
+				<username>claro</username>
+				<password>claro</password>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
