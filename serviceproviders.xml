@@ -4333,10 +4333,18 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>TW Mobile / TransAsia</name>
-		<name xml:lang="zh">台湾大哥大 / 泛亞電信</name>
+		<name>TW Mobile</name>
+		<name xml:lang="zh">台湾大哥大</name>
 		<gsm>
 			<network-id mcc="466" mnc="99"/>
+			<apn value="internet"/>
+		</gsm>
+	</provider>
+	<provider>
+		<name>TransAsia</name>
+		<name xml:lang="zh">泛亞電信</name>
+		<gsm>
+			<network-id mcc="466" mnc="97"/>
 			<apn value="internet"/>
 		</gsm>
 	</provider>
