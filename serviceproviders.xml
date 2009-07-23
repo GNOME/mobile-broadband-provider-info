@@ -635,6 +635,14 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<!-- http://life.com.by/en/services/internet-105.html -->
+		<name>life:)</name>
+		<gsm>
+			<network-id mcc="257" mnc="03"/>
+			<apn value="internet.life.com.by"/>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Botswana -->
