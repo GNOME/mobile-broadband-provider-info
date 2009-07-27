@@ -3199,6 +3199,16 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>Ben</name>
+		<gsm>
+			<network-id mcc="204" mnc="16"/>
+			<apn value="internet.ben">
+				<dns>193.78.240.12</dns>
+				<dns>193.79.242.39</dns>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Orange</name>
 		<gsm>
 			<network-id mcc="204" mnc="20"/>
