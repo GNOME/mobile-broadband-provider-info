@@ -1355,7 +1355,10 @@ conceived.
 		<name>Ono</name>
 		<gsm>
 			<network-id mcc="214" mnc="18"/>
-			<apn value="internet.ono.com" />
+			<apn value="internet.ono.com">
+				<dns>62.42.230.24</dns>
+				<dns>62.42.63.52</dns>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
