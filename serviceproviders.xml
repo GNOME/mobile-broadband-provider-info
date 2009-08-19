@@ -2615,7 +2615,16 @@ conceived.
 		<name>Zain</name>
 		<gsm>
 			<network-id mcc="419" mnc="02"/>
-			<apn value="pps"/>
+			<apn value="pps">
+				<name>Personal</name>
+				<username>pps</username>
+				<password>pps</password>
+			</apn>
+			<apn value="apn01">
+				<name>Corporate</name>
+				<username>pps</username>
+				<password>pps</password>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -2623,6 +2632,13 @@ conceived.
 		<gsm>
 			<network-id mcc="419" mnc="03"/>
 			<apn value="action.wataniya.com"/>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Viva</name>
+		<gsm>
+			<network-id mcc="419" mnc="04"/>
+			<apn value="viva"/>
 		</gsm>
 	</provider>
 </country>
