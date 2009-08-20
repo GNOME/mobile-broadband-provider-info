@@ -1512,6 +1512,14 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<name>Welho</name>
+		<gsm>
+			<apn value="internet.welho.fi">
+				<name>Wekkula</name>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Fiji -->
