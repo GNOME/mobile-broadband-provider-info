@@ -3715,7 +3715,15 @@ conceived.
 		<name>Tigo</name>
 		<gsm>
 			<network-id mcc="744" mnc="04"/>
-			<apn value="internet.tigo.py "></apn>
+			<apn value="internet.tigo.py">
+				<name>Internet</name>
+			</apn>
+			<apn value="broadband.tigo.py">
+				<name>Broadband</name>
+				<name xml:lang="es">Banda Ancha Móvil</name>
+				<username>tigo</username>
+				<password>tigo</password>
+			</apn>
 		</gsm>
 	</provider>
 </country>
