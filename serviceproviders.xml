@@ -1298,7 +1298,7 @@ conceived.
 <!-- Egypt -->
 <country code="eg">
 	<provider>
-		<name>Click Vodafone</name>
+		<name>Vodafone</name>
 		<gsm>
 			<network-id mcc="602" mnc="02"/>
 			<apn value="internet.vodafone.net">
