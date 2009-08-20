@@ -588,6 +588,27 @@ conceived.
 	</provider>
 </country>
 
+<!-- Brunei -->
+<country code="bn">
+	<provider>
+		<name>B-Mobile</name>
+		<gsm>
+			<network-id mcc="528" mnc="02"/>
+			<apn value="bmobilewap"/>
+		</gsm>
+	</provider>
+	<provider>
+		<name>DSTCOM</name>
+		<gsm>
+			<network-id mcc="528" mnc="11"/>
+			<apn value="dst.wap">
+				<username>wap</username>
+				<password>wap</password>
+			</apn>
+		</gsm>
+	</provider>
+</country>
+
 <!-- Belarus -->
 <country code="by">
 	<provider>
