@@ -417,6 +417,18 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>Telenet Mobile</name>
+		<gsm>
+			<network-id mcc="206" mnc="10"/>
+			<apn value="telenetwap.be">
+				<name>Walk &amp; Talk</name>
+			</apn>
+			<apn value="telenetwap.be">
+				<name>Walk &amp; Surf</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Orange</name>
 		<gsm>
 			<apn value="orangeinternet"/>
