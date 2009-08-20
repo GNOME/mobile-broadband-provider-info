@@ -296,8 +296,12 @@ conceived.
 		<gsm>
 			<network-id mcc="505" mnc="03"/>
 			<apn value="vfinternet.au">
+				<name>Postpaid</name>
 				<dns>192.189.54.33</dns>
 				<dns>210.80.58.3</dns>
+			</apn>
+			<apn value="vfprepaymbb">
+				<name>Prepaid</name>
 			</apn>
 		</gsm>
 	</provider>
