@@ -2405,6 +2405,13 @@ conceived.
 			<password>internet</password>
 		</cdma>
 	</provider>
+	<provider>
+		<name>Tata Indicom (Photon+)</name>
+		<cdma>
+			<username>internet</username>
+			<password>internet</password>
+		</cdma>
+	</provider>
 </country>
 
 <!-- Iceland -->
