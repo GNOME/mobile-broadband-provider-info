@@ -2699,6 +2699,42 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<name>K'CELL</name>
+		<gsm>
+			<network-id mcc="401" mnc="02"/>
+			<apn value="internet"/>
+		</gsm>
+	</provider>
+	<provider>
+		<!-- Owned by K'CELL -->
+		<name>Activ</name>
+		<gsm>
+			<network-id mcc="401" mnc="02"/>
+			<apn value="internet"/>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Neo</name>
+		<gsm>
+			<network-id mcc="401" mnc="77"/>
+			<apn value="internet"/>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Pathword</name>
+		<cdma>
+			<username>Pathword</username>
+			<password>Pathword</password>
+		</cdma>
+	</provider>
+	<provider>
+		<name>Dalacom</name>
+		<cdma>
+			<username>Dalacom</username>
+			<password>Dalacom</password>
+		</cdma>
+	</provider>
 </country>
 
 <!-- Laos -->
