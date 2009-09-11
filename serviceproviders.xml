@@ -646,7 +646,7 @@ conceived.
 <!-- Belarus -->
 <country code="by">
 	<provider>
-                <!-- http://www.velcom.by/ru/services/gprs/settings/ -->
+		<!-- http://www.velcom.by/ru/services/gprs/settings/ -->
 		<name>velcom</name>
 		<gsm>
 			<network-id mcc="257" mnc="01"/>
