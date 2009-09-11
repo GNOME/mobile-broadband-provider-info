@@ -1661,6 +1661,16 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>BT Mobile</name>
+		<gsm>
+			<network-id mcc="234" mnc="00"/>
+			<apn value="btmobile.bt.com">
+				<username>bt</username>
+				<password>bt</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Jersey Telecom</name>
 		<gsm>
 			<network-id mcc="234" mnc="50"/>
