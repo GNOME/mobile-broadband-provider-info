@@ -853,8 +853,6 @@ conceived.
 			<apn value="gprs.swisscom.ch">
 				<username>gprs</username>
 				<password>gprs</password>
-				<dns>164.128.36.34</dns>
-				<dns>164.128.76.39</dns>
 			</apn>
 		</gsm>
 	</provider>
