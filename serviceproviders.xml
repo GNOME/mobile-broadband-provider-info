@@ -2823,6 +2823,37 @@ conceived.
 	</provider>
 </country>
 
+<!-- Korea, Republic of -->
+<country code="kr">
+	<provider>
+		<name>KTF</name>
+		<cdma>
+			<!-- cid: "016" -->
+			<username>ktf</username>
+			<password>ktf</password>
+		</cdma>
+	</provider>
+	<provider>
+		<name>LGTelecom</name>
+		<cdma>
+			<!-- cid: "109" -->
+			<!--
+			username must be xxxx(yournumber)@lgt.co.kr and
+			password must be your last 4 number
+			<username>number@lgt.co.kr</username>
+			<password></password>
+			-->
+		</cdma>
+	</provider>
+	<provider>
+		<name>SKTelecom</name>
+		<cdma>
+			<!-- cid: 1501 -->
+			<username>sktelecom</username>
+		</cdma>
+	</provider>
+</country>
+
 <!-- Kuwait -->
 <country code="kw">
 	<provider>
