@@ -1204,6 +1204,98 @@ conceived.
 			<apn value="pinternet.interkom.de"/>
 		</gsm>
 	</provider>
+	<provider>
+		<!-- This configuration is valid for all vistream retailers like
+		     solomo, igge & ko, sdt.net, Südkurier-Tel etc.-->
+		<name>vistream</name>
+		<gsm>
+			<apn value="internet.vistream.net">
+				<username>web</username>
+				<password>vistream</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>solomo</name>
+		<gsm>
+			<apn value="internet.vistream.net">
+				<username>web</username>
+				<password>vistream</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Materna BR</name>
+		<gsm>
+			<apn value="internet.vistream.net">
+				<username>web</username>
+				<password>vistream</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>sdt.net</name>
+		<gsm>
+			<apn value="internet.vistream.net">
+				<username>web</username>
+				<password>vistream</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>igge &amp; ko</name>
+		<gsm>
+			<apn value="internet.vistream.net">
+				<username>web</username>
+				<password>vistream</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>PTT mobile</name>
+		<gsm>
+			<apn value="internet.vistream.net">
+				<username>web</username>
+				<password>vistream</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>TouristMobile</name>
+		<gsm>
+			<apn value="internet.vistream.net">
+				<username>web</username>
+				<password>vistream</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>SunSIM</name>
+		<gsm>
+			<apn value="internet.vistream.net">
+				<username>web</username>
+				<password>vistream</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>SüdkurierTel</name>
+		<gsm>
+			<apn value="internet.vistream.net">
+				<username>web</username>
+				<password>vistream</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>NetCologne</name>
+		<gsm>
+			<apn value="internet.netcologne.de">
+				<username>web</username>
+				<password>password</password>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Denmark -->
