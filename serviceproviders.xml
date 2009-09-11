@@ -3170,6 +3170,20 @@ conceived.
 	</provider>
 </country>
 
+<!-- Mali -->
+<country code="ml">
+	<provider>
+		<name>Orange</name>
+		<gsm>
+			<network-id mcc="610" mnc="02"/>
+			<apn value="iew">
+				<username>iew</username>
+				<password>iew</password>
+			</apn>
+		</gsm>
+	</provider>
+</country>
+
 <!-- Mongolia -->
 <country code="mn">
 	<provider>
