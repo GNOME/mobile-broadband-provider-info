@@ -1404,6 +1404,38 @@ conceived.
 	</provider>
 </country>
 
+<!-- Algeria -->
+<country code="dz">
+	<provider>
+		<name>Djezzy</name>
+		<gsm>
+			<network-id mcc="603" mnc="02"/>
+			<apn value="djezzy.internet"/>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Mobilis</name>
+		<gsm>
+			<network-id mcc="603" mnc="01"/>
+			<apn value="internet">
+				<username>internet</username>
+				<password>internet</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Nedjma</name>
+		<gsm>
+			<network-id mcc="603" mnc="03"/>
+			<apn value="internet">
+				<name>WEB</name>
+				<username>nedjma</username>
+				<password>nedjma</password>
+			</apn>
+		</gsm>
+	</provider>
+</country>
+
 <!-- Ecuador -->
 <country code="ec">
 	<provider>
