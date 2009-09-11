@@ -1997,16 +1997,6 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Telestet</name>
-		<gsm>
-			<apn value="gnet.b-online.gr">
-				<password>24680</password>
-				<dns>212.152.79.19</dns>
-				<dns>212.152.79.20</dns>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
 		<name>Vodafone</name>
 		<gsm>
 			<network-id mcc="202" mnc="05"/>
@@ -2014,8 +2004,10 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>TIM</name>
+		<name>Wind</name>
 		<gsm>
+			<network-id mcc="202" mnc="09"/>
+			<network-id mcc="202" mnc="10"/>
 			<apn value="gint.b-online.gr">
 				<username>web</username>
 				<password>web</password>
