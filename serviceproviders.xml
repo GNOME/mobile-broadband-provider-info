@@ -495,6 +495,18 @@ conceived.
 <!-- Brazil -->
 <country code="br">
 	<provider>
+		<!-- Brasil Telecom was bought by Oi on 2009-01-09 and will be phased
+		     out and transitioned to Oi.
+		  -->
+		<name>Brasil Telecom</name>
+		<gsm>
+			<apn value="brt.br">
+				<username>BrT</username>
+				<password>BrT</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Claro</name>
 		<gsm>
 			<network-id mcc="724" mnc="05"/>
