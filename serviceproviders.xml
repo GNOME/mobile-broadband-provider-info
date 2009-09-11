@@ -490,6 +490,24 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<name>Vivacom</name>
+		<gsm>
+			<network-id mcc="284" mnc="03"/>
+			<apn value="internet.vivacom.bg">
+				<!-- http://www.vivacom.bg/en/residential/help_and_advice/common_questions/mobile_postpaid/8/ -->
+				<name>Vivacom Internet (Postpaid)</name>
+				<username>vivacom</username>
+				<password>vivacom</password>
+			</apn>
+			<apn value="internet.vivatel.bg">
+				<name>Vivatel (old)</name>
+				<username>vivatel</username>
+				<password>vivatel</password>
+				<dns>192.168.123.123</dns>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Brazil -->
