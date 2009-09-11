@@ -4270,6 +4270,7 @@ conceived.
 		<name>Tele2/Comviq</name>
 		<gsm>
 			<network-id mcc="240" mnc="07"/>
+			<network-id mcc="240" mnc="05"/>
 			<apn value="internet.tele2.se"/>
 		</gsm>
 	</provider>
@@ -4292,12 +4293,20 @@ conceived.
 		<name>Telia</name>
 		<gsm>
 			<network-id mcc="240" mnc="01"/>
+			<network-id mcc="240" mnc="05"/>
 
 			<!-- http://www3.telia.se/foretag/mobilguiden/ -->
 			<apn value="online.telia.se"/>
 		</gsm>
 	</provider>
-
+	<provider>
+		<name>TDC</name>
+		<gsm>
+			<network-id mcc="240" mnc="07"/>
+			<network-id mcc="240" mnc="05"/>
+			<apn value="internet.se"/>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Singapore -->
