@@ -4029,7 +4029,7 @@ conceived.
 			<network-id mcc="220" mnc="01"/>
 			<apn value="internet">
 				<username>telenor</username>
-				<password>grps</password>
+				<password>gprs</password>
 			</apn>
 		</gsm>
 	</provider>
@@ -4039,7 +4039,7 @@ conceived.
 			<network-id mcc="220" mnc="03"/>
 			<apn value="gprsinternet">
 				<username>mts</username>
-				<password>64</password>
+				<password>064</password>
 				<dns>195.178.38.3</dns>
 			</apn>
 		</gsm>
