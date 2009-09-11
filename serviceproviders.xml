@@ -2469,9 +2469,13 @@ conceived.
 			<network-id mcc="222" mnc="88"/>
 			<apn value="internet.wind">
 				<name>Non-business</name>
+				<username>Wind</username>
+				<password>Wind</password>
 			</apn>
 			<apn value="internet.wind.biz">
 				<name>Business</name>
+				<username>Wind</username>
+				<password>Wind</password>
 			</apn>
 		</gsm>
 	</provider>
