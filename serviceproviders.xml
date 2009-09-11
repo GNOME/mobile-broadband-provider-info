@@ -1951,16 +1951,14 @@ conceived.
 <!-- Ghana -->
 <country code="gh">
 	<provider>
-		<name>Areeba</name>
+		<name>MTN</name>
 		<gsm>
-			<apn value="internet.areeba.com.gh">
-				<dns>196.201.34.5</dns>
-				<dns>213.137.131.3</dns>
-			</apn>
+			<network-id mcc="620" mnc="01"/>
+			<apn value="internet"/>
 		</gsm>
 	</provider>
 	<provider>
-		<name>ONETouch / Ghana Telecom</name>
+		<name>Vodafone (ONEtouch)</name>
 		<gsm>
 			<network-id mcc="620" mnc="02"/>
 			<apn value="browse"/>
@@ -1980,6 +1978,10 @@ conceived.
 		<gsm>
 			<apn value="internet"/>
 		</gsm>
+	</provider>
+	<provider>
+		<name>Kasapa</name>
+		<cdma/>
 	</provider>
 </country>
 
