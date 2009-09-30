@@ -4855,6 +4855,7 @@ conceived.
 	<provider>
 		<name>Sprint</name>
 		<cdma>
+			<!-- Assignments taken from IFAST: http://www.ifast.org/files/NationalSID.htm -->
 			<sid value="4103"/>
 			<sid value="4106"/>
 			<sid value="4107"/>
@@ -4889,6 +4890,7 @@ conceived.
 			<sid value="4190"/>
 			<sid value="4194"/>
 			<sid value="4195"/>
+			<sid value="4198"/>
 			<sid value="4274"/>
 			<sid value="4376"/>
 			<sid value="4379"/>
@@ -4912,6 +4914,7 @@ conceived.
 	<provider>
 		<name>Verizon</name>
 		<cdma>
+			<!-- Assignments taken from IFAST: http://www.ifast.org/files/NationalSID.htm -->
 			<sid value="2"/>
 			<sid value="4"/>
 			<sid value="5"/>
@@ -4934,6 +4937,7 @@ conceived.
 			<sid value="41"/>
 			<sid value="48"/>
 			<sid value="51"/>
+			<sid value="54"/>
 			<sid value="56"/>
 			<sid value="58"/>
 			<sid value="59"/>
@@ -4954,31 +4958,232 @@ conceived.
 			<sid value="104"/>
 			<sid value="107"/>
 			<sid value="110"/>
+			<sid value="112"/>
+			<sid value="113"/>
+			<sid value="119"/>
+			<sid value="126"/>
+			<sid value="127"/>
+			<sid value="133"/>
+			<sid value="137"/>
+			<sid value="139"/>
+			<sid value="143"/>
+			<sid value="150"/>
+			<sid value="154"/>
+			<sid value="162"/>
+			<sid value="163"/>
+			<sid value="165"/>
+			<sid value="170"/>
+			<sid value="172"/>
+			<sid value="179"/>
+			<sid value="180"/>
+			<sid value="181"/>
+			<sid value="186"/>
+			<sid value="189"/>
+			<sid value="190"/>
+			<sid value="203"/>
+			<sid value="213"/>
+			<sid value="214"/>
+			<sid value="222"/>
+			<sid value="224"/>
+			<sid value="226"/>
+			<sid value="228"/>
+			<sid value="241"/>
+			<sid value="250"/>
+			<sid value="258"/>
+			<sid value="262"/>
+			<sid value="263"/>
+			<sid value="266"/>
+			<sid value="272"/>
+			<sid value="276"/>
+			<sid value="284"/>
+			<sid value="286"/>
+			<sid value="294"/>
+			<sid value="298"/>
+			<sid value="299"/>
+			<sid value="300"/>
+			<sid value="314"/>
+			<sid value="316"/>
+			<sid value="319"/>
+			<sid value="323"/>
+			<sid value="328"/>
+			<sid value="329"/>
+			<sid value="330"/>
+			<sid value="349"/>
+			<sid value="356"/>
+			<sid value="377"/>
+			<sid value="385"/>
+			<sid value="404"/>
+			<sid value="428"/>
+			<sid value="443"/>
+			<sid value="456"/>
+			<sid value="465"/>
+			<sid value="482"/>
+			<sid value="483"/>
+			<sid value="486"/>
+			<sid value="490"/>
+			<sid value="498"/>
+			<sid value="502"/>
+			<sid value="506"/>
+			<sid value="528"/>
+			<sid value="530"/>
+			<sid value="532"/>
+			<sid value="539"/>
+			<sid value="1015"/>
+			<sid value="1026"/>
+			<sid value="1032"/>
+			<sid value="1034"/>
+			<sid value="1062"/>
+			<sid value="1072"/>
+			<sid value="1074"/>
+			<sid value="1076"/>
+			<sid value="1083"/>
+			<sid value="1086"/>
+			<sid value="1088"/>
+			<sid value="1094"/>
+			<sid value="1103"/>
+			<sid value="1129"/>
+			<sid value="1131"/>
+			<sid value="1137"/>
+			<sid value="1139"/>
+			<sid value="1145"/>
+			<sid value="1151"/>
+			<sid value="1153"/>
+			<sid value="1164"/>
+			<sid value="1166"/>
+			<sid value="1174"/>
+			<sid value="1180"/>
+			<sid value="1189"/>
+			<sid value="1193"/>
+			<sid value="1196"/>
+			<sid value="1220"/>
+			<sid value="1224"/>
+			<sid value="1227"/>
+			<sid value="1230"/>
+			<sid value="1285"/>
+			<sid value="1330"/>
+			<sid value="1358"/>
+			<sid value="1417"/>
+			<sid value="1429"/>
+			<sid value="1476"/>
+			<sid value="1488"/>
+			<sid value="1492"/>
+			<sid value="1494"/>
+			<sid value="1506"/>
+			<sid value="1510"/>
+			<sid value="1514"/>
+			<sid value="1516"/>
+			<sid value="1517"/>
+			<sid value="1519"/>
+			<sid value="1523"/>
+			<sid value="1548"/>
+			<sid value="1552"/>
+			<sid value="1563"/>
+			<sid value="1567"/>
+			<sid value="1614"/>
+			<sid value="1626"/>
+			<sid value="1630"/>
+			<sid value="1632"/>
+			<sid value="1637"/>
+			<sid value="1639"/>
+			<sid value="1641"/>
+			<sid value="1653"/>
+			<sid value="1679"/>
+			<sid value="1736"/>
+			<sid value="1740"/>
+			<sid value="1749"/>
+			<sid value="1760"/>
+			<sid value="1776"/>
+			<sid value="1780"/>
+			<sid value="1790"/>
+			<sid value="1792"/>
+			<sid value="1824"/>
+			<sid value="1826"/>
+			<sid value="1827"/>
+			<sid value="1830"/>
+			<sid value="1832"/>
+			<sid value="1857"/>
+			<sid value="1910"/>
+			<sid value="1912"/>
+			<sid value="1940"/>
+			<sid value="1969"/>
+			<sid value="2004"/>
+			<sid value="2054"/>
+			<sid value="2058"/>
+			<sid value="2060"/>
+			<sid value="2076"/>
+			<sid value="2115"/>
+			<sid value="2119"/>
+			<sid value="2125"/>
+			<sid value="2127"/>
+			<sid value="2149"/>
+			<sid value="3004"/>
+			<sid value="3008"/>
+			<sid value="3046"/>
+			<sid value="3066"/>
+			<sid value="3216"/>
+			<sid value="3218"/>
+			<sid value="3228"/>
+			<sid value="6709"/>
+			<sid value="6711"/>
+			<sid value="7532"/>
+			<sid value="7536"/>
+			<sid value="9640"/>
+			<sid value="9642"/>
+			<sid value="9644"/>
 		</cdma>
 	</provider>
 	<provider>
 		<name>US Cellular</name>
 		<cdma>
+			<!-- Assignments taken from IFAST: http://www.ifast.org/files/NationalSID.htm
+			     NOTE: SIDs listed as "HOLLAND & KNIGHT LLP" are counted for US Cellular
+			           because HOLLAND & KNIGHT LLP/Peter M. Connolly appears to be the
+			           license administrator for US Cellular in those license areas listed
+			           in the IFAST SID database as assigned to HOLLAND & KNIGHT LLP.
+			           When a search of the FCC's ULS for the CMA noted for a SID by
+			           IFAST does not return an active license held by
+			           US Cellular/HOLLAND & KNIGHT LLP, that SID is not counted
+			           for US Cellular (ex SID 1925, 1935, 5289, 5291, 5293, etc).
+			-->
+			<sid value="5"/>
+			<sid value="104"/>
+			<sid value="166"/>
+			<sid value="191"/>
 			<sid value="193"/>
+			<sid value="195"/>
 			<sid value="217"/>
 			<sid value="221"/>
 			<sid value="246"/>
+			<sid value="298"/>
+			<sid value="303"/>
 			<sid value="309"/>
 			<sid value="331"/>
+			<sid value="333"/>
+			<sid value="340"/>
+			<sid value="364"/>
+			<sid value="384"/>
+			<sid value="389"/>
 			<sid value="393"/>
 			<sid value="413"/>
 			<sid value="445"/>
+			<sid value="580"/>
 			<sid value="599"/>
+			<sid value="1059"/>
 			<sid value="1061"/>
 			<sid value="1075"/>
 			<sid value="1173"/>
 			<sid value="1175"/>
+			<sid value="1200"/>
+			<sid value="1211"/>
 			<sid value="1213"/>
 			<sid value="1219"/>
 			<sid value="1223"/>
 			<sid value="1228"/>
 			<sid value="1229"/>
+			<sid value="1237"/>
 			<sid value="1272"/>
+			<sid value="1317"/>
+			<sid value="1320"/>
 			<sid value="1399"/>
 			<sid value="1403"/>
 			<sid value="1406"/>
@@ -4986,24 +5191,39 @@ conceived.
 			<sid value="1425"/>
 			<sid value="1427"/>
 			<sid value="1484"/>
+			<sid value="1521"/>
 			<sid value="1541"/>
+			<sid value="1543"/>
 			<sid value="1574"/>
 			<sid value="1595"/>
 			<sid value="1607"/>
 			<sid value="1610"/>
 			<sid value="1643"/>
-			<sid value="1729"/>
+			<sid value="1753"/>
 			<sid value="1779"/>
-			<sid value="1784"/>
+			<sid value="1783"/>
+			<sid value="1794"/>
+			<sid value="1802"/>
+			<sid value="1819"/>
+			<sid value="1821"/>
+			<sid value="1881"/>
+			<sid value="1914"/>
+			<sid value="1983"/>
+			<sid value="2066"/>
+			<sid value="2141"/>
 		</cdma>
 	</provider>
 	<provider>
 		<name>Alltel</name>
 		<cdma>
+			<!-- Assignments taken from IFAST: http://www.ifast.org/files/NationalSID.htm -->
+			<sid value="32"/>
 			<sid value="42"/>
+			<sid value="52"/>
 			<sid value="53"/>
 			<sid value="54"/>
 			<sid value="57"/>
+			<sid value="71"/>
 			<sid value="74"/>
 			<sid value="79"/>
 			<sid value="83"/>
@@ -5021,7 +5241,9 @@ conceived.
 			<sid value="152"/>
 			<sid value="156"/>
 			<sid value="182"/>
+			<sid value="186"/>
 			<sid value="188"/>
+			<sid value="202"/>
 			<sid value="204"/>
 			<sid value="205"/>
 			<sid value="208"/>
@@ -5032,47 +5254,114 @@ conceived.
 			<sid value="244"/>
 			<sid value="256"/>
 			<sid value="260"/>
+			<sid value="272"/>
 			<sid value="281"/>
+			<sid value="282"/>
+			<sid value="292"/>
+			<sid value="304"/>
+			<sid value="306"/>
 			<sid value="312"/>
 			<sid value="318"/>
+			<sid value="338"/>
 			<sid value="342"/>
+			<sid value="344"/>
 			<sid value="348"/>
 			<sid value="350"/>
 			<sid value="368"/>
 			<sid value="374"/>
 			<sid value="376"/>
 			<sid value="386"/>
+			<sid value="387"/>
 			<sid value="392"/>
 			<sid value="396"/>
 			<sid value="416"/>
 			<sid value="418"/>
 			<sid value="424"/>
+			<sid value="430"/>
 			<sid value="440"/>
 			<sid value="444"/>
 			<sid value="448"/>
+			<sid value="462"/>
 			<sid value="478"/>
+			<sid value="487"/>
+			<sid value="491"/>
+			<sid value="518"/>
 			<sid value="520"/>
 			<sid value="544"/>
 			<sid value="546"/>
+			<sid value="547"/>
 			<sid value="550"/>
+			<sid value="558"/>
+			<sid value="570"/>
 			<sid value="578"/>
+			<sid value="1008"/>
+			<sid value="1012"/>
+			<sid value="1014"/>
+			<sid value="1016"/>
+			<sid value="1025"/>
+			<sid value="1031"/>
+			<sid value="1033"/>
 			<sid value="1038"/>
+			<sid value="1040"/>
+			<sid value="1042"/>
+			<sid value="1044"/>
+			<sid value="1046"/>
+			<sid value="1048"/>
+			<sid value="1052"/>
+			<sid value="1054"/>
+			<sid value="1056"/>
 			<sid value="1058"/>
 			<sid value="1093"/>
+			<sid value="1118"/>
+			<sid value="1120"/>
 			<sid value="1124"/>
+			<sid value="1126"/>
 			<sid value="1148"/>
+			<sid value="1154"/>
+			<sid value="1156"/>
+			<sid value="1244"/>
+			<sid value="1246"/>
+			<sid value="1248"/>
+			<sid value="1250"/>
+			<sid value="1252"/>
+			<sid value="1254"/>
+			<sid value="1256"/>
 			<sid value="1258"/>
+			<sid value="1260"/>
+			<sid value="1262"/>
+			<sid value="1264"/>
+			<sid value="1266"/>
+			<sid value="1268"/>
+			<sid value="1270"/>
 			<sid value="1271"/>
+			<sid value="1296"/>
+			<sid value="1298"/>
+			<sid value="1302"/>
+			<sid value="1311"/>
 			<sid value="1332"/>
+			<sid value="1334"/>
 			<sid value="1336"/>
 			<sid value="1338"/>
+			<sid value="1340"/>
+			<sid value="1342"/>
+			<sid value="1344"/>
+			<sid value="1346"/>
+			<sid value="1348"/>
 			<sid value="1375"/>
 			<sid value="1383"/>
 			<sid value="1385"/>
+			<sid value="1393"/>
 			<sid value="1400"/>
+			<sid value="1414"/>
+			<sid value="1422"/>
+			<sid value="1424"/>
+			<sid value="1426"/>
 			<sid value="1466"/>
 			<sid value="1493"/>
+			<sid value="1495"/>
 			<sid value="1499"/>
+			<sid value="1501"/>
+			<sid value="1526"/>
 			<sid value="1528"/>
 			<sid value="1530"/>
 			<sid value="1532"/>
@@ -5083,19 +5372,55 @@ conceived.
 			<sid value="1542"/>
 			<sid value="1544"/>
 			<sid value="1546"/>
+			<sid value="1558"/>
+			<sid value="1560"/>
+			<sid value="1566"/>
+			<sid value="1568"/>
+			<sid value="1638"/>
 			<sid value="1640"/>
+			<sid value="1642"/>
 			<sid value="1650"/>
 			<sid value="1652"/>
-			<sid value="1750"/>
-			<sid value="1752"/>
-			<sid value="1812"/>
+			<sid value="1654"/>
+			<sid value="1688"/>
+			<sid value="1712"/>
+			<sid value="1720"/>
+			<sid value="1763"/>
+			<sid value="1765"/>
+			<sid value="1800"/>
+			<sid value="1816"/>
 			<sid value="1818"/>
-			<sid value="1872"/>
+			<sid value="1866"/>
+			<sid value="1874"/>
+			<sid value="1900"/>
+			<sid value="1913"/>
+			<sid value="1916"/>
+			<sid value="1928"/>
+			<sid value="1930"/>
+			<sid value="1934"/>
+			<sid value="1938"/>
+			<sid value="1972"/>
+			<sid value="1982"/>
+			<sid value="1984"/>
+			<sid value="1986"/>
 			<sid value="1989"/>
-			<sid value="2038"/>
+			<sid value="1992"/>
+			<sid value="2010"/>
+			<sid value="2012"/>
+			<sid value="2014"/>
+			<sid value="2018"/>
+			<sid value="2022"/>
+			<sid value="2026"/>
+			<sid value="2040"/>
+			<sid value="2044"/>
+			<sid value="2046"/>
+			<sid value="2064"/>
+			<sid value="2133"/>
+			<sid value="3020"/>
 			<sid value="3226"/>
-			<sid value="5667"/>
+			<sid value="3244"/>
 			<sid value="30524"/>
+			<sid value="30635"/>
 		</cdma>
 	</provider>
 	<provider>
@@ -5112,11 +5437,46 @@ conceived.
 	</provider>
 	<provider>
 		<name>MetroPCS</name>
-		<cdma />
+		<cdma>
+			<!-- Assignments taken from IFAST: http://www.ifast.org/files/NationalSID.htm -->
+			<sid value="4269"/>
+			<sid value="4273"/>
+			<sid value="4387"/>
+			<sid value="4531"/>
+			<sid value="4533"/>
+			<sid value="4547"/>
+			<sid value="4815"/>
+			<sid value="4855"/>
+			<sid value="5007"/>
+			<sid value="5023"/>
+			<sid value="5037"/>
+			<sid value="5097"/>
+			<sid value="5167"/>
+			<sid value="5199"/>
+			<sid value="21580"/>
+		</cdma>
 	</provider>
 	<provider>
 		<name>Virgin Mobile / Helio</name>
 		<cdma />
+	</provider>
+	<provider>
+		<name>Cellular South</name>
+		<cdma>
+			<!-- Assignments taken from IFAST: http://www.ifast.org/files/NationalSID.htm
+			     NOTE: Cellular South appears to use "Lukas, Nace, Gutierrez & Sachs, Chartered"
+			     as their license administrator, but that firm also administers Rural Cellular
+			     Corporation (recently bought by Verizon) as well, so SIDs counted for
+			     Cellular South were found by searching the FCC database for "Cellular South",
+			     looking up the returned Cellular Market Areas in the IFAST database, and from
+			     the IFAST database results using SIDs attributed to "Lukas, Nace, ..."
+			-->
+			<sid value="160"/>
+			<sid value="264"/>
+			<sid value="1382"/>
+			<sid value="1394"/>
+			<sid value="1996"/>
+		</cdma>
 	</provider>
 </country>
 
