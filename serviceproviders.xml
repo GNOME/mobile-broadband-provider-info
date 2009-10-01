@@ -1024,6 +1024,27 @@ conceived.
 	</provider>
 </country>
 
+<!-- Cyprus -->
+<country code="cy">
+	<provider>
+		<name>Cytamobile-Vodafone</name>
+		<gsm>
+			<network-id mcc="280" mnc="01"/>
+			<apn value="internet"/>
+		</gsm>
+	</provider>
+	<provider>
+		<name>MTN</name>
+		<gsm>
+			<network-id mcc="280" mnc="10"/>
+			<apn value="internet">
+				<username>wap</username>
+				<password>wap</password>
+			</apn>
+		</gsm>
+	</provider>
+</country>
+
 <!-- Czech Republic -->
 <country code="cz">
 	<provider>
