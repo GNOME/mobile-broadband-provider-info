@@ -197,6 +197,16 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>Telering</name>
+		<gsm>
+			<apn value="web">
+				<name>tele.ring web</name>
+				<username>web@telering.at</username>
+				<password>web</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Three</name>
 		<name xml:lang="de">Drei</name>
 		<gsm>
