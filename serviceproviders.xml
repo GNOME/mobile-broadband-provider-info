@@ -2386,6 +2386,9 @@ conceived.
 				<username>my</username>
 				<password>meteor</password>
 			</apn>
+			<apn value="broadband.mymeteor.ie">
+				<name>Broadband To Go</name>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
