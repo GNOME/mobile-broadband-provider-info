@@ -2382,7 +2382,8 @@ conceived.
 		<name>Meteor</name>
 		<gsm>
 			<network-id mcc="272" mnc="03"/>
-			<apn value="isp.mymeteor.ie">
+			<apn value="data.mymeteor.ie">
+				<name>Meteor Data</name>
 				<username>my</username>
 				<password>meteor</password>
 			</apn>
