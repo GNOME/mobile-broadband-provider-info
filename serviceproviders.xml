@@ -4038,10 +4038,24 @@ conceived.
 		<gsm>
 			<network-id mcc="226" mnc="01"/>
 			<apn value="internet.vodafone.ro">
+				<name>Mobile Internet (Postpaid)</name>
 				<username>internet.vodafone.ro</username>
 				<password>vodafone</password>
-				<dns>193.230.161.3</dns>
-				<dns>193.230.161.4</dns>
+			</apn>
+			<apn value="internet.pre.vodafone.ro">
+				<name>Mobile Internet (Prepaid)</name>
+				<username>internet.pre.vodafone.ro</username>
+				<password>vodafone</password>
+			</apn>
+			<apn value="live.vodafone.com">
+				<name>Live! (Postpaid)</name>
+				<username>live</username>
+				<password>vodafone</password>
+			</apn>
+			<apn value="live.pre.vodafone.ro">
+				<name>Live! (Prepaid)</name>
+				<username>live.pre.vodafone.com</username>
+				<password>vodafone</password>
 			</apn>
 		</gsm>
 	</provider>
@@ -4051,6 +4065,13 @@ conceived.
 			<username>zapp</username>
 			<password>zapp</password>
 		</cdma>
+	</provider>
+	<provider>
+		<name>DIGI.mobil</name>
+		<gsm>
+			<network-id mcc="226" mnc="05"/>
+			<apn value="internet"/>
+		</gsm>
 	</provider>
 </country>
 
