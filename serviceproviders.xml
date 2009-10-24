@@ -4733,10 +4733,27 @@ conceived.
 				<username>igprs</username>
 				<password>internet</password>
 			</apn>
+			<apn value="www.kyivstar.net">
+				<name>Contract GPRS</name>
+			</apn>
+			<apn value="3g.kyivstar.net">
+				<name>Internet 3G</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Djuice</name>
+		<gsm>
+			<network-id mcc="255" mnc="03"/>
+
 			<apn value="www.djuice.com.ua">
-				<name>Djuice</name>
-				<dns>212.58.160.33</dns>
-				<dns>212.58.160.34</dns>
+				<name>Internet GPRS</name>
+			</apn>
+			<apn value="xl.kyivstar.net">
+				<name>Internet XL</name>
+			</apn>
+			<apn value="3g.kyivstar.net">
+				<name>Internet 3G</name>
 			</apn>
 		</gsm>
 	</provider>
@@ -4772,7 +4789,7 @@ conceived.
 				<dns>80.255.64.24</dns>
 			</apn>
 			<apn value="hyper.net">
-				<name>Hyper</name>
+				<name>Hyper.NET</name>
 				<dns>212.58.160.33</dns>
 				<dns>212.58.160.34</dns>
 			</apn>
@@ -4784,10 +4801,16 @@ conceived.
 			<network-id mcc="255" mnc="01"/>
 
 			<apn value="internet">
-				<name>Internet</name>
+				<name>GPRS Internet</name>
 				<username>internet</username>
 				<dns>212.58.160.33</dns>
 				<dns>212.58.160.34</dns>
+			</apn>
+			<apn value="hyper.net">
+				<name>Hyper.NET</name>
+			</apn>
+			<apn value="active">
+				<name>HyperActive</name>
 			</apn>
 			<apn value="www.umc.ua">
 				<name>umc.ua</name>
@@ -4795,6 +4818,12 @@ conceived.
 				<dns>80.255.64.24</dns>
 			</apn>
 		</gsm>
+		<cdma>
+			<name>MTS Connect 3G</name>
+			<username>mobile</username>
+			<password>internet</password>
+			<sid value="15907"/>
+		</cdma>
 	</provider>
 	<provider>
 		<name>Utel</name>
@@ -4802,6 +4831,25 @@ conceived.
 			<network-id mcc="255" mnc="07"/>
 			<apn value="3g.utel.ua"/>
 		</gsm>
+	</provider>
+	<provider>
+		<name>CDMA Ukraine</name>
+		<cdma>
+			<username>cdma</username>
+			<password>cdma</password>
+		</cdma>
+	</provider>
+	<provider>
+		<name>InterTelecom</name>
+		<cdma>
+			<username>IT@IT</username>
+			<password>IT</password>
+			<sid value="15906"/>
+		</cdma>
+	</provider>
+	<provider>
+		<name>PEOPLEnet</name>
+		<cdma/>
 	</provider>
 </country>
 
