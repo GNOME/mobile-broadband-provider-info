@@ -2856,6 +2856,49 @@ conceived.
 	</provider>
 </country>
 
+<!-- Cambodia -->
+<country code="kh">
+	<provider>
+		<name>hello</name>
+		<gsm>
+			<network-id mcc="456" mnc="02"/>
+			<apn value="hellowww"/>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Mobitel</name>
+		<gsm>
+			<network-id mcc="456" mnc="01"/>
+			<apn value="3g">
+				<name>CellCard Corporate</name>
+				<username>mobitel</username>
+				<password>mobitel</password>
+			</apn>
+			<apn value="3gtv">
+				<name>CellCard Unlimited</name>
+				<username>mobitel</username>
+				<password>mobitel</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>qb</name>
+		<gsm>
+			<network-id mcc="456" mnc="04"/>
+			<apn value="WAP">
+				<name>QBmore</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Star-Cell</name>
+		<gsm>
+			<network-id mcc="456" mnc="05"/>
+			<apn value="internet"/>
+		</gsm>
+	</provider>
+</country>
+
 <!-- Korea, Republic of -->
 <country code="kr">
 	<provider>
@@ -2884,6 +2927,10 @@ conceived.
 			<!-- cid: 1501 -->
 			<username>sktelecom</username>
 		</cdma>
+	</provider>
+	<provider>
+		<name>Excell</name>
+		<cdma/>
 	</provider>
 </country>
 
