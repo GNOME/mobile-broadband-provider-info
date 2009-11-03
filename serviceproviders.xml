@@ -3244,6 +3244,9 @@ conceived.
 			<apn value="ppinternet">
 				<name>Prepaid</name>
 			</apn>
+			<apn value="dialogbb">
+				<name>Unlimited Broadband</name>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
