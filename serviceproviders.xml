@@ -132,55 +132,63 @@ conceived.
 <!-- Austria -->
 <country code="at">
 	<provider>
-		<name>Max</name>
-		<gsm>
-			<apn value="gprsinternet">
-				<name>Max Online</name>
-				<username>GPRS</username>
-				<dns>213.162.64.1</dns>
-				<dns>213.162.64.2</dns>
-			</apn>
-			<apn value="business.gprsinternet">
-				<name>Max Online (Business)</name>
-				<username>GPRS</username>
-				<dns>213.162.64.1</dns>
-				<dns>213.162.64.2</dns>
-			</apn>
-			<apn value="gprsmetro">
-				<name>Max Online (Metro)</name>
-				<username>GPRS</username>
-				<dns>213.162.64.1</dns>
-				<dns>213.162.64.2</dns>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
-		<name>Mobilkom/A1</name>
+		<name>A1/Telekom Austria</name>
 		<gsm>
 			<network-id mcc="232" mnc="01"/>
 			<apn value="a1.net">
+				<name>A1 Breitband</name>
 				<username>ppp@a1plus.at</username>
 				<password>ppp</password>
 				<dns>194.48.139.254</dns>
 				<dns>194.48.124.202</dns>
+			</apn>
+			<apn value="aon.data">
+				<name>aon (Flex, Breitband-Duo, BusinessFlex)</name>
+				<username></username>
+				<password>ppp</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Bob</name>
+		<gsm>
+			<network-id mcc="232" mnc="11"/>
+			<apn value="bob.at">
+				<username>data@bob.at</username>
+				<password>ppp</password>
 			</apn>
 		</gsm>
 	</provider>
 	<provider>
 		<name>T-Mobile</name>
 		<gsm>
-			<network-id mcc="232" mnc="07"/>
 			<network-id mcc="232" mnc="03"/>
-			<apn value="gprsinternet">
+			<apn value="gprswap">
+				<name>WAP</name>
 				<username>t-mobile</username>
 				<password>tm</password>
 			</apn>
+			<apn value="gprsinternet">
+				<name>Internet</name>
+				<username>t-mobile</username>
+				<password>tm</password>
+			</apn>
+			<apn value="business.gprsinternet">
+				<name>Business Internet</name>
+				<username>t-mobile</username>
+				<password>tm</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>tele.ring</name>
+		<gsm>
+			<network-id mcc="232" mnc="07"/>
 			<apn value="web">
-				<name>T-Mobile (formerly tele.ring)</name>
 				<username>web@telering.at</username>
 				<password>web</password>
-				<dns>212.95.31.167</dns>
-				<dns>212.95.31.168</dns>
+				<dns>212.95.31.11</dns>
+				<dns>212.95.31.35</dns>
 			</apn>
 		</gsm>
 	</provider>
@@ -189,19 +197,15 @@ conceived.
 		<gsm>
 			<network-id mcc="232" mnc="05"/>
 			<apn value="web.one.at">
+				<name>Web</name>
 				<username>web</username>
 				<password>web</password>
 				<dns>194.24.128.100</dns>
 				<dns>194.24.128.102</dns>
 			</apn>
-		</gsm>
-	</provider>
-	<provider>
-		<name>Telering</name>
-		<gsm>
-			<apn value="web">
-				<name>tele.ring web</name>
-				<username>web@telering.at</username>
+			<apn value="fullspeed">
+				<name>Web (no filtering)</name>
+				<username>web</username>
 				<password>web</password>
 			</apn>
 		</gsm>
