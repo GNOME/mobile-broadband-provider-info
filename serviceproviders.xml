@@ -2439,6 +2439,41 @@ conceived.
 <!-- India -->
 <country code="in">
 	<provider>
+		<name>AIRCEL</name>
+		<gsm>
+			<network-id mcc="404" mnc="17"/>
+			<network-id mcc="404" mnc="28"/>
+			<network-id mcc="404" mnc="29"/>
+			<network-id mcc="404" mnc="37"/>
+			<network-id mcc="404" mnc="41"/>
+			<network-id mcc="404" mnc="42"/>
+			<network-id mcc="404" mnc="91"/>
+			<network-id mcc="405" mnc="800"/>
+			<network-id mcc="405" mnc="801"/>
+			<network-id mcc="405" mnc="802"/>
+			<network-id mcc="405" mnc="803"/>
+			<network-id mcc="405" mnc="804"/>
+			<network-id mcc="405" mnc="805"/>
+			<network-id mcc="405" mnc="806"/>
+			<network-id mcc="405" mnc="807"/>
+			<network-id mcc="405" mnc="808"/>
+			<network-id mcc="405" mnc="809"/>
+			<network-id mcc="405" mnc="810"/>
+			<network-id mcc="405" mnc="811"/>
+			<network-id mcc="405" mnc="812"/>
+
+			<apn value="aircelweb">
+				<name>Web</name>
+			</apn>
+			<apn value="aircelgprs.po">
+				<name>GPRS (Postpaid)</name>
+			</apn>
+			<apn value="aircelgprs.pr">
+				<name>GPRS (Prepaid)</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Airtel</name>
 		<gsm>
 			<network-id mcc="404" mnc="02"/>
@@ -2455,14 +2490,15 @@ conceived.
 			<network-id mcc="404" mnc="49"/>
 			<network-id mcc="404" mnc="70"/>
 			<network-id mcc="404" mnc="90"/>
-			<network-id mcc="404" mnc="91"/>
-			<network-id mcc="404" mnc="94"/>
-			<network-id mcc="404" mnc="95"/>
+			<network-id mcc="404" mnc="92"/>
+			<network-id mcc="404" mnc="93"/>
 			<network-id mcc="404" mnc="96"/>
 			<network-id mcc="404" mnc="97"/>
 			<network-id mcc="404" mnc="98"/>
 			<network-id mcc="405" mnc="51"/>
 			<network-id mcc="405" mnc="52"/>
+			<network-id mcc="405" mnc="54"/>
+			<network-id mcc="405" mnc="56"/>
 
 			<apn value="airtelgprs.com">
 				<dns>202.56.230.5</dns>
@@ -2477,20 +2513,33 @@ conceived.
 			<network-id mcc="404" mnc="05"/>
 			<network-id mcc="404" mnc="11"/>
 			<network-id mcc="404" mnc="13"/>
+			<network-id mcc="404" mnc="15"/>
 			<network-id mcc="404" mnc="20"/>
 			<network-id mcc="404" mnc="27"/>
 			<network-id mcc="404" mnc="30"/>
 			<network-id mcc="404" mnc="46"/>
+			<network-id mcc="404" mnc="60"/>
 			<network-id mcc="404" mnc="67"/>
 			<network-id mcc="404" mnc="84"/>
 			<network-id mcc="404" mnc="86"/>
+			<network-id mcc="405" mnc="66"/>
+			<network-id mcc="405" mnc="750"/>
+			<network-id mcc="405" mnc="751"/>
 			<network-id mcc="405" mnc="752"/>
 			<network-id mcc="405" mnc="753"/>
-			<apn value="www"/>
+			<network-id mcc="405" mnc="754"/>
+			<network-id mcc="405" mnc="755"/>
+			<network-id mcc="405" mnc="756"/>
+			<apn value="www">
+				<name>Vodafone Connect</name>
+			</apn>
+			<apn value="portalnmms">
+				<name>Vodafone Live</name>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
-		<name>BSNL</name>
+		<name>BSNL/CellOne</name>
 		<gsm>
 			<network-id mcc="404" mnc="34"/>
 			<network-id mcc="404" mnc="38"/>
@@ -2515,19 +2564,24 @@ conceived.
 			<network-id mcc="404" mnc="81"/>
 
 			<apn value="bsnlsouth">
-				<name>South A</name>
+				<name>South Zone A (Karnatka, Andhra Pradesh, Chennai, Tamil Nadu, Kerala)</name>
 			</apn>
 			<apn value="gprssouth.cellone.in">
-				<name>South B</name>
+				<name>South Zone B (Karnatka, Andhra Pradesh, Chennai, Tamil Nadu, Kerala)</name>
 			</apn>
 			<apn value="gprsnorth.cellone.in">
-				<name>North</name>
+				<name>North Zone (Haryana, Punjab, UP(East), UP(West), Himachal Pradesh, Rajasthan, Jammu &amp; Kashmir)</name>
 			</apn>
 			<apn value="gprswest.cellone.in">
-				<name>West</name>
+				<name>West Zone (Maharashtra, Gujrat, Madhya Pradesh, Chattishgarh)</name>
 			</apn>
 			<apn value="www.e.pr">
-				<name>East</name>
+				<name>East Zone Prepaid (Jharkhand, Bihar, Kolkata, West Bengal, Orissa, Assam, North East, Adman Nicobar)</name>
+				<dns>218.248.240.208</dns>
+				<dns>218.248.240.135</dns>
+			</apn>
+			<apn value="www.e.po">
+				<name>East Zone Postpaid (Jharkhand, Bihar, Kolkata, West Bengal, Orissa, Assam, North East, Adman Nicobar)</name>
 				<dns>218.248.240.208</dns>
 				<dns>218.248.240.135</dns>
 			</apn>
@@ -2537,11 +2591,19 @@ conceived.
 		<name>Idea Cellular</name>
 		<gsm>
 			<network-id mcc="404" mnc="04"/>
+			<network-id mcc="404" mnc="07"/>
 			<network-id mcc="404" mnc="12"/>
+			<network-id mcc="404" mnc="14"/>
+			<network-id mcc="404" mnc="19"/>
 			<network-id mcc="404" mnc="22"/>
 			<network-id mcc="404" mnc="24"/>
+			<network-id mcc="404" mnc="44"/>
 			<network-id mcc="404" mnc="56"/>
 			<network-id mcc="404" mnc="82"/>
+			<network-id mcc="405" mnc="70"/>
+			<network-id mcc="405" mnc="799"/>
+			<network-id mcc="405" mnc="845"/>
+			<network-id mcc="405" mnc="848"/>
 			<network-id mcc="405" mnc="850"/>
 			<apn value="internet">
 				<dns>10.4.42.15</dns>
@@ -2571,8 +2633,47 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Reliance Netconnect</name>
-		<cdma/>
+		<name>Reliance</name>
+		<gsm>
+			<network-id mcc="404" mnc="09"/>
+			<network-id mcc="404" mnc="36"/>
+			<network-id mcc="404" mnc="52"/>
+			<network-id mcc="404" mnc="83"/>
+			<network-id mcc="404" mnc="85"/>
+			<network-id mcc="405" mnc="05"/>
+			<network-id mcc="405" mnc="10"/>
+			<network-id mcc="405" mnc="13"/>
+			<apn value="smartnet">
+				<name>Smart Net</name>
+			</apn>
+			<apn value="smartwap">
+				<name>Smart WAP</name>
+			</apn>
+		</gsm>
+		<cdma>
+			<name>Reliance Netconnect</name>
+			<sid value="14655"/>
+			<sid value="14656"/>
+			<sid value="14657"/>
+			<sid value="14658"/>
+			<sid value="14659"/>
+			<sid value="14660"/>
+			<sid value="14661"/>
+			<sid value="14662"/>
+			<sid value="14663"/>
+			<sid value="14664"/>
+			<sid value="14665"/>
+			<sid value="14666"/>
+			<sid value="14667"/>
+			<sid value="14668"/>
+			<sid value="14669"/>
+			<sid value="14670"/>
+			<sid value="14671"/>
+			<sid value="14672"/>
+			<sid value="14673"/>
+			<sid value="14674"/>
+			<sid value="14675"/>
+		</cdma>
 	</provider>
 	<provider>
 		<name>Spice telecom</name>
@@ -2586,6 +2687,35 @@ conceived.
 			</apn>
 			<apn value="simplydownload">
 				<name>kar</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Tata Docomo</name>
+		<gsm>
+			<network-id mcc="405" mnc="025"/>
+			<network-id mcc="405" mnc="026"/>
+			<network-id mcc="405" mnc="027"/>
+			<network-id mcc="405" mnc="029"/>
+			<network-id mcc="405" mnc="030"/>
+			<network-id mcc="405" mnc="031"/>
+			<network-id mcc="405" mnc="032"/>
+			<network-id mcc="405" mnc="034"/>
+			<network-id mcc="405" mnc="035"/>
+			<network-id mcc="405" mnc="036"/>
+			<network-id mcc="405" mnc="037"/>
+			<network-id mcc="405" mnc="038"/>
+			<network-id mcc="405" mnc="039"/>
+			<network-id mcc="405" mnc="041"/>
+			<network-id mcc="405" mnc="042"/>
+			<network-id mcc="405" mnc="043"/>
+			<network-id mcc="405" mnc="044"/>
+			<network-id mcc="405" mnc="045"/>
+			<network-id mcc="405" mnc="046"/>
+			<network-id mcc="405" mnc="047"/>
+
+			<apn value="TATA.DOCOMO.INTERNET">
+				<name>Internet</name>
 			</apn>
 		</gsm>
 	</provider>
