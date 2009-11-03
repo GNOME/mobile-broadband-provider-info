@@ -1846,18 +1846,6 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Jersey Telecom</name>
-		<gsm>
-			<network-id mcc="234" mnc="50"/>
-			<apn value="pepper">
-				<username>abc</username>
-				<password>abc</password>
-				<dns>212.9.0.135</dns>
-				<dns>212.9.0.136</dns>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
 		<name>o2</name>
 		<gsm>
 			<network-id mcc="234" mnc="02"/>
@@ -1976,6 +1964,22 @@ conceived.
 			<apn value="Internet">
 				<dns>212.72.130.20</dns>
 				<dns>212.72.152.001</dns>
+			</apn>
+		</gsm>
+	</provider>
+</country>
+
+<!-- Guernsey -->
+<country code="gg">
+	<provider>
+		<name>Sure (Cable &amp; Wireless)</name>
+		<gsm>
+			<network-id mcc="234" mnc="55"/>
+			<apn value="wap">
+				<name>WAP</name>
+			</apn>
+			<apn value="internet">
+				<name>Internet</name>
 			</apn>
 		</gsm>
 	</provider>
@@ -2440,6 +2444,22 @@ conceived.
 	</provider>
 </country>
 
+<!-- Isle of Man -->
+<country code="im">
+	<provider>
+		<name>Sure (Cable &amp; Wireless)</name>
+		<gsm>
+			<network-id mcc="234" mnc="55"/>
+			<apn value="wap">
+				<name>WAP</name>
+			</apn>
+			<apn value="internet">
+				<name>Internet</name>
+			</apn>
+		</gsm>
+	</provider>
+</country>
+
 <!-- India -->
 <country code="in">
 	<provider>
@@ -2867,6 +2887,34 @@ conceived.
 			</apn>
 			<apn value="datacard.fastweb.it">
 				<name>Solo dati</name>
+			</apn>
+		</gsm>
+	</provider>
+</country>
+
+<!-- Jersey -->
+<country code="je">
+	<provider>
+		<name>Sure (Cable &amp; Wireless)</name>
+		<gsm>
+			<network-id mcc="234" mnc="55"/>
+			<apn value="wap">
+				<name>WAP</name>
+			</apn>
+			<apn value="internet">
+				<name>Internet</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Jersey Telecom</name>
+		<gsm>
+			<network-id mcc="234" mnc="50"/>
+			<apn value="pepper">
+				<username>abc</username>
+				<password>abc</password>
+				<dns>212.9.0.135</dns>
+				<dns>212.9.0.136</dns>
 			</apn>
 		</gsm>
 	</provider>
