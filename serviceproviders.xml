@@ -1867,9 +1867,19 @@ conceived.
 				<dns>193.113.200.201</dns>
 			</apn>
 			<apn value="payandgo.o2.co.uk">
-				<name>Prepaid</name>
+				<name>Pay and Go (Prepaid)</name>
 				<username>payandgo</username>
 				<password>payandgo</password>
+			</apn>
+			<apn value="idata.o2.co.uk">
+				<name>iPhone (Contract)</name>
+				<username>vertigo</username>
+				<password>password</password>
+			</apn>
+			<apn value="wap.o2.co.uk">
+				<name>WAP</name>
+				<username>o2wap</username>
+				<password>password</password>
 			</apn>
 		</gsm>
 	</provider>
@@ -1944,8 +1954,15 @@ conceived.
 				<dns>193.35.133.10</dns>
 				<dns>193.35.134.10</dns>
 			</apn>
+			<apn value="internetvpn">
+				<name>Contract (with VPN)</name>
+				<username>orange</username>
+				<password>orange</password>
+				<dns>193.35.133.10</dns>
+				<dns>193.35.134.10</dns>
+			</apn>
 			<apn value="orangewap">
-				<name>Pay and Go</name>
+				<name>Orange WAP</name>
 				<username>orange</username>
 				<password>multimedia</password>
 				<dns>158.43.192.1</dns>
