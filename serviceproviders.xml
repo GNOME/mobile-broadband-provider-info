@@ -2605,6 +2605,49 @@ conceived.
 	</provider>
 </country>
 
+<!-- Iraq -->
+<country code="iq">
+	<provider>
+		<name>Itisaluna</name>
+		<cdma>
+			<username>itisaluna</username>
+			<password>itisaluna</password>
+			<sid value="15456"/>
+		</cdma>
+	</provider>
+	<provider>
+		<name>Omnea Telecom</name>
+		<cdma>
+			<username>omnea</username>
+			<password>omnea</password>
+		</cdma>
+	</provider>
+	<provider>
+		<name>Kalimat Telecom</name>
+		<cdma>
+			<sid value="15470"/>
+		</cdma>
+	</provider>
+	<provider>
+		<name>Korek</name>
+		<gsm>
+			<network-id mcc="418" mnc="40"/>
+			<apn value="net.korek.com">
+				<username>korek</username>
+				<password>korek</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Asia Cell</name>
+		<gsm>
+			<network-id mcc="418" mnc="50"/>
+			<apn value="net.asiacell.com">
+			</apn>
+		</gsm>
+	</provider>
+</country>
+
 <!-- Iceland -->
 <country code="is">
 	<provider>
