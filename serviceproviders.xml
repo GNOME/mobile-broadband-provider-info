@@ -4736,12 +4736,28 @@ conceived.
 	<provider>
 		<name>M1</name>
 		<gsm>
+			<!-- http://m1.com.sg/filedownloads/popup/Miworld/popup_se2.5.html -->
 			<network-id mcc="525" mnc="03"/>
 			<apn value="sunsurf">
+				<name>SunSurf/Mobile Broadband (postpaid)</name>
 				<username>65</username>
 				<password>user123</password>
 				<dns>202.79.64.21</dns>
 				<dns>202.79.64.26</dns>
+			</apn>
+			<apn value="miworld">
+				<name>MiWorld Mobile (postpaid)</name>
+				<password>user123</password>
+			</apn>
+			<apn value="miworldcard">
+				<name>MiWorld Mobile (prepaid)</name>
+				<password>user123</password>
+			</apn>
+			<apn value="prepaidbb">
+				<name>Mobile Broadband (prepaid)</name>
+			</apn>
+			<apn value="sunsurfmcard">
+				<name>M Card (prepaid)</name>
 			</apn>
 		</gsm>
 	</provider>
@@ -4761,9 +4777,16 @@ conceived.
 		<gsm>
 			<network-id mcc="525" mnc="05"/>
 			<apn value="shwap">
+				<name>WAP</name>
 				<username>star</username>
 				<password>hub</password>
 				<dns>203.116.1.78</dns>
+			</apn>
+			<apn value="shppd">
+				<name>MaxMobile Broadband (prepaid)</name>
+			</apn>
+			<apn value="shinternet">
+				<name>MaxMobile Broadband (postpaid)</name>
 			</apn>
 		</gsm>
 	</provider>
