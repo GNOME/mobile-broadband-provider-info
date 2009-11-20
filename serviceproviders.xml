@@ -3144,6 +3144,10 @@ conceived.
 			<apn value="internet"/>
 		</gsm>
 	</provider>
+	<provider>
+		<name>Excell</name>
+		<cdma/>
+	</provider>
 </country>
 
 <!-- Korea, Republic of -->
@@ -3174,10 +3178,6 @@ conceived.
 			<!-- cid: 1501 -->
 			<username>sktelecom</username>
 		</cdma>
-	</provider>
-	<provider>
-		<name>Excell</name>
-		<cdma/>
 	</provider>
 </country>
 
