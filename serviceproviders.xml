@@ -2863,7 +2863,7 @@ conceived.
 		<gsm>
 			<network-id mcc="222" mnc="01"/>
 			<apn value="ibox.tim.it">
-				<name>ibox</name>
+				<name>Internet / Alice</name>
 			</apn>
 			<apn value="wap.tim.it">
 				<name>WAP</name>
