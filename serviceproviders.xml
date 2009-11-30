@@ -5902,6 +5902,13 @@ conceived.
 			<sid value="1996"/>
 		</cdma>
 	</provider>
+	<provider>
+		<name>BendBroadband</name>
+		<gsm>
+			<network-id mcc="311" mnc="570"/>
+			<apn value="ISP"/>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Uruguay -->
