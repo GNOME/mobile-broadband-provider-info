@@ -3760,12 +3760,22 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Glo-Ng</name>
+		<name>Glo PAYG</name>
 		<gsm>
 			<network-id mcc="621" mnc="50"/>
 			<apn value="glosecure">
 				<username>gprs</username>
 				<password>gprs</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Glo 3G Pack</name>
+		<gsm>
+			<network-id mcc="621" mnc="50"/>
+			<apn value="gloflat">
+				<username>flat</username>
+				<password>flat</password>
 			</apn>
 		</gsm>
 	</provider>
