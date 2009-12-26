@@ -3743,6 +3743,7 @@ conceived.
 		<name>Zain</name>
 		<gsm>
 			<network-id mcc="621" mnc="20"/>
+			<network-id mcc="621" mnc="80"/>
 			<apn value="wap">
 				<username>web</username>
 				<password>web</password>
@@ -3753,6 +3754,7 @@ conceived.
 		<name>MTN</name>
 		<gsm>
 			<network-id mcc="621" mnc="30"/>
+			<network-id mcc="621" mnc="60"/>
 			<apn value="web.gprs.mtnnigeria.net">
 				<username>web</username>
 				<password>web</password>
@@ -3760,22 +3762,28 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Glo PAYG</name>
+		<name>Glo Mobile</name>
 		<gsm>
 			<network-id mcc="621" mnc="50"/>
+			<network-id mcc="621" mnc="70"/>
 			<apn value="glosecure">
+				<name>Pay as You Go</name>
 				<username>gprs</username>
 				<password>gprs</password>
+			</apn>
+			<apn value="gloflat">
+				<name>Glo 3G Packs</name>
+				<username>flat</username>
+				<password>flat</password>
 			</apn>
 		</gsm>
 	</provider>
 	<provider>
-		<name>Glo 3G Pack</name>
+		<name>Etisalat</name>
 		<gsm>
-			<network-id mcc="621" mnc="50"/>
-			<apn value="gloflat">
-				<username>flat</username>
-				<password>flat</password>
+			<network-id mcc="621" mnc="90"/>
+			<apn value="etisalat">
+				<name>Etisalat Internet</name>
 			</apn>
 		</gsm>
 	</provider>
