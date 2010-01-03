@@ -5089,6 +5089,31 @@ conceived.
 	</provider>
 </country>
 
+<!-- Tanzania, United Republic of -->
+<country code="tz">
+	<provider>
+		<name>Zain</name>
+		<gsm>
+			<network-id mcc="640" mnc="05"/>
+			<apn value="internet"/>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Vodacom</name>
+		<gsm>
+			<network-id mcc="640" mnc="04"/>
+			<apn value="internet"/>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Zantel</name>
+		<gsm>
+			<network-id mcc="640" mnc="03"/>
+			<apn value="znet"/>
+		</gsm>
+	</provider>
+</country>
+
 <!-- Ukraine -->
 <country code="ua">
 	<provider>
