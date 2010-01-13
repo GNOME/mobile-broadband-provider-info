@@ -1172,8 +1172,7 @@ conceived.
 			<network-id mcc="262" mnc="05"/>
 			<network-id mcc="262" mnc="77"/>
 			<apn value="internet.eplus.de">
-				<name>30 Day Flatrate</name>
-				<name xml:lang="de">30 Tage Flatrate</name>
+				<name>Volume rate/30 Day Flatrate</name>
 				<username>eplus</username>
 				<password>gprs</password>
 				<dns>212.23.97.2</dns>
