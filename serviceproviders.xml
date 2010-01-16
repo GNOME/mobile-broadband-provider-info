@@ -4352,6 +4352,28 @@ conceived.
 	</provider>
 </country>
 
+<!-- Qatar -->
+<country code="qa">
+	<provider>
+		<name>Vodafone</name>
+		<gsm>
+			<network-id mcc="427" mnc="02"/>
+			<apn value="vodafone.com.qa"/>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Q-Tel</name>
+		<gsm>
+			<network-id mcc="427" mnc="01"/>
+			<apn value="gprs.qtel">
+				<name>Qatarnet</name>
+				<username>gprs</username>
+				<password>gprs</password>
+			</apn>
+		</gsm>
+	</provider>
+</country>
+
 <!-- Romania -->
 <country code="ro">
 	<provider>
