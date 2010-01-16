@@ -1180,7 +1180,7 @@ conceived.
 			</apn>
 			<apn value="tagesflat.eplus.de">
 				<name>24 Hour Flatrate</name>
-				<name xml:lang="de">24 Stunden Flatrate</name>
+				<name xml:lang="de">Tages-Flatrate</name>
 				<username>eplus</username>
 				<password>gprs</password>
 			</apn>
@@ -1195,6 +1195,12 @@ conceived.
 			<apn value="internet.eplus.de">
 				<username>eplus</username>
 				<password>gprs</password>
+			</apn>
+			<apn value="tagesflat.eplus.de">
+				<name>24 Hour Flatrate</name>
+				<name xml:lang="de">Tages-Flatrate</name>
+				<username>blau</username>
+				<password>blau</password>
 			</apn>
 		</gsm>
 	</provider>
@@ -1274,6 +1280,20 @@ conceived.
 			<network-id mcc="262" mnc="08"/>
 			<network-id mcc="262" mnc="11"/>
 			<apn value="pinternet.interkom.de"/>
+		</gsm>
+	</provider>
+	<provider>
+		<name>simyo Internet</name>
+		<gsm>
+			<network-id mcc="262" mnc="03"/>
+			<network-id mcc="262" mnc="05"/>
+			<network-id mcc="262" mnc="77"/>
+			<apn value="internet.eplus.de">
+				<username>simyo</username>
+				<password>simyo</password>
+				<dns>212.23.97.2</dns>
+				<dns>212.23.97.3</dns>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
