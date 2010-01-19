@@ -4668,11 +4668,104 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Skylink (Moscow)</name>
-		<name xml:lang="ru">Скайлинк Москва</name>
+		<name>Skylink</name>
+		<name xml:lang="ru">Скайлинк</name>
 		<cdma>
-			<username>mobile@skylink.msk.ru</username>
+			<username>mobile</username>
 			<password>internet</password>
+
+			<!-- Assignments taken from IFAST: http://www.ifast.org/files/NationalSID.htm -->
+			<sid value="11396"/>  <!-- Khabarovsk area -->
+			<sid value="11398"/>  <!-- Adygeya -->
+			<sid value="11400"/>  <!-- Altay republic -->
+			<sid value="11418"/>  <!-- Bashkostostan -->
+			<sid value="11424"/>  <!-- Buryatiya -->
+			<sid value="11432"/>  <!-- Dagestan -->
+			<sid value="11434"/>  <!-- Ingushetia -->
+			<sid value="11438"/>  <!-- Kabardino-Balkariya -->
+			<sid value="11440"/>  <!-- Kalmykia -->
+			<sid value="11442"/>  <!-- Karachayevo-Cherkessiya -->
+			<sid value="11446"/>  <!-- Karelia -->
+			<sid value="11452"/>  <!-- Komi -->
+			<sid value="11456"/>  <!-- Mordovia -->
+			<sid value="11462"/>  <!-- Yakutiya -->
+			<sid value="11465"/>  <!-- North Osetia -->
+			<sid value="11482"/>  <!-- Tatarstan -->
+			<sid value="11484"/>  <!-- Tuva -->
+			<sid value="11492"/>  <!-- Udmurtiya -->
+			<sid value="11494"/>  <!-- Khakasia -->
+			<sid value="11498"/>  <!-- Chechnya -->
+			<sid value="11510"/>  <!-- Altay area -->
+			<sid value="11532"/>  <!-- Krasnodar -->
+			<sid value="11546"/>  <!-- Krasnoyarsk -->
+			<sid value="11556"/>  <!-- Primorsky area -->
+			<sid value="11568"/>  <!-- Stavropol -->
+			<sid value="11572"/>  <!-- Amur area -->
+			<sid value="11578"/>  <!-- Arkhangelsk -->
+			<sid value="11582"/>  <!-- Astrakhan -->
+			<sid value="11590"/>  <!-- Belgorod -->
+			<sid value="11596"/>  <!-- Bryansk -->
+			<sid value="11604"/>  <!-- Vladimir -->
+			<sid value="11616"/>  <!-- Volgograd -->
+			<sid value="11622"/>  <!-- Vologda -->
+			<sid value="11630"/>  <!-- Ivanovo -->
+			<sid value="11642"/>  <!-- Irkutsk -->
+			<sid value="11646"/>  <!-- Kaliningrad -->
+			<sid value="11650"/>  <!-- Kaluga -->
+			<sid value="11668"/>  <!-- Kemerovo -->
+			<sid value="11672"/>  <!-- Kostroma -->
+			<sid value="11676"/>  <!-- Kurgan -->
+			<sid value="11684"/>  <!-- Kursk -->
+			<sid value="11692"/>  <!-- Leningrad area -->
+			<sid value="11698"/>  <!-- Lipetsk -->
+			<sid value="11700"/>  <!-- Magadan -->
+			<sid value="11732"/>  <!-- Moscow area -->
+			<sid value="11736"/>  <!-- Murmansk -->
+			<sid value="11754"/>  <!-- Nizhniy Novgorod -->
+			<sid value="11758"/>  <!-- V. Novgorog -->
+			<sid value="11772"/>  <!-- Novosibirsk -->
+			<sid value="11780"/>  <!-- Kirov -->
+			<sid value="11784"/>  <!-- Chuvashia -->
+			<sid value="11788"/>  <!-- Evreysky district -->
+			<sid value="11790"/>  <!-- Aginsky-Buryatsky district -->
+			<sid value="11794"/>  <!-- Penza -->
+			<sid value="11802"/>  <!-- Mariy El -->
+			<sid value="11806"/>  <!-- Koryak district -->
+			<sid value="11816"/>  <!-- Omsk -->
+			<sid value="11826"/>  <!-- Orenburg -->
+			<sid value="11830"/>  <!-- Orel -->
+			<sid value="11844"/>  <!-- Perm -->
+			<sid value="11848"/>  <!-- Pskov -->
+			<sid value="11868"/>  <!-- Rostov -->
+			<sid value="11874"/>  <!-- Tomsk -->
+			<sid value="11884"/>  <!-- Voronezh -->
+			<sid value="11892"/>  <!-- Ryazan -->
+			<sid value="11908"/>  <!-- Samara -->
+			<sid value="11922"/>  <!-- Saratov -->
+			<sid value="11924"/>  <!-- Sakhalin -->
+			<sid value="11948"/>  <!-- Sverdlovsk -->
+			<sid value="11960"/>  <!-- Tambov -->
+			<sid value="11964"/>  <!-- Smolensk -->
+			<sid value="11968"/>  <!-- Tver -->
+			<sid value="11978"/>  <!-- Tula -->
+			<sid value="11984"/>  <!-- Tyumen -->
+			<sid value="11990"/>  <!-- Ul yanovsk -->
+			<sid value="12006"/>  <!-- Chelyabinsk -->
+			<sid value="12012"/>  <!-- Chita -->
+			<sid value="12020"/>  <!-- Yaroslavl -->
+			<sid value="12060"/>  <!-- Moscow -->
+			<sid value="12061"/>  <!-- Moscow -->
+			<sid value="12063"/>  <!-- St. Petersburg -->
+			<sid value="12064"/>  <!-- St. Petersburg -->
+			<sid value="12065"/>  <!-- Kemerovo -->
+			<sid value="12066"/>  <!-- Kemerovo -->
+			<sid value="12067"/>  <!-- Sverdlovsk -->
+			<sid value="12085"/>  <!-- Nenetskiy district -->
+			<sid value="12087"/>  <!-- Ust-Ordynsky district -->
+			<sid value="12090"/>  <!-- Khanty-Mansi district -->
+			<sid value="12092"/>  <!-- Chukotsky district -->
+			<sid value="12094"/>  <!-- Yamal-Nenets district -->
+			<sid value="12095"/>  <!-- Kamchatka -->
 		</cdma>
 	</provider>
 	<provider>
