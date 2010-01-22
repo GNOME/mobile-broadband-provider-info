@@ -1733,12 +1733,19 @@ conceived.
 		<gsm>
 			<network-id mcc="244" mnc="91"/>
 
-			<apn value="internet">
+			<apn value="internet.saunalahti">
+				<name>Postpaid (contract)</name>
 				<dns>192.89.123.230</dns>
 				<dns>192.89.123.231</dns>
 			</apn>
+			<apn value="internet">
+				<name>Prepaid (no contract)</name>
+				<dns>192.89.123.230</dns>
+				<dns>192.89.123.231</dns>
+			</apn>
+
 			<apn value="prointernet">
-				<name>Prointernet</name>
+				<name>Prointernet (public IP)</name>
 				<dns>192.89.123.230</dns>
 				<dns>192.89.123.231</dns>
 			</apn>
