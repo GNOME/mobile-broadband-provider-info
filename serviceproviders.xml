@@ -1425,7 +1425,7 @@ conceived.
 		</cdma>
 	</provider>
 	<provider>
-		<name>Sonofon</name>
+		<name>Telenor (Sonofon)</name>
 		<gsm>
 			<apn value="internet">
 				<dns>212.88.64.199</dns>
