@@ -976,7 +976,13 @@ conceived.
 		<gsm>
 			<network-id mcc="460" mnc="00"/>
 			<network-id mcc="460" mnc="02"/>
+			<apn value="cmwap">
+				<name>WAP</name>
+				<username>guest</username>
+				<password>guest</password>
+			</apn>
 			<apn value="cmnet">
+				<name>Internet</name>
 				<username>guest</username>
 				<password>guest</password>
 				<dns>211.136.20.203</dns>
