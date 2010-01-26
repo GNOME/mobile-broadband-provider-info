@@ -4015,6 +4015,12 @@ conceived.
 			<apn value="internet"/>
 		</gsm>
 	</provider>
+	<provider>
+		<name>Ventelo</name>
+		<gsm>
+			<apn value="internet.ventelo.no"/>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Nepal -->
