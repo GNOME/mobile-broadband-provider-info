@@ -4018,6 +4018,14 @@ conceived.
 	<provider>
 		<name>Ventelo</name>
 		<gsm>
+			<network-id mcc="242" mnc="07"/>
+			<apn value="internet.ventelo.no"/>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Ludo Mobil</name>
+		<gsm>
+			<network-id mcc="242" mnc="07"/>
 			<apn value="internet.ventelo.no"/>
 		</gsm>
 	</provider>
