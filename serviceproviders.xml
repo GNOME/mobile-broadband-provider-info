@@ -3844,9 +3844,25 @@ conceived.
 		<gsm>
 			<network-id mcc="710" mnc="21"/>
 			<network-id mcc="710" mnc="73"/>
+			<apn value="wap.emovil">
+				<name>WAP</name>
+				<username>wapemovil</username>
+				<password>wapemovil</password>
+			</apn>
+			<apn value="web.emovil">
+				<name>Web</name>
+				<username>webemovil</username>
+				<password>webemovil</password>
+			</apn>
 			<apn value="internet.ideasalo.ni">
+				<name>Web (Alo pcs)</name>
 				<username>internet</username>
 				<password>internet</password>
+			</apn>
+			<apn value="wap.ideasalo.ni">
+				<name>WAP (Alo pcs)</name>
+				<username>wap</username>
+				<password>wap</password>
 			</apn>
 		</gsm>
 	</provider>
