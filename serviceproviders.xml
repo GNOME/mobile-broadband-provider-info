@@ -1851,11 +1851,19 @@ conceived.
 	<provider>
 		<name>SFR</name>
 		<gsm>
+			<!-- http://assistance.sfr.fr/internet-partout/Mobile/difference-wap-web/fc-2302-62196 -->
 			<network-id mcc="208" mnc="10"/>
 			<network-id mcc="208" mnc="11"/>
 			<apn value="websfr">
+				<name>Web</name>
 				<dns>172.20.2.10</dns>
 				<dns>172.20.2.39</dns>
+			</apn>
+			<apn value="wapsfr">
+				<name>WAP</name>
+			</apn>
+			<apn value="sl2sfr">
+				<name>Full Internet</name>
 			</apn>
 		</gsm>
 	</provider>
