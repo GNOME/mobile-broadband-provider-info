@@ -71,6 +71,34 @@ conceived.
 	</provider>
 </country>
 
+<!-- Armenia -->
+<country code="am">
+	<provider>
+		<name>Beeline</name>
+		<gsm>
+			<network-id mcc="283" mnc="01"/>
+			<apn value="internet.beeline.am">
+				<username>internet</username>
+				<password>internet</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Orange</name>
+		<gsm>
+			<apn value="internet" />
+		</gsm>
+	</provider>
+	<provider>
+		<name>VivaCell/MTS</name>
+		<gsm>
+			<network-id mcc="283" mnc="05"/>
+			<apn value="inet.vivacell.am" />
+		</gsm>
+	</provider>
+</country>
+
+
 <!-- Angola -->
 <country code="ao">
 	<provider>
