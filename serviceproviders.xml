@@ -5065,7 +5065,7 @@ conceived.
 	<provider>
 		<name>Vodafone / Simobil</name>
 		<gsm>
-			<network-id mcc="525" mnc="40"/>
+			<network-id mcc="293" mnc="40"/>
 			<apn value="internet.simobil.si">
 				<username>simobil</username>
 				<password>internet</password>
