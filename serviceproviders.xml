@@ -5078,7 +5078,7 @@ conceived.
 		<name>T-2</name>
 		<gsm>
 			<network-id mcc="293" mnc="64"/>
-			<apn>internet.t-2.net</apn>
+			<apn value="internet.t-2.net"/>
 		</gsm>
 	</provider>
 </country>
