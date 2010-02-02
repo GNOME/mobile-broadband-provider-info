@@ -4128,18 +4128,18 @@ conceived.
 			<network-id mcc="530" mnc="01"/>
 			<apn value="live.vodafone.com">
 				<name>WAP</name>
-				<dns>202.20.93.10</dns>
-				<dns>203.97.191.189</dns>
+				<dns>202.73.206.16</dns>
+				<dns>202.73.198.16</dns>
 			</apn>
 			<apn value="www.vodafone.net.nz">
 				<name>Restricted</name>
-				<dns>202.20.93.10</dns>
-				<dns>203.97.191.189</dns>
+				<dns>202.73.206.16</dns>
+				<dns>202.73.198.16</dns>
 			</apn>
 			<apn value="internet">
 				<name>Unrestricted (public)</name>
-				<dns>202.20.93.10</dns>
-				<dns>203.97.191.189</dns>
+				<dns>202.73.206.16</dns>
+				<dns>202.73.198.16</dns>
 			</apn>
 		</gsm>
 	</provider>
