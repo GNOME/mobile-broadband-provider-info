@@ -2940,7 +2940,9 @@ conceived.
 		<name>Vodafone</name>
 		<gsm>
 			<network-id mcc="222" mnc="10"/>
-			<apn value="web.omnitel.it"/>
+			<apn value="web.omnitel.it">
+				<name>Internet Facile</name>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -2948,7 +2950,7 @@ conceived.
 		<gsm>
 			<network-id mcc="222" mnc="01"/>
 			<apn value="ibox.tim.it">
-				<name>Internet / Alice</name>
+				<name>Maxxi Alice/Internet</name>
 			</apn>
 			<apn value="wap.tim.it">
 				<name>WAP</name>
