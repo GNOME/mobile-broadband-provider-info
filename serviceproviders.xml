@@ -2966,11 +2966,15 @@ conceived.
 				<name>Non-business</name>
 				<username>Wind</username>
 				<password>Wind</password>
+				<dns>193.70.152.25</dns>
+				<dns>193.70.192.25</dns>
 			</apn>
 			<apn value="internet.wind.biz">
 				<name>Business</name>
 				<username>Wind</username>
 				<password>Wind</password>
+				<dns>193.70.152.25</dns>
+				<dns>193.70.192.25</dns>
 			</apn>
 		</gsm>
 	</provider>
