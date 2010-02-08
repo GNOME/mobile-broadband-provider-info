@@ -1227,8 +1227,8 @@ conceived.
 			<network-id mcc="262" mnc="05"/>
 			<network-id mcc="262" mnc="77"/>
 			<apn value="internet.eplus.de">
-				<username>eplus</username>
-				<password>gprs</password>
+				<username>blau</username>
+				<password>blau</password>
 			</apn>
 			<apn value="tagesflat.eplus.de">
 				<name>24 Hour Flatrate</name>
