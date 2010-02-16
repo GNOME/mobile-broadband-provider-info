@@ -4957,6 +4957,18 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>Multicom Security</name>
+		<gsm>
+			<network-id mcc="240" mnc="01"/>
+			<network-id mcc="240" mnc="05"/>
+			
+			<!-- http://multicomsecurity.se/produkter-tjanster/mobil-datakommunikation/mobiflex/ -->
+			<apn value="mobiflex.telia.se">
+				<name>Mobiflex</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Telenor</name>
 		<gsm>
 			<network-id mcc="240" mnc="06"/>
