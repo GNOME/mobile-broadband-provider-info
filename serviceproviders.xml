@@ -563,6 +563,41 @@ conceived.
 	</provider>
 </country>
 
+<!-- Bahrain -->
+<country code="bh">
+	<provider>
+		<name>Batelco</name>
+		<gsm>
+			<network-id mcc="426" mnc="01"/>
+			<apn value="internet.batelco.com">
+				<name>oNet</name>
+				<username>wap</username>
+				<password>wap</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Zain BH</name>
+		<gsm>
+			<network-id mcc="426" mnc="02"/>
+			<apn value="hsdpa">
+				<name>eGO</name>
+				<username>hsdpa</username>
+				<password>hsdpa</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>STC</name>
+		<gsm>
+			<network-id mcc="426" mnc="04"/>
+			<apn value="viva.bh">
+				<name>Viva</name>
+			</apn>
+		</gsm>
+	</provider>
+</country>
+
 <!-- Brazil -->
 <country code="br">
 	<provider>
