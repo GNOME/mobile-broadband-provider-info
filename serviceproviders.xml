@@ -2185,7 +2185,14 @@ conceived.
 		<name>Vodafone</name>
 		<gsm>
 			<network-id mcc="202" mnc="05"/>
-			<apn value="internet"/>
+			<apn value="internet">
+				<name>Contract</name>
+			</apn>
+			<apn value="web.session">
+				<name>Mobile Broadband On Demand</name>
+				<dns>213.249.17.10</dns>
+				<dns>213.249.17.11</dns>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
