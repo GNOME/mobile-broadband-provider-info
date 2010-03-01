@@ -5181,6 +5181,15 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<name>O2</name>
+		<gsm>
+			<network-id mcc="231" mnc="06"/>
+			<apn value="o2internet">
+				<name>Internet</name>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Senegal -->
