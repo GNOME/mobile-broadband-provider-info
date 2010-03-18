@@ -3566,6 +3566,12 @@ conceived.
 				<dns>212.93.96.2</dns>
 				<dns>212.93.96.4</dns>
 			</apn>
+			<apn value="open.lmt.lv">
+				<name>O!Karte internet</name>
+			</apn>
+			<apn value="okarte.lmt.lv">
+				<name>O!Karte</name>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -3573,8 +3579,19 @@ conceived.
 		<gsm>
 			<network-id mcc="247" mnc="02"/>
 			<apn value="internet.tele2.lv">
+				<name>Regular</name>
 				<username>gprs</username>
 				<password>internet</password>
+			</apn>
+			<apn value="mobileinternet.tele2.lv">
+				<name>Mobile Internet</name>
+				<username>wap</username>
+				<password>wap</password>
+			</apn>
+			<apn value="data.tele2.lv">
+				<name>Zelta Zivtina</name>
+				<username>wap</username>
+				<password>wap</password>
 			</apn>
 		</gsm>
 	</provider>
