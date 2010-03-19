@@ -3531,7 +3531,7 @@ conceived.
 		<name>LUXGSM</name>
 		<gsm>
 			<network-id mcc="270" mnc="01"/>
-			<apn value="webp.pt.lu">
+			<apn value="web.pt.lu">
 				<dns>194.154.192.101</dns>
 				<dns>194.154.192.102</dns>
 			</apn>
