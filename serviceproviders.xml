@@ -890,6 +890,16 @@ conceived.
 			<sid value="16412"/>
 		</cdma>
 	</provider>
+	<provider>
+		<name>Vidéotron</name>
+		<gsm>
+			<network-id mcc="302" mnc="500"/>
+			<network-id mcc="302" mnc="510"/>
+			<apn value="ihvm.videotron">
+				<name>IHVM</name>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Congo (Dem. Rep.) -->
