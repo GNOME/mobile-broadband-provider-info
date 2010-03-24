@@ -839,6 +839,18 @@ conceived.
 	</provider>
 	<provider>
 		<name>Bell Mobility</name>
+		<gsm>
+			<network-id mcc="302" mnc="610"/>
+			<network-id mcc="302" mnc="640"/>
+			<network-id mcc="302" mnc="651"/>
+			<network-id mcc="302" mnc="880"/>
+			<apn value="inet.bell.ca">
+				<name>Internet</name>
+			</apn>
+			<apn value="pda.bell.ca">
+				<name>Mobile Web</name>
+			</apn>
+		</gsm>
 		<cdma>
 			<sid value="16420"/>
 			<sid value="16440"/>
@@ -869,6 +881,23 @@ conceived.
 	</provider>
 	<provider>
 		<name>Telus Mobility</name>
+		<gsm>
+			<network-id mcc="302" mnc="220"/>
+			<network-id mcc="302" mnc="860"/>
+			<network-id mcc="302" mnc="880"/>
+			<apn value="isp.telus.com">
+				<name>Internet</name>
+			</apn>
+			<apn value="vpn.telus.com">
+				<name>Internet (with VPN)</name>
+			</apn>
+			<apn value="bb.telus.com">
+				<name>Blackberry</name>
+			</apn>
+			<apn value="sp.telus.com">
+				<name>Mobile Web/Smartphone</name>
+			</apn>
+		</gsm>
 		<cdma>
 			<sid value="16422"/>
 			<sid value="17500"/>
