@@ -5019,11 +5019,21 @@ conceived.
 	</provider>
 	<!-- http://www.tele2.se/internet-via-gprs.html -->
 	<provider>
-		<name>Tele2/Comviq</name>
+		<name>Tele2</name>
 		<gsm>
 			<network-id mcc="240" mnc="07"/>
 			<network-id mcc="240" mnc="05"/>
 			<apn value="internet.tele2.se"/>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Comviq</name>
+		<gsm>
+			<network-id mcc="240" mnc="07"/>
+			<network-id mcc="240" mnc="05"/>
+			<apn value="data.comviq.se">
+				<name>Surf</name>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
