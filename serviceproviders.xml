@@ -1500,8 +1500,10 @@ conceived.
 		</cdma>
 	</provider>
 	<provider>
-		<name>Telenor (Sonofon)</name>
+		<name>Telenor</name>
 		<gsm>
+			<network-id mcc="238" mnc="02"/>
+			<network-id mcc="238" mnc="77"/>
 			<apn value="internet">
 				<dns>212.88.64.199</dns>
 				<dns>212.88.64.14</dns>
