@@ -5081,6 +5081,13 @@ conceived.
 			<apn value="internet.se"/>
 		</gsm>
 	</provider>
+	<provider>
+		<name>djuice</name>
+		<gsm>
+			<network-id mcc="240" mnc="09"/>
+			<apn value="internet.djuice.se"/>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Singapore -->
