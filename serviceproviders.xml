@@ -6434,6 +6434,69 @@ conceived.
 	</provider>
 </country>
 
+<!-- Viet Nam -->
+<country code="vn">
+	<provider>
+		<name>MobiFone</name>
+		<gsm>
+			<network-id mcc="452" mnc="01"/>
+			<apn value="v-wap">
+				<username>mms</username>
+				<password>mms</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Vinaphone</name>
+		<gsm>
+			<network-id mcc="452" mnc="02"/>
+			<apn value="m3-world">
+				<username>mms</username>
+				<password>mms</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>S-Fone</name>
+		<cdma>
+			<!-- phone number dialed appears to be 1501 not 777 (???
+			     http://www.sfone.com.vn/webportal/guideMobile02_vi.html?pageNum=3&subNum=9&idxNum=091
+			  -->
+			<username>S-Fone</username>
+			<!-- Assignments taken from IFAST: http://www.ifast.org/files/NationalSID.htm -->
+			<sid value="13331"/>
+		</cdma>
+	</provider>
+	<provider>
+		<name>Viettel Mobile</name>
+		<gsm>
+			<network-id mcc="452" mnc="04"/>
+			<apn value="v-internet"/>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Vietnamobile</name>
+		<gsm>
+			<network-id mcc="452" mnc="05"/>
+			<apn value="internet"/>
+		</gsm>
+	</provider>
+	<provider>
+		<name>E-Mobile</name>
+		<cdma>
+			<username>evntelecom</username>
+			<password>evntelecom</password>
+		</cdma>
+	</provider>
+	<provider>
+		<name>Beeline VN</name>
+		<gsm>
+			<network-id mcc="452" mnc="07"/>
+			<apn value="internet"/>
+		</gsm>
+	</provider>
+</country>
+
 <!-- South Africa -->
 <country code="za">
 	<provider>
