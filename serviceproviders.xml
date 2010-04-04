@@ -963,8 +963,15 @@ conceived.
 		<gsm>
 			<network-id mcc="228" mnc="03"/>
 			<apn value="mobileoffice3g">
+				<name>Business Everywhere</name>
 				<dns>213.55.128.1</dns>
 				<dns>213.55.128.2</dns>
+			</apn>
+			<apn value="click">
+				<name>Prima Surf</name>
+			</apn>
+			<apn value="internet">
+				<name>Internet Everywhere</name>
 			</apn>
 		</gsm>
 	</provider>
