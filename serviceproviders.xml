@@ -1348,7 +1348,7 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>o2</name>
+		<name>O2</name>
 		<gsm>
 			<network-id mcc="262" mnc="07"/>
 			<network-id mcc="262" mnc="08"/>
@@ -2561,7 +2561,7 @@ conceived.
 <!-- Ireland -->
 <country code="ie">
 	<provider>
-		<name>o2</name>
+		<name>O2</name>
 		<gsm>
 			<network-id mcc="272" mnc="02"/>
 			<apn value="open.internet">
