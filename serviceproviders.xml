@@ -5177,6 +5177,25 @@ conceived.
 			<apn value="bredband.comhem.se"/>
 		</gsm>
 	</provider>
+	<provider>
+		<name>Parlino</name>
+		<gsm>
+			<apn value="internet.parlino.se"/>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Universal Telecom</name>
+		<gsm>
+			<!-- http://www.uvtc.com/SWEDEN/internet/mobiltbredband/Default.aspx -->
+			<apn value="sp-internet">
+				<name>Mobilt Bredband</name>
+			</apn>
+			<!-- http://www.uvtc.com/sweden/Mobil/Faq/default.aspx -->
+			<apn value="internet.uvtc.com">
+				<name>Mobilt Internet</name>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Singapore -->
