@@ -6378,16 +6378,29 @@ conceived.
 		<gsm>
 			<network-id mcc="748" mnc="00"/>
 			<network-id mcc="748" mnc="01"/>
+			<apn value="adslmovil">
+				<name>ADSL Móvil</name>
+				<dns>200.40.30.245</dns>
+				<dns>200.40.220.245</dns>
+			</apn>
 			<apn value="gprs.ancel">
+				<name>GPRS</name>
 				<dns>200.40.30.245</dns>
 				<dns>200.40.220.245</dns>
 			</apn>
 		</gsm>
 	</provider>
 	<provider>
-		<name>CTI</name>
+		<name>Claro</name>
 		<gsm>
+			<network-id mcc="748" mnc="10"/>
+			<apn value="gprs.claro.com.uy">
+				<name>3G Internet</name>
+				<username>ctigprs</username>
+				<password>ctigprs999</password>
+			</apn>
 			<apn value="internet.ctimovil.com.uy">
+				<name>2G Internet</name>
 				<username>ctiweb</username>
 				<password>ctiweb999</password>
 			</apn>
@@ -6397,7 +6410,13 @@ conceived.
 		<name>Movistar</name>
 		<gsm>
 			<network-id mcc="748" mnc="07"/>
+			<apn value="apnumt.movistar.com.uy">
+				<name>3G Internet</name>
+				<username>movistar</username>
+				<password>movistar</password>
+			</apn>
 			<apn value="webapn.movistar.com.uy">
+				<name>2G Internet</name>
 				<username>movistar</username>
 				<password>movistar</password>
 			</apn>
