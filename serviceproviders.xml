@@ -4171,6 +4171,7 @@ conceived.
 	<provider>
 		<name>TDC</name>
 		<gsm>
+			<network-id mcc="242" mnc="08"/>
 			<apn value="internet.no">
 				<dns>80.232.41.10</dns>
 				<dns>80.232.41.20</dns>
