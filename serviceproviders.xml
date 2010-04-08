@@ -5061,8 +5061,14 @@ conceived.
 	<provider>
 		<name>Glocalnet</name>
 		<gsm>
-			<!-- http://mobiltbredband.glocalnet.se/ -->
-			<apn value="internet.glocalnet.se"/>
+			<!-- http://glocalnet.se/mobiltbredband -->
+			<apn value="bredband.glocalnet.se">
+				<name>Mobilt Bredband</name>
+			</apn>
+			<!-- http://kundservice.glocalnet.se/Kundservice/Mobiltelefoni/Installningar/ -->
+			<apn value="internet.glocalnet.se">
+				<name>Glocalnet Internet</name>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
