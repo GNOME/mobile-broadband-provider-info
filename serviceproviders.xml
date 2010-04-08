@@ -5708,10 +5708,45 @@ conceived.
 	<provider>
 		<name>MTN</name>
 		<gsm>
+			<network-id mcc="641" mnc="10"/>
 			<apn value="yellopix.mtn.co.ug">
-				<dns>212.88.97.20</dns>
-				<dns>212.88.97.67</dns>
+				<dns>193.108.252.50</dns>
+				<dns>193.108.252.51</dns>
 			</apn>
+		</gsm>
+	</provider>
+    <provider>
+		<name>Orange</name>
+		<gsm>
+			<network-id mcc="641" mnc="14"/>
+			<apn value="orange.ug"/>
+		</gsm>
+	</provider>
+    <provider>
+		<name>UTL</name>
+		<gsm>
+			<network-id mcc="641" mnc="11"/>
+			<apn value="utbroadband">
+				<name>Mobile Broadband</name>
+			</apn>
+			<apn value="utweb">
+				<name>Mobile Internet</name>
+			</apn>
+		</gsm>
+	</provider>
+    <provider>
+		<name>Warid</name>
+		<gsm>
+			<network-id mcc="641" mnc="22"/>
+			<!-- http://www.waridtel.co.ug/gprs.php -->
+			<apn value="web.waridtel.co.ug"/>
+		</gsm>
+	</provider>
+    <provider>
+		<name>Zain</name>
+		<gsm>
+			<network-id mcc="641" mnc="01"/>
+			<apn value="web.ug.zain.com"/>
 		</gsm>
 	</provider>
 </country>
