@@ -1855,14 +1855,6 @@ conceived.
 		<name>Saunalahti</name>
 		<gsm>
 			<network-id mcc="244" mnc="21"/>
-			<apn value="internet.saunalahti"/>
-		</gsm>
-	</provider>
-	<provider>
-		<name>Sonera</name>
-		<gsm>
-			<network-id mcc="244" mnc="91"/>
-
 			<apn value="internet.saunalahti">
 				<name>Postpaid (contract)</name>
 				<dns>192.89.123.230</dns>
@@ -1873,7 +1865,16 @@ conceived.
 				<dns>192.89.123.230</dns>
 				<dns>192.89.123.231</dns>
 			</apn>
-
+		</gsm>
+	</provider>
+	<provider>
+		<name>Sonera</name>
+		<gsm>
+			<network-id mcc="244" mnc="91"/>
+			<apn value="internet">
+				<dns>192.89.123.230</dns>
+				<dns>192.89.123.231</dns>
+			</apn>
 			<apn value="prointernet">
 				<name>Prointernet (public IP)</name>
 				<dns>192.89.123.230</dns>
