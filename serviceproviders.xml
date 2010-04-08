@@ -2032,7 +2032,7 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>o2</name>
+		<name>O2</name>
 		<gsm>
 			<network-id mcc="234" mnc="02"/>
 			<network-id mcc="234" mnc="10"/>
@@ -2060,6 +2060,11 @@ conceived.
 			<apn value="idata.o2.co.uk">
 				<name>iPhone (Contract)</name>
 				<username>vertigo</username>
+				<password>password</password>
+			</apn>
+			<apn value="m-bb.o2.co.uk">
+				<name>Mobile Broadband</name>
+				<username>o2bb</username>
 				<password>password</password>
 			</apn>
 			<apn value="wap.o2.co.uk">
