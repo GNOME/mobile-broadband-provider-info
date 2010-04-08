@@ -5043,12 +5043,11 @@ conceived.
 		<name>3</name>
 		<gsm>
 			<network-id mcc="240" mnc="02"/>
-
+			<network-id mcc="240" mnc="04"/>
 			<!-- http://www.tre.se/templates/Sporg3_02.aspx?id=4231 -->
 			<apn value="data.tre.se">
 				<name>Mobiltelefon</name>
 			</apn>
-
 			<!-- http://www.tre.se/templates/Sporg3_02.aspx?id=4231 -->
 			<apn value="bredband.tre.se">
 				<name>Bredband</name>
@@ -5088,13 +5087,19 @@ conceived.
 			<password>cdma</password>
 		</cdma>
 	</provider>
-	<!-- http://www.tele2.se/internet-via-gprs.html -->
 	<provider>
 		<name>Tele2</name>
 		<gsm>
 			<network-id mcc="240" mnc="07"/>
 			<network-id mcc="240" mnc="05"/>
-			<apn value="internet.tele2.se"/>
+			<!-- http://www.tele2.se/internet-via-gprs.html -->
+			<apn value="internet.tele2.se">
+				<name>Mobilt Internet</name>
+			</apn>
+			<!-- http://www.tele2.se/alien-modem.html -->
+			<apn value="mobileinternet.tele2.se">
+				<name>Mobilt Bredband</name>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -5122,15 +5127,19 @@ conceived.
 	<provider>
 		<name>Telenor</name>
 		<gsm>
+			<network-id mcc="240" mnc="04"/>
 			<network-id mcc="240" mnc="06"/>
 			<network-id mcc="240" mnc="08"/>
 
 			<!-- http://www.telenor.se/privat/mobiltelefoni/alla-mobiltjanster/alla-mobiltjanster.html#C45-2100 -->
 			<apn value="internet.telenor.se">
-				<name>Mobilt bredband</name>
+				<name>Mobilt Internet</name>
 			</apn>
 			<apn value="services.telenor.se">
 				<name>Mobilsurf med maxtaxa</name>
+			</apn>
+			<apn value="bredband.telenor.se">
+				<name>Mobilt Bredband</name>
 			</apn>
 		</gsm>
 	</provider>
@@ -5147,8 +5156,7 @@ conceived.
 	<provider>
 		<name>TDC</name>
 		<gsm>
-			<network-id mcc="240" mnc="07"/>
-			<network-id mcc="240" mnc="05"/>
+			<network-id mcc="240" mnc="14"/>
 			<apn value="internet.se"/>
 		</gsm>
 	</provider>
@@ -5157,6 +5165,15 @@ conceived.
 		<gsm>
 			<network-id mcc="240" mnc="09"/>
 			<apn value="internet.djuice.se"/>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Com Hem</name>
+		<gsm>
+			<network-id mcc="240" mnc="02"/>
+			<network-id mcc="240" mnc="04"/>
+			<!-- MVNO operating on 3's network -->
+			<apn value="bredband.comhem.se"/>
 		</gsm>
 	</provider>
 </country>
