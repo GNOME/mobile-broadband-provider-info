@@ -4517,6 +4517,12 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<name>GaduAIR</name>
+		<gsm>
+			<apn value="internet.gadu-gadu.pl"/>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Portugal -->
