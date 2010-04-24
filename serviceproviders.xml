@@ -3049,8 +3049,11 @@ conceived.
 		<name>Vodafone</name>
 		<gsm>
 			<network-id mcc="222" mnc="10"/>
+			<apn value="mobile.vodafone.it">
+				<name>Mobile Internet</name>
+			</apn>
 			<apn value="web.omnitel.it">
-				<name>Internet Facile</name>
+				<name>Internet Facile (old)</name>
 			</apn>
 		</gsm>
 	</provider>
