@@ -268,18 +268,18 @@ conceived.
 			<network-id mcc="505" mnc="02"/>
 			<apn value="internet">
 				<name>Mobile Internet (handsets)</name>
-				<dns>202.139.83.3</dns>
-				<dns>192.65.91.129</dns>
+				<dns>211.29.132.12</dns>
+				<dns>198.142.0.51</dns>
 			</apn>
 			<apn value="connect">
 				<name>Wireless Broadband</name>
-				<dns>202.139.83.3</dns>
-				<dns>192.65.91.129</dns>
+				<dns>211.29.132.12</dns>
+				<dns>198.142.0.51</dns>
 			</apn>
 			<apn value="preconnect">
 				<name>Pre-Paid Mobile Broadband</name>
-				<dns>61.88.88.88</dns>
 				<dns>211.29.132.12</dns>
+				<dns>198.142.0.51</dns>
 			</apn>
 		</gsm>
 	</provider>
