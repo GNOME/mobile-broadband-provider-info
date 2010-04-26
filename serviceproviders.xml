@@ -2973,6 +2973,14 @@ conceived.
 			<password>internet</password>
 		</cdma>
 	</provider>
+	<provider>
+		<name>MTS MBlaze</name>
+		<cdma>
+			<username>internet@internet.mtsindia.in</username>
+			<password>mts</password>
+			<sid value="14554"/>
+		</cdma>
+	</provider>
 </country>
 
 <!-- Iraq -->
