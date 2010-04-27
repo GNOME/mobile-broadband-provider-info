@@ -5415,6 +5415,17 @@ conceived.
 	</provider>
 </country>
 
+<!-- Sudan -->
+<country code="sd">
+	<provider>
+		<name>Zain</name>
+		<gsm>
+			<network-id mcc="634" mnc="01"/>
+			<apn value="internet"/>
+		</gsm>
+	</provider>
+</country>
+
 <!-- Thailand -->
 <country code="th">
 	<provider>
