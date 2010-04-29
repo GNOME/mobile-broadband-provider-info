@@ -4695,10 +4695,15 @@ conceived.
 		</cdma>
 	</provider>
 	<provider>
-		<name>DIGI.mobil</name>
+		<name>Digi.Net Mobil</name>
 		<gsm>
 			<network-id mcc="226" mnc="05"/>
-			<apn value="internet"/>
+			<apn value="internet">
+				<name>Home</name>
+			</apn>
+			<apn value="static">
+				<name>Business (static)</name>
+			</apn>
 		</gsm>
 	</provider>
 </country>
