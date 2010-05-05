@@ -86,14 +86,25 @@ conceived.
 	<provider>
 		<name>Orange</name>
 		<gsm>
-			<apn value="internet" />
+			<network-id mcc="283" mnc="10"/>
+			<apn value="internet.orange">
+				<name>Internet Hima (USB)</name>
+			</apn>
+			<apn value="internet">
+				<name>Mobile Broadband</name>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
 		<name>VivaCell/MTS</name>
 		<gsm>
 			<network-id mcc="283" mnc="05"/>
-			<apn value="inet.vivacell.am" />
+			<apn value="connect.vivacell.am">
+				<name>MTS connect</name>
+			</apn>
+			<apn value="inet.vivacell.am">
+				<name>Mobile Broadband</name>
+			</apn>
 		</gsm>
 	</provider>
 </country>
