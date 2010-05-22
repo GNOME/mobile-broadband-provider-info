@@ -3931,8 +3931,12 @@ conceived.
 		<gsm>
 			<network-id mcc="502" mnc="16"/>
 			<apn value="diginet">
+				<name>Mobile Internet</name>
 				<dns>203.92.128.131</dns>
 				<dns>203.92.128.132</dns>
+			</apn>
+			<apn value="3gdgnet">
+				<name>Broadband</name>
 			</apn>
 		</gsm>
 	</provider>
