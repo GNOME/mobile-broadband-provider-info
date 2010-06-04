@@ -6624,6 +6624,26 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<name>Movilnet</name>
+		<gsm>
+			<network-id mcc="734" mnc="06"/>
+			<apn value="int.movilnet.com.ve">
+				<dns>200.44.32.12</dns>
+				<dns>200.11.248.12</dns>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Movistar</name>
+		<gsm>
+			<network-id mcc="734" mnc="04"/>
+			<apn value="internet.movistar.ve">
+				<dns>200.35.65.3</dns>
+				<dns>200.35.65.4</dns>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Viet Nam -->
