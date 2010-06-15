@@ -1616,6 +1616,17 @@ conceived.
 			<apn value="internet.bibob.dk"/>
 		</gsm>
 	</provider>
+	<!-- Telmore - Same network as TDC -->
+	<provider>
+		<name>Telmore</name>
+		<gsm>
+			<network-id mcc="238" mnc="01"/>
+			<apn value="internet">
+				<dns>194.239.134.83</dns>
+				<dns>193.162.153.164</dns>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Dominican Republic -->
