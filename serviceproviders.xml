@@ -1557,13 +1557,16 @@ conceived.
 		<gsm>
 			<network-id mcc="238" mnc="06"/>
 			<apn value="bredband.tre.dk">
-				<name>Bredbånd</name>
+				<name>Bredbånd (standard)</name>
  			</apn>
 			<apn value="net.tre.dk">
 				<name>Bredbånd Premium Kontant</name>
 			</apn>
 			<apn value="data.tre.dk">
-				<name>3 (Mobil Abonnement)</name>
+				<name>3 (standard for mobilkunder; spærret for indgående trafik)</name>
+			</apn>
+			<apn value="static.tre.dk">
+				<name>3 (statisk IP)</name>
 			</apn>
 		</gsm>
 	</provider>
@@ -1636,6 +1639,18 @@ conceived.
 				<dns>194.239.134.83</dns>
 				<dns>193.162.153.164</dns>
 			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Unotel</name>
+		<gsm>
+			<apn value="internet"/>
+		</gsm>
+	</provider>
+	<provider>
+		<name>happiimobil</name>
+		<gsm>
+			<apn value="internet"/>
 		</gsm>
 	</provider>
 </country>
