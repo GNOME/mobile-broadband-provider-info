@@ -5534,6 +5534,22 @@ conceived.
 	</provider>
 </country>
 
+<!-- Tunisia -->
+<country code="tn">
+	<provider>
+		<name>Orange</name>
+		<gsm>
+			<network-id mcc="605" mnc="01"/>
+			<apn value="keygp">
+				<name>Internet Everywhere Prepaid</name>
+			</apn>
+			<apn value="keypro">
+				<name>Internet Everywhere Professional</name>
+			</apn>
+		</gsm>
+	</provider>
+</country>
+
 <!-- Turkey -->
 <country code="tr">
 	<provider>
