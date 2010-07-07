@@ -6585,6 +6585,13 @@ conceived.
 			<apn value="ISP"/>
 		</gsm>
 	</provider>
+	<provider>
+		<name>MTPCS (Cellular One)</name>
+		<gsm>
+			<network-id mcc="310" mnc="570"/>
+			<apn value="wapgw.chinookwireless.net"/>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Uruguay -->
