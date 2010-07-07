@@ -6,7 +6,7 @@
 
 <!ELEMENT provider (name+, gsm?, cdma?)>
 
-<!ELEMENT gsm (network-id*, apn+)>
+<!ELEMENT gsm (network-id*, apn*)>
 <!ELEMENT apn (name*,
                gateway?,
                username?,

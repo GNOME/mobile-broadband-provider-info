@@ -6311,6 +6311,10 @@ conceived.
 	</provider>
 	<provider>
 		<name>Alltel</name>
+		<gsm>
+			<!-- Former Western Wireless (roaming only) -->
+			<network-id mcc="310" mnc="590"/>
+		</gsm>
 		<cdma>
 			<!-- Assignments taken from IFAST: http://www.ifast.org/files/NationalSID.htm -->
 			<sid value="32"/>
