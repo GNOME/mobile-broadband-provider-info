@@ -6592,6 +6592,12 @@ conceived.
 			<apn value="wapgw.chinookwireless.net"/>
 		</gsm>
 	</provider>
+	<provider>
+		<name>Mid-Rivers Cellular</name>
+		<cdma>
+			<sid value="3102"/>
+		</cdma>
+	</provider>
 </country>
 
 <!-- Uruguay -->
