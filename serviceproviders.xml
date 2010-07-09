@@ -1428,7 +1428,10 @@ conceived.
 			<network-id mcc="262" mnc="07"/>
 			<network-id mcc="262" mnc="08"/>
 			<network-id mcc="262" mnc="11"/>
-			<apn value="pinternet.interkom.de"/>
+			<apn value="pinternet.interkomm.de">
+				<username>fonic</username>
+				<password>fonic</password>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
