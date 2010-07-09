@@ -832,6 +832,24 @@ conceived.
 	</provider>
 </country>
 
+<!-- Burundi -->
+<country code="bi">
+	<provider>
+		<name>Leo/UCom</name>
+		<gsm>
+			<network-id mcc="642" mnc="03"/>
+			<apn value="ucnet"/>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Tempo/Africell</name>
+		<gsm>
+			<network-id mcc="642" mnc="02"/>
+			<apn value="internet"/>
+		</gsm>
+	</provider>
+</country>
+
 <!-- Canada -->
 <country code="ca">
 	<provider>
@@ -4809,6 +4827,18 @@ conceived.
 			<apn value="vipmobile">
 				<username>vipmobile</username>
 				<password>vipmobile</password>
+			</apn>
+		</gsm>
+	</provider>
+</country>
+
+<!-- Rwanda -->
+<country code="rw">
+	<provider>
+		<name>MTN</name>
+		<gsm>
+			<network-id mcc="635" mnc="10"/>
+			<apn value="internet.mtn">
 			</apn>
 		</gsm>
 	</provider>
