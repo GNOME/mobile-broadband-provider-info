@@ -2492,23 +2492,13 @@ conceived.
 <!-- Hungary -->
 <country code="hu">
 	<provider>
-		<name>Pannon</name>
+		<name>Telenor</name>
 		<gsm>
 			<network-id mcc="216" mnc="01"/>
-			<apn value="netx">
-				<name>átalánydíjas</name>
-				<dns>193.225.155.254</dns>
-				<dns>194.149.0.157</dns>
-			</apn>
 			<apn value="net">
-				<name>Normál</name>
-				<dns>193.225.153.17</dns>
-				<dns>195.56.172.113</dns>
-			</apn>
-			<apn value="snet">
-				<name>Tömörített</name>
-				<dns>193.225.153.17</dns>
-				<dns>194.149.0.157</dns>
+				<name>mobilinternet</name>
+				<dns>217.79.128.40</dns>
+				<dns>217.79.128.45</dns>
 			</apn>
 		</gsm>
 	</provider>
@@ -2555,6 +2545,15 @@ conceived.
 				<name>Vodafone (felt. töm.)</name>
 				<dns>80.244.97.30</dns>
 				<dns>80.244.96.1</dns>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Invitel</name>
+                <!-- MVNO operating on Telenor's network -->
+		<gsm>
+			<apn value="invitel.mobilnet">
+				<name>net.and.go</name>
 			</apn>
 		</gsm>
 	</provider>
