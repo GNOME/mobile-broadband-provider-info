@@ -10,4 +10,4 @@ Name: mobile-broadband-provider-info
 Description: Mobile Broadband Service Provider Information Database
 Requires:
 Version: @VERSION@
-Cflags: -DMOBILE_BROADBAND_PROVIDER_INFO='\"${database}\"'
+Cflags: -DMOBILE_BROADBAND_PROVIDER_INFO='"${database}"'
