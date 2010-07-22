@@ -6,13 +6,41 @@
 
 <!ELEMENT provider (name+, gsm?, cdma?)>
 
-<!ELEMENT gsm (network-id*, apn*)>
+<!ELEMENT gsm (network-id*, voicemail*, balance-check*, apn*)>
 <!ELEMENT apn (name*,
                gateway?,
                username?,
                password?,
                dns*)>
 <!ATTLIST apn value CDATA #REQUIRED>
+
+<!ELEMENT voicemail (#PCDATA)>
+<!-- contains dial string used to access voicemail services for this provider -->
+<!-- for historical/legacy reasons network providers may support various alternative -->
+<!-- dial strings that can be used to access voicemail services -->
+
+<!ELEMENT balance-check (ussd*,
+                         dtmf*,
+                         sms*,
+                         ussd-response*)>
+<!-- for handset branding and historical/legacy reasons, network providers often -->
+<!-- support a number of alternative methods to check balance/allowance. -->
+<!-- the first element will typically be the default method -->
+
+<!ELEMENT ussd (#PCDATA)>
+<!-- contains * prefixed string which when sent to the network should result in a response text string from network -->
+
+<!ELEMENT dtmf (#PCDATA)>
+<!-- contains dial string used to access balance check service via voice call -->
+
+<!ELEMENT sms (#PCDATA)>
+<!ATTLIST sms text CDATA #REQUIRED>
+<!-- contains dial string and text string used to access balance check service via sms -->
+
+<!ELEMENT ussd-response (#PCDATA)>
+<!-- similar to standard ussd method but requires user to select options from initial network response -->
+<!-- typically, option 1 followed by option 3 will display remaining credit -->
+<!-- this method does not have widespread use -->
 
 <!ELEMENT network-id EMPTY>
 <!ATTLIST network-id mcc CDATA #REQUIRED>

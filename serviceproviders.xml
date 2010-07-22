@@ -298,6 +298,11 @@ conceived.
 		<name>Telstra</name>
 		<gsm>
 			<network-id mcc="505" mnc="01"/>
+			<balance-check>
+				<dtmf>125111</dtmf>
+				<dtmf>1258888</dtmf>
+				<ussd-response>*100#</ussd-response>
+			</balance-check>
 			<apn value="telstra.wap">
 				<dns>139.130.4.4</dns>
 				<dns>203.50.2.71</dns>
@@ -2124,7 +2129,11 @@ conceived.
 			<network-id mcc="234" mnc="02"/>
 			<network-id mcc="234" mnc="10"/>
 			<network-id mcc="234" mnc="11"/>
-
+			<voicemail>901</voicemail>
+			<balance-check>
+				<ussd>*#10#</ussd>
+				<dtmf>4444</dtmf>
+			</balance-check>
 			<apn value="mobile.o2.co.uk">
 				<name>Contract</name>
 				<username>o2web</username>
@@ -2165,6 +2174,12 @@ conceived.
 		<name>T-Mobile</name>
 		<gsm>
 			<network-id mcc="234" mnc="30"/>
+			<voicemail>222</voicemail>
+			<balance-check>
+				<dtmf>150</dtmf>
+				<sms text="BA">150</sms>
+				<sms text="AL">150</sms>
+			</balance-check>
 			<apn value="general.t-mobile.uk">
 				<username>User</username>
 				<password>mms</password>
@@ -2188,6 +2203,11 @@ conceived.
 		<name>Vodafone</name>
 		<gsm>
 			<network-id mcc="234" mnc="15"/>
+			<voicemail>121</voicemail>
+			<balance-check>
+				<ussd>*#1345#</ussd>
+				<dtmf>2345</dtmf>
+			</balance-check>
 			<apn value="internet">
 				<name>Contract</name>
 				<username>web</username>
@@ -2224,7 +2244,10 @@ conceived.
 		<gsm>
 			<network-id mcc="234" mnc="33"/>
 			<network-id mcc="234" mnc="34"/>
-
+			<voicemail>123</voicemail>
+			<balance-check>
+				<dtmf>453</dtmf>
+			</balance-check>
 			<apn value="orangeinternet">
 				<name>Contract</name>
 				<username>orange</username>
@@ -2650,6 +2673,9 @@ conceived.
 		<name>O2</name>
 		<gsm>
 			<network-id mcc="272" mnc="02"/>
+			<balance-check>
+				<ussd>*#100#</ussd>
+			</balance-check>
 			<apn value="open.internet">
 				<name>Contract</name>
 				<username>gprs</username>
@@ -4273,6 +4299,10 @@ conceived.
 		<name>Telenor</name>
 		<gsm>
 			<network-id mcc="242" mnc="01"/>
+			<balance-check>
+				<dtmf>220</dtmf>
+				<sms text="saldo">222</sms>
+			</balance-check>
 			<apn value="telenor">
 				<dns>212.17.131.3</dns>
 				<dns>148.122.161.2</dns>
@@ -5227,6 +5257,10 @@ conceived.
 		<gsm>
 			<network-id mcc="240" mnc="07"/>
 			<network-id mcc="240" mnc="05"/>
+			<balance-check>
+				<ussd>*111#</ussd>
+				<dtmf>211</dtmf>
+			</balance-check>
 			<!-- http://www.tele2.se/internet-via-gprs.html -->
 			<apn value="internet.tele2.se">
 				<name>Mobilt Internet</name>
@@ -5283,7 +5317,10 @@ conceived.
 		<gsm>
 			<network-id mcc="240" mnc="01"/>
 			<network-id mcc="240" mnc="05"/>
-
+			<balance-check>
+				<ussd>*120#</ussd>
+				<ussd>*121#</ussd>
+			</balance-check>
 			<!-- http://www3.telia.se/foretag/mobilguiden/ -->
 			<apn value="online.telia.se"/>
 		</gsm>
