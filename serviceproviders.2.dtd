@@ -45,11 +45,32 @@
 <!ELEMENT network-id EMPTY>
 <!ATTLIST network-id mcc CDATA #REQUIRED>
 <!ATTLIST network-id mnc CDATA #REQUIRED>
+<!-- network-id should contain all the providers's known MCC/MNC codes.
+     The MNC should be a three-digit ITU E.212 Mobile Country Code (like
+     '310' or '409') and the MNC should be a two- or three-digit GSM
+     Mobile Network Code.  Even if the provider is an MVNO, it's upstream
+     network infrastructure provider's MCC/MNC codes should be included
+     so that the MCC+MNC from the IMSI of the MVNO's SIM can be roughly
+     matched to the provider.
+-->
 
-<!ELEMENT username (#PCDATA)> 
+<!ELEMENT username (#PCDATA)>
+<!-- username required for authentication when starting a packet data session -->
+
 <!ELEMENT password (#PCDATA)>
+<!-- password required for authentication when starting a packet data session -->
+
 <!ELEMENT dns (#PCDATA)>
+<!-- Any static IPv4 DNS servers required for the provider; usually these are
+     sent to the client automatically via PPP or PDP context negotiation and
+     this value is not used.
+-->
+
 <!ELEMENT gateway (#PCDATA)>
+<!-- Static IPv4 gateway to which IP traffic for the data session should be
+     directed to.  Usually the gateway is provided automatically via PPP or
+     PDP context negotiation and this value is not used.
+-->
 
 <!ELEMENT cdma (name*,
                 username?,
@@ -59,6 +80,7 @@
 
 <!ELEMENT sid EMPTY>
 <!ATTLIST sid value CDATA #REQUIRED>
+<!-- AMPS/CDMA System IDs known to be used by this provider -->
 
 <!ELEMENT name (#PCDATA)>
 <!ATTLIST name xml:lang CDATA #IMPLIED>
