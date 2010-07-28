@@ -46,7 +46,7 @@
 <!ATTLIST network-id mcc CDATA #REQUIRED>
 <!ATTLIST network-id mnc CDATA #REQUIRED>
 <!-- network-id should contain all the providers's known MCC/MNC codes.
-     The MNC should be a three-digit ITU E.212 Mobile Country Code (like
+     The MCC should be a three-digit ITU E.212 Mobile Country Code (like
      '310' or '409') and the MNC should be a two- or three-digit GSM
      Mobile Network Code.  Even if the provider is an MVNO, it's upstream
      network infrastructure provider's MCC/MNC codes should be included
