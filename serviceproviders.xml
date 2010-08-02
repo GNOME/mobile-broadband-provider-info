@@ -256,7 +256,7 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Three</name>
+		<name>Drei (3)</name>
 		<name xml:lang="de">Drei</name>
 		<gsm>
 			<network-id mcc="232" mnc="10"/>
