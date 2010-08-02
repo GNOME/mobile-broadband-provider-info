@@ -3137,6 +3137,26 @@ conceived.
 	</provider>
 </country>
 
+<!-- Iran -->
+<country code="ir">
+	<provider>
+		<name>همراه اول</name>
+		<gsm>
+			<network-id mcc="432" mnc="11"/>
+			<apn value="mcinet">
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>ایرانسل</name>
+		<gsm>
+			<network-id mcc="432" mnc="35"/>
+			<apn value="mtnirancell">
+			</apn>
+		</gsm>
+	</provider>
+</country>
+
 <!-- Iceland -->
 <country code="is">
 	<provider>
