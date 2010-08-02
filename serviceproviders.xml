@@ -4710,10 +4710,22 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<!-- Merged with Optimus in 2010 -->
+		<name>Clix</name>
+		<gsm>
+			<network-id mcc="286" mnc="03"/>
+			<apn value="clixinternetmovel"/>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Optimus</name>
 		<gsm>
 			<network-id mcc="286" mnc="03"/>
+			<apn value="umts">
+				<name>3G</name>
+			</apn>
 			<apn value="internet">
+				<name>GPRS</name>
 				<dns>194.79.69.129</dns>
 			</apn>
 		</gsm>
