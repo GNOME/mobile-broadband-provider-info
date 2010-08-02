@@ -2752,7 +2752,8 @@ conceived.
 		<name>Orange</name>
 		<gsm>
 			<network-id mcc="425" mnc="01"/>
-			<apn value="orangeinternet">
+			<apn value="uinternet">
+				<name>3G Internet</name>
 				<dns>158.43.192.1</dns>
 				<dns>158.43.128.1</dns>
 			</apn>
