@@ -1630,6 +1630,16 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+
+	<!-- http://www.cbb.dk/mobil/hjaelp/manuel-opsaetning-af-mms-og-gprs/ -->
+	<provider>
+		<name>CBB Mobil</name>
+		<gsm>
+			<network-id mcc="238" mnc="02"/>
+			<network-id mcc="238" mnc="77"/>
+			<apn value="internet"/>
+		</gsm>
+	</provider>
 	<provider>
 		<name>TDC</name>
 		<gsm>
