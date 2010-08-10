@@ -1417,6 +1417,17 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>Tchibo-Mobil</name>
+		<gsm>
+			<network-id mcc="262" mnc="07"/>
+			<network-id mcc="262" mnc="08"/>
+			<network-id mcc="262" mnc="11"/>
+			<apn value="webmobil1">
+				<name>Tagesflat / Monats-Flatrate L / Monats-Flatrate XL</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>T-mobile (D1)</name>
 		<gsm>
 			<network-id mcc="262" mnc="01"/>
