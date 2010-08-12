@@ -280,6 +280,18 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>Internode</name>
+		<gsm>
+			<!-- http://www.internode.on.net/residential/broadband/3g_wireless/nodemobile_data/faq/#What_is_the_APN -->
+			<apn value="internode">
+				<name>NodeMobile Data</name>
+			</apn>
+			<apn value="splns333a1">
+				<name>Old NodeMobile Data (before 2009-08-26)</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Optus</name>
 		<gsm>
 			<network-id mcc="505" mnc="02"/>
