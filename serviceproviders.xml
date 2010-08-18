@@ -4605,6 +4605,17 @@ conceived.
 	</provider>
 </country>
 
+<!-- French Polynesia -->
+<country code="pf">
+	<provider>
+		<name>Vini</name>
+		<gsm>
+			<network-id mcc="547" mnc="20"/>
+			<apn value="internet"/>
+		</gsm>
+	</provider>
+</country>
+
 <!-- Philippines -->
 <country code="ph">
 	<provider>
