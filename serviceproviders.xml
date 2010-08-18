@@ -2544,7 +2544,7 @@ conceived.
 		<name>T-Mobile</name>
 		<gsm>
 			<network-id mcc="219" mnc="01"/>
-			<apn value="web.htgpr">
+			<apn value="web.htgprs">
 				<dns>10.12.0.1</dns>
 			</apn>
 		</gsm>
