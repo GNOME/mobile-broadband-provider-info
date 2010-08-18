@@ -3963,7 +3963,22 @@ conceived.
 		<name>T-Mobile</name>
 		<gsm>
 			<network-id mcc="297" mnc="02"/>
-			<apn value="internet-postpaid"/>
+			<apn value="tcmg-data">
+				<name>Mobile Broadband</name>
+				<username>38267</username>
+				<password>38267</password>
+			</apn>
+			<apn value="tcmg-nw">
+				<name>GPRS</name>
+				<username>38267</username>
+				<password>38267</password>
+			</apn>
+			<apn value="internet-postpaid">
+				<name>Postpaid (old)</name>
+			</apn>
+			<apn value="internet-prepaid">
+				<name>Prepaid (old)</name>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
