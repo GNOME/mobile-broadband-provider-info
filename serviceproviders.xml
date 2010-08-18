@@ -2594,6 +2594,15 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<name>Tele2</name>
+		<gsm>
+			<network-id mcc="219" mnc="02"/>
+			<apn value="mobileinternet.tele2.hr">
+				<dns>212.247.156.66</dns>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Hungary -->
