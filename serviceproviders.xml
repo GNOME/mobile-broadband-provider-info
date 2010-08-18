@@ -4833,6 +4833,8 @@ conceived.
 		<gsm>
 			<network-id mcc="286" mnc="06"/>
 			<apn value="internet">
+				<username>tmn</username>
+				<password>tmn</password>
 				<dns>194.65.3.20</dns>
 				<dns>194.65.3.21</dns>
 			</apn>
