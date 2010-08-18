@@ -4332,7 +4332,10 @@ conceived.
 	<provider>
 		<name>XS4ALL Mobiel Internet</name>
 		<gsm>
-			<apn value="umts.xs4all.nl"/>
+			<apn value="umts.xs4all.nl">
+				<username>xs4all</username>
+				<password>xs4all</password>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
