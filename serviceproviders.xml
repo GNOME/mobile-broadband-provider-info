@@ -58,6 +58,13 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<name>du</name>
+		<gsm>
+			<network-id mcc="424" mnc="03"/>
+			<apn value="du"/>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Albania -->
