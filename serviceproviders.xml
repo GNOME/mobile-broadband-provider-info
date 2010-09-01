@@ -1002,7 +1002,12 @@ conceived.
 		<name>WIND Mobile</name>
 		<gsm>
 			<network-id mcc="302" mnc="490"/>
-			<apn value="internet.windmobile.ca"/>
+			<apn value="internet.windmobile.ca">
+				<name>Mobile Internet</name>
+			</apn>
+			<apn value="broadband.windmobile.ca">
+				<name>Mobile Broadband</name>
+			</apn>
 		</gsm>
 	</provider>
 </country>
