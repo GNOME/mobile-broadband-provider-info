@@ -3550,10 +3550,21 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Econet</name>
+		<name>yu (Econet)</name>
 		<gsm>
+			<network-id mcc="639" mnc="05"/>
 			<apn value="internet.econet.co.ke"/>
 		</gsm>
+	</provider>
+	<provider>
+		<name>Orange</name>
+		<gsm>
+			<network-id mcc="639" mnc="07"/>
+			<apn value="bew.orange.co.ke"/>
+		</gsm>
+		<cdma>
+			<name>Orange Fixed Plus</name>
+		</cdma>
 	</provider>
 </country>
 
