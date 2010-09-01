@@ -67,6 +67,20 @@ conceived.
 	</provider>
 </country>
 
+<!-- Afghanistan -->
+<country code="af">
+	<provider>
+		<name>AWCC</name>
+		<gsm>
+			<network-id mcc="412" mnc="01"/>
+			<apn value="internet">
+				<username>awcc</username>
+				<password>1111</password>
+			</apn>
+		</gsm>
+	</provider>
+</country>
+
 <!-- Albania -->
 <country code="al">
 	<provider>
