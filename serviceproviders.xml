@@ -1630,11 +1630,13 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>1und1 mobiles Internet</name>
+		<name>1&amp;1</name>
 		<gsm>
-			<apn value="mail.partner.de">
-				<name>Notebook Dayflat</name>
-			</apn>
+			<!-- Vodafone (D2) network -->
+			<network-id mcc="262" mnc="02"/>
+			<network-id mcc="262" mnc="04"/>
+			<network-id mcc="262" mnc="09"/>
+			<apn value="mail.partner.de"/>
 		</gsm>
 	</provider>
 </country>
