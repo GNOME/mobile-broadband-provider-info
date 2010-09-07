@@ -7027,7 +7027,13 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>E-Mobile</name>
+		<name>EVNTelecom/E-Mobile</name>
+		<gsm>
+			<network-id mcc="452" mnc="08"/>
+			<apn value="e-internet">
+				<name>EVNTelecomNet</name>
+			</apn>
+		</gsm>
 		<cdma>
 			<username>evntelecom</username>
 			<password>evntelecom</password>
