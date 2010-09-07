@@ -7011,7 +7011,12 @@ conceived.
 		<name>Viettel Mobile</name>
 		<gsm>
 			<network-id mcc="452" mnc="04"/>
-			<apn value="v-internet"/>
+			<apn value="v-internet">
+				<name>Mobile Internet</name>
+			</apn>
+			<apn value="e-connect">
+				<name>D-com 3G</name>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
