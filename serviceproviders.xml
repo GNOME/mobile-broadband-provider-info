@@ -6985,6 +6985,12 @@ conceived.
 		<gsm>
 			<network-id mcc="452" mnc="02"/>
 			<apn value="m3-world">
+				<name>Mobile Internet</name>
+				<username>mms</username>
+				<password>mms</password>
+			</apn>
+			<apn value="m3-card">
+				<name>Mobile Broadband</name>
 				<username>mms</username>
 				<password>mms</password>
 			</apn>
