@@ -3349,10 +3349,10 @@ conceived.
 		<gsm>
 			<network-id mcc="222" mnc="99"/>
 			<apn value="tre.it">
-				<name>Standard</name>
+				<name>Ricaricabile</name>
 			</apn>
 			<apn value="datacard.tre.it">
-				<name>Tre.Dati</name>
+				<name>Abbonamento</name>
 			</apn>
 		</gsm>
 	</provider>
