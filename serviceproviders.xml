@@ -6974,7 +6974,7 @@ conceived.
 		<name>MobiFone</name>
 		<gsm>
 			<network-id mcc="452" mnc="01"/>
-			<apn value="v-wap">
+			<apn value="m-wap">
 				<username>mms</username>
 				<password>mms</password>
 			</apn>
