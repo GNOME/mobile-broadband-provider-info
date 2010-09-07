@@ -3374,6 +3374,15 @@ conceived.
 			<apn value="internet.postemobile.it"/>
 		</gsm>
 	</provider>
+	<provider>
+		<name>CoopVoce</name>
+		<gsm>
+			<network-id mcc="222" mnc="01"/>
+			<apn value="web.coopvoce.it">
+				<name>Internet Mobile</name>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Jersey -->
