@@ -4169,7 +4169,6 @@ conceived.
 			<apn value="internet.itelcel.com">
 				<username>webgprs</username>
 				<password>webgprs2002</password>
-				<dns>148.233.151.245</dns>
 			</apn>
 		</gsm>
 	</provider>
