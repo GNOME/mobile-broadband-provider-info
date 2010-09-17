@@ -1636,7 +1636,12 @@ conceived.
 			<network-id mcc="262" mnc="02"/>
 			<network-id mcc="262" mnc="04"/>
 			<network-id mcc="262" mnc="09"/>
-			<apn value="mail.partner.de"/>
+			<apn value="web.vodafone.de">
+				<name>Mobile Broadband</name>
+			</apn>
+			<apn value="mail.partner.de">
+				<name>Mobile Web</name>
+			</apn>
 		</gsm>
 	</provider>
 </country>
