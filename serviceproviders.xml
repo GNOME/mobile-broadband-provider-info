@@ -1031,6 +1031,18 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<name>Mobilicity</name>
+		<gsm>
+			<network-id mcc="302" mnc="320"/>
+			<apn value="wap.davewireless.com">
+				<name>Mobile Web</name>
+			</apn>
+			<apn value="internet.davewireless.com">
+				<name>Mobile Broadband</name>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Congo (Dem. Rep.) -->
