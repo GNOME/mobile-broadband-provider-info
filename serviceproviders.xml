@@ -2891,7 +2891,7 @@ conceived.
 		<name>Pelephone</name>
 		<gsm>
 			<network-id mcc="425" mnc="03"/>
-			<apn value="internet.pelephone.net.il ">
+			<apn value="internet.pelephone.net.il">
 				<name>3G</name>
 				<username>pcl@3g</username>
 				<password>pcl</password>
