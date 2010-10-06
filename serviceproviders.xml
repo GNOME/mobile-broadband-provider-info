@@ -4652,7 +4652,14 @@ conceived.
 		<gsm>
 			<network-id mcc="515" mnc="02"/>
 			<apn value="internet.globe.com.ph">
-				<name>Internet</name>
+				<name>Postpaid</name>
+				<username>globe</username>
+				<password>globe</password>
+				<dns>203.127.225.10</dns>
+				<dns>203.127.225.11</dns>
+			</apn>
+			<apn value="http.globe.com.ph">
+				<name>Prepaid</name>
 				<username>globe</username>
 				<password>globe</password>
 				<dns>203.127.225.10</dns>
