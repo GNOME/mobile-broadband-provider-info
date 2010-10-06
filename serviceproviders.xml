@@ -1311,83 +1311,31 @@ conceived.
 <!-- Czech Republic -->
 <country code="cz">
 	<provider>
-		<name>Cesky Mobil</name>
+		<name>Vodafone</name>
 		<gsm>
-			<network-id mcc="230" mnc="98"/>
+			<network-id mcc="230" mnc="03"/>
 			<apn value="internet">
-				<name>Postpaid</name>
-				<dns>212.67.64.2</dns>
-				<dns>217.77.161.131</dns>
-			</apn>
-			<apn value="Cinternet">
-				<name>Prepaid</name>
-				<dns>212.67.64.2</dns>
+				<dns>217.77.161.130</dns>
 				<dns>217.77.161.131</dns>
 			</apn>
 		</gsm>
 	</provider>
 	<provider>
-		<name>EuroTel / Telefónica</name>
+		<name>O2</name>
 		<gsm>
 			<network-id mcc="230" mnc="02"/>
-			<apn value="gointernet">
-				<name>Go</name>
-				<dns>160.218.10.200</dns>
-				<dns>160.218.43.200</dns>
-			</apn>
 			<apn value="internet">
-				<name>Contract</name>
 				<dns>160.218.10.200</dns>
 				<dns>160.218.43.200</dns>
 			</apn>
 			<apn value="internet.open">
-				<name>Contract (Open)</name>
 				<dns>160.218.10.200</dns>
 				<dns>160.218.43.200</dns>
 			</apn>
 		</gsm>
 	</provider>
 	<provider>
-		<name>Oscar</name>
-		<gsm>
-			<network-id mcc="230" mnc="03"/>
-			<apn value="internet">
-				<name>Postpaid</name>
-				<username>wap</username>
-				<password>wap</password>
-				<dns>217.77.161.130</dns>
-				<dns>217.77.161.131</dns>
-			</apn>
-			<apn value="ointernet">
-				<name>Prepaid</name>
-				<dns>217.77.161.130</dns>
-				<dns>217.77.161.131</dns>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
-		<name>Paegas Internet</name>
-		<gsm>
-			<apn value="internet.click.cz">
-				<name>Internet</name>
-				<dns>62.141.0.1</dns>
-				<dns>62.141.0.2</dns>
-			</apn>
-			<apn value="profil.click.cz">
-				<name>Profil</name>
-				<dns>62.141.0.1</dns>
-				<dns>62.141.0.2</dns>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
-		<name>Radiomibil</name>
-		<gsm>
-			<apn value="internet.click.cz"/>
-		</gsm>
-	</provider>
-	<provider>
-		<name>T-Mobil</name>
+		<name>T-Mobile</name>
 		<gsm>
 			<network-id mcc="230" mnc="01"/>
 			<apn value="internet.t-mobile.cz">
