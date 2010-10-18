@@ -2490,10 +2490,10 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>People</name>
+		<name>China Mobile</name>
 		<gsm>
 			<network-id mcc="454" mnc="12"/>
-			<apn value="internet"/>
+			<apn value="peoples.net"/>
 		</gsm>
 	</provider>
 	<provider>
