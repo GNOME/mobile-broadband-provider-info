@@ -1098,6 +1098,9 @@ conceived.
 		<name>Swisscom</name>
 		<gsm>
 			<network-id mcc="228" mnc="01"/>
+			<balance-check>
+				<ussd>*130#</ussd>
+			</balance-check>
 			<apn value="gprs.swisscom.ch">
 				<username>gprs</username>
 				<password>gprs</password>
