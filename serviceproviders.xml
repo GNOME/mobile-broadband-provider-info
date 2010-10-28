@@ -3445,6 +3445,16 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>b-mobile</name>
+		<gsm>
+			<apn value="dm.jplat.net">
+				<name>u300</name>
+				<username>bmobile@u300</username>
+				<password>bmobile</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>e-mobile</name>
 		<gsm>
 			<network-id mcc="440" mnc="00"/>
