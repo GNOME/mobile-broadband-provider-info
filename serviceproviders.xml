@@ -1881,7 +1881,7 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Ono</name>
+		<name>ONO</name>
 		<gsm>
 			<network-id mcc="214" mnc="18"/>
 			<apn value="internet.ono.com">
@@ -1927,8 +1927,9 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>movistar (Telefonica)</name>
+		<name>Movistar (Telefónica)</name>
 		<gsm>
+			<network-id mcc="214" mnc="05"/>
 			<network-id mcc="214" mnc="07"/>
 			<apn value="movistar.es">
 				<username>movistar</username>
@@ -1961,7 +1962,14 @@ conceived.
 	<provider>
 		<name>Jazztel</name>
 		<gsm>
+			<network-id mcc="214" mnc="21"/>
 			<apn value="jazzinternet"/>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Carrefour Móvil</name>
+		<gsm>
+			<apn value="CARREFOURINTERNET"/>
 		</gsm>
 	</provider>
 </country>
