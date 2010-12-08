@@ -1737,7 +1737,40 @@ conceived.
 		<name>Orange</name>
 		<gsm>
 			<network-id mcc="370" mnc="01"/>
+			<voicemail>*777</voicemail>
+			<balance-check>
+				<ussd>#131#</ussd>
+			</balance-check>
 			<apn value="orangenet.com.do"/>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Claro</name>
+		<gsm>
+			<network-id mcc="370" mnc="02"/>
+			<voicemail>*99</voicemail>
+			<balance-check>
+				<ussd>*122#</ussd>
+				<dtmf>*22</dtmf>
+			</balance-check>
+			<apn value="internet.ideasclaro.com.do">
+				<dns>196.3.81.5</dns>
+				<dns>196.3.81.132</dns>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Viva</name>
+		<gsm>
+			<network-id mcc="370" mnc="04"/>
+			<balance-check>
+				<ussd>#111#</ussd>
+				<dtmf>*74</dtmf>
+			</balance-check>
+			<apn value="edge.viva.net.do">
+				<username>viva</username>
+				<password>viva</password>
+			</apn>
 		</gsm>
 	</provider>
 </country>
