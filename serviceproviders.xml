@@ -3002,6 +3002,9 @@ conceived.
 			<network-id mcc="404" mnc="80"/>
 			<network-id mcc="404" mnc="81"/>
 
+			<apn value="bsnlnet">
+				<name>BSNL 3G</name>
+			</apn>
 			<apn value="bsnlsouth">
 				<name>South Zone A (Karnatka, Andhra Pradesh, Chennai, Tamil Nadu, Kerala)</name>
 			</apn>
