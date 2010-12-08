@@ -4934,6 +4934,15 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<name>Claro</name>
+		<gsm>
+			<network-id mcc="744" mnc="02"/>
+			<apn value="gprs.claro.com.py">
+				<name>Internet</name>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Qatar -->
