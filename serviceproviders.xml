@@ -2781,6 +2781,7 @@ conceived.
 			<username>starone</username>
 			<password>indosat</password>
 			<sid value="10817"/>
+			<sid value="10819"/>
 		</cdma>
 	</provider>
 	<provider>
@@ -2821,6 +2822,43 @@ conceived.
 				<dns>202.152.254.246</dns>
 			</apn>
 		</gsm>
+	</provider>
+	<provider>
+		<name>SMART</name>
+		<cdma>
+			<username>smart</username>
+			<password>smart</password>
+			<sid value="10608"/>
+		</cdma>
+	</provider>
+	<provider>
+		<name>Ceria</name>
+		<cdma>
+			<username>internet</username>
+			<password>ceria</password>
+		</cdma>
+	</provider>
+	<provider>
+		<name>Fren</name>
+		<cdma>
+			<username>m8</username>
+			<password>m8</password>
+			<sid value="10530"/>
+		</cdma>
+	</provider>
+	<provider>
+		<name>Telkom Flexy</name>
+		<cdma>
+			<username>telkomnet@flexi</username>
+			<password>telkom</password>
+			<sid value="10496"/>
+		</cdma>
+	</provider>
+	<provider>
+		<name>Esia</name>
+		<cdma>
+			<sid value="10623"/>
+		</cdma>
 	</provider>
 </country>
 
