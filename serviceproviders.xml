@@ -2765,7 +2765,10 @@ conceived.
 		<gsm>
 			<network-id mcc="510" mnc="10"/>
 			<network-id mcc="510" mnc="20"/>
-			<apn value="internet">
+
+			<!-- http://www.telkomsel.com/customer-service/manual-setting/ -->
+
+			<apn value="telkomsel">
 				<username>wap</username>
 				<password>wap123</password>
 				<dns>202.152.0.2</dns>
