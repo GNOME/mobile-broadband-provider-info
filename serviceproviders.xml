@@ -2767,12 +2767,23 @@ conceived.
 			<network-id mcc="510" mnc="20"/>
 
 			<!-- http://www.telkomsel.com/customer-service/manual-setting/ -->
-
 			<apn value="telkomsel">
 				<username>wap</username>
 				<password>wap123</password>
 				<dns>202.152.0.2</dns>
 				<dns>202.155.14.251</dns>
+			</apn>
+
+			<!-- http://www.telkomsel.com/telkomselflash/telkomsel-flash -->
+			<apn value="flash">
+				<name>Flash Time-based</name>
+				<username>foo</username>
+				<password>bar</password>
+			</apn>
+			<apn value="internet">
+				<name>Flash Volume-based</name>
+				<username>foo</username>
+				<password>bar</password>
 			</apn>
 		</gsm>
 	</provider>
