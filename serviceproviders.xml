@@ -2776,6 +2776,12 @@ conceived.
 				<password>indosat</password>
 			</apn>
 		</gsm>
+		<cdma>
+			<name>StarOne</name>
+			<username>starone</username>
+			<password>indosat</password>
+			<sid value="10817"/>
+		</cdma>
 	</provider>
 	<provider>
 		<name>Telkomsel</name>
