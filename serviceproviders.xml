@@ -2758,7 +2758,7 @@ conceived.
 			<!-- http://www.indosat.com/Customer_Support/Customer_Support/Setting_GPRS_MMS_WAP_dan_BroadBand -->
 			<!-- http://3g.indosat.com/about/FAQ.php -->
 			<!-- http://www.indosat.com/Mentari/Mentari_Update/Voucher_Internet_Indosat -->
-			<!-- It seems that the APN is pretty much the same for plans --->
+			<!-- It seems that the APN is pretty much the same for plans -->
 
 			<apn value="indosatgprs">
 				<name>IM3/Mentari Time-based</name>
