@@ -2723,6 +2723,23 @@ conceived.
 <!-- Indonesia -->
 <country code="id">
 	<provider>
+		<name>3</name>
+		<gsm>
+			<network-id mcc="510" mnc="89"/>
+			<apn value="3gprs">
+				<name>GPRS</name>
+				<username>3gprs</username>
+				<password>3gprs</password>
+			</apn>
+			<apn value="3data">
+				<name>Monthly Internet Service</name>
+				<name xml:lang="id">Layanan Internet Bulanan</name>
+				<username>3data</username>
+				<password>3data</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>AXIS</name>
 		<gsm>
 			<network-id mcc="510" mnc="08"/>
