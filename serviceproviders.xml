@@ -2733,30 +2733,30 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>IM3</name>
-		<gsm>
-			<network-id mcc="510" mnc="21"/>
-			<apn value="www.imdosat-m3.net">
-				<username>gprs</username>
-				<password>im3</password>
-				<dns>202.155.46.66</dns>
-				<dns>202.155.46.77</dns>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
 		<name>Indosat</name>
 		<gsm>
+			<network-id mcc="510" mnc="21"/>
 			<network-id mcc="510" mnc="01"/>
-			<apn value="satelindogprs.com">
-				<dns>202.152.162.250</dns>
+
+			<!-- http://www.indosat.com/Customer_Support/Customer_Support/Setting_GPRS_MMS_WAP_dan_BroadBand -->
+			<!-- http://3g.indosat.com/about/FAQ.php -->
+			<!-- http://www.indosat.com/Mentari/Mentari_Update/Voucher_Internet_Indosat -->
+			<!-- It seems that the APN is pretty much the same for plans --->
+
+			<apn value="indosatgprs">
+				<name>IM3/Mentari Time-based</name>
+				<username>indosat@durasi</username>
+				<password>indosat@durasi</password>
 			</apn>
 			<apn value="indosatgprs">
-				<name>Matrix 3G</name>
+				<name>IM3/Mentari Volume-based</name>
 				<username>indosat</username>
 				<password>indosat</password>
-				<dns>202.155.46.66</dns>
-				<dns>202.155.46.77</dns>
+			</apn>
+			<apn value="indosatgprs">
+				<name>Matrix 3G/3.5G</name>
+				<username>indosat</username>
+				<password>indosat</password>
 			</apn>
 		</gsm>
 	</provider>
