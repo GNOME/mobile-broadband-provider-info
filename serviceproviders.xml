@@ -3120,28 +3120,34 @@ conceived.
 			<network-id mcc="404" mnc="80"/>
 			<network-id mcc="404" mnc="81"/>
 
+			<!-- http://cellone.in/cellone_msp.htm -->
 			<apn value="bsnlnet">
-				<name>BSNL 3G</name>
+				<name>New GPRS/3G</name>
 			</apn>
+
+			<apn value="bsnlwap">
+				<name>New WAP</name>
+			</apn>
+
 			<apn value="bsnlsouth">
-				<name>South Zone A (Karnatka, Andhra Pradesh, Chennai, Tamil Nadu, Kerala)</name>
+				<name>Old South Zone A (Karnatka, Andhra Pradesh, Chennai, Tamil Nadu, Kerala)</name>
 			</apn>
 			<apn value="gprssouth.cellone.in">
-				<name>South Zone B (Karnatka, Andhra Pradesh, Chennai, Tamil Nadu, Kerala)</name>
+				<name>Old South Zone B (Karnatka, Andhra Pradesh, Chennai, Tamil Nadu, Kerala)</name>
 			</apn>
 			<apn value="gprsnorth.cellone.in">
-				<name>North Zone (Haryana, Punjab, UP(East), UP(West), Himachal Pradesh, Rajasthan, Jammu &amp; Kashmir)</name>
+				<name>Old North Zone (Haryana, Punjab, UP(East), UP(West), Himachal Pradesh, Rajasthan, Jammu &amp; Kashmir)</name>
 			</apn>
 			<apn value="gprswest.cellone.in">
-				<name>West Zone (Maharashtra, Gujrat, Madhya Pradesh, Chattishgarh)</name>
+				<name>Old West Zone (Maharashtra, Gujrat, Madhya Pradesh, Chattishgarh)</name>
 			</apn>
 			<apn value="www.e.pr">
-				<name>East Zone Prepaid (Jharkhand, Bihar, Kolkata, West Bengal, Orissa, Assam, North East, Adman Nicobar)</name>
+				<name>Old East Zone Prepaid (Jharkhand, Bihar, Kolkata, West Bengal, Orissa, Assam, North East, Adman Nicobar)</name>
 				<dns>218.248.240.208</dns>
 				<dns>218.248.240.135</dns>
 			</apn>
 			<apn value="www.e.po">
-				<name>East Zone Postpaid (Jharkhand, Bihar, Kolkata, West Bengal, Orissa, Assam, North East, Adman Nicobar)</name>
+				<name>Old East Zone Postpaid (Jharkhand, Bihar, Kolkata, West Bengal, Orissa, Assam, North East, Adman Nicobar)</name>
 				<dns>218.248.240.208</dns>
 				<dns>218.248.240.135</dns>
 			</apn>
