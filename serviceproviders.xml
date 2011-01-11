@@ -1810,6 +1810,16 @@ conceived.
 <!-- Ecuador -->
 <country code="ec">
 	<provider>
+		<name>Movistar UMTS</name>
+		<gsm>
+			<network-id mcc="740" mnc="00"/>
+			<apn value="navega.movistar.ec">
+				<username>movistar</username>
+				<password>movistar</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Porta 3G</name>
 		<gsm>
 			<network-id mcc="740" mnc="01"/>
