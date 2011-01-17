@@ -6095,6 +6095,23 @@ conceived.
 			<network-id mcc="640" mnc="03"/>
 			<apn value="znet"/>
 		</gsm>
+		<cdma>
+			<username>@zantel.com</username>
+			<password> </password>
+		</cdma>
+	</provider>
+	<provider>
+		<name>Sasatel</name>
+		<cdma>
+			<username>sasatel</username>
+			<password>sasatel</password>
+			<!-- Assignments taken from IFAST: http://www.ifast.org/files/NationalSID.htm -->
+			<sid value="9891"/>
+		</cdma>
+	</provider>
+	<provider>
+		<name>TTCL</name>
+		<cdma/>
 	</provider>
 </country>
 
