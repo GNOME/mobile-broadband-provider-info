@@ -7225,7 +7225,6 @@ conceived.
 		<gsm>
 			<network-id mcc="655" mnc="07"/>
 			<apn value="internet">
-				<username>Cellcis</username>
 				<dns>196.7.0.138</dns>
 				<dns>196.7.142.132</dns>
 			</apn>
