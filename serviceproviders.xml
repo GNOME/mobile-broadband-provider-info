@@ -7264,6 +7264,13 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<name>8.ta</name>
+		<gsm>
+			<network-id mcc="655" mnc="02"/>
+			<apn value="internet"/>
+		</gsm>
+	</provider>
 </country>
 
 </serviceproviders>
