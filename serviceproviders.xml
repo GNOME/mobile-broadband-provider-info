@@ -163,6 +163,16 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>Arnet</name>
+		<gsm>
+			<network-id mcc="722" mnc="340"/>
+			<apn value="arnet.personal.com">
+				<dns>172.25.7.6</dns>
+				<dns>172.25.7.7</dns>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Claro</name>
 		<gsm>
 			<network-id mcc="722" mnc="310"/>
