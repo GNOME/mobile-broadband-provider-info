@@ -6323,16 +6323,13 @@ conceived.
 			<network-id mcc="310" mnc="410"/>
 			<network-id mcc="310" mnc="560"/>
 			<network-id mcc="310" mnc="680"/>
-			<apn value="WAP.CINGULAR">
+			<apn value="wap.cingular">
 				<name>MEdia Net</name>
-				<username>WAP@CINGULARGPRS.COM</username>
-				<password>CINGULAR1</password>
 			</apn>
-			<apn value="ISP.CINGULAR">
+			<apn value="isp.cingular">
 				<name>Data Connect</name>
-				<username>ISP@CINGULARGPRS.COM</username>
-				<password>CINGULAR1</password>
 			</apn>
+			<apn value="Broadband"/>
 			<apn value="ISP.CINGULAR">
 				<name>Data Connect (Accelerated)</name>
 				<username>ISPDA@CINGULARGPRS.COM</username>
