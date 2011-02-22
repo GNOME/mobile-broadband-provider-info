@@ -4971,7 +4971,14 @@ conceived.
 		<name>Kanguru</name>
 		<gsm>
 			<network-id mcc="286" mnc="03"/>
-			<apn value="myconnection">
+			<apn value="kanguru-portatil">
+				<name>Portable</name>
+				<name xml:lang="pt">Portátil</name>
+				<dns>62.169.67.172</dns>
+				<dns>62.169.67.171</dns>
+			</apn>
+			<apn value="kanguru-tempo">
+				<name>Tempo (Prepaid)</name>
 				<dns>62.169.67.172</dns>
 				<dns>62.169.67.171</dns>
 			</apn>
