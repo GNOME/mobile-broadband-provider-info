@@ -2333,8 +2333,10 @@ conceived.
 				<dns>172.29.1.11</dns>
 				<dns>172.29.1.11</dns>
 			</apn>
-			<apn value="pp.internet">
+			<apn value="ppbundle.internet">
 				<name>TopUp and Go</name>
+				<username>web</username>
+				<password>web</password>
 			</apn>
 		</gsm>
 	</provider>
