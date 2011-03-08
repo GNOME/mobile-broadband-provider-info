@@ -5406,8 +5406,7 @@ conceived.
 		<name xml:lang="ru">Теле2</name>
 		<gsm>
 			<network-id mcc="250" mnc="20"/>
-			<apn value="wap.tele2.ru">
-				<username>gprs</username>
+			<apn value="internet.tele2.ru">
 				<dns>130.244.127.161</dns>
 				<dns>130.244.127.169</dns>
 			</apn>
