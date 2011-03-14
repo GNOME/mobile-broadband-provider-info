@@ -6348,17 +6348,15 @@ conceived.
 			<network-id mcc="310" mnc="410"/>
 			<network-id mcc="310" mnc="560"/>
 			<network-id mcc="310" mnc="680"/>
+			<!-- http://www.wireless.att.com/answer-center/main.jsp?solutionId=35078&t=solutionTab -->
 			<apn value="wap.cingular">
-				<name>MEdia Net</name>
+				<name>MEdia Net (phones)</name>
+			</apn>
+			<apn value="Broadband">
+				<name>LaptopConnect (data cards)</name>
 			</apn>
 			<apn value="isp.cingular">
-				<name>Data Connect</name>
-			</apn>
-			<apn value="Broadband"/>
-			<apn value="ISP.CINGULAR">
-				<name>Data Connect (Accelerated)</name>
-				<username>ISPDA@CINGULARGPRS.COM</username>
-				<password>CINGULAR1</password>
+				<name>Data Connect (old)</name>
 			</apn>
 		</gsm>
 	</provider>
