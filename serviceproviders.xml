@@ -2472,9 +2472,7 @@ conceived.
 		<name>Cosmote</name>
 		<gsm>
 			<network-id mcc="202" mnc="01"/>
-			<apn value="3g-internet">
-				<dns>195.167.65.194</dns>
-			</apn>
+			<apn value="internet"/>
 		</gsm>
 	</provider>
 	<provider>
