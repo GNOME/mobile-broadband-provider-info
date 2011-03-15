@@ -220,7 +220,7 @@ conceived.
 			</apn>
 			<apn value="aon.data">
 				<name>aon (Flex, Breitband-Duo, BusinessFlex)</name>
-				<username></username>
+				<username>mobile@aon.at</username>
 				<password>ppp</password>
 			</apn>
 		</gsm>
