@@ -223,6 +223,11 @@ conceived.
 				<username>mobile@aon.at</username>
 				<password>ppp</password>
 			</apn>
+			<apn value="aon.at">
+				<name>aonMobile</name>
+				<username>mobile@aon.at</username>
+				<password>ppp</password>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
