@@ -1411,6 +1411,13 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>Bild Mobil</name>
+		<gsm>
+			<!-- http://www.bildmobil.de/info_handyeinstellungen.html -->
+			<apn value="access.vodafone.de"/>
+		</gsm>
+	</provider>
+	<provider>
 		<name>E-Plus</name>
 		<gsm>
 			<network-id mcc="262" mnc="03"/>
