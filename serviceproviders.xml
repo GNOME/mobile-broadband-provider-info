@@ -278,7 +278,7 @@ conceived.
 		<gsm>
 			<network-id mcc="232" mnc="05"/>
 			<apn value="web.one.at">
-				<name>Web</name>
+				<name>OneNet Web</name>
 				<username>web</username>
 				<password>web</password>
 				<dns>194.24.128.100</dns>
@@ -288,6 +288,11 @@ conceived.
 				<name>Web (no filtering)</name>
 				<username>web</username>
 				<password>web</password>
+			</apn>
+			<apn value="orange.web">
+				<name>Orange Web</name>
+				<username>Orange</username>
+				<password>Orange</password>
 			</apn>
 		</gsm>
 	</provider>
