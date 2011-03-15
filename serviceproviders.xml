@@ -1626,6 +1626,8 @@ conceived.
 			</apn>
 			<apn value="mail.partner.de">
 				<name>Mobile Web</name>
+				<username>D2</username>
+				<password>Web</password>
 			</apn>
 		</gsm>
 	</provider>
