@@ -178,7 +178,7 @@ conceived.
 			<network-id mcc="722" mnc="310"/>
 			<network-id mcc="722" mnc="320"/>
 			<network-id mcc="722" mnc="330"/>
-			<apn value="igprs.claro.com.ar">
+			<apn value="gprs.claro.com.ar">
 				<name>3G Internet</name>
 				<username>clarogprs</username>
 				<password>clarogprs999</password>
