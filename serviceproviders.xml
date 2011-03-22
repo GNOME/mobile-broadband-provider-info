@@ -5977,7 +5977,7 @@ conceived.
 		<name>movistar</name>
 		<gsm>
 			<network-id mcc="706" mnc="04"/>
-			<apn value="movistar.sv">
+			<apn value="internet.movistar.sv">
 				<username>movistarsv</username>
 				<password>movistarsv</password>
 			</apn>
