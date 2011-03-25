@@ -7156,6 +7156,11 @@ conceived.
 				<dns>200.40.30.245</dns>
 				<dns>200.40.220.245</dns>
 			</apn>
+			<apn value="prepago.ancel">
+				<name>ADSL Móvil Prepago</name>
+				<username>BAM</username>
+				<password>BAM</password>
+			</apn>
 			<apn value="gprs.ancel">
 				<name>GPRS</name>
 				<dns>200.40.30.245</dns>
