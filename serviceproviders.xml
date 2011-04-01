@@ -4005,6 +4005,10 @@ conceived.
 <country code="kr">
 	<provider>
 		<name>KTF</name>
+		<gsm>
+			<network-id mcc="450" mnc="08"/>
+			<apn value="hsdpa-internet.ktfwing.com"/>
+		</gsm>
 		<cdma>
 			<!-- cid: "016" -->
 			<username>ktf</username>
@@ -4025,6 +4029,10 @@ conceived.
 	</provider>
 	<provider>
 		<name>SKTelecom</name>
+		<gsm>
+			<network-id mcc="450" mnc="05"/>
+			<apn value="nate.sktelecom.com"/>
+		</gsm>
 		<cdma>
 			<!-- cid: 1501 -->
 			<username>sktelecom</username>
