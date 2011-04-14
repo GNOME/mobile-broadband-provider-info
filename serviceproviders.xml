@@ -307,6 +307,7 @@ conceived.
 	<provider>
 		<name>Yesss</name>
 		<gsm>
+			<network-id mcc="232" mnc="12"/>
 			<apn value="web.yesss.at"/>
 		</gsm>
 	</provider>
@@ -317,6 +318,7 @@ conceived.
 	<provider>
 		<name>Exetel</name>
 		<gsm>
+			<network-id mcc="505" mnc="02"/>
 			<apn value="exetel1"/>
 		</gsm>
 	</provider>
@@ -560,8 +562,8 @@ conceived.
 				<name>Internet Everywhere</name>
 				<username>mobistar</username>
 				<password>mobistar</password>
-				<dns>212.65.63.10</dns>
-				<dns>212.65.63.145</dns>
+				<dns>212.224.255.252</dns>
+				<dns>212.65.63.217</dns>
 			</apn>
 		</gsm>
 	</provider>
@@ -580,6 +582,7 @@ conceived.
 	<provider>
 		<name>Orange</name>
 		<gsm>
+			<network-id mcc="206" mnc="10"/>
 			<apn value="orangeinternet"/>
 		</gsm>
 	</provider>
@@ -590,7 +593,7 @@ conceived.
 			<apn value="internet.proximus.be">
 				<name>Inter</name>
 				<dns>195.238.2.21</dns>
-				<dns>195.238.2.22</dns>
+				<dns>81.169.60.107</dns>
 			</apn>
 			<apn value="intraprox.be">
 				<name>Intra</name>
@@ -606,6 +609,8 @@ conceived.
 			<apn value="gprs.base.be">
 				<username>base</username>
 				<password>base</password>
+				<dns>195.130.131.139</dns>
+				<dns>212.53.4.4</dns>
 			</apn>
 		</gsm>
 	</provider>
@@ -698,6 +703,7 @@ conceived.
 		  -->
 		<name>Brasil Telecom</name>
 		<gsm>
+			<network-id mcc="724" mnc="16"/>
 			<apn value="brt.br">
 				<username>BrT</username>
 				<password>BrT</password>
@@ -1430,6 +1436,7 @@ conceived.
 		<name>Bild Mobil</name>
 		<gsm>
 			<!-- http://www.bildmobil.de/info_handyeinstellungen.html -->
+			<network-id mcc="262" mnc="02"/>
 			<apn value="access.vodafone.de"/>
 		</gsm>
 	</provider>
@@ -1467,6 +1474,11 @@ conceived.
 			<balance-top-up>
 				<ussd replacement="CODE">*103*CODE#</ussd>
 			</balance-top-up>
+			<apn value="pinternet.interkom.de">
+				<name>LOOP</name>
+				<dns>193.189.244.225</dns>
+				<dns>193.189.244.206</dns>
+			</apn>
 			<apn value="internet">
 				<name>Pay-by-MB</name>
 				<dns>195.182.110.132</dns>
@@ -1514,6 +1526,25 @@ conceived.
 				<dns>193.254.160.1</dns>
 				<dns>193.254.160.130</dns>
 			</apn>
+			<apn value="internet.t-mobile">
+				<username>t-mobile</username>
+				<password>tm</password>
+				<dns>10.74.83.22</dns>
+				<dns>193.254.160.1</dns>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>CongStar</name>
+		<gsm>
+			<network-id mcc="262" mnc="01"/>
+
+			<apn value="internet.t-mobile">
+				<username>t-mobile</username>
+				<password>tm</password>
+				<dns>193.254.160.1</dns>
+				<dns>10.74.83.22</dns>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -1556,7 +1587,7 @@ conceived.
 			<balance-top-up>
 				<ussd replacement="CODE">*103*CODE#</ussd>
 			</balance-top-up>
-			<apn value="pinternet.interkomm.de">
+			<apn value="pinternet.interkom.de">
 				<username>fonic</username>
 				<password>fonic</password>
 			</apn>
@@ -1587,6 +1618,7 @@ conceived.
 		     solomo, igge & ko, sdt.net, Südkurier-Tel etc.-->
 		<name>vistream</name>
 		<gsm>
+			<network-id mcc="262" mnc="16"/>
 			<balance-check>
 				<ussd>*100#</ussd>
 			</balance-check>
@@ -1599,6 +1631,7 @@ conceived.
 	<provider>
 		<name>solomo</name>
 		<gsm>
+			<network-id mcc="262" mnc="16"/>
 			<balance-check>
 				<ussd>*100#</ussd>
 			</balance-check>
@@ -1611,6 +1644,7 @@ conceived.
 	<provider>
 		<name>Materna BR</name>
 		<gsm>
+			<network-id mcc="262" mnc="16"/>
 			<apn value="internet.vistream.net">
 				<username>web</username>
 				<password>vistream</password>
@@ -1620,6 +1654,7 @@ conceived.
 	<provider>
 		<name>sdt.net</name>
 		<gsm>
+			<network-id mcc="262" mnc="16"/>
 			<apn value="internet.vistream.net">
 				<username>web</username>
 				<password>vistream</password>
@@ -1629,6 +1664,7 @@ conceived.
 	<provider>
 		<name>igge &amp; ko</name>
 		<gsm>
+			<network-id mcc="262" mnc="16"/>
 			<apn value="internet.vistream.net">
 				<username>web</username>
 				<password>vistream</password>
@@ -1638,6 +1674,7 @@ conceived.
 	<provider>
 		<name>PTT mobile</name>
 		<gsm>
+			<network-id mcc="262" mnc="16"/>
 			<apn value="internet.vistream.net">
 				<username>web</username>
 				<password>vistream</password>
@@ -1647,6 +1684,7 @@ conceived.
 	<provider>
 		<name>TouristMobile</name>
 		<gsm>
+			<network-id mcc="262" mnc="16"/>
 			<apn value="internet.vistream.net">
 				<username>web</username>
 				<password>vistream</password>
@@ -1656,6 +1694,7 @@ conceived.
 	<provider>
 		<name>SunSIM</name>
 		<gsm>
+			<network-id mcc="262" mnc="16"/>
 			<balance-check>
 				<ussd>*100#</ussd>
 			</balance-check>
@@ -1668,6 +1707,7 @@ conceived.
 	<provider>
 		<name>SüdkurierTel</name>
 		<gsm>
+			<network-id mcc="262" mnc="16"/>
 			<apn value="internet.vistream.net">
 				<username>web</username>
 				<password>vistream</password>
@@ -1677,6 +1717,7 @@ conceived.
 	<provider>
 		<name>NetCologne</name>
 		<gsm>
+			<network-id mcc="262" mnc="03"/>
 			<apn value="internet.netcologne.de">
 				<username>web</username>
 				<password>password</password>
@@ -1813,6 +1854,7 @@ conceived.
 	<provider>
 		<name>BiBoB</name>
 		<gsm>
+			<network-id mcc="238" mnc="02"/>
 			<apn value="internet.bibob.dk"/>
 		</gsm>
 	</provider>
@@ -1830,12 +1872,14 @@ conceived.
 	<provider>
 		<name>Unotel</name>
 		<gsm>
+			<network-id mcc="238" mnc="01"/>
 			<apn value="internet"/>
 		</gsm>
 	</provider>
 	<provider>
 		<name>happiimobil</name>
 		<gsm>
+			<network-id mcc="238" mnc="01"/>
 			<apn value="internet"/>
 		</gsm>
 	</provider>
@@ -1960,6 +2004,7 @@ conceived.
 	<provider>
 		<name>Elisa</name>
 		<gsm>
+			<network-id mcc="248" mnc="02"/>
 			<apn value="internet">
 				<dns>194.204.0.1</dns>
 			</apn>
@@ -2023,6 +2068,7 @@ conceived.
 	<provider>
 		<name>Másmovil</name>
 		<gsm>
+			<network-id mcc="214" mnc="03"/>
 			<apn value="internetmas" />
 		</gsm>
 	</provider>
@@ -2031,6 +2077,16 @@ conceived.
 		<gsm>
 			<network-id mcc="214" mnc="17"/>
 			<apn value="internet.mundo-r.com" />
+		</gsm>
+	</provider>
+	<provider>
+		<name>moviData</name>
+		<gsm>
+			<network-id mcc="214" mnc="03"/>
+			<apn value="INTERNETTPH">
+				<dns>213.143.33.8</dns>
+				<dns>62.36.225.150</dns>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -2046,27 +2102,32 @@ conceived.
 	<provider>
 		<name>Pepephone</name>
 		<gsm>
+			<network-id mcc="214" mnc="06"/>
 			<apn value="gprs.pepephone.com" />
 		</gsm>
 	</provider>
 	<provider>
-		<name>Orange (Amena)</name>
+		<name>Orange</name>
 		<gsm>
 			<network-id mcc="214" mnc="03"/>
 			<network-id mcc="214" mnc="09"/>
 			<apn value="internet">
-				<username>CLIENTE</username>
-				<password>AMENA</password>
-				<dns>213.143.32.20</dns>
-				<dns>213.143.33.8</dns>
+				<name>Orange</name>
+				<username>ORANGE</username>
+				<password>ORANGE</password>
+				<dns>85.62.229.133</dns>
+				<dns>85.62.229.134</dns>
 			</apn>
 		</gsm>
 	</provider>
 	<provider>
-		<name>Simyo</name>
+		<name>Simyo/Blau</name>
 		<gsm>
 			<network-id mcc="214" mnc="19"/>
-			<apn value="gprs-service.com"/>
+			<apn value="gprs-service.com">
+				<dns>195.230.105.134</dns>
+				<dns>195.230.105.135</dns>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -2098,9 +2159,17 @@ conceived.
 			<network-id mcc="214" mnc="01"/>
 			<network-id mcc="214" mnc="06"/>
 			<apn value="airtelnet.es">
+				<name>Airtel (old)</name>
 				<username>vodafone</username>
 				<password>vodafone</password>
 				<dns>212.73.32.3</dns>
+				<dns>212.73.32.67</dns>
+			</apn>
+			<apn value="ac.vodafone.es">
+				<name>Vodafone</name>
+				<username>vodafone</username>
+				<password>vodafone</password>
+				<dns>212.166.132.96</dns>
 				<dns>212.73.32.67</dns>
 			</apn>
 		</gsm>
@@ -2109,14 +2178,20 @@ conceived.
 		<name>Yoigo</name>
 		<gsm>
 			<network-id mcc="214" mnc="04"/>
-			<apn value="Internet"/>
+			<apn value="internet">
+				<dns>213.248.76.210</dns>
+				<dns>213.248.100.54</dns>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
 		<name>Jazztel</name>
 		<gsm>
 			<network-id mcc="214" mnc="21"/>
-			<apn value="jazzinternet"/>
+			<apn value="jazzinternet">
+				<dns>87.216.1.65</dns>
+				<dns>87.216.1.66</dns>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -2211,22 +2286,25 @@ conceived.
 		<gsm>
 			<network-id mcc="208" mnc="20"/>
 			<network-id mcc="208" mnc="21"/>
+			<apn value="a2bouygtel.com">
+				<name>Contrat Pro Data Illimité</name>
+				<dns>62.201.129.99</dns>
+			</apn>
 			<apn value="b2bouygtel.com">
 				<name>B2Bouygtel</name>
 				<dns>62.201.129.99</dns>
 			</apn>
 			<apn value="ebouygtel.com">
+				<name>Forfait Data</name>
 				<dns>62.201.129.99</dns>
 			</apn>
-		</gsm>
-	</provider>
-	<provider>
-		<name>France Telecom</name>
-		<gsm>
-			<network-id mcc="208" mnc="01"/>
-			<network-id mcc="208" mnc="00"/>
-			<apn value="orange.fr.mnc001.mcc208.gprs">
-				<username>gprs</username>
+			<apn value="mmsbouygtel.com">
+				<name>Forfait Data</name>
+				<dns>62.201.129.99</dns>
+			</apn>
+			<apn value="pcebouygtel.com">
+				<name>Contrat Pro Data</name>
+				<dns>62.201.129.99</dns>
 			</apn>
 		</gsm>
 	</provider>
@@ -2297,12 +2375,14 @@ conceived.
 	<provider>
 		<name>Transatel Telecom</name>
 		<gsm>
+			<network-id mcc="208" mnc="22"/>
 			<apn value="netgprs.com"/>
 		</gsm>
 	</provider>
 	<provider>
 		<name>TEN</name>
 		<gsm>
+			<network-id mcc="208" mnc="01"/>
 			<apn value="ao.fr">
 				<username>orange</username>
 				<password>orange</password>
@@ -2321,6 +2401,7 @@ conceived.
 	<provider>
 		<name>airtel vodaphone</name>
 		<gsm>
+			<network-id mcc="234" mnc="03"/>
 			<apn value="airtel-ci-gprs.com"/>
 		</gsm>
 	</provider>
@@ -2373,6 +2454,8 @@ conceived.
 				<name>Mobile Broadband</name>
 				<username>o2bb</username>
 				<password>password</password>
+				<dns>82.132.254.2</dns>
+				<dns>82.132.254.3</dns>
 			</apn>
 			<apn value="wap.o2.co.uk">
 				<name>WAP</name>
@@ -2396,6 +2479,10 @@ conceived.
 				<password>mms</password>
 				<dns>149.254.201.126</dns>
 				<dns>149.254.192.126</dns>
+			</apn>
+			<apn value="general.t-mobile.uk">
+				<dns>149.254.230.7</dns>
+				<dns>149.254.199.126</dns>
 			</apn>
 		</gsm>
 	</provider>
@@ -2437,6 +2524,8 @@ conceived.
 				<name>TopUp and Go</name>
 				<username>web</username>
 				<password>web</password>
+				<dns>10.203.129.68</dns>
+				<dns>10.203.129.68</dns>
 			</apn>
 		</gsm>
 	</provider>
@@ -2449,6 +2538,8 @@ conceived.
 			</apn>
 			<apn value="three.co.uk">
 				<name>Handsets</name>
+				<dns>172.30.139.17</dns>
+				<dns>172.30.140.69</dns>
 			</apn>
 		</gsm>
 	</provider>
@@ -2544,6 +2635,7 @@ conceived.
 	<provider>
 		<name>Zain</name>
 		<gsm>
+			<network-id mcc="620" mnc="06"/>
 			<apn value="internet"/>
 		</gsm>
 	</provider>
@@ -2615,6 +2707,7 @@ conceived.
 	<provider>
 		<name>GT&amp;T Cellink Plus</name>
 		<gsm>
+			<network-id mcc="738" mnc="02"/>
 			<apn value="wap.cellinkgy.com">
 				<username>test</username>
 				<password>test</password>
@@ -2671,15 +2764,19 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Sunday</name>
+		<name>PCCW (Sunday)</name>
 		<gsm>
-			<apn value="internet"/>
-		</gsm>
-	</provider>
-	<provider>
-		<name>Orange</name>
-		<gsm>
-			<apn value="web.orangehk.com"/>
+			<network-id mcc="454" mnc="16"/>
+			<network-id mcc="454" mnc="19"/>
+			<apn value="internet">
+				<name>Sunday (Old)</name>
+			</apn>
+			<apn value="pccwdata">
+				<name>PCCW 2G/GPRS</name>
+			</apn>
+			<apn value="pccw">
+				<name>PCCW 3G</name>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -3528,6 +3625,8 @@ conceived.
 			</apn>
 			<apn value="web.omnitel.it">
 				<name>Internet Facile (old)</name>
+				<dns>83.224.70.62</dns>
+				<dns>83.224.70.78</dns>
 			</apn>
 		</gsm>
 	</provider>
@@ -3537,6 +3636,8 @@ conceived.
 			<network-id mcc="222" mnc="01"/>
 			<apn value="ibox.tim.it">
 				<name>Maxxi Alice/Internet</name>
+				<dns>217.200.200.42</dns>
+				<dns>213.230.129.10</dns>
 			</apn>
 			<apn value="wap.tim.it">
 				<name>WAP</name>
@@ -3572,6 +3673,8 @@ conceived.
 			<network-id mcc="222" mnc="99"/>
 			<apn value="tre.it">
 				<name>Ricaricabile</name>
+				<dns>62.13.169.92</dns>
+				<dns>62.13.169.93</dns>
 			</apn>
 			<apn value="datacard.tre.it">
 				<name>Abbonamento</name>
@@ -3581,11 +3684,14 @@ conceived.
 	<provider>
 		<name>Fastweb</name>
 		<gsm>
+			<network-id mcc="222" mnc="99"/>
 			<apn value="apn.fastweb.it">
 				<name>Voce/dati</name>
 			</apn>
 			<apn value="datacard.fastweb.it">
 				<name>Solo dati</name>
+				<dns>213.140.2.43</dns>
+				<dns>213.140.2.49</dns>
 			</apn>
 		</gsm>
 	</provider>
@@ -3692,6 +3798,7 @@ conceived.
 	<provider>
 		<name>b-mobile</name>
 		<gsm>
+			<network-id mcc="440" mnc="10"/>
 			<apn value="dm.jplat.net">
 				<name>u300</name>
 				<username>bmobile@u300</username>
@@ -4119,6 +4226,18 @@ conceived.
 			<apn value="internet">
 				<username>tango</username>
 				<password>tango</password>
+				<dns>212.66.70.3</dns>
+				<dns>212.66.75.7</dns>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Orange</name>
+		<gsm>
+			<network-id mcc="270" mnc="99"/>
+			<apn value="orange.lu">
+				<dns>85.94.224.1</dns>
+				<dns>85.94.224.2</dns>
 			</apn>
 		</gsm>
 	</provider>
@@ -4595,6 +4714,7 @@ conceived.
 	<provider>
 		<name>Hi</name>
 		<gsm>
+			<network-id mcc="204" mnc="08"/>
 			<apn value="portalmmm.nl"/>
 		</gsm>
 	</provider>
@@ -4605,6 +4725,10 @@ conceived.
 			<apn value="internet">
 				<username>KPN</username>
 				<password>gprs</password>
+				<dns>62.133.126.28</dns>
+				<dns>62.133.126.29</dns>
+			</apn>
+			<apn value="noapn">
 				<dns>62.133.126.28</dns>
 				<dns>62.133.126.29</dns>
 			</apn>
@@ -4649,6 +4773,13 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+		<provider>
+		<name>Tele2</name>
+		<gsm>
+			<network-id mcc="204" mnc="02"/>
+			<apn value="data.tele2.nl"/>
+		</gsm>
+	</provider>
 	<provider>
 		<name>XS4ALL Mobiel Internet</name>
 		<gsm>
@@ -4666,6 +4797,8 @@ conceived.
 				<name>Non-business</name>
 				<username>vodafone</username>
 				<password>vodafone</password>
+				<dns>62.140.138.237</dns>
+				<dns>62.140.140.250</dns>
 			</apn>
 			<apn value="office.vodafone.nl">
 				<name>Business</name>
@@ -4732,6 +4865,7 @@ conceived.
 	<provider>
 		<name>OneCall</name>
 		<gsm>
+			<network-id mcc="242" mnc="05"/>
 			<apn value="internet"/>
 		</gsm>
 	</provider>
@@ -4756,6 +4890,7 @@ conceived.
 	<provider>
 		<name>Telipol</name>
 		<gsm>
+			<network-id mcc="242" mnc="05"/>
 			<apn value="internet"/>
 		</gsm>
 	</provider>
@@ -5048,6 +5183,7 @@ conceived.
 	<provider>
 		<name>Heyah</name>
 		<gsm>
+			<network-id mcc="260" mnc="02"/>
 			<apn value="heyah.pl">
 				<username>heyah</username>
 				<password>heyah</password>
@@ -5081,6 +5217,7 @@ conceived.
 	<provider>
 		<name>GaduAIR</name>
 		<gsm>
+			<network-id mcc="260" mnc="01"/>
 			<apn value="internet.gadu-gadu.pl"/>
 		</gsm>
 	</provider>
@@ -5675,6 +5812,7 @@ conceived.
 	<provider>
 		<name>Glocalnet</name>
 		<gsm>
+			<network-id mcc="240" mnc="08"/>
 			<!-- http://glocalnet.se/mobiltbredband -->
 			<apn value="bredband.glocalnet.se">
 				<name>Mobilt Bredband</name>
@@ -5801,6 +5939,7 @@ conceived.
 	<provider>
 		<name>Parlino</name>
 		<gsm>
+			<network-id mcc="240" mnc="07"/>
 			<apn value="internet.parlino.se"/>
 		</gsm>
 	</provider>
@@ -6305,6 +6444,7 @@ conceived.
 	<provider>
 		<name>Jeans</name>
 		<gsm>
+			<network-id mcc="255" mnc="01"/>
 			<apn value="www.jeans.ua">
 				<dns>80.255.64.23</dns>
 				<dns>80.255.64.24</dns>
@@ -7385,6 +7525,7 @@ conceived.
 	<provider>
 		<name>Virgin Mobile</name>
 		<gsm>
+			<network-id mcc="655" mnc="07"/>
 			<apn value="vdata">
 				<dns>196.7.0.138</dns>
 				<dns>196.7.142.132</dns>
