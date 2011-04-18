@@ -1587,10 +1587,7 @@ conceived.
 			<balance-top-up>
 				<ussd replacement="CODE">*103*CODE#</ussd>
 			</balance-top-up>
-			<apn value="pinternet.interkom.de">
-				<username>fonic</username>
-				<password>fonic</password>
-			</apn>
+			<apn value="pinternet.interkom.de"/>
 		</gsm>
 	</provider>
 	<provider>
