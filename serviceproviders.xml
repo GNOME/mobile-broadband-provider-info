@@ -5225,7 +5225,7 @@ conceived.
 	<provider>
 		<name>Kanguru</name>
 		<gsm>
-			<network-id mcc="286" mnc="03"/>
+			<network-id mcc="268" mnc="03"/>
 			<apn value="kanguru-portatil">
 				<name>Portable</name>
 				<name xml:lang="pt">Portátil</name>
@@ -5248,14 +5248,14 @@ conceived.
 		<!-- Merged with Optimus in 2010 -->
 		<name>Clix</name>
 		<gsm>
-			<network-id mcc="286" mnc="03"/>
+			<network-id mcc="268" mnc="03"/>
 			<apn value="clixinternetmovel"/>
 		</gsm>
 	</provider>
 	<provider>
 		<name>Optimus</name>
 		<gsm>
-			<network-id mcc="286" mnc="03"/>
+			<network-id mcc="268" mnc="03"/>
 			<apn value="umts">
 				<name>3G</name>
 			</apn>
@@ -5268,7 +5268,7 @@ conceived.
 	<provider>
 		<name>TMN</name>
 		<gsm>
-			<network-id mcc="286" mnc="06"/>
+			<network-id mcc="268" mnc="06"/>
 			<apn value="internet">
 				<username>tmn</username>
 				<password>tmn</password>
@@ -5280,7 +5280,7 @@ conceived.
 	<provider>
 		<name>Vodafone</name>
 		<gsm>
-			<network-id mcc="286" mnc="01"/>
+			<network-id mcc="268" mnc="01"/>
 			<apn value="internet.vodafone.pt">
 				<dns>212.18.160.133</dns>
 				<dns>212.18.160.134</dns>
