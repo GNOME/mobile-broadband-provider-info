@@ -4787,6 +4787,8 @@ conceived.
 		<name>KPN Mobile</name>
 		<gsm>
 			<network-id mcc="204" mnc="08"/>
+			<apn value="prepaidinternet" />
+			<apn value="fastinternet" />
 			<apn value="internet">
 				<username>KPN</username>
 				<password>gprs</password>
