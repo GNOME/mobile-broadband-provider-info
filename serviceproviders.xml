@@ -87,7 +87,12 @@ conceived.
 		<name>Vodafone</name>
 		<gsm>
 			<network-id mcc="276" mnc="02"/>
-			<apn value="Twa" />
+			<apn value="Twa">
+				<name>TWA</name>
+			</apn>
+			<apn value="vodafoneweb">
+				<name>Vodafone Web</name>
+			</apn>
 		</gsm>
 	</provider>
 </country>
@@ -210,19 +215,20 @@ conceived.
 	<provider>
 		<name>A1/Telekom Austria</name>
 		<gsm>
+			<!-- Vodafone Broadband Connect version 10.1.0.23908 2010-06-07T17:47:01 -->
 			<network-id mcc="232" mnc="01"/>
 			<apn value="a1.net">
 				<name>A1 Breitband</name>
 				<username>ppp@a1plus.at</username>
 				<password>ppp</password>
-				<dns>194.48.139.254</dns>
-				<dns>194.48.124.202</dns>
 			</apn>
+			<!-- https://www.aon.at/export/sites/default/residential/pdf/produktfolder/aonFlex_Mobiltelefon.pdf-->
 			<apn value="aon.data">
 				<name>aon (Flex, Breitband-Duo, BusinessFlex)</name>
 				<username>mobile@aon.at</username>
 				<password>ppp</password>
 			</apn>
+			<!-- http://konfigurator.aon.at/otauseraon/templates/user/aon/manuals/AON_Installation.pdf -->
 			<apn value="aon.at">
 				<name>aonMobile</name>
 				<username>mobile@aon.at</username>
@@ -424,14 +430,17 @@ conceived.
 	<provider>
 		<name>Vodafone</name>
 		<gsm>
+			<!-- http://www.vodafone.com.au/personal/mobile-broadband/modem-setup/index.htm -->
 			<network-id mcc="505" mnc="03"/>
 			<apn value="vfinternet.au">
-				<name>Postpaid</name>
-				<dns>192.189.54.33</dns>
-				<dns>210.80.58.3</dns>
+				<name>Postpaid and some prepaid phone plans</name>
 			</apn>
+			<!-- username/password included in Vodafone Broadband Connect version 10.1.0.23908 2010-06-07T17:47:01 -->
+			<!-- username/password not on site http://www.vodafone.com.au/personal/mobile-broadband/modem-setup/index.htm -->
 			<apn value="vfprepaymbb">
 				<name>Prepaid</name>
+				<!-- username>web</username -->
+				<!-- password>web</password -->
 			</apn>
 		</gsm>
 	</provider>
@@ -458,6 +467,13 @@ conceived.
 		<gsm>
 			<network-id mcc="400" mnc="02"/>
 			<apn value="mms"/>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Azerfon</name>
+		<gsm>
+			<network-id mcc="400" mnc="04"/>
+			<apn value="azerfon"/>
 		</gsm>
 	</provider>
 </country>
@@ -592,8 +608,6 @@ conceived.
 			<network-id mcc="206" mnc="01"/>
 			<apn value="internet.proximus.be">
 				<name>Inter</name>
-				<dns>195.238.2.21</dns>
-				<dns>81.169.60.107</dns>
 			</apn>
 			<apn value="intraprox.be">
 				<name>Intra</name>
@@ -632,11 +646,11 @@ conceived.
 		<name>M-Tel</name>
 		<gsm>
 			<network-id mcc="284" mnc="01"/>
+			<!-- http://www.mtel.bg/iphone3/technical_faq.php lists username/password -->
+			<!-- username/password not included in Vodafone Broadband Connect version 10.1.0.23908 2010-06-07T17:47:01 -->
 			<apn value="inet-gprs.mtel.bg">
 				<username>mtel</username>
 				<password>mtel</password>
-				<dns>213.226.7.34</dns>
-				<dns>213.226.7.35</dns>
 			</apn>
 		</gsm>
 	</provider>
@@ -677,6 +691,11 @@ conceived.
 		<name>Zain BH</name>
 		<gsm>
 			<network-id mcc="426" mnc="02"/>
+			<apn value="internet">
+				<name>Internet</name>
+				<username>internet</username>
+				<password>internet</password>
+			</apn>
 			<apn value="hsdpa">
 				<name>eGO</name>
 				<username>hsdpa</username>
@@ -1079,7 +1098,6 @@ conceived.
 			<network-id mcc="630" mnc="01"/>
 			<apn value="vodanet">
 				<username>vodalive</username>
-				<dns>172.24.97.1</dns>
 			</apn>
 		</gsm>
 	</provider>
@@ -1123,6 +1141,8 @@ conceived.
 	<provider>
 		<name>Swisscom</name>
 		<gsm>
+			<!-- username/password not included in Vodafone Broadband Connect version 10.1.0.23908 2010-06-07T17:47:01 -->
+			<!-- http://www.swisscom.ch/res/hilfe/mobile/einstellungen/index.htm -->
 			<network-id mcc="228" mnc="01"/>
 			<balance-check>
 				<ussd>*130#</ussd>
@@ -1130,10 +1150,7 @@ conceived.
 			<balance-top-up>
 				<ussd replacement="CODE">*130*CODE#</ussd>
 			</balance-top-up>
-			<apn value="gprs.swisscom.ch">
-				<username>gprs</username>
-				<password>gprs</password>
-			</apn>
+			<apn value="gprs.swisscom.ch"/>
 		</gsm>
 	</provider>
 </country>
@@ -1178,6 +1195,7 @@ conceived.
 		<gsm>
 			<network-id mcc="730" mnc="01"/>
 			<apn value="imovil.entelpcs.cl">
+				<name>Contract / Prepaid / WebSession</name>
 				<username>entelpcs</username>
 				<password>entelpcs</password>
 			</apn>
@@ -1325,7 +1343,12 @@ conceived.
 		<name>Cytamobile-Vodafone</name>
 		<gsm>
 			<network-id mcc="280" mnc="01"/>
-			<apn value="internet"/>
+			<apn value="internet">
+				<name>Contract</name>
+			</apn>
+			<apn value="pp.internet">
+				<name>Prepaid</name>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -1346,10 +1369,7 @@ conceived.
 		<name>Vodafone</name>
 		<gsm>
 			<network-id mcc="230" mnc="03"/>
-			<apn value="internet">
-				<dns>217.77.161.130</dns>
-				<dns>217.77.161.131</dns>
-			</apn>
+			<apn value="internet"/>
 		</gsm>
 	</provider>
 	<provider>
@@ -1437,7 +1457,14 @@ conceived.
 		<gsm>
 			<!-- http://www.bildmobil.de/info_handyeinstellungen.html -->
 			<network-id mcc="262" mnc="02"/>
-			<apn value="access.vodafone.de"/>
+			<apn value="access.vodafone.de">
+				<name>BILD Mobilportal</name>
+			</apn>
+			<apn value="web.vodafone.de">
+				<name>Contract</name>
+				<dns>139.7.30.125</dns>
+				<dns>139.7.30.126</dns>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -1830,6 +1857,7 @@ conceived.
 				<dns>194.239.134.83</dns>
 				<dns>193.162.153.164</dns>
 			</apn>
+			<apn value="internet.no"/>
 		</gsm>
 	</provider>
 	<provider>
@@ -2028,6 +2056,8 @@ conceived.
 			<apn value="internet.vodafone.net">
 				<username>internet</username>
 				<password>internet</password>
+				<dns>163.121.128.134</dns>
+				<dns>212.103.160.18</dns>
 			</apn>
 		</gsm>
 	</provider>
@@ -2199,6 +2229,17 @@ conceived.
 	</provider>
 </country>
 
+<!-- Faroe Islands -->
+<country code="fo">
+	<provider>
+		<name>Vodafone FO</name>
+		<gsm>
+			<network-id mcc="288" mnc="02"/>
+			<apn value="vmc.vodafone.fo"/>
+		</gsm>
+	</provider>
+</country>
+
 <!-- Finland -->
 <country code="fi">
 	<provider>
@@ -2262,10 +2303,11 @@ conceived.
 <!-- Fiji -->
 <country code="fj">
 	<provider>
-		<name>Vodafone</name>
+		<name>Vodafone / Kidanet</name>
 		<gsm>
 			<network-id mcc="542" mnc="01"/>
 			<apn value="vfinternet.fj"/>
+			<apn value="kidanet.fj"/>
 		</gsm>
 	</provider>
 </country>
@@ -2350,22 +2392,22 @@ conceived.
 			<network-id mcc="208" mnc="10"/>
 			<network-id mcc="208" mnc="11"/>
 			<apn value="websfr">
-				<name>Web</name>
-				<dns>172.20.2.10</dns>
-				<dns>172.20.2.39</dns>
+				<name>Web / Prepaid</name>
 			</apn>
 			<apn value="wapsfr">
 				<name>WAP</name>
 			</apn>
+			<apn value="internetpro">
+				<name>SFR internetpro</name>
+			</apn>
+			<apn value="ipnet">
+				<name>SFR ipnet</name>
+			</apn>
 			<apn value="slsfr">
 				<name>Mobile Broadband</name>
-				<username>slsfr</username>
-				<password>slsfr</password>
-				<dns>172.20.2.10</dns>
-				<dns>172.20.2.39</dns>
 			</apn>
 			<apn value="sl2sfr">
-				<name>Full Internet</name>
+				<name>Full Internet (Webphone)</name>
 			</apn>
 		</gsm>
 	</provider>
@@ -2521,8 +2563,6 @@ conceived.
 				<name>TopUp and Go</name>
 				<username>web</username>
 				<password>web</password>
-				<dns>10.203.129.68</dns>
-				<dns>10.203.129.68</dns>
 			</apn>
 		</gsm>
 	</provider>
@@ -2660,8 +2700,6 @@ conceived.
 			</apn>
 			<apn value="web.session">
 				<name>Mobile Broadband On Demand</name>
-				<dns>213.249.17.10</dns>
-				<dns>213.249.17.11</dns>
 			</apn>
 		</gsm>
 	</provider>
@@ -2754,10 +2792,7 @@ conceived.
 		<name>SmarTone</name>
 		<gsm>
 			<network-id mcc="454" mnc="06"/>
-			<apn value="internet">
-				<dns>202.140.96.51</dns>
-				<dns>202.140.96.52</dns>
-			</apn>
+			<apn value="internet"/>
 		</gsm>
 	</provider>
 	<provider>
@@ -2812,6 +2847,9 @@ conceived.
 		<name>VIPNET</name>
 		<gsm>
 			<network-id mcc="219" mnc="10"/>
+			<apn value="data.vip.hr">
+				<name>Contract and Prepaid</name>
+			</apn>
 			<apn value="gprs5.vipnet.hr">
 				<name>GPRS 5</name>
 				<username>38591</username>
@@ -2904,12 +2942,11 @@ conceived.
 				<dns>80.244.97.30</dns>
 				<dns>80.244.96.1</dns>
 			</apn>
+			<!-- http://www.vodafone.hu/en/support/questions-answers/pay-monthly/internet -->
 			<apn value="internet.vodafone.net">
 				<name>Előf. töm.</name>
 				<username>vodawap</username>
 				<password>vodawap</password>
-				<dns>80.244.97.30</dns>
-				<dns>80.244.96.1</dns>
 			</apn>
 			<apn value="vitamax.snet.vodafone.net">
 				<name>Felt. norm.</name>
@@ -2918,8 +2955,6 @@ conceived.
 			</apn>
 			<apn value="vitamax.internet.vodafone.net">
 				<name>Vodafone (felt. töm.)</name>
-				<dns>80.244.97.30</dns>
-				<dns>80.244.96.1</dns>
 			</apn>
 		</gsm>
 	</provider>
@@ -3278,11 +3313,12 @@ conceived.
 			<network-id mcc="404" mnc="20"/>
 			<network-id mcc="404" mnc="27"/>
 			<network-id mcc="404" mnc="30"/>
+			<network-id mcc="404" mnc="43"/>
 			<network-id mcc="404" mnc="46"/>
 			<network-id mcc="404" mnc="60"/>
-			<network-id mcc="404" mnc="67"/>
 			<network-id mcc="404" mnc="84"/>
 			<network-id mcc="404" mnc="86"/>
+			<network-id mcc="404" mnc="88"/>
 			<network-id mcc="405" mnc="66"/>
 			<network-id mcc="405" mnc="750"/>
 			<network-id mcc="405" mnc="751"/>
@@ -3583,10 +3619,7 @@ conceived.
 		<gsm>
 			<network-id mcc="274" mnc="02"/>
 			<network-id mcc="274" mnc="03"/>
-			<apn value="vmc.gprs.is">
-				<dns>213.176.128.51</dns>
-				<dns>213.176.128.50</dns>
-			</apn>
+			<apn value="vmc.gprs.is"/>
 		</gsm>
 	</provider>
 	<provider>
@@ -4139,6 +4172,9 @@ conceived.
 			<apn value="dialogbb">
 				<name>Unlimited Broadband</name>
 			</apn>
+			<apn value="kitbb.com">
+				<name>Prepaid (Kitbb)</name>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -4220,7 +4256,13 @@ conceived.
 		<name>Tango</name>
 		<gsm>
 			<network-id mcc="270" mnc="77"/>
+			<apn value="hspa">
+				<name>hspa</name>
+				<username>tango</username>
+				<password>tango</password>
+			</apn>
 			<apn value="internet">
+				<name>internet</name>
 				<username>tango</username>
 				<password>tango</password>
 				<dns>212.66.70.3</dns>
@@ -4292,6 +4334,9 @@ conceived.
 			<network-id mcc="247" mnc="05"/>
 			<apn value="wap">
 				<name>Bite plus</name>
+			</apn>
+			<apn value="internet">
+				<name>Prepaid/Contract</name>
 			</apn>
 		</gsm>
 	</provider>
@@ -4446,6 +4491,20 @@ conceived.
 	</provider>
 </country>
 
+<!-- Macedonia -->
+<country code="mk">
+	<provider>
+		<name>Vodafone</name>
+		<gsm>
+			<network-id mcc="294" mnc="03"/>
+			<apn value="vipoperator">
+				<username>vipoperator</username>
+				<password>vipoperator</password>
+			</apn>
+		</gsm>
+	</provider>
+</country>
+
 <!-- Malta -->
 <country code="mt">
 	<provider>
@@ -4585,7 +4644,14 @@ conceived.
 		<gsm>
 			<network-id mcc="502" mnc="13"/>
 			<network-id mcc="502" mnc="19"/>
-			<apn value="celcom.net.my"/>
+			<!-- http://www.channelx.com.my/mdp/gprs/internet_config.jsp?model_name=motorola_e398 -->
+			<apn value="celcom.net.my">
+				<name>GPRS</name>
+			</apn>
+			<!-- http://www.channelx.com.my/mdp/3g/wap_config_3g.jsp?model_name=huwei_u600_3g -->
+			<apn value="celcom3g">
+				<name>Celcom 3G</name>
+			</apn>
 		</gsm>
 	</provider>
 </country>
@@ -4608,7 +4674,9 @@ conceived.
 		<name>Vodacom</name>
 		<gsm>
 			<network-id mcc="643" mnc="04"/>
-			<apn value="internet"/>
+			<apn value="internet">
+				<name>Contract / Prepaid</name>
+			</apn>
 		</gsm>
 	</provider>
 </country>
@@ -4956,9 +5024,7 @@ conceived.
 				<dns>202.73.198.16</dns>
 			</apn>
 			<apn value="www.vodafone.net.nz">
-				<name>Restricted</name>
-				<dns>202.73.206.16</dns>
-				<dns>202.73.198.16</dns>
+				<name>Contract / Prepaid (Restricted)</name>
 			</apn>
 			<apn value="internet">
 				<name>Unrestricted (public)</name>
@@ -5282,8 +5348,8 @@ conceived.
 		<gsm>
 			<network-id mcc="268" mnc="01"/>
 			<apn value="internet.vodafone.pt">
-				<dns>212.18.160.133</dns>
-				<dns>212.18.160.134</dns>
+				<username>vodafone</username>
+				<password>vodafone</password>
 			</apn>
 		</gsm>
 	</provider>
@@ -5337,7 +5403,12 @@ conceived.
 		<name>Vodafone</name>
 		<gsm>
 			<network-id mcc="427" mnc="02"/>
-			<apn value="vodafone.com.qa"/>
+			<apn value="vodafone.com.qa">
+				<name>Web (old)</name>
+			</apn>
+			<apn value="web.vodafone.com.qa">
+				<name>Web</name>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -5348,6 +5419,28 @@ conceived.
 				<name>Qatarnet</name>
 				<username>gprs</username>
 				<password>gprs</password>
+			</apn>
+		</gsm>
+	</provider>
+</country>
+
+<!-- Réunion (France) -->
+<country code="re">
+	<provider>
+		<name>SFR Réunion</name>
+		<gsm>
+			<network-id mcc="647" mnc="10"/>
+			<apn value="websfr">
+				<name>Contract / Prepaid</name>
+			</apn>
+			<apn value="slsfr">
+				<name>SFR slsfr</name>
+			</apn>
+			<apn value="internetpro">
+				<name>SFR internetpro</name>
+			</apn>
+			<apn value="ipnet">
+				<name>SFR ipnet</name>
 			</apn>
 		</gsm>
 	</provider>
@@ -5369,6 +5462,11 @@ conceived.
 		<name>Vodafone</name>
 		<gsm>
 			<network-id mcc="226" mnc="01"/>
+			<apn value="tobe.vodafone.ro">
+				<name>Mobile Internet (Prepaid)</name>
+				<username>tobe.vodafone.ro</username>
+				<password>vodafone</password>
+			</apn>
 			<apn value="internet.vodafone.ro">
 				<name>Mobile Internet (Postpaid)</name>
 				<username>internet.vodafone.ro</username>
@@ -5960,21 +6058,22 @@ conceived.
 	<provider>
 		<name>M1</name>
 		<gsm>
-			<!-- http://m1.com.sg/filedownloads/popup/Miworld/popup_se2.5.html -->
 			<network-id mcc="525" mnc="03"/>
+			<!-- http://m1.com.sg/filedownloads/popup/Miworld/popup_se2.5.html mid page -->
 			<apn value="sunsurf">
 				<name>SunSurf/Mobile Broadband (postpaid)</name>
 				<username>65</username>
-				<password>user123</password>
-				<dns>202.79.64.21</dns>
-				<dns>202.79.64.26</dns>
 			</apn>
+			<!-- http://m1.com.sg/filedownloads/popup/Miworld/popup_se2.5.html top page-->
 			<apn value="miworld">
 				<name>MiWorld Mobile (postpaid)</name>
+				<username>65(mobilenumber)</username>
 				<password>user123</password>
 			</apn>
+			<!-- http://m1.com.sg/filedownloads/popup/Miworld/popup_se2.5.html lower page -->
 			<apn value="miworldcard">
 				<name>MiWorld Mobile (prepaid)</name>
+				<username>65(mobilenumber)</username>
 				<password>user123</password>
 			</apn>
 			<apn value="prepaidbb">
@@ -6045,8 +6144,6 @@ conceived.
 			<apn value="internet.simobil.si">
 				<username>simobil</username>
 				<password>internet</password>
-				<dns>121.30.86.130</dns>
-				<dns>193.189.160.11</dns>
 			</apn>
 		</gsm>
 	</provider>
@@ -6244,9 +6341,17 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Vodafone</name>
+		<name>Vodafone / KKTC Telsim</name>
 		<gsm>
-			<network-id mcc="286" mnc="02"/>
+			<network-id mcc="286" mnc="02"/><!-- mnc="0251" in Vodofone XML -->
+			<apn value="edje.kktctelsim.com">
+				<name>Faturali / Kontorlu</name>
+			</apn>
+			<apn value="internet">
+				<name>KKTC Telsim</name>
+				<username>vodafone</username>
+				<password>vodafone</password>
+			</apn>
 			<apn value="telsim">
 				<name>Postpaid</name>
 				<username>telsim</username>
@@ -6294,6 +6399,9 @@ conceived.
 		<name xml:lang="zh">中華電信 (emome)</name>
 		<gsm>
 			<network-id mcc="466" mnc="92"/>
+			<!-- http://www.nav4all.com/site2/www.nav4all.com/enguk/gprs_settings_taiwan_chunghwatelekom_nav4all.php?m=F3 -->
+			<apn value="emome"/>
+			<!-- Vodafone Broadband Connect version 10.1.0.23908 2010-06-07T17:47:01 lists username/pass = web. Others list empty -->
 			<apn value="internet"/>
 		</gsm>
 	</provider>
@@ -7508,10 +7616,7 @@ conceived.
 		<name>Vodacom</name>
 		<gsm>
 			<network-id mcc="655" mnc="01"/>
-			<apn value="internet">
-				<dns>196.207.40.165</dns>
-				<dns>196.43.46.190</dns>
-			</apn>
+			<apn value="internet"/>
 			<apn value="unrestricted">
 				<name>Unrestricted</name>
 				<dns>196.207.32.69</dns>
