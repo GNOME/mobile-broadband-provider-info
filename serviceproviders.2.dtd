@@ -6,6 +6,11 @@
 
 <!ELEMENT provider (name+, gsm?, cdma?)>
 
+<!-- Indicates this provider is the primary/wholesale network provider -->
+<!-- for a given MCC/MNC; other providers with the same MCC/MNC are MVNOs -->
+<!-- that piggy-back on the primary provider. -->
+<!ATTLIST provider primary (true|false) #IMPLIED>
+
 <!ELEMENT gsm (network-id*, voicemail*, balance-check*, balance-top-up*, apn*)>
 <!ELEMENT apn (name*,
                gateway?,

@@ -1467,7 +1467,7 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
-	<provider>
+	<provider primary="true">
 		<name>E-Plus</name>
 		<gsm>
 			<network-id mcc="262" mnc="03"/>
@@ -1793,7 +1793,7 @@ conceived.
 
 <!-- Denmark -->
 <country code="dk">
-	<provider>
+	<provider primary="true">
 		<name>3</name>
 		<gsm>
 			<network-id mcc="238" mnc="06"/>
@@ -3697,7 +3697,7 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
-	<provider>
+	<provider primary="true">
 		<name>3</name>
 		<gsm>
 			<network-id mcc="222" mnc="99"/>
@@ -5930,7 +5930,7 @@ conceived.
 
 <!-- Sweden -->
 <country code="se">
-	<provider>
+	<provider primary="true">
 		<name>3</name>
 		<gsm>
 			<network-id mcc="240" mnc="02"/>
