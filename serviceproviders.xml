@@ -4818,7 +4818,7 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>KPN Mobile</name>
+		<name>KPN NL</name>
 		<gsm>
 			<network-id mcc="204" mnc="08"/>
 			<apn value="prepaidinternet" />
