@@ -4681,6 +4681,40 @@ conceived.
 	</provider>
 </country>
 
+<!-- Namibia -->
+<country code="na">
+	<provider>
+		<name>MTC</name>
+		<gsm>
+			<network-id mcc="649" mnc="01"/>
+			<apn value="ppsinternet">
+				<name>Tango</name>
+				<username>ppsuser</username>
+				<password>ppsuser</password>
+			</apn>
+			<apn value="internet">
+				<name>Contract</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Telecom</name>
+		<cdma>
+			<name>switch</name>
+			<password>telecom</password>
+		</cdma>
+	</provider>
+	<provider>
+		<name>Leo</name>
+		<gsm>
+			<network-id mcc="649" mnc="03"/>
+			<apn value="internet">
+				<name>Leo</name>
+			</apn>
+		</gsm>
+	</provider>
+</country>
+
 <!-- Nigeria -->
 <country code="ng">
 	<provider>
