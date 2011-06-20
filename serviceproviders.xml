@@ -3797,6 +3797,32 @@ conceived.
 	</provider>
 </country>
 
+<!-- Hashemite Kingdom of Jordan -->
+<country code="jo">
+	<provider>
+		<name>Orange</name>
+		<gsm>
+			<network-id mcc="416" mnc="77"/>
+			<apn value="net.orange.jo">
+				<name>Mobile Broadband</name>
+				<username>net</username>
+				<password>net</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Zain</name>
+		<gsm>
+			<network-id mcc="416" mnc="01"/>
+			<apn value="zain">
+				<name>Mobile Broadband</name>
+				<username>Zain</username>
+				<password>Zain</password>
+			</apn>
+		</gsm>
+	</provider>
+</country>
+
 <!-- Japan -->
 <country code="jp">
 	<provider>
