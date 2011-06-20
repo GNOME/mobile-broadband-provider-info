@@ -1133,8 +1133,6 @@ conceived.
 			<apn value="internet">
 				<username>internet</username>
 				<password>internet</password>
-				<dns>212.35.35.35</dns>
-				<dns>212.35.35.5</dns>
 			</apn>
 		</gsm>
 	</provider>
