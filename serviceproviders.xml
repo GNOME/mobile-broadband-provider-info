@@ -5044,6 +5044,24 @@ conceived.
 			<apn value="internet.ventelo.no"/>
 		</gsm>
 	</provider>
+	<provider>
+		<name>Tele2</name>
+		<gsm>
+			<network-id mcc="242" mnc="02"/>
+			<network-id mcc="242" mnc="04"/>
+			<balance-check>
+				<ussd>*111#</ussd>
+				<dtmf>47300000</dtmf>
+			</balance-check>
+			<apn value="internet.tele2.no">
+				<name>Mobilt internet</name>
+			</apn>
+			<!-- http://www.tele2.no/mobilt-bredbaand.html -->
+			<apn value="mobileinternet.tele2.no">
+				<name>Mobilt bredbånd</name>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Nepal -->
