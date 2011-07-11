@@ -487,6 +487,50 @@ conceived.
 			<apn value="mms.bhmobile.ba"/>
 		</gsm>
 	</provider>
+	<provider>
+		<name>m:tel</name>
+		<gsm>
+			<network-id mcc="218" mnc="05"/>
+			<balance-check>
+				<ussd>*101#</ussd>
+			</balance-check>
+			<apn value="mtelgprs1">
+				<name>Package 1</name>
+				<dns>81.93.67.2</dns>
+				<dns>81.93.67.3</dns>
+			</apn>
+			<apn value="mtelgprs2">
+				<name>Package 2</name>
+				<dns>81.93.67.2</dns>
+				<dns>81.93.67.3</dns>
+			</apn>
+			<apn value="mtelgprs3">
+				<name>Package 3</name>
+				<dns>81.93.67.2</dns>
+				<dns>81.93.67.3</dns>
+			</apn>
+			<apn value="mtelgprs4">
+				<name>Package 4</name>
+				<dns>81.93.67.2</dns>
+				<dns>81.93.67.3</dns>
+			</apn>
+			<apn value="mtelfun">
+				<name>Prepaid</name>
+				<dns>81.93.67.2</dns>
+				<dns>81.93.67.3</dns>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>HT-ERONET</name>
+		<gsm>
+			<network-id mcc="218" mnc="03"/>
+			<balance-check>
+				<ussd>*101#</ussd>
+			</balance-check>
+			<apn value="gprs.eronet.ba"/>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Barbados -->
