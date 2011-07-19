@@ -4447,12 +4447,12 @@ conceived.
 		<name>T-Mobile</name>
 		<gsm>
 			<network-id mcc="297" mnc="02"/>
-			<apn value="tcmg-data">
+			<apn value="tmcg-data">
 				<name>Mobile Broadband</name>
 				<username>38267</username>
 				<password>38267</password>
 			</apn>
-			<apn value="tcmg-nw">
+			<apn value="tmcg-nw">
 				<name>GPRS</name>
 				<username>38267</username>
 				<password>38267</password>
