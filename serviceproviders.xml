@@ -484,7 +484,7 @@ conceived.
 		<name>BH GSM</name>
 		<gsm>
 			<network-id mcc="218" mnc="90"/>
-			<apn value="mms.bhmobile.ba"/>
+			<apn value="mms.bhmobile.ba" type="mms"/>
 		</gsm>
 	</provider>
 	<provider>
@@ -2972,7 +2972,7 @@ conceived.
 				<dns>212.51.115.1</dns>
 				<dns>194.176.224.6</dns>
 			</apn>
-			<apn value="mms-westel">
+			<apn value="mms-westel" type="mms">
 				<name>MMS</name>
 				<username>mms</username>
 				<dns>212.51.115.1</dns>
@@ -3379,7 +3379,7 @@ conceived.
 			<apn value="www">
 				<name>Vodafone Connect</name>
 			</apn>
-			<apn value="portalnmms">
+			<apn value="portalnmms" type="mms">
 				<name>Vodafone Live</name>
 			</apn>
 		</gsm>
