@@ -250,7 +250,7 @@ conceived.
 		<name>T-Mobile</name>
 		<gsm>
 			<network-id mcc="232" mnc="03"/>
-			<apn value="gprswap">
+			<apn value="gprswap" type="wap">
 				<name>WAP</name>
 				<username>t-mobile</username>
 				<password>tm</password>
@@ -811,7 +811,7 @@ conceived.
 			<apn value="gprs.oi.com.br">
 				<password>oioioi</password>
 			</apn>
-			<apn value="wapgprs.oi.com.br">
+			<apn value="wapgprs.oi.com.br" type="wap">
 				<name>WAP</name>
 				<username>oiwap</username>
 				<password>oioioi</password>
@@ -899,7 +899,7 @@ conceived.
 		<name>velcom</name>
 		<gsm>
 			<network-id mcc="257" mnc="01"/>
-			<apn value="wap.velcom.by">
+			<apn value="wap.velcom.by" type="wap">
 				<name>GPRS WAP</name>
 				<username>wap</username>
 				<password>wap</password>
@@ -1225,7 +1225,7 @@ conceived.
 				<username>clarochile</username>
 				<password>clarochile</password>
 			</apn>
-			<apn value="wap.clarochile.cl">
+			<apn value="wap.clarochile.cl" type="wap">
 				<name>WAP</name>
 				<username>clarochile</username>
 				<password>clarochile</password>
@@ -1257,7 +1257,7 @@ conceived.
 				<username>web</username>
 				<password>web</password>
 			</apn>
-			<apn value="wap.tmovil.cl">
+			<apn value="wap.tmovil.cl" type="wap">
 				<name>WAP</name>
 				<username>wap</username>
 				<password>wap</password>
@@ -1297,7 +1297,7 @@ conceived.
 		<gsm>
 			<network-id mcc="460" mnc="00"/>
 			<network-id mcc="460" mnc="02"/>
-			<apn value="cmwap">
+			<apn value="cmwap" type="wap">
 				<name>WAP</name>
 				<username>guest</username>
 				<password>guest</password>
@@ -2440,7 +2440,7 @@ conceived.
 			<apn value="websfr">
 				<name>Web / Prepaid</name>
 			</apn>
-			<apn value="wapsfr">
+			<apn value="wapsfr" type="wap">
 				<name>WAP</name>
 			</apn>
 			<apn value="internetpro">
@@ -2542,7 +2542,7 @@ conceived.
 				<dns>82.132.254.2</dns>
 				<dns>82.132.254.3</dns>
 			</apn>
-			<apn value="wap.o2.co.uk">
+			<apn value="wap.o2.co.uk" type="wap">
 				<name>WAP</name>
 				<username>o2wap</username>
 				<password>password</password>
@@ -2652,7 +2652,7 @@ conceived.
 				<dns>193.35.133.10</dns>
 				<dns>193.35.134.10</dns>
 			</apn>
-			<apn value="orangewap">
+			<apn value="orangewap" type="wap">
 				<name>Orange WAP</name>
 				<username>orange</username>
 				<password>multimedia</password>
@@ -2683,7 +2683,7 @@ conceived.
 		<name>Sure (Cable &amp; Wireless)</name>
 		<gsm>
 			<network-id mcc="234" mnc="55"/>
-			<apn value="wap">
+			<apn value="wap" type="wap">
 				<name>WAP</name>
 			</apn>
 			<apn value="internet">
@@ -3271,7 +3271,7 @@ conceived.
 		<name>Sure (Cable &amp; Wireless)</name>
 		<gsm>
 			<network-id mcc="234" mnc="55"/>
-			<apn value="wap">
+			<apn value="wap" type="wap">
 				<name>WAP</name>
 			</apn>
 			<apn value="internet">
@@ -3414,7 +3414,7 @@ conceived.
 				<name>New GPRS/3G</name>
 			</apn>
 
-			<apn value="bsnlwap">
+			<apn value="bsnlwap" type="wap">
 				<name>New WAP</name>
 			</apn>
 
@@ -3501,7 +3501,7 @@ conceived.
 			<apn value="smartnet">
 				<name>Smart Net</name>
 			</apn>
-			<apn value="smartwap">
+			<apn value="smartwap" type="wap">
 				<name>Smart WAP</name>
 			</apn>
 		</gsm>
@@ -3718,7 +3718,7 @@ conceived.
 				<dns>217.200.200.42</dns>
 				<dns>213.230.129.10</dns>
 			</apn>
-			<apn value="wap.tim.it">
+			<apn value="wap.tim.it" type="wap">
 				<name>WAP</name>
 				<username>WAPTIM</username>
 				<dns>213.230.155.94</dns>
@@ -3798,7 +3798,7 @@ conceived.
 		<name>Sure (Cable &amp; Wireless)</name>
 		<gsm>
 			<network-id mcc="234" mnc="55"/>
-			<apn value="wap">
+			<apn value="wap" type="wap">
 				<name>WAP</name>
 			</apn>
 			<apn value="internet">
@@ -4857,7 +4857,7 @@ conceived.
 		<gsm>
 			<network-id mcc="710" mnc="21"/>
 			<network-id mcc="710" mnc="73"/>
-			<apn value="wap.emovil">
+			<apn value="wap.emovil" type="wap">
 				<name>WAP</name>
 				<username>wapemovil</username>
 				<password>wapemovil</password>
@@ -4872,7 +4872,7 @@ conceived.
 				<username>internet</username>
 				<password>internet</password>
 			</apn>
-			<apn value="wap.ideasalo.ni">
+			<apn value="wap.ideasalo.ni" type="wap">
 				<name>WAP (Alo pcs)</name>
 				<username>wap</username>
 				<password>wap</password>
@@ -5137,7 +5137,7 @@ conceived.
 		<gsm>
 			<network-id mcc="530" mnc="00"/>
 			<network-id mcc="530" mnc="05"/>
-			<apn value="wap.telecom.co.nz">
+			<apn value="wap.telecom.co.nz" type="wap">
 				<name>XT mobile (WAP)</name>
 			</apn>
 			<apn value="internet.telecom.co.nz">
@@ -6244,7 +6244,7 @@ conceived.
 		<name>Starhub</name>
 		<gsm>
 			<network-id mcc="525" mnc="05"/>
-			<apn value="shwap">
+			<apn value="shwap" type="wap">
 				<name>WAP</name>
 				<username>star</username>
 				<password>hub</password>
