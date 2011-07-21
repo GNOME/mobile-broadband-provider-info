@@ -18,6 +18,7 @@
                password?,
                dns*)>
 <!ATTLIST apn value CDATA #REQUIRED>
+<!ATTLIST apn type (mms|prepaid|wap) #IMPLIED>
 
 <!ELEMENT voicemail (#PCDATA)>
 <!-- contains dial string used to access voicemail services for this provider -->
