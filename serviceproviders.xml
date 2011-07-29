@@ -1508,8 +1508,8 @@ conceived.
 				<dns>139.7.30.126</dns>
 			</apn>
 			<!-- http://www.prepaid-wiki.de/index.php5/BILDmobil_Daten-SIM -->
-			<apn value="event.vodafone.de">
-				<name>BILDmobil Speedstick (Surfpackete)</name>
+			<apn value="event.vodafone.de" type="prepaid">
+				<name>BILDmobil Speedstick (Surfpakete)</name>
 			</apn>
 		</gsm>
 	</provider>
