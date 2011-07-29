@@ -1583,7 +1583,7 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>T-mobile (D1)</name>
+		<name>Telekom</name>
 		<gsm>
 			<network-id mcc="262" mnc="01"/>
 			<network-id mcc="262" mnc="06"/>
@@ -1608,7 +1608,7 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>CongStar</name>
+		<name>congstar</name>
 		<gsm>
 			<network-id mcc="262" mnc="01"/>
 
@@ -1621,7 +1621,7 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Vodafone (D2)</name>
+		<name>Vodafone</name>
 		<gsm>
 			<network-id mcc="262" mnc="02"/>
 			<network-id mcc="262" mnc="04"/>
