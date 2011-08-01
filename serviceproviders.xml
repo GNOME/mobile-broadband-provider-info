@@ -5142,6 +5142,7 @@ conceived.
 				<dtmf>47300000</dtmf>
 			</balance-check>
 			<apn value="internet.tele2.no">
+				<usage type="wap"/>
 				<name>Mobilt internet</name>
 			</apn>
 			<!-- http://www.tele2.no/mobilt-bredbaand.html -->
