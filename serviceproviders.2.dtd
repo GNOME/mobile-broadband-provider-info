@@ -12,13 +12,14 @@
 <!ATTLIST provider primary (true|false) #IMPLIED>
 
 <!ELEMENT gsm (network-id*, voicemail*, balance-check*, balance-top-up*, apn*)>
-<!ELEMENT apn (name*,
+<!ELEMENT apn (plan*,
+               usage*,
+               name*,
                gateway?,
                username?,
                password?,
                dns*)>
 <!ATTLIST apn value CDATA #REQUIRED>
-<!ATTLIST apn type (mms|prepaid|wap) #IMPLIED>
 
 <!ELEMENT voicemail (#PCDATA)>
 <!-- contains dial string used to access voicemail services for this provider -->
@@ -86,6 +87,12 @@
      directed to.  Usually the gateway is provided automatically via PPP or
      PDP context negotiation and this value is not used.
 -->
+
+<!ELEMENT plan EMPTY>
+<!ATTLIST plan type (prepaid|postpaid) #REQUIRED>
+
+<!ELEMENT usage EMPTY>
+<!ATTLIST usage type (internet|mms|wap) #REQUIRED>
 
 <!ELEMENT cdma (name*,
                 username?,
