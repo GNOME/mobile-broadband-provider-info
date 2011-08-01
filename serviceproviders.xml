@@ -1862,6 +1862,7 @@ conceived.
 				<name>Bredbånd (standard)</name>
  			</apn>
 			<apn value="net.tre.dk">
+				<plan type="prepaid"/>
 				<name>Bredbånd Premium Kontant</name>
 			</apn>
 			<apn value="data.tre.dk">
