@@ -45,6 +45,8 @@ conceived.
 		<gsm>
 			<network-id mcc="424" mnc="02"/>
 			<apn value="mnet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Etisalat</name>
 				<username>mnet</username>
 				<password>mnet</password>
@@ -52,6 +54,8 @@ conceived.
 				<dns>194.170.1.7</dns>
 			</apn>
 			<apn value="etisalat.ae">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Etisalat 3G</name>
 				<username>etisalat.ae</username>
 				<password>etisalat.ae</password>
@@ -62,7 +66,10 @@ conceived.
 		<name>du</name>
 		<gsm>
 			<network-id mcc="424" mnc="03"/>
-			<apn value="du"/>
+			<apn value="du">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 </country>
@@ -74,6 +81,8 @@ conceived.
 		<gsm>
 			<network-id mcc="412" mnc="01"/>
 			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>awcc</username>
 				<password>1111</password>
 			</apn>
@@ -88,9 +97,13 @@ conceived.
 		<gsm>
 			<network-id mcc="276" mnc="02"/>
 			<apn value="Twa">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>TWA</name>
 			</apn>
 			<apn value="vodafoneweb">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Vodafone Web</name>
 			</apn>
 		</gsm>
@@ -104,6 +117,8 @@ conceived.
 		<gsm>
 			<network-id mcc="283" mnc="01"/>
 			<apn value="internet.beeline.am">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>internet</username>
 				<password>internet</password>
 			</apn>
@@ -114,9 +129,13 @@ conceived.
 		<gsm>
 			<network-id mcc="283" mnc="10"/>
 			<apn value="internet.orange">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Internet Hima (USB)</name>
 			</apn>
 			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Mobile Broadband</name>
 			</apn>
 		</gsm>
@@ -126,9 +145,13 @@ conceived.
 		<gsm>
 			<network-id mcc="283" mnc="05"/>
 			<apn value="connect.vivacell.am">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>MTS connect</name>
 			</apn>
 			<apn value="inet.vivacell.am">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Mobile Broadband</name>
 			</apn>
 		</gsm>
@@ -148,7 +171,10 @@ conceived.
 		<name>Unitel</name>
 		<gsm>
 			<network-id mcc="631" mnc="02"/>
-			<apn value="internet.unitel.co.ao" />
+			<apn value="internet.unitel.co.ao" >
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 </country>
@@ -160,6 +186,8 @@ conceived.
 		<gsm>
 			<network-id mcc="722" mnc="340"/>
 			<apn value="gprs.personal.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>gprs</username>
 				<password>adgj</password>
 				<dns>172.25.7.6</dns>
@@ -172,6 +200,8 @@ conceived.
 		<gsm>
 			<network-id mcc="722" mnc="340"/>
 			<apn value="arnet.personal.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<dns>172.25.7.6</dns>
 				<dns>172.25.7.7</dns>
 			</apn>
@@ -184,6 +214,8 @@ conceived.
 			<network-id mcc="722" mnc="320"/>
 			<network-id mcc="722" mnc="330"/>
 			<apn value="gprs.claro.com.ar">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>3G Internet</name>
 				<username>clarogprs</username>
 				<password>clarogprs999</password>
@@ -191,6 +223,8 @@ conceived.
 				<dns>170.51.242.18</dns>
 			</apn>
 			<apn value="internet.ctimovil.com.ar">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>GPRS</name>
 				<username>clarogprs</username>
 				<password>clarogprs999</password>
@@ -203,6 +237,8 @@ conceived.
 			<network-id mcc="722" mnc="010"/>
 			<network-id mcc="722" mnc="070"/>
 			<apn value="internet.gprs.unifon.com.ar">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>wap</username>
 				<password>wap</password>
 			</apn>
@@ -218,18 +254,24 @@ conceived.
 			<!-- Vodafone Broadband Connect version 10.1.0.23908 2010-06-07T17:47:01 -->
 			<network-id mcc="232" mnc="01"/>
 			<apn value="a1.net">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>A1 Breitband</name>
 				<username>ppp@a1plus.at</username>
 				<password>ppp</password>
 			</apn>
 			<!-- https://www.aon.at/export/sites/default/residential/pdf/produktfolder/aonFlex_Mobiltelefon.pdf-->
 			<apn value="aon.data">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>aon (Flex, Breitband-Duo, BusinessFlex)</name>
 				<username>mobile@aon.at</username>
 				<password>ppp</password>
 			</apn>
 			<!-- http://konfigurator.aon.at/otauseraon/templates/user/aon/manuals/AON_Installation.pdf -->
 			<apn value="aon.at">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>aonMobile</name>
 				<username>mobile@aon.at</username>
 				<password>ppp</password>
@@ -241,6 +283,8 @@ conceived.
 		<gsm>
 			<network-id mcc="232" mnc="11"/>
 			<apn value="bob.at">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>data@bob.at</username>
 				<password>ppp</password>
 			</apn>
@@ -251,17 +295,22 @@ conceived.
 		<gsm>
 			<network-id mcc="232" mnc="03"/>
 			<apn value="gprswap">
+				<plan type="postpaid"/>
 				<usage type="wap"/>
 				<name>WAP</name>
 				<username>t-mobile</username>
 				<password>tm</password>
 			</apn>
 			<apn value="gprsinternet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Internet</name>
 				<username>t-mobile</username>
 				<password>tm</password>
 			</apn>
 			<apn value="business.gprsinternet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Business Internet</name>
 				<username>t-mobile</username>
 				<password>tm</password>
@@ -273,6 +322,8 @@ conceived.
 		<gsm>
 			<network-id mcc="232" mnc="07"/>
 			<apn value="web">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>web@telering.at</username>
 				<password>web</password>
 				<dns>212.95.31.11</dns>
@@ -285,6 +336,8 @@ conceived.
 		<gsm>
 			<network-id mcc="232" mnc="05"/>
 			<apn value="web.one.at">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>OneNet Web</name>
 				<username>web</username>
 				<password>web</password>
@@ -292,11 +345,15 @@ conceived.
 				<dns>194.24.128.102</dns>
 			</apn>
 			<apn value="fullspeed">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Web (no filtering)</name>
 				<username>web</username>
 				<password>web</password>
 			</apn>
 			<apn value="orange.web">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Orange Web</name>
 				<username>Orange</username>
 				<password>Orange</password>
@@ -308,14 +365,20 @@ conceived.
 		<name xml:lang="de">Drei</name>
 		<gsm>
 			<network-id mcc="232" mnc="10"/>
-			<apn value="drei.at"/>
+			<apn value="drei.at">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
 		<name>Yesss</name>
 		<gsm>
 			<network-id mcc="232" mnc="12"/>
-			<apn value="web.yesss.at"/>
+			<apn value="web.yesss.at">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 </country>
@@ -326,7 +389,10 @@ conceived.
 		<name>Exetel</name>
 		<gsm>
 			<network-id mcc="505" mnc="02"/>
-			<apn value="exetel1"/>
+			<apn value="exetel1">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -334,9 +400,13 @@ conceived.
 		<gsm>
 			<!-- http://www.internode.on.net/residential/broadband/3g_wireless/nodemobile_data/faq/#What_is_the_APN -->
 			<apn value="internode">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>NodeMobile Data</name>
 			</apn>
 			<apn value="splns333a1">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Old NodeMobile Data (before 2009-08-26)</name>
 			</apn>
 		</gsm>
@@ -346,16 +416,22 @@ conceived.
 		<gsm>
 			<network-id mcc="505" mnc="02"/>
 			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Mobile Internet (handsets)</name>
 				<dns>211.29.132.12</dns>
 				<dns>198.142.0.51</dns>
 			</apn>
 			<apn value="connect">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Wireless Broadband</name>
 				<dns>211.29.132.12</dns>
 				<dns>198.142.0.51</dns>
 			</apn>
 			<apn value="preconnect">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Pre-Paid Mobile Broadband</name>
 				<dns>211.29.132.12</dns>
 				<dns>198.142.0.51</dns>
@@ -372,21 +448,29 @@ conceived.
 				<ussd-response>*100#</ussd-response>
 			</balance-check>
 			<apn value="telstra.wap">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<dns>139.130.4.4</dns>
 				<dns>203.50.2.71</dns>
 			</apn>
 			<apn value="telstra.datapack">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Telstra (3G data pack)</name>
 				<password>Telstra</password>
 				<dns>139.130.4.4</dns>
 				<dns>203.50.2.71</dns>
 			</apn>
 			<apn value="telstra.internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Telstra (Next G)</name>
 				<dns>139.130.4.4</dns>
 				<dns>203.50.2.71</dns>
 			</apn>
 			<apn value="telstra.pcpack">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Telstra (3G PC pack - pay by time)</name>
 				<password>Telstra</password>
 				<dns>139.130.4.4</dns>
@@ -399,6 +483,8 @@ conceived.
 		<gsm>
 			<network-id mcc="505" mnc="06"/>
 			<apn value="3netaccess">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>a</username>
 				<password>a</password>
 				<dns>202.124.68.130</dns>
@@ -406,6 +492,7 @@ conceived.
 			</apn>
 			<apn value="3services">
 				<plan type="prepaid"/>
+				<usage type="internet"/>
 				<name>Three Prepaid</name>
 				<username>a</username>
 				<password>a</password>
@@ -419,12 +506,16 @@ conceived.
 		<gsm>
 			<network-id mcc="505" mnc="02"/>
 			<apn value="VirginInternet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Mobile Internet</name>
 				<username>guest</username>
 				<password>guest</password>
 				<dns>61.88.88.88</dns>
 			</apn>
 			<apn value="VirginBroadband">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Mobile Broadband</name>
 			</apn>
 		</gsm>
@@ -435,12 +526,15 @@ conceived.
 			<!-- http://www.vodafone.com.au/personal/mobile-broadband/modem-setup/index.htm -->
 			<network-id mcc="505" mnc="03"/>
 			<apn value="vfinternet.au">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Postpaid and some prepaid phone plans</name>
 			</apn>
 			<!-- username/password included in Vodafone Broadband Connect version 10.1.0.23908 2010-06-07T17:47:01 -->
 			<!-- username/password not on site http://www.vodafone.com.au/personal/mobile-broadband/modem-setup/index.htm -->
 			<apn value="vfprepaymbb">
 				<plan type="prepaid"/>
+				<usage type="internet"/>
 				<name>Prepaid</name>
 				<!-- username>web</username -->
 				<!-- password>web</password -->
@@ -451,7 +545,10 @@ conceived.
 		<name>Crazy John's</name>
 		<gsm>
 			<network-id mcc="505" mnc="38"/>
-			<apn value="purtona.net"/>
+			<apn value="purtona.net">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 </country>
@@ -462,21 +559,30 @@ conceived.
 		<name>Azercell</name>
 		<gsm>
 			<network-id mcc="400" mnc="01"/>
-			<apn value="internet"/>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
 		<name>Bakcell</name>
 		<gsm>
 			<network-id mcc="400" mnc="02"/>
-			<apn value="mms"/>
+			<apn value="mms">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
 		<name>Azerfon</name>
 		<gsm>
 			<network-id mcc="400" mnc="04"/>
-			<apn value="azerfon"/>
+			<apn value="azerfon">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 </country>
@@ -488,6 +594,7 @@ conceived.
 		<gsm>
 			<network-id mcc="218" mnc="90"/>
 			<apn value="mms.bhmobile.ba">
+				<plan type="postpaid"/>
 				<usage type="mms"/>
 			</apn>
 		</gsm>
@@ -500,27 +607,36 @@ conceived.
 				<ussd>*101#</ussd>
 			</balance-check>
 			<apn value="mtelgprs1">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Package 1</name>
 				<dns>81.93.67.2</dns>
 				<dns>81.93.67.3</dns>
 			</apn>
 			<apn value="mtelgprs2">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Package 2</name>
 				<dns>81.93.67.2</dns>
 				<dns>81.93.67.3</dns>
 			</apn>
 			<apn value="mtelgprs3">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Package 3</name>
 				<dns>81.93.67.2</dns>
 				<dns>81.93.67.3</dns>
 			</apn>
 			<apn value="mtelgprs4">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Package 4</name>
 				<dns>81.93.67.2</dns>
 				<dns>81.93.67.3</dns>
 			</apn>
 			<apn value="mtelfun">
 				<plan type="prepaid"/>
+				<usage type="internet"/>
 				<name>Prepaid</name>
 				<dns>81.93.67.2</dns>
 				<dns>81.93.67.3</dns>
@@ -534,7 +650,10 @@ conceived.
 			<balance-check>
 				<ussd>*101#</ussd>
 			</balance-check>
-			<apn value="gprs.eronet.ba"/>
+			<apn value="gprs.eronet.ba">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 </country>
@@ -545,7 +664,10 @@ conceived.
 		<name>Digicel</name>
 		<gsm>
 			<network-id mcc="342" mnc="750"/>
-			<apn value="isp.digicelbarbados.com"/>
+			<apn value="isp.digicelbarbados.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 </country>
@@ -557,6 +679,8 @@ conceived.
 		<gsm>
 			<network-id mcc="470" mnc="02"/>
 			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Internet</name>
 				<dns>192.168.23.7</dns>
 			</apn>
@@ -567,6 +691,8 @@ conceived.
 		<gsm>
 			<network-id mcc="470" mnc="03"/>
 			<apn value="blweb">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Web</name>
 				<dns>10.10.55.34</dns>
 			</apn>
@@ -577,6 +703,8 @@ conceived.
 		<gsm>
 			<network-id mcc="470" mnc="01"/>
 			<apn value="gpinternet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<dns>202.56.4.120</dns>
 				<dns>202.56.4.121</dns>
 			</apn>
@@ -587,6 +715,8 @@ conceived.
 		<gsm>
 			<network-id mcc="470" mnc="07"/>
 			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Internet</name>
 				<dns>10.6.0.2</dns>
 			</apn>
@@ -611,6 +741,8 @@ conceived.
 		<gsm>
 			<network-id mcc="206" mnc="10"/>
 			<apn value="web.pro.be">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Business</name>
 				<username>mobistar</username>
 				<password>mobistar</password>
@@ -618,6 +750,8 @@ conceived.
 				<dns>212.65.63.145</dns>
 			</apn>
 			<apn value="internet.be">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Personal</name>
 				<username>mobistar</username>
 				<password>mobistar</password>
@@ -625,6 +759,8 @@ conceived.
 				<dns>212.65.63.145</dns>
 			</apn>
 			<apn value="iew.be">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Internet Everywhere</name>
 				<username>mobistar</username>
 				<password>mobistar</password>
@@ -638,9 +774,13 @@ conceived.
 		<gsm>
 			<network-id mcc="206" mnc="10"/>
 			<apn value="telenetwap.be">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Walk &amp; Talk</name>
 			</apn>
 			<apn value="telenetwap.be">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Walk &amp; Surf</name>
 			</apn>
 		</gsm>
@@ -649,7 +789,10 @@ conceived.
 		<name>Orange</name>
 		<gsm>
 			<network-id mcc="206" mnc="10"/>
-			<apn value="orangeinternet"/>
+			<apn value="orangeinternet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -657,9 +800,13 @@ conceived.
 		<gsm>
 			<network-id mcc="206" mnc="01"/>
 			<apn value="internet.proximus.be">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Inter</name>
 			</apn>
 			<apn value="intraprox.be">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Intra</name>
 				<dns>195.238.2.21</dns>
 				<dns>195.238.2.22</dns>
@@ -671,6 +818,8 @@ conceived.
 		<gsm>
 			<network-id mcc="206" mnc="20"/>
 			<apn value="gprs.base.be">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>base</username>
 				<password>base</password>
 				<dns>195.130.131.139</dns>
@@ -687,6 +836,8 @@ conceived.
 		<gsm>
 			<network-id mcc="284" mnc="05"/>
 			<apn value="internet.globul.bg">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>globul</username>
 				<dns>192.168.88.11</dns>
 			</apn>
@@ -699,6 +850,8 @@ conceived.
 			<!-- http://www.mtel.bg/iphone3/technical_faq.php lists username/password -->
 			<!-- username/password not included in Vodafone Broadband Connect version 10.1.0.23908 2010-06-07T17:47:01 -->
 			<apn value="inet-gprs.mtel.bg">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>mtel</username>
 				<password>mtel</password>
 			</apn>
@@ -709,12 +862,16 @@ conceived.
 		<gsm>
 			<network-id mcc="284" mnc="03"/>
 			<apn value="internet.vivacom.bg">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<!-- http://www.vivacom.bg/en/residential/help_and_advice/common_questions/mobile_postpaid/8/ -->
 				<name>Vivacom Internet (Postpaid)</name>
 				<username>vivacom</username>
 				<password>vivacom</password>
 			</apn>
 			<apn value="internet.vivatel.bg">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Vivatel (old)</name>
 				<username>vivatel</username>
 				<password>vivatel</password>
@@ -731,6 +888,8 @@ conceived.
 		<gsm>
 			<network-id mcc="426" mnc="01"/>
 			<apn value="internet.batelco.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>oNet</name>
 				<username>wap</username>
 				<password>wap</password>
@@ -742,11 +901,15 @@ conceived.
 		<gsm>
 			<network-id mcc="426" mnc="02"/>
 			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Internet</name>
 				<username>internet</username>
 				<password>internet</password>
 			</apn>
 			<apn value="hsdpa">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>eGO</name>
 				<username>hsdpa</username>
 				<password>hsdpa</password>
@@ -758,6 +921,8 @@ conceived.
 		<gsm>
 			<network-id mcc="426" mnc="04"/>
 			<apn value="viva.bh">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Viva</name>
 			</apn>
 		</gsm>
@@ -774,6 +939,8 @@ conceived.
 		<gsm>
 			<network-id mcc="724" mnc="16"/>
 			<apn value="brt.br">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>BrT</username>
 				<password>BrT</password>
 			</apn>
@@ -784,10 +951,14 @@ conceived.
 		<gsm>
 			<network-id mcc="724" mnc="05"/>
 			<apn value="claro.com.br">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>claro</username>
 				<password>claro</password>
 			</apn>
 			<apn value="bandalarga.claro.com.br">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>3G</name>
 				<username>claro</username>
 				<password>claro</password>
@@ -802,6 +973,8 @@ conceived.
 			<network-id mcc="724" mnc="33"/>
 			<network-id mcc="724" mnc="34"/>
 			<apn value="ctbc.br">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>ctbc</username>
 				<password>1212</password>
 			</apn>
@@ -815,9 +988,12 @@ conceived.
 			<network-id mcc="724" mnc="24"/>
 
 			<apn value="gprs.oi.com.br">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<password>oioioi</password>
 			</apn>
 			<apn value="wapgprs.oi.com.br">
+				<plan type="postpaid"/>
 				<usage type="wap"/>
 				<name>WAP</name>
 				<username>oiwap</username>
@@ -834,6 +1010,8 @@ conceived.
 			<network-id mcc="724" mnc="08"/>
 
 			<apn value="tim.br">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>tim</username>
 				<password>tim</password>
 				<dns>10.223.246.102</dns>
@@ -845,6 +1023,8 @@ conceived.
 		<name>Velox</name>
 		<gsm>
 			<apn value="wap.telcel.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>iesgprs</username>
 				<password>iesgprs2002</password>
 				<dns>66.36.250.14</dns>
@@ -860,6 +1040,8 @@ conceived.
 			<network-id mcc="724" mnc="23"/>
 
 			<apn value="zap.vivo.com.br">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>vivo</username>
 				<password>vivo</password>
 			</apn>
@@ -873,7 +1055,10 @@ conceived.
 		<name>Batelco</name>
 		<gsm>
 			<network-id mcc="364" mnc="390"/>
-			<apn value="internet.btcbahamas.com"/>
+			<apn value="internet.btcbahamas.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 </country>
@@ -884,7 +1069,10 @@ conceived.
 		<name>B-Mobile</name>
 		<gsm>
 			<network-id mcc="528" mnc="02"/>
-			<apn value="bmobilewap"/>
+			<apn value="bmobilewap">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -892,6 +1080,8 @@ conceived.
 		<gsm>
 			<network-id mcc="528" mnc="11"/>
 			<apn value="dst.wap">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>wap</username>
 				<password>wap</password>
 			</apn>
@@ -907,42 +1097,57 @@ conceived.
 		<gsm>
 			<network-id mcc="257" mnc="01"/>
 			<apn value="wap.velcom.by">
+				<plan type="postpaid"/>
 				<usage type="wap"/>
 				<name>GPRS WAP</name>
 				<username>wap</username>
 				<password>wap</password>
 			</apn>
 			<apn value="web.velcom.by">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>GPRS WEB</name>
 				<username>web</username>
 				<password>web</password>
 			</apn>
 			<apn value="plus.velcom.by">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>GPRS WEB PLUS</name>
 				<username>plus</username>
 				<password>plus</password>
 			</apn>
 			<apn value="privet.velcom.by">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>GPRS PRIVET</name>
 				<username>privet</username>
 				<password>privet</password>
 			</apn>
 			<apn value="web1.velcom.by">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>WEB BASIC</name>
 				<username>web1</username>
 				<password>web1</password>
 			</apn>
 			<apn value="web2.velcom.by">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>WEB 25</name>
 				<username>web2</username>
 				<password>web2</password>
 			</apn>
 			<apn value="web3.velcom.by">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>WEB 150</name>
 				<username>web3</username>
 				<password>web3</password>
 			</apn>
 			<apn value="vmi.velcom.by">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>WEB 500</name>
 				<username>vmi</username>
 				<password>vmi</password>
@@ -954,6 +1159,8 @@ conceived.
 		<gsm>
 			<network-id mcc="257" mnc="02"/>
 			<apn value="internet.mts.by">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>mts</username>
 				<password>mts</password>
 			</apn>
@@ -964,7 +1171,10 @@ conceived.
 		<name>life:)</name>
 		<gsm>
 			<network-id mcc="257" mnc="03"/>
-			<apn value="internet.life.com.by"/>
+			<apn value="internet.life.com.by">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 </country>
@@ -975,7 +1185,10 @@ conceived.
 		<name>Mascom Wireless</name>
 		<gsm>
 			<network-id mcc="652" mnc="01"/>
-			<apn value="internet.mascom"/>
+			<apn value="internet.mascom">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 </country>
@@ -986,14 +1199,20 @@ conceived.
 		<name>Leo/UCom</name>
 		<gsm>
 			<network-id mcc="642" mnc="03"/>
-			<apn value="ucnet"/>
+			<apn value="ucnet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
 		<name>Tempo/Africell</name>
 		<gsm>
 			<network-id mcc="642" mnc="02"/>
-			<apn value="internet"/>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 </country>
@@ -1005,6 +1224,8 @@ conceived.
 		<gsm>
 			<network-id mcc="302" mnc="370"/>
 			<apn value="internet.fido.ca">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>fido</username>
 				<password>fido</password>
 				<dns>204.92.15.211</dns>
@@ -1017,6 +1238,8 @@ conceived.
 		<gsm>
 			<network-id mcc="302" mnc="720"/>
 			<apn value="internet.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>wapuser1</username>
 				<password>wap</password>
 				<dns>207.181.101.4</dns>
@@ -1032,9 +1255,13 @@ conceived.
 			<network-id mcc="302" mnc="651"/>
 			<network-id mcc="302" mnc="880"/>
 			<apn value="inet.bell.ca">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Internet</name>
 			</apn>
 			<apn value="pda.bell.ca">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Mobile Web</name>
 			</apn>
 		</gsm>
@@ -1073,15 +1300,23 @@ conceived.
 			<network-id mcc="302" mnc="860"/>
 			<network-id mcc="302" mnc="880"/>
 			<apn value="isp.telus.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Internet</name>
 			</apn>
 			<apn value="vpn.telus.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Internet (with VPN)</name>
 			</apn>
 			<apn value="bb.telus.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Blackberry</name>
 			</apn>
 			<apn value="sp.telus.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Mobile Web/Smartphone</name>
 			</apn>
 		</gsm>
@@ -1112,6 +1347,8 @@ conceived.
 			<network-id mcc="302" mnc="500"/>
 			<network-id mcc="302" mnc="510"/>
 			<apn value="ihvm.videotron">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>IHVM</name>
 			</apn>
 		</gsm>
@@ -1121,9 +1358,13 @@ conceived.
 		<gsm>
 			<network-id mcc="302" mnc="490"/>
 			<apn value="broadband.windmobile.ca">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Laptop (data stick)</name>
 			</apn>
 			<apn value="internet.windmobile.ca">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Mobile (add-on for phone)</name>
 			</apn>
 		</gsm>
@@ -1133,9 +1374,13 @@ conceived.
 		<gsm>
 			<network-id mcc="302" mnc="320"/>
 			<apn value="wap.davewireless.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Mobile Web</name>
 			</apn>
 			<apn value="internet.davewireless.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Mobile Broadband</name>
 			</apn>
 		</gsm>
@@ -1149,6 +1394,8 @@ conceived.
 		<gsm>
 			<network-id mcc="630" mnc="01"/>
 			<apn value="vodanet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>vodalive</username>
 			</apn>
 		</gsm>
@@ -1166,15 +1413,20 @@ conceived.
 		<gsm>
 			<network-id mcc="228" mnc="03"/>
 			<apn value="mobileoffice3g">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Internet Everywhere - Standard</name>
 				<dns>213.55.128.1</dns>
 				<dns>213.55.128.2</dns>
 			</apn>
 			<apn value="click">
 				<plan type="prepaid"/>
+				<usage type="internet"/>
 				<name>Internet Everywhere - Prepaid</name>
 			</apn>
 			<apn value="intranetaccess">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Internet Everywhere - Intranet Access</name>
 			</apn>
 		</gsm>
@@ -1184,6 +1436,8 @@ conceived.
 		<gsm>
 			<network-id mcc="228" mnc="02"/>
 			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>internet</username>
 				<password>internet</password>
 			</apn>
@@ -1201,7 +1455,10 @@ conceived.
 			<balance-top-up>
 				<ussd replacement="CODE">*130*CODE#</ussd>
 			</balance-top-up>
-			<apn value="gprs.swisscom.ch"/>
+			<apn value="gprs.swisscom.ch">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 </country>
@@ -1213,6 +1470,8 @@ conceived.
 		<gsm>
 			<network-id mcc="612" mnc="05"/>
 			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<dns>172.16.100.5</dns>
 			</apn>
 		</gsm>
@@ -1226,16 +1485,20 @@ conceived.
 		<gsm>
 			<network-id mcc="730" mnc="03"/>
 			<apn value="bam.clarochile.cl">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>clarochile</username>
 				<password>clarochile</password>
 			</apn>
 			<apn value="bap.clarochile.cl">
 				<plan type="prepaid"/>
+				<usage type="internet"/>
 				<name>Prepago</name>
 				<username>clarochile</username>
 				<password>clarochile</password>
 			</apn>
 			<apn value="wap.clarochile.cl">
+				<plan type="postpaid"/>
 				<usage type="wap"/>
 				<name>WAP</name>
 				<username>clarochile</username>
@@ -1248,11 +1511,15 @@ conceived.
 		<gsm>
 			<network-id mcc="730" mnc="01"/>
 			<apn value="imovil.entelpcs.cl">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Contract / Prepaid / WebSession</name>
 				<username>entelpcs</username>
 				<password>entelpcs</password>
 			</apn>
 			<apn value="bam.entelpcs.cl">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>WAP</name>
 				<username>entelpcs</username>
 				<password>entelpcs</password>
@@ -1264,11 +1531,14 @@ conceived.
 		<gsm>
 			<network-id mcc="730" mnc="10"/>
 			<apn value="web.tmovil.cl">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Web</name>
 				<username>web</username>
 				<password>web</password>
 			</apn>
 			<apn value="wap.tmovil.cl">
+				<plan type="postpaid"/>
 				<usage type="wap"/>
 				<name>WAP</name>
 				<username>wap</username>
@@ -1285,6 +1555,8 @@ conceived.
 		<gsm>
 			<network-id mcc="624" mnc="02"/>
 			<apn value="orangecmgprs">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>orange</username>
 				<password>orange</password>
 			</apn>
@@ -1295,6 +1567,8 @@ conceived.
 		<gsm>
 			<network-id mcc="624" mnc="01"/>
 			<apn value="INTERNET">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>guest</username>
 				<password>guest</password>
 			</apn>
@@ -1310,12 +1584,15 @@ conceived.
 			<network-id mcc="460" mnc="00"/>
 			<network-id mcc="460" mnc="02"/>
 			<apn value="cmwap">
+				<plan type="postpaid"/>
 				<usage type="wap"/>
 				<name>WAP</name>
 				<username>guest</username>
 				<password>guest</password>
 			</apn>
 			<apn value="cmnet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Internet</name>
 				<username>guest</username>
 				<password>guest</password>
@@ -1328,6 +1605,8 @@ conceived.
 		<gsm>
 			<network-id mcc="460" mnc="01"/>
 			<apn value="uninet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>uninet</username>
 			</apn>
 		</gsm>
@@ -1351,6 +1630,8 @@ conceived.
 			<network-id mcc="712" mnc="01"/>
 			<network-id mcc="712" mnc="02"/>
 			<apn value="icecelular">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>guest</username>
 				<password>guest</password>
 				<dns>208.133.206.44</dns>
@@ -1366,6 +1647,8 @@ conceived.
 		<gsm>
 			<network-id mcc="732" mnc="101"/>
 			<apn value="internet.comcel.com.co">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>COMCELWEB</username>
 				<password>COMCELWEB</password>
 			</apn>
@@ -1376,7 +1659,10 @@ conceived.
 		<gsm>
 			<network-id mcc="732" mnc="103"/>
 			<network-id mcc="732" mnc="111"/>
-			<apn value="web.colombiamovil.com.co"/>
+			<apn value="web.colombiamovil.com.co">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -1385,6 +1671,8 @@ conceived.
 			<network-id mcc="732" mnc="102"/>
 			<network-id mcc="732" mnc="123"/>
 			<apn value="internet.movistar.com.co">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>movistar</username>
 				<password>movistar</password>
 			</apn>
@@ -1399,10 +1687,13 @@ conceived.
 		<gsm>
 			<network-id mcc="280" mnc="01"/>
 			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Contract</name>
 			</apn>
 			<apn value="pp.internet">
 				<plan type="prepaid"/>
+				<usage type="internet"/>
 				<name>Prepaid</name>
 			</apn>
 		</gsm>
@@ -1412,6 +1703,8 @@ conceived.
 		<gsm>
 			<network-id mcc="280" mnc="10"/>
 			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>wap</username>
 				<password>wap</password>
 			</apn>
@@ -1425,7 +1718,10 @@ conceived.
 		<name>Vodafone</name>
 		<gsm>
 			<network-id mcc="230" mnc="03"/>
-			<apn value="internet"/>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -1433,10 +1729,14 @@ conceived.
 		<gsm>
 			<network-id mcc="230" mnc="02"/>
 			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<dns>160.218.10.200</dns>
 				<dns>160.218.43.200</dns>
 			</apn>
 			<apn value="internet.open">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<dns>160.218.10.200</dns>
 				<dns>160.218.43.200</dns>
 			</apn>
@@ -1447,6 +1747,8 @@ conceived.
 		<gsm>
 			<network-id mcc="230" mnc="01"/>
 			<apn value="internet.t-mobile.cz">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<dns>62.141.0.1</dns>
 				<dns>213.162.65.1</dns>
 			</apn>
@@ -1469,6 +1771,8 @@ conceived.
 				<ussd replacement="CODE">*104*CODE#</ussd>
 			</balance-top-up>
 			<apn value="internet.eplus.de">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Volume rate/30 Day Flatrate</name>
 				<username>eplus</username>
 				<password>gprs</password>
@@ -1476,6 +1780,8 @@ conceived.
 				<dns>212.23.97.3</dns>
 			</apn>
 			<apn value="tagesflat.eplus.de">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>24 Hour Flatrate</name>
 				<name xml:lang="de">Tages-Flatrate</name>
 				<username>eplus</username>
@@ -1497,10 +1803,14 @@ conceived.
 				<ussd replacement="CODE">*104*CODE#</ussd>
 			</balance-top-up>
 			<apn value="internet.eplus.de">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>blau</username>
 				<password>blau</password>
 			</apn>
 			<apn value="tagesflat.eplus.de">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>24 Hour Flatrate</name>
 				<name xml:lang="de">Tages-Flatrate</name>
 				<username>blau</username>
@@ -1514,9 +1824,13 @@ conceived.
 			<!-- http://www.bildmobil.de/info_handyeinstellungen.html -->
 			<network-id mcc="262" mnc="02"/>
 			<apn value="access.vodafone.de">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>BILD Mobilportal</name>
 			</apn>
 			<apn value="web.vodafone.de">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Contract</name>
 				<dns>139.7.30.125</dns>
 				<dns>139.7.30.126</dns>
@@ -1524,6 +1838,7 @@ conceived.
 			<!-- http://www.prepaid-wiki.de/index.php5/BILDmobil_Daten-SIM -->
 			<apn value="event.vodafone.de">
 				<plan type="prepaid"/>
+				<usage type="internet"/>
 				<name>BILDmobil Speedstick (Surfpakete)</name>
 			</apn>
 		</gsm>
@@ -1542,6 +1857,8 @@ conceived.
 				<ussd replacement="CODE">*104*CODE#</ussd>
 			</balance-top-up>
 			<apn value="internet.eplus.de">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>eplus</username>
 				<password>gprs</password>
 				<dns>212.23.97.2</dns>
@@ -1563,16 +1880,22 @@ conceived.
 				<ussd replacement="CODE">*103*CODE#</ussd>
 			</balance-top-up>
 			<apn value="pinternet.interkom.de">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>LOOP</name>
 				<dns>193.189.244.225</dns>
 				<dns>193.189.244.206</dns>
 			</apn>
 			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Pay-by-MB</name>
 				<dns>195.182.110.132</dns>
 				<dns>62.134.11.4</dns>
 			</apn>
 			<apn value="surfo2">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Pay-by-time</name>
 				<dns>195.182.110.132</dns>
 				<dns>62.134.11.4</dns>
@@ -1593,6 +1916,8 @@ conceived.
 				<ussd replacement="CODE">*103*CODE#</ussd>
 			</balance-top-up>
 			<apn value="webmobil1">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Tagesflat / Monats-Flatrate L / Monats-Flatrate XL</name>
 			</apn>
 		</gsm>
@@ -1610,11 +1935,15 @@ conceived.
 				<ussd replacement="CODE">*101*CODE#</ussd>
 			</balance-top-up>
 			<apn value="internet.t-d1.de">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<password>t-d1</password>
 				<dns>193.254.160.1</dns>
 				<dns>193.254.160.130</dns>
 			</apn>
 			<apn value="internet.t-mobile">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>t-mobile</username>
 				<password>tm</password>
 				<dns>10.74.83.22</dns>
@@ -1628,6 +1957,8 @@ conceived.
 			<network-id mcc="262" mnc="01"/>
 
 			<apn value="internet.t-mobile">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>t-mobile</username>
 				<password>tm</password>
 				<dns>193.254.160.1</dns>
@@ -1649,12 +1980,16 @@ conceived.
 				<ussd replacement="CODE">*100*CODE#</ussd>
 			</balance-top-up>
 			<apn value="web.vodafone.de">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>vodafone</username>
 				<password>vodafone</password>
 				<dns>139.7.30.125</dns>
 				<dns>139.7.30.126</dns>
 			</apn>
 			<apn value="event.vodafone.de">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>WebSessions</name>
 				<username>vodafone</username>
 				<password>vodafone</password>
@@ -1675,7 +2010,10 @@ conceived.
 			<balance-top-up>
 				<ussd replacement="CODE">*103*CODE#</ussd>
 			</balance-top-up>
-			<apn value="pinternet.interkom.de"/>
+			<apn value="pinternet.interkom.de">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -1691,6 +2029,8 @@ conceived.
 				<ussd replacement="CODE">*104*CODE#</ussd>
 			</balance-top-up>
 			<apn value="internet.eplus.de">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>simyo</username>
 				<password>simyo</password>
 				<dns>212.23.97.2</dns>
@@ -1708,6 +2048,8 @@ conceived.
 				<ussd>*100#</ussd>
 			</balance-check>
 			<apn value="internet.vistream.net">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>web</username>
 				<password>vistream</password>
 			</apn>
@@ -1721,6 +2063,8 @@ conceived.
 				<ussd>*100#</ussd>
 			</balance-check>
 			<apn value="internet.vistream.net">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>web</username>
 				<password>vistream</password>
 			</apn>
@@ -1731,6 +2075,8 @@ conceived.
 		<gsm>
 			<network-id mcc="262" mnc="16"/>
 			<apn value="internet.vistream.net">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>web</username>
 				<password>vistream</password>
 			</apn>
@@ -1741,6 +2087,8 @@ conceived.
 		<gsm>
 			<network-id mcc="262" mnc="16"/>
 			<apn value="internet.vistream.net">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>web</username>
 				<password>vistream</password>
 			</apn>
@@ -1751,6 +2099,8 @@ conceived.
 		<gsm>
 			<network-id mcc="262" mnc="16"/>
 			<apn value="internet.vistream.net">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>web</username>
 				<password>vistream</password>
 			</apn>
@@ -1761,6 +2111,8 @@ conceived.
 		<gsm>
 			<network-id mcc="262" mnc="16"/>
 			<apn value="internet.vistream.net">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>web</username>
 				<password>vistream</password>
 			</apn>
@@ -1771,6 +2123,8 @@ conceived.
 		<gsm>
 			<network-id mcc="262" mnc="16"/>
 			<apn value="internet.vistream.net">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>web</username>
 				<password>vistream</password>
 			</apn>
@@ -1784,6 +2138,8 @@ conceived.
 				<ussd>*100#</ussd>
 			</balance-check>
 			<apn value="internet.vistream.net">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>web</username>
 				<password>vistream</password>
 			</apn>
@@ -1794,6 +2150,8 @@ conceived.
 		<gsm>
 			<network-id mcc="262" mnc="16"/>
 			<apn value="internet.vistream.net">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>web</username>
 				<password>vistream</password>
 			</apn>
@@ -1804,6 +2162,8 @@ conceived.
 		<gsm>
 			<network-id mcc="262" mnc="03"/>
 			<apn value="internet.netcologne.de">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>web</username>
 				<password>password</password>
 			</apn>
@@ -1814,6 +2174,8 @@ conceived.
 		<gsm>
 			<network-id mcc="262" mnc="07"/>
 			<apn value="internet.partner1">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Option Mobile</name>
 				<dns>193.189.244.225</dns>
 				<dns>193.189.244.206</dns>
@@ -1828,9 +2190,13 @@ conceived.
 			<network-id mcc="262" mnc="04"/>
 			<network-id mcc="262" mnc="09"/>
 			<apn value="web.vodafone.de">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Mobile Broadband</name>
 			</apn>
 			<apn value="mail.partner.de">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Mobile Web</name>
 				<username>D2</username>
 				<password>Web</password>
@@ -1845,6 +2211,8 @@ conceived.
 			<network-id mcc="262" mnc="08"/>
 			<network-id mcc="262" mnc="11"/>
 			<apn value="pinternet.interkom.de">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<!-- Information taken from https://www.netzclub.net/downloads/default/Manuelle_Handyeinstellungen.pdf -->
 				<name>Internet</name>
 			</apn>
@@ -1859,16 +2227,23 @@ conceived.
 		<gsm>
 			<network-id mcc="238" mnc="06"/>
 			<apn value="bredband.tre.dk">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Bredbånd (standard)</name>
  			</apn>
 			<apn value="net.tre.dk">
 				<plan type="prepaid"/>
+				<usage type="internet"/>
 				<name>Bredbånd Premium Kontant</name>
 			</apn>
 			<apn value="data.tre.dk">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>3 (standard for mobilkunder; spærret for indgående trafik)</name>
 			</apn>
 			<apn value="static.tre.dk">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>3 (statisk IP)</name>
 			</apn>
 		</gsm>
@@ -1878,7 +2253,10 @@ conceived.
 		<name>OiSTER</name>
 		<gsm>
 			<network-id mcc="238" mnc="06"/>
-			<apn value="bredband.oister.dk"/>
+			<apn value="bredband.oister.dk">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 
@@ -1896,6 +2274,8 @@ conceived.
 			<network-id mcc="238" mnc="02"/>
 			<network-id mcc="238" mnc="77"/>
 			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<dns>212.88.64.199</dns>
 				<dns>212.88.64.14</dns>
 			</apn>
@@ -1908,7 +2288,10 @@ conceived.
 		<gsm>
 			<network-id mcc="238" mnc="02"/>
 			<network-id mcc="238" mnc="77"/>
-			<apn value="internet"/>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -1916,16 +2299,23 @@ conceived.
 		<gsm>
 			<network-id mcc="238" mnc="01"/>
 			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<dns>194.239.134.83</dns>
 				<dns>193.162.153.164</dns>
 			</apn>
-			<apn value="internet.no"/>
+			<apn value="internet.no">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
 		<name>Fullrate</name>
 		<gsm>
 			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>Fullrate</username>
 				<password>Fullrate</password>
 			</apn>
@@ -1935,14 +2325,20 @@ conceived.
 		<name>Telia</name>
 		<gsm>
 			<network-id mcc="238" mnc="30"/>
-			<apn value="www.internet.mtelia.dk"/>
+			<apn value="www.internet.mtelia.dk">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
 		<name>BiBoB</name>
 		<gsm>
 			<network-id mcc="238" mnc="02"/>
-			<apn value="internet.bibob.dk"/>
+			<apn value="internet.bibob.dk">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 	<!-- Telmore - Same network as TDC -->
@@ -1951,6 +2347,8 @@ conceived.
 		<gsm>
 			<network-id mcc="238" mnc="01"/>
 			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<dns>194.239.134.83</dns>
 				<dns>193.162.153.164</dns>
 			</apn>
@@ -1960,14 +2358,20 @@ conceived.
 		<name>Unotel</name>
 		<gsm>
 			<network-id mcc="238" mnc="01"/>
-			<apn value="internet"/>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
 		<name>happiimobil</name>
 		<gsm>
 			<network-id mcc="238" mnc="01"/>
-			<apn value="internet"/>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 </country>
@@ -1982,7 +2386,10 @@ conceived.
 			<balance-check>
 				<ussd>#131#</ussd>
 			</balance-check>
-			<apn value="orangenet.com.do"/>
+			<apn value="orangenet.com.do">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -1995,6 +2402,8 @@ conceived.
 				<dtmf>*22</dtmf>
 			</balance-check>
 			<apn value="internet.ideasclaro.com.do">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<dns>196.3.81.5</dns>
 				<dns>196.3.81.132</dns>
 			</apn>
@@ -2009,6 +2418,8 @@ conceived.
 				<dtmf>*74</dtmf>
 			</balance-check>
 			<apn value="edge.viva.net.do">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>viva</username>
 				<password>viva</password>
 			</apn>
@@ -2022,7 +2433,10 @@ conceived.
 		<name>Djezzy</name>
 		<gsm>
 			<network-id mcc="603" mnc="02"/>
-			<apn value="djezzy.internet"/>
+			<apn value="djezzy.internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -2030,6 +2444,8 @@ conceived.
 		<gsm>
 			<network-id mcc="603" mnc="01"/>
 			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>internet</username>
 				<password>internet</password>
 			</apn>
@@ -2040,6 +2456,8 @@ conceived.
 		<gsm>
 			<network-id mcc="603" mnc="03"/>
 			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>WEB</name>
 				<username>nedjma</username>
 				<password>nedjma</password>
@@ -2055,6 +2473,8 @@ conceived.
 		<gsm>
 			<network-id mcc="740" mnc="00"/>
 			<apn value="navega.movistar.ec">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>movistar</username>
 				<password>movistar</password>
 			</apn>
@@ -2064,7 +2484,10 @@ conceived.
 		<name>Porta 3G</name>
 		<gsm>
 			<network-id mcc="740" mnc="01"/>
-			<apn value="internet.porta.com.ec"/>
+			<apn value="internet.porta.com.ec">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 </country>
@@ -2076,6 +2499,8 @@ conceived.
 		<gsm>
 			<network-id mcc="248" mnc="01"/>
 			<apn value="internet.emt.ee">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<dns>217.71.32.116</dns>
 				<dns>217.71.32.115</dns>
 			</apn>
@@ -2085,7 +2510,10 @@ conceived.
 		<name>Nordea</name>
 		<gsm>
 			<network-id mcc="248" mnc="01"/>
-			<apn value="internet.emt.ee"/>
+			<apn value="internet.emt.ee">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -2093,6 +2521,8 @@ conceived.
 		<gsm>
 			<network-id mcc="248" mnc="02"/>
 			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<dns>194.204.0.1</dns>
 			</apn>
 		</gsm>
@@ -2102,6 +2532,8 @@ conceived.
 		<gsm>
 			<network-id mcc="248" mnc="03"/>
 			<apn value="internet.tele2.ee">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>wap</username>
 				<password>wap</password>
 			</apn>
@@ -2116,6 +2548,8 @@ conceived.
 		<gsm>
 			<network-id mcc="602" mnc="02"/>
 			<apn value="internet.vodafone.net">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>internet</username>
 				<password>internet</password>
 				<dns>163.121.128.134</dns>
@@ -2127,7 +2561,10 @@ conceived.
 		<name>Etisalat</name>
 		<gsm>
 			<network-id mcc="602" mnc="03"/>
-			<apn value="etisalat"/>
+			<apn value="etisalat">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -2135,6 +2572,8 @@ conceived.
 		<gsm>
 			<network-id mcc="602" mnc="01"/>
 			<apn value="mobinilweb">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<dns>80.75.166.250</dns>
 				<dns>163.121.163.201</dns>
 			</apn>
@@ -2149,6 +2588,8 @@ conceived.
 		<gsm>
 			<network-id mcc="214" mnc="08"/>
 			<apn value="internet.euskaltel.mobi">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>CLIENTE</username>
 				<password>EUSKALTEL</password>
 			</apn>
@@ -2158,14 +2599,20 @@ conceived.
 		<name>Másmovil</name>
 		<gsm>
 			<network-id mcc="214" mnc="03"/>
-			<apn value="internetmas" />
+			<apn value="internetmas" >
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
 		<name>móbil R (Mundo-R)</name>
 		<gsm>
 			<network-id mcc="214" mnc="17"/>
-			<apn value="internet.mundo-r.com" />
+			<apn value="internet.mundo-r.com" >
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -2173,6 +2620,8 @@ conceived.
 		<gsm>
 			<network-id mcc="214" mnc="03"/>
 			<apn value="INTERNETTPH">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<dns>213.143.33.8</dns>
 				<dns>62.36.225.150</dns>
 			</apn>
@@ -2183,6 +2632,8 @@ conceived.
 		<gsm>
 			<network-id mcc="214" mnc="18"/>
 			<apn value="internet.ono.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<dns>62.42.230.24</dns>
 				<dns>62.42.63.52</dns>
 			</apn>
@@ -2192,7 +2643,10 @@ conceived.
 		<name>Pepephone</name>
 		<gsm>
 			<network-id mcc="214" mnc="06"/>
-			<apn value="gprs.pepephone.com" />
+			<apn value="gprs.pepephone.com" >
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -2201,6 +2655,8 @@ conceived.
 			<network-id mcc="214" mnc="03"/>
 			<network-id mcc="214" mnc="09"/>
 			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Orange</name>
 				<username>ORANGE</username>
 				<password>ORANGE</password>
@@ -2214,6 +2670,8 @@ conceived.
 		<gsm>
 			<network-id mcc="214" mnc="19"/>
 			<apn value="gprs-service.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<dns>195.230.105.134</dns>
 				<dns>195.230.105.135</dns>
 			</apn>
@@ -2224,6 +2682,8 @@ conceived.
 		<gsm>
 			<network-id mcc="214" mnc="16"/>
 			<apn value="internet.telecable.es">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>telecable</username>
 				<password>telecable</password>
 			</apn>
@@ -2235,6 +2695,8 @@ conceived.
 			<network-id mcc="214" mnc="05"/>
 			<network-id mcc="214" mnc="07"/>
 			<apn value="movistar.es">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>movistar</username>
 				<password>movistar</password>
 				<dns>194.179.1.100</dns>
@@ -2248,6 +2710,8 @@ conceived.
 			<network-id mcc="214" mnc="01"/>
 			<network-id mcc="214" mnc="06"/>
 			<apn value="airtelnet.es">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Airtel (old)</name>
 				<username>vodafone</username>
 				<password>vodafone</password>
@@ -2255,6 +2719,8 @@ conceived.
 				<dns>212.73.32.67</dns>
 			</apn>
 			<apn value="ac.vodafone.es">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Vodafone</name>
 				<username>vodafone</username>
 				<password>vodafone</password>
@@ -2268,6 +2734,8 @@ conceived.
 		<gsm>
 			<network-id mcc="214" mnc="04"/>
 			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<dns>213.248.76.210</dns>
 				<dns>213.248.100.54</dns>
 			</apn>
@@ -2278,6 +2746,8 @@ conceived.
 		<gsm>
 			<network-id mcc="214" mnc="21"/>
 			<apn value="jazzinternet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<dns>87.216.1.65</dns>
 				<dns>87.216.1.66</dns>
 			</apn>
@@ -2286,7 +2756,10 @@ conceived.
 	<provider>
 		<name>Carrefour Móvil</name>
 		<gsm>
-			<apn value="CARREFOURINTERNET"/>
+			<apn value="CARREFOURINTERNET">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 </country>
@@ -2297,7 +2770,10 @@ conceived.
 		<name>Vodafone FO</name>
 		<gsm>
 			<network-id mcc="288" mnc="02"/>
-			<apn value="vmc.vodafone.fo"/>
+			<apn value="vmc.vodafone.fo">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 </country>
@@ -2309,6 +2785,8 @@ conceived.
 		<gsm>
 			<network-id mcc="244" mnc="03"/>
 			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<dns>217.78.192.22</dns>
 				<dns>217.78.192.78</dns>
 			</apn>
@@ -2318,7 +2796,10 @@ conceived.
 		<name>Elisa</name>
 		<gsm>
 			<network-id mcc="244" mnc="05"/>
-			<apn value="internet"/>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -2326,12 +2807,15 @@ conceived.
 		<gsm>
 			<network-id mcc="244" mnc="21"/>
 			<apn value="internet.saunalahti">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Postpaid (contract)</name>
 				<dns>192.89.123.230</dns>
 				<dns>192.89.123.231</dns>
 			</apn>
 			<apn value="internet">
 				<plan type="prepaid"/>
+				<usage type="internet"/>
 				<name>Prepaid (no contract)</name>
 				<dns>192.89.123.230</dns>
 				<dns>192.89.123.231</dns>
@@ -2343,10 +2827,14 @@ conceived.
 		<gsm>
 			<network-id mcc="244" mnc="91"/>
 			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<dns>192.89.123.230</dns>
 				<dns>192.89.123.231</dns>
 			</apn>
 			<apn value="prointernet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Prointernet (public IP)</name>
 				<dns>192.89.123.230</dns>
 				<dns>192.89.123.231</dns>
@@ -2357,6 +2845,8 @@ conceived.
 		<name>Welho</name>
 		<gsm>
 			<apn value="internet.welho.fi">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Wekkula</name>
 			</apn>
 		</gsm>
@@ -2369,8 +2859,14 @@ conceived.
 		<name>Vodafone / Kidanet</name>
 		<gsm>
 			<network-id mcc="542" mnc="01"/>
-			<apn value="vfinternet.fj"/>
-			<apn value="kidanet.fj"/>
+			<apn value="vfinternet.fj">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+			<apn value="kidanet.fj">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 </country>
@@ -2380,7 +2876,10 @@ conceived.
 	<provider>
 		<name>A Mobile (Auchan Telecom)</name>
 		<gsm>
-			<apn value="wap65"/>
+			<apn value="wap65">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -2389,22 +2888,32 @@ conceived.
 			<network-id mcc="208" mnc="20"/>
 			<network-id mcc="208" mnc="21"/>
 			<apn value="a2bouygtel.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Contrat Pro Data Illimité</name>
 				<dns>62.201.129.99</dns>
 			</apn>
 			<apn value="b2bouygtel.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>B2Bouygtel</name>
 				<dns>62.201.129.99</dns>
 			</apn>
 			<apn value="ebouygtel.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Forfait Data</name>
 				<dns>62.201.129.99</dns>
 			</apn>
 			<apn value="mmsbouygtel.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Forfait Data</name>
 				<dns>62.201.129.99</dns>
 			</apn>
 			<apn value="pcebouygtel.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Contrat Pro Data</name>
 				<dns>62.201.129.99</dns>
 			</apn>
@@ -2416,6 +2925,8 @@ conceived.
 			<network-id mcc="208" mnc="01"/>
 			<network-id mcc="208" mnc="00"/>
 			<apn value="orange.fr">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Contract</name>
 				<username>orange</username>
 				<password>orange</password>
@@ -2423,6 +2934,8 @@ conceived.
 				<dns>194.51.3.76</dns>
 			</apn>
 			<apn value="internet-entreprise">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Business Contract</name>
 				<username>orange</username>
 				<password>orange</password>
@@ -2430,6 +2943,8 @@ conceived.
 				<dns>194.51.3.76</dns>
 			</apn>
 			<apn value="orange">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>No Contract / Mobicarte</name>
 				<username>orange</username>
 				<password>orange</password>
@@ -2437,6 +2952,8 @@ conceived.
 				<dns>194.51.3.76</dns>
 			</apn>
 			<apn value="orange-mib">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Orange MIB</name>
 				<username>mportail</username>
 				<password>mib</password>
@@ -2444,6 +2961,8 @@ conceived.
 				<dns>172.17.0.4</dns>
 			</apn>
 			<apn value="orange.ie">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Internet Everywhere 3G</name>
 			</apn>
 		</gsm>
@@ -2455,22 +2974,33 @@ conceived.
 			<network-id mcc="208" mnc="10"/>
 			<network-id mcc="208" mnc="11"/>
 			<apn value="websfr">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Web / Prepaid</name>
 			</apn>
 			<apn value="wapsfr">
+				<plan type="postpaid"/>
 				<usage type="wap"/>
 				<name>WAP</name>
 			</apn>
 			<apn value="internetpro">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>SFR internetpro</name>
 			</apn>
 			<apn value="ipnet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>SFR ipnet</name>
 			</apn>
 			<apn value="slsfr">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Mobile Broadband</name>
 			</apn>
 			<apn value="sl2sfr">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Full Internet (Webphone)</name>
 			</apn>
 		</gsm>
@@ -2479,7 +3009,10 @@ conceived.
 		<name>Transatel Telecom</name>
 		<gsm>
 			<network-id mcc="208" mnc="22"/>
-			<apn value="netgprs.com"/>
+			<apn value="netgprs.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -2487,10 +3020,14 @@ conceived.
 		<gsm>
 			<network-id mcc="208" mnc="01"/>
 			<apn value="ao.fr">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>orange</username>
 				<password>orange</password>
 			</apn>
 			<apn value="ofnew.fr">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Pay-by-MB</name>
 				<username>orange</username>
 				<password>orange</password>
@@ -2505,7 +3042,10 @@ conceived.
 		<name>airtel vodaphone</name>
 		<gsm>
 			<network-id mcc="234" mnc="03"/>
-			<apn value="airtel-ci-gprs.com"/>
+			<apn value="airtel-ci-gprs.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -2513,6 +3053,8 @@ conceived.
 		<gsm>
 			<network-id mcc="234" mnc="00"/>
 			<apn value="btmobile.bt.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>bt</username>
 				<password>bt</password>
 			</apn>
@@ -2530,6 +3072,8 @@ conceived.
 				<dtmf>4444</dtmf>
 			</balance-check>
 			<apn value="mobile.o2.co.uk">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Contract</name>
 				<username>o2web</username>
 				<password>password</password>
@@ -2537,6 +3081,8 @@ conceived.
 				<dns>193.113.200.201</dns>
 			</apn>
 			<apn value="mobile.o2.co.uk">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Contract (faster)</name>
 				<username>faster</username>
 				<password>password</password>
@@ -2545,16 +3091,21 @@ conceived.
 			</apn>
 			<apn value="payandgo.o2.co.uk">
 				<plan type="prepaid"/>
+				<usage type="internet"/>
 				<name>Pay and Go (Prepaid)</name>
 				<username>payandgo</username>
 				<password>payandgo</password>
 			</apn>
 			<apn value="idata.o2.co.uk">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>iPhone (Contract)</name>
 				<username>vertigo</username>
 				<password>password</password>
 			</apn>
 			<apn value="m-bb.o2.co.uk">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Mobile Broadband</name>
 				<username>o2bb</username>
 				<password>password</password>
@@ -2562,6 +3113,7 @@ conceived.
 				<dns>82.132.254.3</dns>
 			</apn>
 			<apn value="wap.o2.co.uk">
+				<plan type="postpaid"/>
 				<usage type="wap"/>
 				<name>WAP</name>
 				<username>o2wap</username>
@@ -2580,12 +3132,16 @@ conceived.
 				<sms text="AL">150</sms>
 			</balance-check>
 			<apn value="general.t-mobile.uk">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>User</username>
 				<password>mms</password>
 				<dns>149.254.201.126</dns>
 				<dns>149.254.192.126</dns>
 			</apn>
 			<apn value="general.t-mobile.uk">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<dns>149.254.230.7</dns>
 				<dns>149.254.199.126</dns>
 			</apn>
@@ -2597,6 +3153,8 @@ conceived.
 			<network-id mcc="234" mnc="31"/>
 			<network-id mcc="234" mnc="32"/>
 			<apn value="vdata">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<dns>196.7.0.138</dns>
 				<dns>196.7.142.132</dns>
 			</apn>
@@ -2612,6 +3170,8 @@ conceived.
 				<dtmf>2345</dtmf>
 			</balance-check>
 			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Contract</name>
 				<username>web</username>
 				<password>web</password>
@@ -2620,6 +3180,7 @@ conceived.
 			</apn>
 			<apn value="pp.vodafone.co.uk">
 				<plan type="prepaid"/>
+				<usage type="internet"/>
 				<name>Prepaid</name>
 				<username>wap</username>
 				<password>wap</password>
@@ -2627,11 +3188,15 @@ conceived.
 				<dns>172.29.1.11</dns>
 			</apn>
 			<apn value="ppbundle.internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>TopUp and Go</name>
 				<username>web</username>
 				<password>web</password>
 			</apn>
 			<apn value="pp.internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>TopUp and Go (older SIMs)</name>
 			</apn>
 		</gsm>
@@ -2641,9 +3206,13 @@ conceived.
 		<gsm>
 			<network-id mcc="234" mnc="20"/>
 			<apn value="3internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Internet</name>
 			</apn>
 			<apn value="three.co.uk">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Handsets</name>
 				<dns>172.30.139.17</dns>
 				<dns>172.30.140.69</dns>
@@ -2660,6 +3229,8 @@ conceived.
 				<dtmf>453</dtmf>
 			</balance-check>
 			<apn value="orangeinternet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Contract</name>
 				<username>orange</username>
 				<password>orange</password>
@@ -2667,6 +3238,8 @@ conceived.
 				<dns>193.35.134.10</dns>
 			</apn>
 			<apn value="internetvpn">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Contract (with VPN)</name>
 				<username>orange</username>
 				<password>orange</password>
@@ -2674,6 +3247,7 @@ conceived.
 				<dns>193.35.134.10</dns>
 			</apn>
 			<apn value="orangewap">
+				<plan type="postpaid"/>
 				<usage type="wap"/>
 				<name>Orange WAP</name>
 				<username>orange</username>
@@ -2692,6 +3266,8 @@ conceived.
 		<gsm>
 			<network-id mcc="282" mnc="01"/>
 			<apn value="Internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<dns>212.72.130.20</dns>
 				<dns>212.72.152.001</dns>
 			</apn>
@@ -2706,10 +3282,13 @@ conceived.
 		<gsm>
 			<network-id mcc="234" mnc="55"/>
 			<apn value="wap">
+				<plan type="postpaid"/>
 				<usage type="wap"/>
 				<name>WAP</name>
 			</apn>
 			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Internet</name>
 			</apn>
 		</gsm>
@@ -2722,14 +3301,20 @@ conceived.
 		<name>MTN</name>
 		<gsm>
 			<network-id mcc="620" mnc="01"/>
-			<apn value="internet"/>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
 		<name>Vodafone (ONEtouch)</name>
 		<gsm>
 			<network-id mcc="620" mnc="02"/>
-			<apn value="browse"/>
+			<apn value="browse">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -2737,6 +3322,8 @@ conceived.
 		<gsm>
 			<network-id mcc="620" mnc="03"/>
 			<apn value="web.tigo.com.gh">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>web</username>
 			</apn>
 		</gsm>
@@ -2745,7 +3332,10 @@ conceived.
 		<name>Zain</name>
 		<gsm>
 			<network-id mcc="620" mnc="06"/>
-			<apn value="internet"/>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -2760,7 +3350,10 @@ conceived.
 		<name>Cosmote</name>
 		<gsm>
 			<network-id mcc="202" mnc="01"/>
-			<apn value="internet"/>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -2768,9 +3361,13 @@ conceived.
 		<gsm>
 			<network-id mcc="202" mnc="05"/>
 			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Contract</name>
 			</apn>
 			<apn value="web.session">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Mobile Broadband On Demand</name>
 			</apn>
 		</gsm>
@@ -2781,6 +3378,8 @@ conceived.
 			<network-id mcc="202" mnc="09"/>
 			<network-id mcc="202" mnc="10"/>
 			<apn value="gint.b-online.gr">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>web</username>
 				<password>web</password>
 			</apn>
@@ -2794,7 +3393,10 @@ conceived.
 		<name>Claro</name>
 		<gsm>
 			<network-id mcc="704" mnc="01"/>
-			<apn value="internet.ideasclaro"/>
+			<apn value="internet.ideasclaro">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -2802,6 +3404,8 @@ conceived.
 		<gsm>
 			<network-id mcc="704" mnc="02"/>
 			<apn value="Wap.tigo.gt">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>Wap</username>
 				<password>Wap</password>
 			</apn>
@@ -2816,6 +3420,8 @@ conceived.
 		<gsm>
 			<network-id mcc="738" mnc="02"/>
 			<apn value="wap.cellinkgy.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>test</username>
 				<password>test</password>
 			</apn>
@@ -2826,6 +3432,8 @@ conceived.
 		<gsm>
 			<network-id mcc="738" mnc="01"/>
 			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username>web</username>
 				<password>web</password>
 			</apn>
@@ -2841,6 +3449,8 @@ conceived.
 			<network-id mcc="454" mnc="00"/>
 			<network-id mcc="454" mnc="02"/>
 			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<dns>202.84.255.1</dns>
 				<dns>203.116.254.150</dns>
 			</apn>
@@ -2850,21 +3460,30 @@ conceived.
 		<name>New World</name>
 		<gsm>
 			<network-id mcc="454" mnc="10"/>
-			<apn value="internet"/>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
 		<name>China Mobile</name>
 		<gsm>
 			<network-id mcc="454" mnc="12"/>
-			<apn value="peoples.net"/>
+			<apn value="peoples.net">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
 		<name>SmarTone</name>
 		<gsm>
 			<network-id mcc="454" mnc="06"/>
-			<apn value="internet"/>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -2873,12 +3492,18 @@ conceived.
 			<network-id mcc="454" mnc="16"/>
 			<network-id mcc="454" mnc="19"/>
 			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Sunday (Old)</name>
 			</apn>
 			<apn value="pccwdata">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>PCCW 2G/GPRS</name>
 			</apn>
 			<apn value="pccw">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>PCCW 3G</name>
 			</apn>
 		</gsm>
@@ -2888,7 +3513,10 @@ conceived.
 		<gsm>
 			<network-id mcc="454" mnc="03"/>
 			<network-id mcc="454" mnc="04"/>
-			<apn value="mobile.three.com.hk"/>
+			<apn value="mobile.three.com.hk">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 </country>
@@ -2899,7 +3527,10 @@ conceived.
 		<name>Tigo</name>
 		<gsm>
 			<network-id mcc="708" mnc="02"/>
-			<apn value="internet.tigo.hn"/>
+			<apn value="internet.tigo.hn">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 </country>
