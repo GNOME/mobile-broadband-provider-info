@@ -17,6 +17,6 @@ PKG_NAME=mobile-broadband-provider-info
 (cd $srcdir;
     autoreconf --install --symlink &&
     autoreconf &&
-    ./configure --enable-maintainer-mode $@
+    ./configure $@
 )
 
