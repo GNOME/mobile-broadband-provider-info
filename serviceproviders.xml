@@ -9424,14 +9424,36 @@ conceived.
 <!-- Uzbekistan -->
 <country code="uz">
 	<provider>
-		<name>Uzdunrobita / MTS</name>
+		<name>Beeline</name>
 		<gsm>
-			<network-id mcc="434" mnc="07"/>
-			<apn value="net.urd.uz">
+			<network-id mcc="434" mnc="04"/>
+			<apn value="internet.beeline.uz">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<username>user</username>
-				<password>pass</password>
+				<username>beeline</username>
+				<password>beeline</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>MTS (Uzdunrobita)</name>
+		<gsm>
+			<network-id mcc="434" mnc="07"/>
+			<apn value="net.mts.uz">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<username>mts</username>
+				<password>mts</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Ucell</name>
+		<gsm>
+			<network-id mcc="434" mnc="05"/>
+			<apn value="internet">
+				<username></username>
+				<password></password>
 			</apn>
 		</gsm>
 	</provider>
