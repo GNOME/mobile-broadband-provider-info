@@ -740,6 +740,10 @@ conceived.
 		<name>Mobistar</name>
 		<gsm>
 			<network-id mcc="206" mnc="10"/>
+			<voicemail>5555</voicemail>
+			<balance-check>
+				<ussd>#123#</ussd>
+			</balance-check>
 			<apn value="web.pro.be">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -799,6 +803,8 @@ conceived.
 		<name>Proximus</name>
 		<gsm>
 			<network-id mcc="206" mnc="01"/>
+			<voicemail>1230</voicemail>
+			<!-- no balancecheck method ('auto-recharge') -->
 			<apn value="internet.proximus.be">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -817,6 +823,8 @@ conceived.
 		<name>Base</name>
 		<gsm>
 			<network-id mcc="206" mnc="20"/>
+			<voicemail>1933</voicemail>
+			<!-- no balancecheck method ('auto-recharge') -->
 			<apn value="gprs.base.be">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -835,6 +843,10 @@ conceived.
 		<name>GloBul</name>
 		<gsm>
 			<network-id mcc="284" mnc="05"/>
+			<voicemail>120</voicemail>
+			<balance-check>
+				<ussd>*125#</ussd>
+			</balance-check>
 			<apn value="internet.globul.bg">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -847,6 +859,10 @@ conceived.
 		<name>M-Tel</name>
 		<gsm>
 			<network-id mcc="284" mnc="01"/>
+			<voicemail>131</voicemail>
+			<balance-check>
+				<ussd>*101#</ussd>
+			</balance-check>
 			<!-- username/password not included in Vodafone Broadband Connect version 10.1.0.23908 2010-06-07T17:47:01 -->
 			<apn value="inet-gprs.mtel.bg">
 				<plan type="postpaid"/>
@@ -858,6 +874,10 @@ conceived.
 		<name>Vivacom</name>
 		<gsm>
 			<network-id mcc="284" mnc="03"/>
+			<voicemail>110</voicemail>
+			<balance-check>
+				<ussd>*102#</ussd>
+			</balance-check>
 			<apn value="internet.vivacom.bg">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -947,6 +967,12 @@ conceived.
 		<name>Claro</name>
 		<gsm>
 			<network-id mcc="724" mnc="05"/>
+			<voicemail>*100</voicemail>
+			<balance-check>
+				<ussd>*544#</ussd>
+				<ussd>*545#</ussd>
+				<ussd>*546#</ussd>
+			</balance-check>
 			<apn value="claro.com.br">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -969,6 +995,9 @@ conceived.
 			<network-id mcc="724" mnc="32"/>
 			<network-id mcc="724" mnc="33"/>
 			<network-id mcc="724" mnc="34"/>
+			<balance-check>
+				<dtmf>*22</dtmf>
+			</balance-check>
 			<apn value="ctbc.br">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -983,7 +1012,11 @@ conceived.
 			<network-id mcc="724" mnc="16"/>
 			<network-id mcc="724" mnc="31"/>
 			<network-id mcc="724" mnc="24"/>
-
+			<voicemail>*100</voicemail>
+			<balance-check>
+				<dtmf>*804</dtmf>
+				<dtmf>*805</dtmf>
+			</balance-check>
 			<apn value="gprs.oi.com.br">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -1005,7 +1038,11 @@ conceived.
 			<network-id mcc="724" mnc="03"/>
 			<network-id mcc="724" mnc="04"/>
 			<network-id mcc="724" mnc="08"/>
-
+			<voicemail>*100</voicemail>
+			<balance-check>
+				<ussd>*222#</ussd>
+				<dtmf>*222</dtmf>
+			</balance-check>
 			<apn value="tim.br">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -1035,7 +1072,11 @@ conceived.
 			<network-id mcc="724" mnc="10"/>
 			<network-id mcc="724" mnc="11"/>
 			<network-id mcc="724" mnc="23"/>
-
+			<voicemail>*555</voicemail>
+			<balance-check>
+				<dtmf>*8000</dtmf>
+				<dtmf>*5005</dtmf>
+			</balance-check>
 			<apn value="zap.vivo.com.br">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -1635,6 +1676,21 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<name>Kolbi</name>
+		<gsm>
+			<network-id mcc="712" mnc="03"/>
+			<voicemail>190</voicemail>
+			<balance-check>
+				<sms text="">1150</sms>
+			</balance-check>
+			<apn value="kolbi3g">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Kolbi 3g</name>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Colombia -->
@@ -1761,6 +1817,7 @@ conceived.
 			<network-id mcc="262" mnc="03"/>
 			<network-id mcc="262" mnc="05"/>
 			<network-id mcc="262" mnc="77"/>
+			<voicemail>9911</voicemail>
 			<balance-check>
 				<ussd>*100#</ussd>
 			</balance-check>
@@ -1870,12 +1927,14 @@ conceived.
 			<network-id mcc="262" mnc="08"/>
 			<network-id mcc="262" mnc="11"/>
 
+			<voicemail>333</voicemail>
 			<balance-check>
 				<ussd>*101#</ussd>
 			</balance-check>
 			<balance-top-up>
 				<ussd replacement="CODE">*103*CODE#</ussd>
 			</balance-top-up>
+
 			<apn value="pinternet.interkom.de">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -1970,12 +2029,14 @@ conceived.
 			<network-id mcc="262" mnc="04"/>
 			<network-id mcc="262" mnc="09"/>
 
+			<voicemail>5500</voicemail>
 			<balance-check>
 				<ussd>*100#</ussd>
 			</balance-check>
 			<balance-top-up>
 				<ussd replacement="CODE">*100*CODE#</ussd>
 			</balance-top-up>
+
 			<apn value="web.vodafone.de">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -2182,6 +2243,12 @@ conceived.
 			<network-id mcc="262" mnc="02"/>
 			<network-id mcc="262" mnc="04"/>
 			<network-id mcc="262" mnc="09"/>
+
+			<voicemail>5500</voicemail>
+			<balance-check>
+				<ussd>*100#</ussd>
+			</balance-check>
+
 			<apn value="web.vodafone.de">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -2266,6 +2333,13 @@ conceived.
 		<gsm>
 			<network-id mcc="238" mnc="02"/>
 			<network-id mcc="238" mnc="77"/>
+
+			<voicemail>20171717</voicemail>
+			<balance-check>
+				<ussd>*101#</ussd>
+				<dtmf>40454545</dtmf>
+			</balance-check>
+
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -2291,6 +2365,13 @@ conceived.
 		<name>TDC</name>
 		<gsm>
 			<network-id mcc="238" mnc="01"/>
+
+			<voicemail>20171717</voicemail>
+			<balance-check>
+				<ussd>*101#</ussd>
+				<dtmf>40454545</dtmf>
+			</balance-check>
+
 			<!-- http://kundeservice.tdc.dk/privat/faq.php?id=20063 -->
 			<apn value="internet">
 				<plan type="postpaid"/>
@@ -2323,6 +2404,12 @@ conceived.
 		<name>Telia</name>
 		<gsm>
 			<network-id mcc="238" mnc="30"/>
+
+			<voicemail>28184000</voicemail>
+			<balance-check>
+				<ussd>*101#</ussd>
+			</balance-check>
+
 			<apn value="www.internet.mtelia.dk">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -2652,6 +2739,13 @@ conceived.
 		<gsm>
 			<network-id mcc="214" mnc="03"/>
 			<network-id mcc="214" mnc="09"/>
+
+			<voicemail>242</voicemail>
+			<balance-check>
+				<ussd>*111#</ussd>
+				<ussd>*113#</ussd>
+			</balance-check>
+
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -2692,6 +2786,12 @@ conceived.
 		<gsm>
 			<network-id mcc="214" mnc="05"/>
 			<network-id mcc="214" mnc="07"/>
+
+			<voicemail>123</voicemail>
+			<balance-check>
+				<dtmf>2266</dtmf>
+			</balance-check>
+
 			<apn value="movistar.es">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -2729,6 +2829,12 @@ conceived.
 		<name>Yoigo</name>
 		<gsm>
 			<network-id mcc="214" mnc="04"/>
+
+			<voicemail>633</voicemail>
+			<balance-check>
+				<ussd>*111#</ussd>
+			</balance-check>
+
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -2780,9 +2886,22 @@ conceived.
 		<name>Dna</name>
 		<gsm>
 			<network-id mcc="244" mnc="03"/>
+			<!-- Phone number dependent:
+			 - Numbers beginning with 044 XXXXXXX turn in to 044 6 XXXXXXX
+			 - Numbers beginning with 041 XXXXXXX turn in to 041 6 XXXXXXX
+			 - Others case by case
+			 http://www.dna.fi/Yrityksille/Matkaviestinpalvelut/LiittymienLisapalvelut/dnafaksivastaaja/Documents/dna_vastaaja_kayttohje_120310.pdf
+			<voicemail/> -->
+			<balance-check>
+				<ussd>*100#</ussd>
+				<dtmf>0800412582</dtmf>
+				<sms text="SALDO">14000</sms>
+			</balance-check>
+
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<name>dna internet</name>
 				<dns>217.78.192.22</dns>
 				<dns>217.78.192.78</dns>
 			</apn>
@@ -2792,6 +2911,13 @@ conceived.
 		<name>Elisa</name>
 		<gsm>
 			<network-id mcc="244" mnc="05"/>
+			<voicemail>777</voicemail>
+			<balance-check>
+				<dtmf>080090598</dtmf>
+				<sms text="SALDO">18258</sms>
+				<sms text="PAKETTI">18258</sms>
+			</balance-check>
+
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -2802,6 +2928,21 @@ conceived.
 		<name>Saunalahti</name>
 		<gsm>
 			<network-id mcc="244" mnc="21"/>
+
+			<!-- Phone number dependent:
+				 - Numbers beginning with 045 67 XXXXX turn in to 045 66 XXXXX
+				 - Numbers beginning with 045 63 XXXXX turn in to 045 62 XXXXX
+				 - Others case by case
+				 http://saunalahti.fi/tuki/gsm/vo/ohjevastaaja.php
+			<voicemail/> -->
+			<balance-check>
+					<sms text="SALDO">16304</sms>
+					<sms text="SALDO">15045</sms>
+					<sms text="KOKOSALDO">16304</sms>
+					<sms text="GSALDO">16304</sms>
+					<sms text="PAKETTI">16304</sms>
+			</balance-check>
+
 			<apn value="internet.saunalahti">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -2822,6 +2963,15 @@ conceived.
 		<name>Sonera</name>
 		<gsm>
 			<network-id mcc="244" mnc="91"/>
+
+			<!-- Phone number dependent:
+				 - Numbers beginning with 040 XXXXXXX turns in to 042 XXXXXXX
+				 - Others case by case
+			<voicemail/> -->
+			<balance-check>
+					<sms text="EASY SALDO">15400</sms>
+			</balance-check>
+
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -2888,6 +3038,12 @@ conceived.
 		<gsm>
 			<network-id mcc="208" mnc="20"/>
 			<network-id mcc="208" mnc="21"/>
+
+			<voicemail>660</voicemail>
+			<balance-check>
+				<dtmf>630</dtmf>
+			</balance-check>
+
 			<apn value="a2bouygtel.com">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -2925,6 +3081,12 @@ conceived.
 		<gsm>
 			<network-id mcc="208" mnc="01"/>
 			<network-id mcc="208" mnc="00"/>
+
+			<voicemail>888</voicemail>
+			<balance-check>
+				<ussd>#123#</ussd>
+			</balance-check>
+
 			<apn value="orange.fr">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -2974,6 +3136,12 @@ conceived.
 			<!-- http://assistance.sfr.fr/internet-partout/Mobile/difference-wap-web/fc-2302-62196 -->
 			<network-id mcc="208" mnc="10"/>
 			<network-id mcc="208" mnc="11"/>
+
+			<voicemail>123</voicemail>
+			<balance-check>
+				<dtmf>950</dtmf>
+			</balance-check>
+
 			<apn value="websfr">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -3349,6 +3517,13 @@ conceived.
 		<name>Cosmote</name>
 		<gsm>
 			<network-id mcc="202" mnc="01"/>
+
+			<voicemail>123</voicemail>
+			<balance-check>
+				<dtmf>1314</dtmf>
+				<sms text="YP">1314</sms>
+			</balance-check>
+
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -3359,6 +3534,12 @@ conceived.
 		<name>Vodafone</name>
 		<gsm>
 			<network-id mcc="202" mnc="05"/>
+			<voicemail>121</voicemail>
+			<balance-check>
+				<dtmf>1252</dtmf>
+				<sms text="Y">1252</sms>
+			</balance-check>
+
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -3376,6 +3557,16 @@ conceived.
 		<gsm>
 			<network-id mcc="202" mnc="09"/>
 			<network-id mcc="202" mnc="10"/>
+
+			<voicemail>122</voicemail>
+			<voicemail>1333</voicemail>
+			<balance-check>
+				<dtmf>1269</dtmf>
+				<dtmf>1225</dtmf>
+				<sms text="">1269</sms>
+				<sms text="">1225</sms>
+			</balance-check>
+
 			<apn value="gint.b-online.gr">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -5680,6 +5871,12 @@ conceived.
 		<name>Telcel</name>
 		<gsm>
 			<network-id mcc="334" mnc="02"/>
+
+			<voicemail>*86</voicemail>
+			<balance-check>
+				<dtmf>*333</dtmf>
+			</balance-check>
+
 			<apn value="internet.itelcel.com">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -5692,6 +5889,12 @@ conceived.
 		<name>Movistar</name>
 		<gsm>
 			<network-id mcc="334" mnc="03"/>
+
+			<voicemail>*86</voicemail>
+			<balance-check>
+				<dtmf>*133#</dtmf>
+			</balance-check>
+
 			<apn value="internet.movistar.mx">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -6097,6 +6300,11 @@ conceived.
 		<name>Netcom</name>
 		<gsm>
 			<network-id mcc="242" mnc="02"/>
+
+			<balance-check>
+				<ussd>*150#</ussd>
+			</balance-check>
+
 			<apn value="internet.netcom.no">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -6119,10 +6327,12 @@ conceived.
 		<name>Telenor</name>
 		<gsm>
 			<network-id mcc="242" mnc="01"/>
+
+			<voicemail>91500002</voicemail>
 			<balance-check>
-				<dtmf>220</dtmf>
-				<sms text="saldo">222</sms>
+				<sms text="saldo">2525</sms>
 			</balance-check>
+
 			<apn value="telenor">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -6225,10 +6435,13 @@ conceived.
 		<gsm>
 			<network-id mcc="242" mnc="02"/>
 			<network-id mcc="242" mnc="04"/>
+
+			<voicemail>47230000</voicemail>
 			<balance-check>
 				<ussd>*111#</ussd>
 				<dtmf>47300000</dtmf>
 			</balance-check>
+
 			<apn value="internet.tele2.no">
 				<plan type="postpaid"/>
 				<usage type="wap"/>
@@ -6561,6 +6774,12 @@ conceived.
 		<name>ERA</name>
 		<gsm>
 			<network-id mcc="260" mnc="02"/>
+
+			<voicemail>602950</voicemail>
+			<balance-check>
+				<ussd>*101#</ussd>
+			</balance-check>
+
 			<apn value="erainternet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -6599,6 +6818,12 @@ conceived.
 		<name>Orange</name>
 		<gsm>
 			<network-id mcc="260" mnc="03"/>
+
+			<voicemail>*501</voicemail>
+			<balance-check>
+				<ussd>*124*#</ussd>
+			</balance-check>
+
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -6613,6 +6838,12 @@ conceived.
 		<name>iPlus</name>
 		<gsm>
 			<network-id mcc="260" mnc="01"/>
+
+			<voicemail>2222</voicemail>
+			<balance-check>
+				<ussd>*100#</ussd>
+			</balance-check>
+
 			<apn value="www.plusgsm.pl">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -7428,10 +7659,13 @@ conceived.
 		<gsm>
 			<network-id mcc="240" mnc="07"/>
 			<network-id mcc="240" mnc="05"/>
+
+			<voicemail>47230000</voicemail>
 			<balance-check>
 				<ussd>*111#</ussd>
 				<dtmf>211</dtmf>
 			</balance-check>
+
 			<!-- http://www.tele2.se/internet-via-gprs.html -->
 			<apn value="internet.tele2.se">
 				<plan type="postpaid"/>
@@ -7451,10 +7685,27 @@ conceived.
 		<gsm>
 			<network-id mcc="240" mnc="07"/>
 			<network-id mcc="240" mnc="05"/>
+
+			<voicemail>222</voicemail>
+			<balance-check>
+				<ussd>*111#</ussd>
+			</balance-check>
+
 			<apn value="data.comviq.se">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<name>Surf</name>
+			</apn>
+
+			<apn value="internet.tele2.se">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Tele2 Comviq 3G</name>
+			</apn>
+			<apn value="mobileinternet.tele2.se">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Tele2 Comviq 3G (7,2 Mbit/s)</name>
 			</apn>
 		</gsm>
 	</provider>
@@ -7479,6 +7730,11 @@ conceived.
 			<network-id mcc="240" mnc="06"/>
 			<network-id mcc="240" mnc="08"/>
 
+			<voicemail>888</voicemail>
+			<balance-check>
+				<ussd>*222#</ussd>
+			</balance-check>
+
 			<!-- http://www.telenor.se/privat/mobiltelefoni/alla-mobiltjanster/alla-mobiltjanster.html#C45-2100 -->
 			<apn value="internet.telenor.se">
 				<plan type="postpaid"/>
@@ -7502,14 +7758,18 @@ conceived.
 		<gsm>
 			<network-id mcc="240" mnc="01"/>
 			<network-id mcc="240" mnc="05"/>
+
+			<voicemail>*133#</voicemail>
 			<balance-check>
 				<ussd>*120#</ussd>
 				<ussd>*121#</ussd>
 			</balance-check>
+
 			<!-- http://www3.telia.se/foretag/mobilguiden/ -->
 			<apn value="online.telia.se">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<name>Telia 3G</name>
 			</apn>
 		</gsm>
 	</provider>
