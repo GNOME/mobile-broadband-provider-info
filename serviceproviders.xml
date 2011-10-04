@@ -6543,9 +6543,17 @@ conceived.
 		<name>Oman Mobile</name>
 		<gsm>
 			<network-id mcc="422" mnc="02"/>
+			<apn value="taif">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Mobile Broadband</name>
+				<username>taif</username>
+				<password>taif</password>
+			</apn>
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<name>Internet (old)</name>
 			</apn>
 		</gsm>
 	</provider>
