@@ -847,13 +847,10 @@ conceived.
 		<name>M-Tel</name>
 		<gsm>
 			<network-id mcc="284" mnc="01"/>
-			<!-- http://www.mtel.bg/iphone3/technical_faq.php lists username/password -->
 			<!-- username/password not included in Vodafone Broadband Connect version 10.1.0.23908 2010-06-07T17:47:01 -->
 			<apn value="inet-gprs.mtel.bg">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<username>mtel</username>
-				<password>mtel</password>
 			</apn>
 		</gsm>
 	</provider>
@@ -1982,8 +1979,6 @@ conceived.
 			<apn value="web.vodafone.de">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<username>vodafone</username>
-				<password>vodafone</password>
 				<dns>139.7.30.125</dns>
 				<dns>139.7.30.126</dns>
 			</apn>
@@ -1993,8 +1988,6 @@ conceived.
 				<name>WebSessions</name>
 				<username>vodafone</username>
 				<password>vodafone</password>
-				<dns>139.7.30.125</dns>
-				<dns>139.7.30.126</dns>
 			</apn>
 		</gsm>
 	</provider>
@@ -2298,13 +2291,18 @@ conceived.
 		<name>TDC</name>
 		<gsm>
 			<network-id mcc="238" mnc="01"/>
+			<!-- http://kundeservice.tdc.dk/privat/faq.php?id=20063 -->
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<dns>194.239.134.83</dns>
-				<dns>193.162.153.164</dns>
 			</apn>
+			<!-- mnc="0171" in Vodafone XML -->
 			<apn value="internet.no">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+			<!-- mnc="0172" in Vodafone XML -->
+			<apn value="internet.se">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 			</apn>
@@ -2709,6 +2707,13 @@ conceived.
 		<gsm>
 			<network-id mcc="214" mnc="01"/>
 			<network-id mcc="214" mnc="06"/>
+			<apn value="ac.vodafone.es">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Vodafone</name>
+				<username>vodafone</username>
+				<password>vodafone</password>
+			</apn>
 			<apn value="airtelnet.es">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -2716,15 +2721,6 @@ conceived.
 				<username>vodafone</username>
 				<password>vodafone</password>
 				<dns>212.73.32.3</dns>
-				<dns>212.73.32.67</dns>
-			</apn>
-			<apn value="ac.vodafone.es">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>Vodafone</name>
-				<username>vodafone</username>
-				<password>vodafone</password>
-				<dns>212.166.132.96</dns>
 				<dns>212.73.32.67</dns>
 			</apn>
 		</gsm>
@@ -2865,6 +2861,11 @@ conceived.
 			</apn>
 			<apn value="kidanet.fj">
 				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+			<!-- http://www.vodafone.com.fj/pages.cfm/personal/services/prepay-flashnet/installation-guide.html -->
+			<apn value="prepay.vfinternet.fj">
+				<plan type="prepaid"/>
 				<usage type="internet"/>
 			</apn>
 		</gsm>
@@ -3175,8 +3176,6 @@ conceived.
 				<name>Contract</name>
 				<username>web</username>
 				<password>web</password>
-				<dns>10.206.65.68</dns>
-				<dns>10.203.65.68</dns>
 			</apn>
 			<apn value="pp.vodafone.co.uk">
 				<plan type="prepaid"/>
@@ -3674,8 +3673,6 @@ conceived.
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<name>Előf. töm.</name>
-				<username>vodawap</username>
-				<password>vodawap</password>
 			</apn>
 			<apn value="vitamax.snet.vodafone.net">
 				<plan type="postpaid"/>
@@ -4502,8 +4499,6 @@ conceived.
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<name>Internet Facile (old)</name>
-				<dns>83.224.70.62</dns>
-				<dns>83.224.70.78</dns>
 			</apn>
 		</gsm>
 	</provider>
@@ -5205,6 +5200,20 @@ conceived.
 	</provider>
 </country>
 
+<!-- Lesotho -->
+<country code="ls">
+	<provider>
+		<name>Vodacom Lesotho</name>
+		<gsm>
+			<network-id mcc="651" mnc="01"/>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+</country>
+
 <!-- Lithuania -->
 <country code="lt">
 	<provider>
@@ -5214,9 +5223,6 @@ conceived.
 			<apn value="banga">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<username>bite</username>
-				<dns>213.226.131.131</dns>
-				<dns>193.219.88.36</dns>
 			</apn>
 		</gsm>
 	</provider>
@@ -5607,8 +5613,10 @@ conceived.
 			<apn value="Internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<username>Internet</username>
-				<password>Internet</password>
+				<username>internet</username>
+				<password>internet</password>
+				<dns>80.85.96.131</dns>
+				<dns>80.85.97.70</dns>
 			</apn>
 		</gsm>
 	</provider>
@@ -6779,15 +6787,15 @@ conceived.
 		<name>Vodafone</name>
 		<gsm>
 			<network-id mcc="427" mnc="02"/>
-			<apn value="vodafone.com.qa">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>Web (old)</name>
-			</apn>
 			<apn value="web.vodafone.com.qa">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<name>Web</name>
+			</apn>
+			<apn value="vodafone.com.qa">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Web (old)</name>
 			</apn>
 		</gsm>
 	</provider>
@@ -7995,6 +8003,8 @@ conceived.
 			<apn value="emome">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<username>web</username>
+				<password>web</password>
 			</apn>
 			<!-- Vodafone Broadband Connect version 10.1.0.23908 2010-06-07T17:47:01 lists username/pass = web. Others list empty -->
 			<apn value="internet">
