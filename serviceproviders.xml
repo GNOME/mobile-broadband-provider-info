@@ -5,6 +5,7 @@
 <!-- Authors:
      2008 Antti Kaijanmäki <antti@kaijanmaki.net>
      2009 Dan Williams <dcbw@redhat.com>
+     2011 Antti Kaijanmäki <antti@canonical.com>
 -->
 
 <!-- THIS WORK IS IN PUBLIC DOMAIN:
@@ -1708,13 +1709,13 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Tigo</name>
+		<name>eTb</name>
 		<gsm>
-			<network-id mcc="732" mnc="103"/>
-			<network-id mcc="732" mnc="111"/>
-			<apn value="web.colombiamovil.com.co">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
+			<apn value="moviletb.net.co">
+			     <plan type="postpaid"/>
+			     <usage type="internet"/>
+			     <username>etb</username>
+			     <password>etb</password>
 			</apn>
 		</gsm>
 	</provider>
@@ -1728,6 +1729,37 @@ conceived.
 				<usage type="internet"/>
 				<username>movistar</username>
 				<password>movistar</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Tigo</name>
+		<gsm>
+			<network-id mcc="732" mnc="103"/>
+			<network-id mcc="732" mnc="111"/>
+			<apn value="web.colombiamovil.com.co">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Uff</name>
+		<gsm>
+			<apn value="web.uffmovil.com.co">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>UNE</name>
+		<gsm>
+			<apn value="www.une.net.co">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<username>une</username>
+				<password>une</password>
 			</apn>
 		</gsm>
 	</provider>
