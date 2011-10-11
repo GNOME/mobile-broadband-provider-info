@@ -8335,7 +8335,7 @@ conceived.
 <!-- Tanzania, United Republic of -->
 <country code="tz">
 	<provider>
-		<name>Zain</name>
+		<name>Airtel Tanzania</name>
 		<gsm>
 			<network-id mcc="640" mnc="05"/>
 			<apn value="internet">
