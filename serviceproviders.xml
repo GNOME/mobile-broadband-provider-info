@@ -3240,12 +3240,14 @@ conceived.
 <!-- Britain -->
 <country code="gb">
 	<provider>
-		<name>airtel vodaphone</name>
+		<name>Asda Mobile</name>
 		<gsm>
-			<network-id mcc="234" mnc="03"/>
-			<apn value="airtel-ci-gprs.com">
-				<plan type="postpaid"/>
+			<network-id mcc="234" mnc="15"/>
+			<apn value="asdamobiles.co.uk">
+				<plan type="prepaid"/>
 				<usage type="internet"/>
+				<username>web</username>
+				<password>web</password>
 			</apn>
 		</gsm>
 	</provider>
@@ -3258,6 +3260,20 @@ conceived.
 				<usage type="internet"/>
 				<username>bt</username>
 				<password>bt</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>GiffGaff</name>
+		<gsm>
+			<network-id mcc="234" mnc="02"/>
+			<network-id mcc="234" mnc="10"/>
+			<network-id mcc="234" mnc="11"/>
+			<apn value="giffgaff.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<username>giffgaff</username>
+				<password>password</password>
 			</apn>
 		</gsm>
 	</provider>
@@ -3349,15 +3365,30 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>Tesco Mobile</name>
+		<gsm>
+			<network-id mcc="234" mnc="02"/>
+			<network-id mcc="234" mnc="10"/>
+			<network-id mcc="234" mnc="11"/>
+			<apn value="prepay.tesco-mobile.com">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<username>tescowap</username>
+				<password>password</password>
+				<dns>193.113.200.195</dns>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Virgin Mobile</name>
 		<gsm>
 			<network-id mcc="234" mnc="31"/>
 			<network-id mcc="234" mnc="32"/>
-			<apn value="vdata">
+			<apn value="goto.virginmobile.uk">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<dns>196.7.0.138</dns>
-				<dns>196.7.142.132</dns>
+				<username>user</username>
+				<password></password>
 			</apn>
 		</gsm>
 	</provider>
@@ -3381,8 +3412,8 @@ conceived.
 				<plan type="prepaid"/>
 				<usage type="internet"/>
 				<name>Prepaid</name>
-				<username>wap</username>
-				<password>wap</password>
+				<username>web</username>
+				<password>web</password>
 				<dns>172.29.1.11</dns>
 				<dns>172.29.1.11</dns>
 			</apn>
@@ -3396,7 +3427,7 @@ conceived.
 			<apn value="pp.internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<name>TopUp and Go (older SIMs)</name>
+				<name>TopUp and Go (older 1GB SIMs)</name>
 			</apn>
 		</gsm>
 	</provider>
@@ -3477,6 +3508,16 @@ conceived.
 <!-- Guernsey -->
 <country code="gg">
 	<provider>
+		<name>Airtel-Vodaphone</name>
+		<gsm>
+			<network-id mcc="234" mnc="03"/>
+			<apn value="airtel-ci-gprs.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Sure (Cable &amp; Wireless)</name>
 		<gsm>
 			<network-id mcc="234" mnc="55"/>
@@ -3489,6 +3530,18 @@ conceived.
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<name>Internet</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Wave Telecom</name>
+		<gsm>
+			<network-id mcc="234" mnc="50"/>
+			<apn value="pepper">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<dns>212.9.0.135</dns>
+				<dns>212.9.0.136</dns>
 			</apn>
 		</gsm>
 	</provider>
@@ -4217,8 +4270,19 @@ conceived.
 <!-- Isle of Man -->
 <country code="im">
 	<provider>
+		<name>Manx Telecom</name>
+		<gsm>
+			<network-id mcc="234" mnc="58"/>
+			<apn value="3gpronto">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Sure (Cable &amp; Wireless)</name>
 		<gsm>
+			<network-id mcc="234" mnc="36"/>
 			<network-id mcc="234" mnc="55"/>
 			<apn value="wap">
 				<plan type="postpaid"/>
@@ -4831,6 +4895,16 @@ conceived.
 
 <!-- Jersey -->
 <country code="je">
+	<provider>
+		<name>Airtel-Vodaphone</name>
+		<gsm>
+			<network-id mcc="234" mnc="03"/>
+			<apn value="airtel-ci-gprs.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
 	<provider>
 		<name>Sure (Cable &amp; Wireless)</name>
 		<gsm>
