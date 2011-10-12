@@ -9769,6 +9769,12 @@ conceived.
 		<name>Cell-c</name>
 		<gsm>
 			<network-id mcc="655" mnc="07"/>
+			<balance-check>
+				<ussd>*101#</ussd>
+			</balance-check>
+			<balance-top-up>
+				<ussd replacement="CODE">*102*CODE#</ussd>
+			</balance-top-up>
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -9781,6 +9787,12 @@ conceived.
 		<name>MTN</name>
 		<gsm>
 			<network-id mcc="655" mnc="10"/>
+			<balance-check>
+				<ussd>*141#</ussd>
+			</balance-check>
+			<balance-top-up>
+				<ussd replacement="CODE">*141*CODE#</ussd>
+			</balance-top-up>
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -9793,6 +9805,12 @@ conceived.
 		<name>Vodacom</name>
 		<gsm>
 			<network-id mcc="655" mnc="01"/>
+			<balance-check>
+				<ussd>*100#</ussd>
+			</balance-check>
+			<balance-top-up>
+				<ussd replacement="CODE">*100*01*CODE#</ussd>
+			</balance-top-up>
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -9810,6 +9828,12 @@ conceived.
 		<name>Virgin Mobile</name>
 		<gsm>
 			<network-id mcc="655" mnc="07"/>
+			<balance-check>
+				<ussd>*101#</ussd>
+			</balance-check>
+			<balance-top-up>
+				<ussd replacement="CODE">*102*CODE#</ussd>
+			</balance-top-up>
 			<apn value="vdata">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -9822,6 +9846,12 @@ conceived.
 		<name>8.ta</name>
 		<gsm>
 			<network-id mcc="655" mnc="02"/>
+			<balance-check>
+				<ussd>*188#</ussd>
+			</balance-check>
+			<balance-top-up>
+				<ussd replacement="CODE">*188*CODE#</ussd>
+			</balance-top-up>
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
