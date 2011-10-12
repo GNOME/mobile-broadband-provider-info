@@ -5701,14 +5701,18 @@ conceived.
 <!-- Morocco -->
 <country code="ma">
 	<provider>
-		<name>Ittissalat Al Maghrib</name>
+		<name>Ittissalat Al Maghrib (IAM)</name>
 		<gsm>
 			<network-id mcc="604" mnc="01"/>
-			<apn value="iam">
+			<apn value="www.iamgprs1.ma">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<username>wac</username>
-				<password>1987</password>
+				<name>Abonnement</name>
+			</apn>
+			<apn value="www.iamgprs2.ma">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>Pre-payé</name>
 			</apn>
 		</gsm>
 	</provider>
@@ -5716,11 +5720,30 @@ conceived.
 		<name>Medi Telecom</name>
 		<gsm>
 			<network-id mcc="604" mnc="00"/>
-			<apn value="wap.meditel.ma">
+			<apn value="internet1.meditel.ma">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<username>MEDIWAP</username>
-				<password>MEDIWAP</password>
+				<name>Abonnement</name>
+				<username>MEDINET</username>
+				<password>MEDINET</password>
+			</apn>
+			<apn value="internet2.meditel.ma">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>Pre-payé</name>
+				<username>MEDINET</username>
+				<password>MEDINET</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>WANA</name>
+		<gsm>
+			<network-id mcc="604" mnc="02"/>
+			<apn value="www.wana.ma">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>INWI</name>
 			</apn>
 		</gsm>
 	</provider>
