@@ -3912,6 +3912,18 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>DIGI</name>
+		<gsm>
+			<!-- Using Telenor's network -->
+			<network-id mcc="216" mnc="01"/>
+			<apn value="digi">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>DIGI Move</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>T-Mobile</name>
 		<gsm>
 			<network-id mcc="216" mnc="30"/>
