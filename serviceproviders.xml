@@ -6355,6 +6355,18 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>MEDIONmobile</name>
+		<gsm>
+			<network-id mcc="204" mnc="08"/>
+			<network-id mcc="204" mnc="10"/>
+			<apn value="portalmmm.nl">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>Aldi Talk Mobiel Prepaid Internet</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Telfort</name>
 		<gsm>
 			<network-id mcc="204" mnc="12"/>
