@@ -890,12 +890,25 @@ conceived.
 				<dns>212.224.255.252</dns>
 				<dns>212.65.63.217</dns>
 			</apn>
+			<apn value="mworld.be">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<username>mobistar</username>
+				<password>mobistar</password>
+				<dns>212.65.63.10</dns>
+				<dns>212.65.63.145</dns>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
 		<name>Telenet Mobile</name>
 		<gsm>
 			<network-id mcc="206" mnc="10"/>
+			<apn value="mobile.internet.be">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Old Walk &amp; Surf</name>
+			</apn>
 			<apn value="telenetwap.be">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -928,6 +941,8 @@ conceived.
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<name>Inter</name>
+				<dns>195.238.2.21</dns>
+				<dns>81.169.60.107</dns>
 			</apn>
 			<apn value="intraprox.be">
 				<plan type="postpaid"/>
