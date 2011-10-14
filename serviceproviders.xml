@@ -480,10 +480,24 @@ conceived.
 				<dns>211.29.132.12</dns>
 				<dns>198.142.0.51</dns>
 			</apn>
+			<apn value="yesinternet">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>Optus Yes Internet</name>
+				<dns>211.29.132.12</dns>
+				<dns>198.142.0.51</dns>
+			</apn>
 			<apn value="connect">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<name>Wireless Broadband</name>
+				<dns>211.29.132.12</dns>
+				<dns>198.142.0.51</dns>
+			</apn>
+			<apn value="connectcap">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Post-Paid Mobile Broadband</name>
 				<dns>211.29.132.12</dns>
 				<dns>198.142.0.51</dns>
 			</apn>
@@ -493,6 +507,27 @@ conceived.
 				<name>Pre-Paid Mobile Broadband</name>
 				<dns>211.29.132.12</dns>
 				<dns>198.142.0.51</dns>
+			</apn>
+			<apn value="mms">
+				<plan type="postpaid"/>
+				<usage type="mms"/>
+				<name>Optus MMS</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>TGP Mobile</name>
+		<gsm>
+			<network-id mcc="505" mnc="02"/>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Mobile Internet</name>
+			</apn>
+			<apn value="mms">
+				<plan type="postpaid"/>
+				<usage type="mms"/>
+				<name>MMS</name>
 			</apn>
 		</gsm>
 	</provider>
@@ -523,8 +558,8 @@ conceived.
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<name>Telstra (Next G)</name>
-				<dns>139.130.4.4</dns>
-				<dns>203.50.2.71</dns>
+				<dns>10.4.85.138</dns>
+				<dns>10.4.176.234</dns>
 			</apn>
 			<apn value="telstra.pcpack">
 				<plan type="postpaid"/>
@@ -533,6 +568,16 @@ conceived.
 				<password>Telstra</password>
 				<dns>139.130.4.4</dns>
 				<dns>203.50.2.71</dns>
+			</apn>
+			<apn value="telstra.iph">
+				<plan type="postpaid"/>
+				<usage type="wap"/>
+				<name>Telstra Internet/Wap</name>
+			</apn>
+			<apn value="telstra.mms">
+				<plan type="postpaid"/>
+				<usage type="mms"/>
+				<name>Telstra MMS</name>
 			</apn>
 		</gsm>
 	</provider>
@@ -596,16 +641,32 @@ conceived.
 				<name>Prepaid</name>
 				<!-- username>web</username -->
 				<!-- password>web</password -->
+				<dns>203.21.112.40</dns>
+				<dns>203.21.113.40</dns>
+			</apn>
+			<apn value="live.vodafone.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Vodafone Internet</name>
 			</apn>
 		</gsm>
 	</provider>
 	<provider>
 		<name>Crazy John's</name>
 		<gsm>
+			<network-id mcc="505" mnc="03"/>
 			<network-id mcc="505" mnc="38"/>
 			<apn value="purtona.net">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<name>Crazy NET</name>
+				<dns>203.21.112.40</dns>
+				<dns>203.21.113.40</dns>
+			</apn>
+			<apn value="purtona.wap">
+				<plan type="postpaid"/>
+				<usage type="wap"/>
+				<name>Crazy WAP/MMS</name>
 			</apn>
 		</gsm>
 	</provider>
