@@ -1438,6 +1438,11 @@ conceived.
 				<usage type="internet"/>
 				<name>Mobile Web</name>
 			</apn>
+			<apn value="pda2.bell.ca">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Mobile Fast Web</name>
+			</apn>
 		</gsm>
 		<cdma>
 			<sid value="16420"/>
