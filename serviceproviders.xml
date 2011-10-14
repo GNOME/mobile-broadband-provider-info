@@ -260,6 +260,8 @@ conceived.
 				<name>A1 Breitband</name>
 				<username>ppp@a1plus.at</username>
 				<password>ppp</password>
+				<dns>194.48.124.202</dns>
+				<dns>194.48.124.200</dns>
 			</apn>
 			<!-- https://www.aon.at/export/sites/default/residential/pdf/produktfolder/aonFlex_Mobiltelefon.pdf-->
 			<apn value="aon.data">
@@ -280,10 +282,37 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>ABroadband</name>
+		<gsm>
+			<network-id mcc="232" mnc="01"/>
+			<apn value="mdata.com">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>International Roaming</name>
+				<username>mdata@mdata.com</username>
+				<password>ppp</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Bob</name>
 		<gsm>
 			<network-id mcc="232" mnc="11"/>
 			<apn value="bob.at">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<username>data@bob.at</username>
+				<password>ppp</password>
+			</apn>
+			<apn value="bob.at">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<username>ppp@bob.at</username>
+				<password>ppp</password>
+				<dns>194.48.139.254</dns>
+				<dns>194.48.124.200</dns>
+			</apn>
+			<apn value="mms.bob.at">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<username>data@bob.at</username>
@@ -308,6 +337,8 @@ conceived.
 				<name>Internet</name>
 				<username>t-mobile</username>
 				<password>tm</password>
+				<dns>213.162.69.169</dns>
+				<dns>213.162.65.1</dns>
 			</apn>
 			<apn value="business.gprsinternet">
 				<plan type="postpaid"/>
@@ -325,10 +356,11 @@ conceived.
 			<apn value="web">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<name>Ge org:)</name>
 				<username>web@telering.at</username>
 				<password>web</password>
-				<dns>212.95.31.11</dns>
-				<dns>212.95.31.35</dns>
+				<dns>213.162.69.170</dns>
+				<dns>213.162.65.2</dns>
 			</apn>
 		</gsm>
 	</provider>
@@ -345,6 +377,20 @@ conceived.
 				<dns>194.24.128.100</dns>
 				<dns>194.24.128.102</dns>
 			</apn>
+			<apn value="wap.one.at">
+				<plan type="postpaid"/>
+				<usage type="wap"/>
+				<name>Orange WAP</name>
+				<username>wap</username>
+				<password>wap</password>
+			</apn>
+			<apn value="mms.one.at">
+				<plan type="postpaid"/>
+				<usage type="mms"/>
+				<name>Orange MMS</name>
+				<username>mms</username>
+				<password>mms</password>
+			</apn>
 			<apn value="fullspeed">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -358,6 +404,15 @@ conceived.
 				<name>Orange Web</name>
 				<username>Orange</username>
 				<password>Orange</password>
+				<dns>81.3.216.100</dns>
+				<dns>194.24.128.100</dns>
+			</apn>
+			<apn value="orange.mms">
+				<plan type="postpaid"/>
+				<usage type="mms"/>
+				<name>Orange Web</name>
+				<username>mms</username>
+				<password>mms</password>
 			</apn>
 		</gsm>
 	</provider>
@@ -369,6 +424,8 @@ conceived.
 			<apn value="drei.at">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<dns>213.94.78.17</dns>
+				<dns>213.94.78.16</dns>
 			</apn>
 		</gsm>
 	</provider>
