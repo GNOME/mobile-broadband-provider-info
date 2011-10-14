@@ -1001,6 +1001,8 @@ conceived.
 			<apn value="inet-gprs.mtel.bg">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<dns>213.226.7.34</dns>
+				<dns>213.226.7.35</dns>
 			</apn>
 		</gsm>
 	</provider>
