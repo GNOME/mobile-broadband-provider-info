@@ -1576,6 +1576,7 @@ conceived.
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<username>vodalive</username>
+				<dns>172.24.97.1</dns>
 			</apn>
 		</gsm>
 	</provider>
@@ -1602,11 +1603,16 @@ conceived.
 				<plan type="prepaid"/>
 				<usage type="internet"/>
 				<name>Internet Everywhere - Prepaid</name>
+				<dns>213.55.128.1</dns>
+				<dns>213.55.128.2</dns>
 			</apn>
 			<apn value="intranetaccess">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<name>Internet Everywhere - Intranet Access</name>
+			</apn>
+			<apn value="internet">
+				<name>Internet Everywhere - Postpaid</name>
 			</apn>
 		</gsm>
 	</provider>
@@ -1619,6 +1625,16 @@ conceived.
 				<usage type="internet"/>
 				<username>internet</username>
 				<password>internet</password>
+				<dns>194.230.1.103</dns>
+				<dns>194.230.1.71</dns>
+			</apn>
+			<apn value="wap.sunrise.ch">
+				<username>wap</username>
+				<password>wap</password>
+			</apn>
+			<apn value="mms.sunrise.ch">
+				<username>mms</username>
+				<password>mms</password>
 			</apn>
 		</gsm>
 	</provider>
@@ -1637,6 +1653,32 @@ conceived.
 			<apn value="gprs.swisscom.ch">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<name>Swisscom GPRS</name>
+				<dns>138.188.101.189</dns>
+				<dns>138.188.101.186</dns>
+			</apn>
+			<apn value="corporate.swisscom.ch">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Swisscom CAA</name>
+				<username>testprofil</username>
+				<password>temporary</password>
+			</apn>
+			<apn value="event.swisscom.ch">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Swisscom MMS</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>M-Budget</name>
+		<gsm>
+			<network-id mcc="228" mnc="01"/>
+			<apn value="gprs.swisscom.ch">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Migros Data</name>
 			</apn>
 		</gsm>
 	</provider>
