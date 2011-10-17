@@ -1988,6 +1988,8 @@ conceived.
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<dns>217.77.161.130</dns>
+				<dns>217.77.161.131</dns>
 			</apn>
 		</gsm>
 	</provider>
