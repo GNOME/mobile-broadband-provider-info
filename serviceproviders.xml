@@ -7191,97 +7191,322 @@ conceived.
 
 <!-- Poland -->
 <country code="pl">
-	<provider>
-		<name>ERA</name>
+	<!-- Polish physical operators -->
+	<provider primary="true">
+		<name>T-mobile</name><!-- rebranded from Era in 2011 -->
 		<gsm>
 			<network-id mcc="260" mnc="02"/>
-
 			<voicemail>602950</voicemail>
 			<balance-check>
 				<ussd>*101#</ussd>
 			</balance-check>
-
-			<apn value="erainternet">
+			<balance-top-up>
+				<ussd replacement="CODE">*111*CODE#</ussd>
+			</balance-top-up>
+			<apn value="internet">
 				<plan type="postpaid"/>
+				<plan type="prepaid"/>
 				<usage type="internet"/>
-				<username>erainternet</username>
-				<password>erainternet</password>
 				<dns>213.158.194.1</dns>
 				<dns>213.158.193.38</dns>
 			</apn>
 		</gsm>
 	</provider>
-	<provider>
+	<provider primary="true">
 		<name>Play Online</name>
 		<gsm>
 			<network-id mcc="260" mnc="06"/>
-			<apn value="Internet">
+			<balance-check>
+				<ussd>*101#</ussd>
+				<ussd>*155#</ussd>
+			</balance-check>
+			<balance-top-up>
+				<ussd replacement="CODE">*100*CODE#</ussd>
+			</balance-top-up>
+			<apn value="internet">
 				<plan type="postpaid"/>
+				<plan type="prepaid"/>
 				<usage type="internet"/>
 			</apn>
 		</gsm>
 	</provider>
-	<provider>
-		<name>Heyah</name>
-		<gsm>
-			<network-id mcc="260" mnc="02"/>
-			<apn value="heyah.pl">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<username>heyah</username>
-				<password>heyah</password>
-				<dns>213.158.194.1</dns>
-				<dns>213.158.193.38</dns>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
+	<provider primary="true">
 		<name>Orange</name>
 		<gsm>
 			<network-id mcc="260" mnc="03"/>
-
 			<voicemail>*501</voicemail>
 			<balance-check>
 				<ussd>*124*#</ussd>
 			</balance-check>
-
+			<balance-top-up>
+				<ussd replacement="CODE">*125*CODE#</ussd>
+			</balance-top-up>
 			<apn value="internet">
 				<plan type="postpaid"/>
+				<plan type="prepaid"/>
 				<usage type="internet"/>
+				<name>Standard access - with image compression</name>
+				<name xml:lang="pl">Dostęp standardowy - z kompresją grafiki</name>
+				<username>internet</username>
+				<password>internet</password>
+				<dns>194.9.223.79</dns>
+				<dns>194.204.159.1</dns>
+			</apn>
+			<apn value="vpn">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>VPN mode access without compression (requires activation)</name>
+				<name xml:lang="pl">Dostęp VPN bez kompresji (wymaga aktywacji)</name>
 				<username>internet</username>
 				<password>internet</password>
 				<dns>194.9.223.79</dns>
 				<dns>194.204.159.1</dns>
 			</apn>
 		</gsm>
+		<cdma>
+			<username>cdma@orange</username>
+			<password>orange</password>
+		</cdma>
 	</provider>
-	<provider>
-		<name>iPlus</name>
+	<provider primary="true">
+		<name>Plus</name>
 		<gsm>
 			<network-id mcc="260" mnc="01"/>
-
 			<voicemail>2222</voicemail>
 			<balance-check>
 				<ussd>*100#</ussd>
 			</balance-check>
-
+			<balance-top-up>
+				<ussd replacement="CODE">*123*CODE#</ussd>
+			</balance-top-up>
 			<apn value="www.plusgsm.pl">
 				<plan type="postpaid"/>
+				<plan type="prepaid"/>
 				<usage type="internet"/>
+				<name>Standard access</name>
+				<name xml:lang="pl">Dostęp standardowy</name>
+				<username>plusgsm</username>
+				<password>plusgsm</password>
+				<dns>212.2.96.51</dns>
+				<dns>212.2.96.52</dns>
+			</apn>
+			<apn value="pro.plusgsm.pl">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>External dynamic IP address (requires activation)</name>
+				<name xml:lang="pl">Zewnętrzny dynamiczny adres IP (wymaga aktywacji)</name>
+				<username>plusgsm</username>
+				<password>plusgsm</password>
+				<dns>212.2.96.51</dns>
+				<dns>212.2.96.52</dns>
+			</apn>
+			<apn value="m2m.plusgsm.pl">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>External static IP address (requires activation)</name>
+				<name xml:lang="pl">Zewnętrzny statyczny adres IP (wymaga aktywacji)</name>
+				<username>plusgsm</username>
+				<password>plusgsm</password>
+				<dns>212.2.96.51</dns>
+				<dns>212.2.96.52</dns>
+			</apn>
+			<apn value="optimizer">
+				<plan type="postpaid"/>
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>iPlus optimizer with data compression</name>
+				<name xml:lang="pl">iPlus optimizer z kompresją danych</name>
 				<dns>212.2.96.51</dns>
 				<dns>212.2.96.52</dns>
 			</apn>
 		</gsm>
 	</provider>
-	<provider>
-		<name>GaduAIR</name>
+	<provider primary="true">
+		<name>Cyfrowy Polsat</name>
 		<gsm>
-			<network-id mcc="260" mnc="01"/>
-			<apn value="internet.gadu-gadu.pl">
+			<network-id mcc="260" mnc="12"/>
+			<apn value="multi.internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 			</apn>
 		</gsm>
+	</provider>
+	<provider primary="true">
+		<name>aero2</name>
+		<gsm>
+			<network-id mcc="260" mnc="17"/>
+			<apn value="darmowy">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<!-- Polish MVNO operators -->
+	<provider primary="false">
+		<name>Multimo</name>
+		<gsm>
+			<network-id mcc="260" mnc="03"/>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Default APN</name>
+				<username>internet</username>
+				<password>internet</password>
+			</apn>
+			<apn value="mni.internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>APN: mni.internet</name>
+				<username>mni.internet</username>
+			</apn>
+			<apn value="telogic.internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>APN: telogic.internet</name>
+				<username>telogic.internet</username>
+			</apn>
+		</gsm>
+		<cdma>
+			<username>cdma@orange</username>
+			<password>orange</password>
+		</cdma>
+	</provider>
+	<provider primary="false">
+		<name>FreeM</name>
+		<gsm>
+			<network-id mcc="260" mnc="01"/>
+			<apn value="freedata.pl">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+			</apn>
+ 		</gsm>
+ 	</provider>
+ 	<provider primary="false">
+ 		<name>Heyah</name>
+ 		<gsm>
+ 			<network-id mcc="260" mnc="02"/>
+			<balance-check>
+				<ussd>*108#</ussd>
+			</balance-check>
+			<balance-top-up>
+				<ussd replacement="CODE">*109*CODE#</ussd>
+			</balance-top-up>
+ 			<apn value="heyah.pl">
+ 				<plan type="prepaid"/>
+				<usage type="internet"/>
+ 				<username>heyah</username>
+ 				<password>heyah</password>
+				<dns>213.158.194.1</dns>
+				<dns>213.158.193.38</dns>
+			</apn>
+		</gsm>
+	</provider>
+	<provider primary="false">
+		<name>GaduAIR</name>
+		<gsm>
+			<network-id mcc="260" mnc="01"/>
+			<balance-check>
+				<ussd>*101#</ussd>
+			</balance-check>
+			<apn value="internet.gadu-gadu.pl">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider primary="false">
+		<name>Aster</name>
+ 		<gsm>
+ 			<network-id mcc="260" mnc="03"/>
+			<apn value="aster.internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+ 				<username>internet</username>
+ 				<password>internet</password>
+ 			</apn>
+ 		</gsm>
+ 	</provider>
+ 	<provider primary="false">
+		<name>Netia</name>
+		<gsm>
+			<network-id mcc="260" mnc="06"/>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider primary="false">
+		<name>Vectra</name>
+		<gsm>
+			<network-id mcc="260" mnc="06"/>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider primary="false">
+		<name>mBank mobile</name>
+ 		<gsm>
+ 			<network-id mcc="260" mnc="01"/>
+			<balance-check>
+				<ussd>*100#</ussd>
+			</balance-check>
+			<apn value="www.mobile.pl">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider primary="false">
+		<name>INEA</name>
+		<gsm>
+			<network-id mcc="260" mnc="03"/>
+			<apn value="telogic.internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<username>internet</username>
+ 			</apn>
+ 		</gsm>
+ 	</provider>
+ 	<provider primary="false">
+		<name>Mobilking</name>
+		<gsm>
+			<network-id mcc="260" mnc="02"/>
+			<apn value="wapMOBILKING">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<username>mobilking</username>
+				<password>mobilking</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider primary="false">
+		<name>SamiSwoi</name>
+ 		<gsm>
+ 			<network-id mcc="260" mnc="01"/>
+			<apn value="www.plusgsm.pl">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<username>internet</username>
+				<password>internet</password>
+			</apn>
+ 		</gsm>
+ 	</provider>
+	<provider primary="false">
+		<name>Sferia</name>
+		<cdma>
+			<username>sferia</username>
+			<password>sferia</password>
+		</cdma>
+	</provider>
+	<provider primary="false">
+		<name>Nordisk Polska</name>
+		<cdma>
+			<username>CDMA</username>
+			<password>CDMA</password>
+		</cdma>
 	</provider>
 </country>
 
