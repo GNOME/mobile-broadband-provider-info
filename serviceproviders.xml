@@ -3036,6 +3036,8 @@ conceived.
 				<name>Vodafone</name>
 				<username>vodafone</username>
 				<password>vodafone</password>
+				<dns>212.73.32.96</dns>
+				<dns>212.73.32.67</dns>
 			</apn>
 			<apn value="airtelnet.es">
 				<plan type="postpaid"/>
@@ -3071,7 +3073,7 @@ conceived.
 		<gsm>
 			<network-id mcc="214" mnc="21"/>
 			<apn value="jazzinternet">
-				<plan type="postpaid"/>
+				<plan type="prepaid"/>
 				<usage type="internet"/>
 				<dns>87.216.1.65</dns>
 				<dns>87.216.1.66</dns>
