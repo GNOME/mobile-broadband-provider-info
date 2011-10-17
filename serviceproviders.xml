@@ -8777,6 +8777,8 @@ conceived.
 				<usage type="internet"/>
 				<username>simobil</username>
 				<password>internet</password>
+				<dns>121.30.86.130</dns>
+				<dns>193.189.160.11</dns>
 			</apn>
 		</gsm>
 	</provider>
