@@ -10571,6 +10571,8 @@ conceived.
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<dns>196.207.40.165</dns>
+				<dns>196.43.46.190</dns>
 			</apn>
 			<apn value="unrestricted">
 				<plan type="postpaid"/>
