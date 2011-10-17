@@ -9534,6 +9534,8 @@ conceived.
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<name>Internet/WebConnect</name>
+				<dns>10.177.0.34</dns>
+				<dns>10.164.103.44</dns>
 			</apn>
 			<apn value="wap.voicestream.com">
 				<plan type="postpaid"/>
@@ -9624,6 +9626,27 @@ conceived.
 	</provider>
 	<provider>
 		<name>Verizon</name>
+		<gsm>
+			<network-id mcc="310" mnc="995"/>
+			<network-id mcc="311" mnc="480"/>
+			<apn value="vzwims">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>4G LTE Contract</name>
+			</apn>
+			<apn value="vzwinternet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>4G LTE Contract</name>
+				<dns>66.174.92.14</dns>
+				<dns>69.78.96.14</dns>
+			</apn>
+			<apn value="vzwapp">
+				<plan type="postpaid"/>
+				<usage type="wap"/>
+				<name>4G LTE Contract</name>
+			</apn>
+		</gsm>
 		<cdma>
 			<!-- Assignments taken from IFAST: http://www.ifast.org/files/NationalSID.htm -->
 			<sid value="2"/>
@@ -10150,6 +10173,9 @@ conceived.
 	</provider>
 	<provider>
 		<name>Cricket Communications</name>
+		<gsm>
+			<network-id mcc="310" mnc="000"/>
+		</gsm>
 		<cdma />
 	</provider>
 	<provider>
@@ -10179,7 +10205,9 @@ conceived.
 	</provider>
 	<provider>
 		<name>Virgin Mobile / Helio</name>
-		<cdma />
+		<cdma>
+			<sid value="4183"/>
+		</cdma>
 	</provider>
 	<provider>
 		<name>Cellular South</name>
