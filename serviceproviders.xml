@@ -8672,6 +8672,8 @@ conceived.
 				<usage type="internet"/>
 				<name>SunSurf/Mobile Broadband (postpaid)</name>
 				<username>65</username>
+				<dns>202.79.64.21</dns>
+				<dns>202.79.64.26</dns>
 			</apn>
 			<!-- http://m1.com.sg/filedownloads/popup/Miworld/popup_se2.5.html top page-->
 			<apn value="miworld">
