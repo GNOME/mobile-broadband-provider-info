@@ -5019,6 +5019,8 @@ conceived.
 			<apn value="vmc.gprs.is">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<dns>213.176.128.51</dns>
+				<dns>213.176.128.50</dns>
 			</apn>
 		</gsm>
 	</provider>
