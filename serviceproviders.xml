@@ -5381,6 +5381,63 @@ conceived.
 	</provider>
 </country>
 
+<!-- Kyrgyzstan -->
+<country code="kg">
+	<provider>
+		<name>Beeline</name>
+		<gsm>
+			<network-id mcc="437" mnc="01"/>
+			<apn value="internet.beeline.kg">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>MegaCom</name>
+		<gsm>
+			<network-id mcc="437" mnc="05"/>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>O!</name>
+		<gsm>
+			<network-id mcc="437" mnc="09"/>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>FONEX</name>
+		<cdma>
+			<username>cdma</username>
+			<password>cdma</password>
+		</cdma>
+	</provider>
+	<provider>
+		<name>nexi (mir+kg)</name>
+		<name xml:lang="ru">Зона Мир+КГ</name>
+		<cdma>
+			<username>555@mir</username>
+			<password>555</password>
+		</cdma>
+	</provider>
+	<provider>
+		<name>nexi (kg)</name>
+		<name xml:lang="ru">Зона КГ</name>
+		<cdma>
+			<username>999@kg</username>
+			<password>999</password>
+		</cdma>
+	</provider>
+</country>
+
 <!-- Cambodia -->
 <country code="kh">
 	<provider>
