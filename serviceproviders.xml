@@ -3843,6 +3843,8 @@ conceived.
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<name>Mobile Broadband On Demand</name>
+				<dns>213.249.17.10</dns>
+				<dns>213.249.17.11</dns>
 			</apn>
 		</gsm>
 	</provider>
