@@ -3584,11 +3584,16 @@ conceived.
 		<gsm>
 			<network-id mcc="234" mnc="31"/>
 			<network-id mcc="234" mnc="32"/>
+			<apn value="vdata">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<dns>196.7.0.138</dns>
+				<dns>196.7.142.132</dns>
+			</apn>
 			<apn value="goto.virginmobile.uk">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<username>user</username>
-				<password></password>
 			</apn>
 		</gsm>
 	</provider>
@@ -3607,6 +3612,8 @@ conceived.
 				<name>Contract</name>
 				<username>web</username>
 				<password>web</password>
+				<dns>10.206.65.68</dns>
+				<dns>10.203.65.68</dns>
 			</apn>
 			<apn value="pp.vodafone.co.uk">
 				<plan type="prepaid"/>
@@ -3623,6 +3630,8 @@ conceived.
 				<name>TopUp and Go</name>
 				<username>web</username>
 				<password>web</password>
+				<dns>10.203.129.68</dns>
+				<dns>10.203.129.68</dns>
 			</apn>
 			<apn value="pp.internet">
 				<plan type="postpaid"/>
