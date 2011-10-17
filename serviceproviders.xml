@@ -7681,6 +7681,11 @@ conceived.
 				<dns>62.169.67.172</dns>
 				<dns>62.169.67.171</dns>
 			</apn>
+			<apn value="noapn">
+				<name>Apn dinâmico (no apn)</name>
+				<dns>62.169.67.172</dns>
+				<dns>62.169.67.171</dns>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -7718,8 +7723,18 @@ conceived.
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<name>Tmn Internet</name>
 				<username>tmn</username>
 				<password>tmn</password>
+				<dns>88.214.178.1</dns>
+				<dns>88.214.182.2</dns>
+			</apn>
+			<apn value="mmsc.tmn.pt">
+				<plan type="postpaid"/>
+				<usage type="mms"/>
+				<name>Tmn Mms</name>
+				<username>tmn</username>
+				<password>tmnnet</password>
 				<dns>194.65.3.20</dns>
 				<dns>194.65.3.21</dns>
 			</apn>
@@ -7734,6 +7749,20 @@ conceived.
 				<usage type="internet"/>
 				<username>vodafone</username>
 				<password>vodafone</password>
+				<dns>212.18.160.133</dns>
+				<dns>212.18.160.134</dns>
+			</apn>
+			<apn value="net2.vodafone.pt">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Vodafone Internet</name>
+			</apn>
+			<apn value="vas.vodafone.pt">
+				<plan type="postpaid"/>
+				<usage type="mms"/>
+				<name>Vodafone MMS</name>
+				<username>vas</username>
+				<password>vas</password>
 			</apn>
 		</gsm>
 	</provider>
@@ -7744,6 +7773,14 @@ conceived.
 			<apn value="internet.zon.pt">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<name>Dados Móveis</name>
+			</apn>
+			<apn value="vas.zon.pt">
+				<plan type="postpaid"/>
+				<usage type="mms"/>
+				<name>MMS</name>
+				<username>vas</username>
+				<password>vas</password>
 			</apn>
 		</gsm>
 	</provider>
