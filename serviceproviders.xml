@@ -4413,6 +4413,11 @@ conceived.
 				<dns>62.40.32.33</dns>
 				<dns>62.40.32.34</dns>
 			</apn>
+			<apn value="internet">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>Old Config Internet and MMS</name>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -4424,6 +4429,8 @@ conceived.
 				<usage type="internet"/>
 				<username>vodafone</username>
 				<password>vodafone</password>
+				<dns>89.19.64.36</dns>
+				<dns>89.19.64.164</dns>
 			</apn>
 			<apn value="isp.vodafone.ie">
 				<plan type="postpaid"/>
@@ -4443,13 +4450,16 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>eMobile</name>
+		<name>E-Mobile</name>
 		<gsm>
 			<network-id mcc="272" mnc="03"/>
 			<!-- Information not found on the web but with the Windows connection software -->
 			<apn value="broadband.eircommbb.ie">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<name>Broadband To Go</name>
+				<dns>212.129.64.220</dns>
+				<dns>212.129.64.221</dns>
 			</apn>
 		</gsm>
 	</provider>
@@ -4468,6 +4478,15 @@ conceived.
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<name>Broadband To Go</name>
+				<dns>212.129.64.220</dns>
+				<dns>212.129.64.221</dns>
+			</apn>
+			<apn value="isp.mymeteor.ie">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>GPRS</name>
+				<username>my</username>
+				<password>isp</password>
 			</apn>
 		</gsm>
 	</provider>
