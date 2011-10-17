@@ -5065,6 +5065,8 @@ conceived.
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<name>Internet Facile (old)</name>
+				<dns>83.224.70.62</dns>
+				<dns>83.224.70.78</dns>
 			</apn>
 		</gsm>
 	</provider>
