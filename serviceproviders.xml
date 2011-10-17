@@ -3315,9 +3315,7 @@ conceived.
 			<apn value="orange.fr">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<name>Contract</name>
-				<username>orange</username>
-				<password>orange</password>
+				<name>Orange Internet</name>
 				<dns>194.51.3.56</dns>
 				<dns>194.51.3.76</dns>
 			</apn>
@@ -3325,8 +3323,6 @@ conceived.
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<name>Business Contract</name>
-				<username>orange</username>
-				<password>orange</password>
 				<dns>194.51.3.56</dns>
 				<dns>194.51.3.76</dns>
 			</apn>
@@ -3342,11 +3338,18 @@ conceived.
 			<apn value="orange-mib">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<name>Orange MIB</name>
+				<name>Orange Entreprises</name>
 				<username>mportail</username>
 				<password>mib</password>
 				<dns>172.17.0.2</dns>
 				<dns>172.17.0.4</dns>
+			</apn>
+			<apn value="orange-acte">
+				<plan type="postpaid"/>
+				<usage type="mms"/>
+				<name>Orange MMS</name>
+				<username>orange</username>
+				<password>orange</password>
 			</apn>
 			<apn value="orange.ie">
 				<plan type="postpaid"/>
@@ -3371,6 +3374,8 @@ conceived.
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<name>Web / Prepaid</name>
+				<dns>172.20.2.10</dns>
+				<dns>172.20.2.39</dns>
 			</apn>
 			<apn value="wapsfr">
 				<plan type="postpaid"/>
@@ -3391,6 +3396,8 @@ conceived.
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<name>Mobile Broadband</name>
+				<dns>172.20.2.10</dns>
+				<dns>172.20.2.39</dns>
 			</apn>
 			<apn value="sl2sfr">
 				<plan type="postpaid"/>
