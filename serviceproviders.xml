@@ -2195,7 +2195,7 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Telekom</name>
+		<name>T-Mobile(Telekom)</name>
 		<gsm>
 			<network-id mcc="262" mnc="01"/>
 			<network-id mcc="262" mnc="06"/>
@@ -2224,13 +2224,14 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>congstar</name>
+		<name>Congstar</name>
 		<gsm>
 			<network-id mcc="262" mnc="01"/>
 
 			<apn value="internet.t-mobile">
-				<plan type="postpaid"/>
+				<plan type="prepaid"/>
 				<usage type="internet"/>
+				<name>Prepaid Contracts</name>
 				<username>t-mobile</username>
 				<password>tm</password>
 				<dns>193.254.160.1</dns>
@@ -2265,6 +2266,8 @@ conceived.
 				<name>WebSessions</name>
 				<username>vodafone</username>
 				<password>vodafone</password>
+				<dns>139.7.30.125</dns>
+				<dns>139.7.30.126</dns>
 			</apn>
 		</gsm>
 	</provider>
@@ -2283,6 +2286,8 @@ conceived.
 			<apn value="pinternet.interkom.de">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<username>fonic</username>
+				<password>fonic</password>
 			</apn>
 		</gsm>
 	</provider>
