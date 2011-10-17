@@ -2597,6 +2597,8 @@ conceived.
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<dns>194.239.134.83</dns>
+				<dns>193.162.153.164</dns>
 			</apn>
 			<!-- mnc="0171" in Vodafone XML -->
 			<apn value="internet.no">
