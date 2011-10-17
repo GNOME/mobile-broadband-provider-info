@@ -8855,7 +8855,7 @@ conceived.
 <!-- El Salvador -->
 <country code="sv">
 	<provider>
-		<name>movistar</name>
+		<name>Movistar</name>
 		<gsm>
 			<network-id mcc="706" mnc="04"/>
 			<apn value="internet.movistar.sv">
