@@ -4192,6 +4192,8 @@ conceived.
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<name>Előf. töm.</name>
+				<dns>80.244.97.30</dns>
+				<dns>80.244.96.1</dns>
 			</apn>
 			<apn value="vitamax.snet.vodafone.net">
 				<plan type="postpaid"/>
@@ -4204,6 +4206,8 @@ conceived.
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<name>Vodafone (felt. töm.)</name>
+				<dns>80.244.97.30</dns>
+				<dns>80.244.96.1</dns>
 			</apn>
 		</gsm>
 	</provider>
