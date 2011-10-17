@@ -8804,8 +8804,8 @@ conceived.
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<dns>194.154.230.66</dns>
-				<dns>194.154.230.74</dns>
+				<dns>195.91.0.17</dns>
+				<dns>194.154.227.17</dns>
 			</apn>
 		</gsm>
 	</provider>
@@ -8816,8 +8816,8 @@ conceived.
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<dns>213.151.200.30</dns>
-				<dns>213.151.208.161</dns>
+				<dns>213.151.200.31</dns>
+				<dns>213.151.208.162</dns>
 			</apn>
 		</gsm>
 	</provider>
@@ -8829,6 +8829,8 @@ conceived.
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<name>Internet</name>
+				<dns>160.218.161.60</dns>
+				<dns>194.228.211.33</dns>
 			</apn>
 		</gsm>
 	</provider>
