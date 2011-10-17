@@ -5858,6 +5858,8 @@ conceived.
 			<apn value="banga">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<dns>213.226.131.131</dns>
+				<dns>193.219.88.36</dns>
 			</apn>
 		</gsm>
 	</provider>
