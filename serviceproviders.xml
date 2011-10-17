@@ -6235,6 +6235,29 @@ conceived.
 <!-- Macedonia -->
 <country code="mk">
 	<provider>
+		<name>T-Mobile</name>
+		<gsm>
+			<network-id mcc="294" mnc="01"/>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<username>internet</username>
+				<password>internet</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>One</name>
+		<gsm>
+			<network-id mcc="294" mnc="02"/>
+			<apn value="datacard">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Internet</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Vodafone</name>
 		<gsm>
 			<network-id mcc="294" mnc="03"/>
