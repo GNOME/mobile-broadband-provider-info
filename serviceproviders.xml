@@ -8969,6 +8969,16 @@ conceived.
 		<name>Orange</name>
 		<gsm>
 			<network-id mcc="605" mnc="01"/>
+			<apn value="weborange">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Internet</name>
+			</apn>
+			<apn value="mms.otun">
+				<plan type="postpaid"/>
+				<usage type="mms"/>
+				<name>Internet + MMS</name>
+			</apn>
 			<apn value="keygp">
 				<plan type="prepaid"/>
 				<usage type="internet"/>
@@ -8978,6 +8988,42 @@ conceived.
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<name>Internet Everywhere Professional</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Tunisie Télécom / TUNTEL</name>
+		<gsm>
+			<network-id mcc="605" mnc="02"/>
+			<apn value="mms.tn">
+				<plan type="postpaid"/>
+				<usage type="mms"/>
+				<name>MMS</name>
+				<username>mms@tt1</username>
+				<password>mms</password>
+			</apn>
+			<apn value="gprs.tn">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>GPRS DATA</name>
+				<username>gprs</username>
+				<password>gprs</password>
+			</apn>
+			<apn value="internet.tn">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>WEB DATA</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Tunisiana</name>
+		<gsm>
+			<network-id mcc="605" mnc="03"/>
+			<apn value="internet.tunisiana.com">
+				<name>Internet</name>
+				<username>internet</username>
+				<password>internet</password>
 			</apn>
 		</gsm>
 	</provider>
