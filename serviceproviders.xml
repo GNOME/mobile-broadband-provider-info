@@ -7001,11 +7001,15 @@ conceived.
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<name>XT mobile (Internet with Firewall)</name>
+				<dns>202.27.156.72</dns>
+				<dns>202.27.158.40</dns>
 			</apn>
 			<apn value="direct.telecom.co.nz">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<name>XT mobile (Direct Internet)</name>
+				<dns>202.27.156.72</dns>
+				<dns>202.27.158.40</dns>
 			</apn>
 			<apn value="oa.telecom.co.nz">
 				<plan type="postpaid"/>
@@ -7036,6 +7040,44 @@ conceived.
 				<name>Unrestricted (public)</name>
 				<dns>202.73.206.16</dns>
 				<dns>202.73.198.16</dns>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>2-Degrees</name>
+		<gsm>
+			<network-id mcc="530" mnc="24"/>
+			<apn value="mms">
+				<plan type="postpaid"/>
+				<usage type="mms"/>
+				<name>MMS</name>
+			</apn>
+			<apn value="internet">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>Broadband</name>
+				<dns>118.148.1.10</dns>
+				<dns>118.148.1.20</dns>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>TelstraClear</name>
+		<gsm>
+			<apn value="www.telstraclear.net.nz">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>Broadband</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Orcon</name>
+		<gsm>
+			<apn value="www.orcon.net.nz">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>Broadband</name>
 			</apn>
 		</gsm>
 	</provider>
