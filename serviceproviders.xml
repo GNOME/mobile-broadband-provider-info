@@ -3995,6 +3995,26 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>Sunday</name>
+		<gsm>
+			<network-id mcc="454" mnc="16"/>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Orange</name>
+		<gsm>
+			<network-id mcc="454" mnc="04"/>
+			<apn value="web.orangehk.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Three</name>
 		<gsm>
 			<network-id mcc="454" mnc="03"/>
