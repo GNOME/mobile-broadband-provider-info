@@ -442,12 +442,133 @@ conceived.
 </country>
 
 <!-- Australia -->
+<!-- http://whirlpool.net.au/wiki/mobiles_apn
+     http://ausdroid.net/apns/ -->
 <country code="au">
 	<provider>
+		<name>Amaysim</name>
+		<!-- http://www.amaysim.com.au/help-support/amaysim-mobile-broadband.html/ -->
+		<gsm>
+			<network-id mcc="505" mnc="02"/>
+			<apn value="internet"/>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Apex Telecom</name>
+		<gsm>
+			<network-id mcc="505" mnc="02"/>
+			<apn value="splns357"/>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Beagle</name>
+		<!-- http://www.beagle.com.au/support/faq/wireless.html -->
+		<gsm>
+			<network-id mcc="505" mnc="02"/>
+			<apn value="splns357"/>
+		</gsm>
+	</provider>
+	<provider>
+		<name>BLiNK</name>
+		<gsm>
+			<network-id mcc="505" mnc="02"/>
+			<apn value="splns888a1">
+				<name>BLiNK (services after 04/08/09)</name>
+			</apn>
+			<apn value="connect">
+				<name>BLiNK (services prior to 04/08/09)</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Crazy John's</name>
+		<gsm>
+			<network-id mcc="505" mnc="03"/>
+			<network-id mcc="505" mnc="38"/>
+			<apn value="purtona.net">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Crazy NET</name>
+				<dns>203.21.112.40</dns>
+				<dns>203.21.113.40</dns>
+			</apn>
+			<apn value="purtona.wap">
+				<plan type="postpaid"/>
+				<usage type="wap"/>
+				<name>Crazy WAP/MMS</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Dodo</name>
+		<!-- http://www.dodo.com/top-right-navigation/support/technical-support/wireless-broadband/wireless-broadband-settings/ -->
+		<gsm>
+			<network-id mcc="505" mnc="02"/>
+			<apn value="WirelessBroadband">
+				<name>Postpaid</name>
+			</apn>
+			<apn value="DODOLNS1">
+				<name>Prepaid</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Escape Net</name>
+		<gsm>
+			<network-id mcc="505" mnc="02"/>
+			<apn value="splns357"/>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Exetel</name>
+		<!-- http://www.exetel.com.au/mobile_faq.php -->
 		<gsm>
 			<network-id mcc="505" mnc="02"/>
 			<apn value="exetel1">
+				<name>Exetel (Optus Based HSPA plans)</name>
+			</apn>
+			<apn value="INTERNET">
+				<name>Exetel (Optus Based CAP Plans) not iPhone</name>
+			</apn>
+			<apn value="OPTUSWAP">
+				<name>Exetel (Optus Based CAP Plans) not iPhone</name>
+			</apn>
+			<apn value="YesINTERNET">
+				<name>Exetel (Optus Based CAP Plans) iPhone</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Exetel (Vodafone based)</name>
+		<gsm>
+			<network-id mcc="505" mnc="03"/>
+			<apn value="vfinternet.au">
+				<name>Exetel (Vodafone Based)</name>
+			</apn>
+		</gsm>
+	</provider>
+<!-- Not validated yet
+	<provider>
+		<name>GRL / Red Bull Mobile</name>
+		<gsm>
+			<network-id mcc="505" mnc="03"/>
+			<apn value="purtona.net"/>
+		</gsm>
+	</provider>
+-->
+	<provider>
+		<name>Highway1</name>
+		<gsm>
+			<network-id mcc="505" mnc="02"/>
+			<apn value="splns357"/>
+		</gsm>
+	</provider>
+	<provider>
+		<name>iiNet</name>
+		<!-- https://iihelp.iinet.net.au/BoB_MBB -->
+		<gsm>
+			<network-id mcc="505" mnc="02"/>
+			<apn value="iinet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 			</apn>
@@ -457,6 +578,7 @@ conceived.
 		<name>Internode</name>
 		<gsm>
 			<!-- http://www.internode.on.net/residential/broadband/3g_wireless/nodemobile_data/faq/#What_is_the_APN -->
+			<network-id mcc="505" mnc="02"/>
 			<apn value="internode">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -467,6 +589,14 @@ conceived.
 				<usage type="internet"/>
 				<name>Old NodeMobile Data (before 2009-08-26)</name>
 			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>iPrimus</name>
+		<!-- http://support.iprimus.com.au/index.php?option=com_content&task=view&id=559&Itemid=203 -->
+		<gsm>
+			<network-id mcc="505" mnc="02"/>
+			<apn value="primuslns1"/>
 		</gsm>
 	</provider>
 	<provider>
@@ -516,19 +646,52 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>TGP Mobile</name>
+		<name>TPG Mobile</name>
 		<gsm>
 			<network-id mcc="505" mnc="02"/>
+			<apn value="yesinternet">
+				<name>TPG (iPhone)</name>
+			</apn>
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<name>Mobile Internet</name>
+				<name>TPG (all except iPhone)</name>
 			</apn>
 			<apn value="mms">
 				<plan type="postpaid"/>
 				<usage type="mms"/>
 				<name>MMS</name>
 			</apn>
+		</gsm>
+	</provider>
+<!-- not yet validated
+	<provider>
+		<name>Pacnet – Optus</name>
+		<gsm>
+			<network-id mcc="505" mnc="02"/>
+			<apn value="pacnet"/>
+			<apn value="internet"/>
+		</gsm>
+	</provider>
+-->
+	<provider>
+		<name>Pennytel</name>
+		<!-- https://www.pennytel.com.au/faqs?f-answer-search=apn&x=0&y=0 -->
+		<gsm>
+			<network-id mcc="505" mnc="03"/>
+			<apn value="live.vodafone.com">
+				<name>Pennytel (Vodafone) live.vodafone.com</name>
+			</apn>
+			<apn value="vfinternet.au">
+				<name>Pennytel (Vodafone) vfinternet.au</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Smelly Black Dog</name>
+		<gsm>
+			<network-id mcc="505" mnc="02"/>
+			<apn value="splns357"/>
 		</gsm>
 	</provider>
 	<provider>
@@ -652,21 +815,15 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Crazy John's</name>
+		<name>Westnet</name>
+		<!-- http://myhelp.westnet.com.au/pages/releaseview.action;jsessionid=2C8E8DAB3826667BAA24105E467B31DF?pageId=17073209#FAQs-WestnetMobilePhone-link31 -->
 		<gsm>
-			<network-id mcc="505" mnc="03"/>
-			<network-id mcc="505" mnc="38"/>
-			<apn value="purtona.net">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>Crazy NET</name>
-				<dns>203.21.112.40</dns>
-				<dns>203.21.113.40</dns>
+			<network-id mcc="505" mnc="02"/>
+			<apn value="yesinternet">
+				<name>Westnet (iPhone)</name>
 			</apn>
-			<apn value="purtona.wap">
-				<plan type="postpaid"/>
-				<usage type="wap"/>
-				<name>Crazy WAP/MMS</name>
+			<apn value="internet">
+				<name>Westnet (all except iPhone)</name>
 			</apn>
 		</gsm>
 	</provider>
