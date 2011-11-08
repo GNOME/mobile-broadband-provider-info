@@ -11,7 +11,7 @@
 <!-- that piggy-back on the primary provider. -->
 <!ATTLIST provider primary (true|false) #IMPLIED>
 
-<!ELEMENT gsm (network-id*, voicemail*, balance-check*, balance-top-up*, apn*)>
+<!ELEMENT gsm (network-id*, msisdn-query*, voicemail*, balance-check*, balance-top-up*, apn*)>
 <!ELEMENT apn (plan*,
                usage*,
                name*,
@@ -20,6 +20,9 @@
                password?,
                dns*)>
 <!ATTLIST apn value CDATA #REQUIRED>
+
+<!ELEMENT msisdn-query (ussd*, sms*)>
+<!-- query the network for the telephone number assigned to the SIM card -->
 
 <!ELEMENT voicemail (#PCDATA)>
 <!-- contains dial string used to access voicemail services for this provider -->

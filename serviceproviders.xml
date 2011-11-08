@@ -67,6 +67,9 @@ conceived.
 		<name>du</name>
 		<gsm>
 			<network-id mcc="424" mnc="03"/>
+			<msisdn-query>
+				<ussd>*#100#</ussd>
+			</msisdn-query>
 			<apn value="du">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -855,6 +858,9 @@ conceived.
 		<name>Azerfon</name>
 		<gsm>
 			<network-id mcc="400" mnc="04"/>
+			<msisdn-query>
+				<ussd>*100#3#</ussd>
+			</msisdn-query>
 			<apn value="azerfon">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -1832,6 +1838,9 @@ conceived.
 		<name>M-Budget</name>
 		<gsm>
 			<network-id mcc="228" mnc="01"/>
+			<msisdn-query>
+				<ussd>*#100#</ussd>
+			</msisdn-query>
 			<apn value="gprs.swisscom.ch">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -2110,6 +2119,9 @@ conceived.
 		<name>Cytamobile-Vodafone</name>
 		<gsm>
 			<network-id mcc="280" mnc="01"/>
+			<msisdn-query>
+				<ussd>*#109#</ussd>
+			</msisdn-query>
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -3012,6 +3024,9 @@ conceived.
 		<name>Vodafone</name>
 		<gsm>
 			<network-id mcc="602" mnc="02"/>
+			<msisdn-query>
+				<ussd>*878#</ussd>
+			</msisdn-query>
 			<apn value="internet.vodafone.net">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -3187,6 +3202,9 @@ conceived.
 		<gsm>
 			<network-id mcc="214" mnc="01"/>
 			<network-id mcc="214" mnc="06"/>
+			<msisdn-query>
+				<ussd>*138#</ussd>
+			</msisdn-query>
 			<apn value="ac.vodafone.es">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -3254,6 +3272,9 @@ conceived.
 		<name>Vodafone FO</name>
 		<gsm>
 			<network-id mcc="288" mnc="02"/>
+			<msisdn-query>
+				<ussd>*#100#</ussd>
+			</msisdn-query>
 			<apn value="vmc.vodafone.fo">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -3387,6 +3408,9 @@ conceived.
 		<name>Vodafone / Kidanet</name>
 		<gsm>
 			<network-id mcc="542" mnc="01"/>
+			<msisdn-query>
+				<ussd>*999#</ussd>
+			</msisdn-query>
 			<apn value="vfinternet.fj">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -3521,7 +3545,9 @@ conceived.
 			<!-- http://assistance.sfr.fr/internet-partout/Mobile/difference-wap-web/fc-2302-62196 -->
 			<network-id mcc="208" mnc="10"/>
 			<network-id mcc="208" mnc="11"/>
-
+			<msisdn-query>
+				<sms text="ABCd84367">9445</sms>
+			</msisdn-query>
 			<voicemail>123</voicemail>
 			<balance-check>
 				<dtmf>950</dtmf>
@@ -3758,6 +3784,9 @@ conceived.
 		<name>Vodafone</name>
 		<gsm>
 			<network-id mcc="234" mnc="15"/>
+			<msisdn-query>
+				<ussd>*#100#</ussd>
+			</msisdn-query>
 			<voicemail>121</voicemail>
 			<balance-check>
 				<ussd>*#1345#</ussd>
@@ -3929,6 +3958,9 @@ conceived.
 		<name>Vodafone (ONEtouch)</name>
 		<gsm>
 			<network-id mcc="620" mnc="02"/>
+			<msisdn-query>
+				<ussd>*127#</ussd>
+			</msisdn-query>
 			<apn value="browse">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -4581,6 +4613,9 @@ conceived.
 		<name>Vodafone</name>
 		<gsm>
 			<network-id mcc="272" mnc="01"/>
+			<msisdn-query>
+				<sms text="MYMSISDN:">50189</sms>
+			</msisdn-query>
 			<apn value="hs.vodafone.ie">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -6935,6 +6970,9 @@ conceived.
 		<name>Vodafone</name>
 		<gsm>
 			<network-id mcc="204" mnc="04"/>
+			<msisdn-query>
+				<ussd>*#100#</ussd>
+			</msisdn-query>
 			<apn value="live.vodafone.com">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -8001,6 +8039,9 @@ conceived.
 		<name>Vodafone</name>
 		<gsm>
 			<network-id mcc="427" mnc="02"/>
+			<msisdn-query>
+				<ussd>*#100#</ussd>
+			</msisdn-query>
 			<apn value="web.vodafone.com.qa">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -8034,6 +8075,9 @@ conceived.
 		<name>SFR Réunion</name>
 		<gsm>
 			<network-id mcc="647" mnc="10"/>
+			<msisdn-query>
+				<sms text="ABCd84367">+33621012555</sms>
+			</msisdn-query>
 			<apn value="websfr">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -8929,6 +8973,9 @@ conceived.
 		<name>Vodafone / Simobil</name>
 		<gsm>
 			<network-id mcc="293" mnc="40"/>
+			<msisdn-query>
+				<ussd>*100#</ussd>
+			</msisdn-query>
 			<apn value="internet.simobil.si">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -9227,6 +9274,9 @@ conceived.
 		<name>Vodafone / KKTC Telsim</name>
 		<gsm>
 			<network-id mcc="286" mnc="02"/><!-- mnc="0251" in Vodofone XML -->
+			<msisdn-query>
+				<ussd>*101#</ussd>
+			</msisdn-query>
 			<apn value="edje.kktctelsim.com">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -10683,6 +10733,9 @@ conceived.
 		<name>Cell-c</name>
 		<gsm>
 			<network-id mcc="655" mnc="07"/>
+			<msisdn-query>
+				<ussd>*147*100#</ussd>
+			</msisdn-query>
 			<balance-check>
 				<ussd>*101#</ussd>
 			</balance-check>
@@ -10701,6 +10754,9 @@ conceived.
 		<name>MTN</name>
 		<gsm>
 			<network-id mcc="655" mnc="10"/>
+			<msisdn-query>
+				<ussd>*123*888#</ussd>
+			</msisdn-query>
 			<balance-check>
 				<ussd>*141#</ussd>
 			</balance-check>
@@ -10719,6 +10775,9 @@ conceived.
 		<name>Vodacom</name>
 		<gsm>
 			<network-id mcc="655" mnc="01"/>
+			<msisdn-query>
+				<ussd>*111*501#</ussd>
+			</msisdn-query>
 			<balance-check>
 				<ussd>*100#</ussd>
 			</balance-check>
@@ -10762,6 +10821,9 @@ conceived.
 		<name>8.ta</name>
 		<gsm>
 			<network-id mcc="655" mnc="02"/>
+			<msisdn-query>
+				<ussd>*1#</ussd>
+			</msisdn-query>
 			<balance-check>
 				<ussd>*188#</ussd>
 			</balance-check>
