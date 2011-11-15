@@ -188,7 +188,7 @@ conceived.
 	<provider>
 		<name>Personal</name>
 		<gsm>
-			<network-id mcc="722" mnc="340"/>
+			<network-id mcc="722" mnc="341"/>
 			<apn value="gprs.personal.com">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
