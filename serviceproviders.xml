@@ -6793,6 +6793,14 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<name>Starcomms</name>
+		<cdma>
+			<username>your_phone_number@starcomms.com</username>
+			<password>your_phone_number</password>
+			<sid value="2"/>
+		</cdma>
+	</provider>
 </country>
 
 <!-- Nicaragua -->
