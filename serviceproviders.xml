@@ -8697,7 +8697,7 @@ conceived.
 			<network-id mcc="240" mnc="07"/>
 			<network-id mcc="240" mnc="05"/>
 
-			<voicemail>47230000</voicemail>
+			<voicemail>222</voicemail>
 			<balance-check>
 				<ussd>*111#</ussd>
 				<dtmf>211</dtmf>
@@ -8726,21 +8726,25 @@ conceived.
 			<voicemail>222</voicemail>
 			<balance-check>
 				<ussd>*111#</ussd>
+				<dtmf>211</dtmf>
 			</balance-check>
+			<balance-top-up>
+				<ussd replacement="CODE">*110*CODE#</ussd>
+			</balance-top-up>
 
 			<apn value="data.comviq.se">
-				<plan type="postpaid"/>
+				<plan type="prepaid"/>
 				<usage type="internet"/>
 				<name>Surf</name>
 			</apn>
 
 			<apn value="internet.tele2.se">
-				<plan type="postpaid"/>
+				<plan type="prepaid"/>
 				<usage type="internet"/>
 				<name>Tele2 Comviq 3G</name>
 			</apn>
 			<apn value="mobileinternet.tele2.se">
-				<plan type="postpaid"/>
+				<plan type="prepaid"/>
 				<usage type="internet"/>
 				<name>Tele2 Comviq 3G (7,2 Mbit/s)</name>
 			</apn>
