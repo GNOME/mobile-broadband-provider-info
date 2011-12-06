@@ -3350,15 +3350,15 @@ conceived.
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<name>Postpaid (contract)</name>
-				<dns>192.89.123.230</dns>
-				<dns>192.89.123.231</dns>
+				<dns>195.74.0.47</dns>
+				<dns>195.197.54.100</dns>
 			</apn>
 			<apn value="internet">
 				<plan type="prepaid"/>
 				<usage type="internet"/>
 				<name>Prepaid (no contract)</name>
-				<dns>192.89.123.230</dns>
-				<dns>192.89.123.231</dns>
+				<dns>195.74.0.47</dns>
+				<dns>195.197.54.100</dns>
 			</apn>
 		</gsm>
 	</provider>
