@@ -6371,12 +6371,25 @@ conceived.
 		<gsm>
 			<network-id mcc="610" mnc="02"/>
 			<apn value="iew">
-				<plan type="postpaid"/>
+				<plan type="prepaid"/>
 				<usage type="internet"/>
 				<username>iew</username>
 				<password>iew</password>
 			</apn>
+			<apn value="internet">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<username>internet</username>
+				<password>internet</password>
+			</apn>
 		</gsm>
+	</provider>
+	<provider>
+		<name>Malitel</name>
+		<cdma>
+			<username>card</username>
+			<password>card</password>
+		</cdma>
 	</provider>
 </country>
 
