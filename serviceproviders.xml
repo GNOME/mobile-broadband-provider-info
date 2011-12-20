@@ -8258,6 +8258,16 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<name>Tigo</name>
+		<gsm>
+			<network-id mcc="635" mnc="13"/>
+			<apn value="web.tigo.rw">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Russia -->
