@@ -1811,7 +1811,7 @@ conceived.
 				<ussd>*130#</ussd>
 			</balance-check>
 			<balance-top-up>
-				<ussd replacement="CODE">*130*CODE#</ussd>
+				<ussd replacement="CODE">*123*CODE#</ussd>
 			</balance-top-up>
 			<apn value="gprs.swisscom.ch">
 				<plan type="postpaid"/>
