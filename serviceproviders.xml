@@ -9774,6 +9774,7 @@ conceived.
 			<network-id mcc="310" mnc="660"/>
 			<network-id mcc="310" mnc="800"/>
 
+			<voicemail>123</voicemail>
 			<apn value="epc.tmobile.com">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
