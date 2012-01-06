@@ -5642,7 +5642,7 @@ conceived.
 		<name>Safaricom</name>
 		<gsm>
 			<network-id mcc="639" mnc="02"/>
-			<apn value="web.safaricom.com">
+			<apn value="safaricom">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<username>web</username>
