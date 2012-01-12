@@ -3266,6 +3266,30 @@ conceived.
 	</provider>
 </country>
 
+<!-- Ethiopia -->
+<country code="et">
+	<provider>
+		<name>Ethio Telecom</name>
+		<gsm>
+			<network-id mcc="636" mnc="01"/>
+			<balance-check>
+				<ussd>*804#</ussd>
+			</balance-check>
+
+			<apn value="etc.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<dns>213.55.96.148</dns>
+				<dns>213.55.96.166</dns>
+			</apn>
+		</gsm>
+		<cdma>
+			<username>etc</username>
+			<password>etc</password>
+		</cdma>
+	</provider>
+</country>
+
 <!-- Faroe Islands -->
 <country code="fo">
 	<provider>
