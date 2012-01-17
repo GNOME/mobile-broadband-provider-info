@@ -3268,6 +3268,7 @@ conceived.
 		<!-- from http://www.eroskimovil.es/geomv/c/pub/en/servicios/datos -->
 		<name>Eroski Móvil</name>
 		<gsm>
+			<network-id mcc="214" mnc="24"/>
 			<apn value="gprs.eroskimovil.es">
 				<name>Eroski Móvil GPRS</name>
 				<username>wap@wap</username>
