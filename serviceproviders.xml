@@ -3264,6 +3264,17 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<!-- from http://www.eroskimovil.es/geomv/c/pub/en/servicios/datos -->
+		<name>Eroski Móvil</name>
+		<gsm>
+			<apn value="gprs.eroskimovil.es">
+				<name>Eroski Móvil GPRS</name>
+				<username>wap@wap</username>
+				<password>wap125</password>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Ethiopia -->
