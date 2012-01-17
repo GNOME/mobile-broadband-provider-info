@@ -5798,6 +5798,18 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>Smart Mobile</name>
+		<gsm>
+			<network-id mcc="456" mnc="06"/>
+
+			<!-- http://www.smart.com.kh/en/services/internet -->
+			<apn value="smart">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Excell</name>
 		<cdma/>
 	</provider>
