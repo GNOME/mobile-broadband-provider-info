@@ -8341,9 +8341,21 @@ conceived.
 		<gsm>
 			<network-id mcc="250" mnc="28"/>
 			<network-id mcc="250" mnc="99"/>
+			<apn value="home.beeline.ru">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>3G modem</name>
+				<name xml:lang="ru">USB-модем</name>
+				<username>beeline</username>
+				<password>beeline</password>
+				<dns>212.44.130.6</dns>
+				<dns>217.118.83.6</dns>
+			</apn>
 			<apn value="internet.beeline.ru">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<name>Mobile phone</name>
+				<name xml:lang="ru">Мобильный телефон</name>
 				<username>beeline</username>
 				<password>beeline</password>
 				<dns>217.118.66.243</dns>
