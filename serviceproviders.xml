@@ -3385,7 +3385,14 @@ conceived.
 			<apn value="internet.saunalahti">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<name>Postpaid (contract)</name>
+				<name>Postpaid (contract) NAT (available for all subscribers)</name>
+				<dns>195.74.0.47</dns>
+				<dns>195.197.54.100</dns>
+			</apn>
+			<apn value="internet4">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Postpaid (contract) public IP address (needs to be ordered)</name>
 				<dns>195.74.0.47</dns>
 				<dns>195.197.54.100</dns>
 			</apn>
