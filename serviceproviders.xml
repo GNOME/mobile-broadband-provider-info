@@ -5753,32 +5753,35 @@ conceived.
 <!-- Cambodia -->
 <country code="kh">
 	<provider>
-		<name>hello</name>
+		<name>Cellcard</name>
 		<gsm>
-			<network-id mcc="456" mnc="02"/>
-			<apn value="hellowww">
-				<plan type="postpaid"/>
+			<network-id mcc="456" mnc="01"/>
+
+			<balance-check>
+				<ussd>#124#</ussd>
+			</balance-check>
+
+			<!-- http://www.cellcard.com.kh/en/service/data_3.5G_internet.php -->
+			<apn value="cellcard">
 				<usage type="internet"/>
+				<username>mobitel</username>
+				<password>mobitel</password>
 			</apn>
 		</gsm>
 	</provider>
 	<provider>
-		<name>Mobitel</name>
+		<name>Hello</name>
 		<gsm>
-			<network-id mcc="456" mnc="01"/>
-			<apn value="3g">
-				<plan type="postpaid"/>
+			<network-id mcc="456" mnc="02"/>
+
+			<balance-check>
+				<ussd>*100#</ussd>
+			</balance-check>
+
+			<!-- http://www.tmic.com.kh/public/mobile_broadband/mobile_broadband.aspx?page=broadband_faq -->
+			<!-- in reality any APN value works -->
+			<apn value="hellowww">
 				<usage type="internet"/>
-				<name>CellCard Corporate</name>
-				<username>mobitel</username>
-				<password>mobitel</password>
-			</apn>
-			<apn value="3gtv">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>CellCard Unlimited</name>
-				<username>mobitel</username>
-				<password>mobitel</password>
 			</apn>
 		</gsm>
 	</provider>
@@ -5786,19 +5789,13 @@ conceived.
 		<name>qb</name>
 		<gsm>
 			<network-id mcc="456" mnc="04"/>
+
+			<balance-check>
+				<ussd>#132#</ussd>
+			</balance-check>
+
+			<!-- http://www.qbmore.com/download/handsetconfiguration.html -->
 			<apn value="WAP">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>QBmore</name>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
-		<name>Star-Cell</name>
-		<gsm>
-			<network-id mcc="456" mnc="05"/>
-			<apn value="internet">
-				<plan type="postpaid"/>
 				<usage type="internet"/>
 			</apn>
 		</gsm>
@@ -5808,16 +5805,65 @@ conceived.
 		<gsm>
 			<network-id mcc="456" mnc="06"/>
 
+			<balance-check>
+				<ussd>*888#</ussd>
+			</balance-check>
+
 			<!-- http://www.smart.com.kh/en/services/internet -->
 			<apn value="smart">
-				<plan type="prepaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Metfone</name>
+		<gsm>
+			<network-id mcc="456" mnc="08"/>
+
+			<balance-check>
+				<ussd>*097#</ussd>
+			</balance-check>
+
+			<!-- http://metfone.com.kh/home/metfone.mf?id=20&task=detailpac -->
+			<apn value="metfone">
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Beeline</name>
+		<gsm>
+			<network-id mcc="456" mnc="09"/>
+
+			<balance-check>
+				<ussd>*102#</ussd>
+			</balance-check>
+
+			<!-- in reality any APN value works -->
+			<apn value="gprs.beeline.com.kh">
 				<usage type="internet"/>
 			</apn>
 		</gsm>
 	</provider>
 	<provider>
 		<name>Excell</name>
+			<!-- mcc="456" mnc="11" -->
 		<cdma/>
+	</provider>
+	<provider>
+		<name>Mfone</name>
+		<gsm>
+			<network-id mcc="456" mnc="18"/>
+
+			<balance-check>
+				<ussd>*222#</ussd>
+			</balance-check>
+
+			<!-- http://www.mfone.com.kh/images/3g/mfone_3g.pdf -->
+			<apn value="Mfone">
+				<usage type="internet"/>
+			</apn>
+		</gsm>
 	</provider>
 </country>
 
