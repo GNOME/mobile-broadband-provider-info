@@ -5020,7 +5020,6 @@ conceived.
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<dns>10.4.42.15</dns>
 			</apn>
 		</gsm>
 	</provider>
