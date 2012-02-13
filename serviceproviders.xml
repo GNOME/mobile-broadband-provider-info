@@ -4841,6 +4841,11 @@ conceived.
 				<usage type="internet"/>
 				<name>Web</name>
 			</apn>
+			<apn value="aircelgprs">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>GPRS</name>
+			</apn>
 			<apn value="aircelgprs.po">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -5142,6 +5147,11 @@ conceived.
 			<network-id mcc="405" mnc="047"/>
 
 			<apn value="TATA.DOCOMO.INTERNET">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Internet</name>
+			</apn>
+			<apn value="TATADOCOMO3G">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<name>Internet</name>
