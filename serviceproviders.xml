@@ -3526,6 +3526,25 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>Free Mobile</name>
+		<gsm>
+			<!-- http://mobile.free.fr/faq-config-apn-autres.html -->
+			<network-id mcc="208" mnc="15"/>
+			<apn value="free">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Free-Mobile</name>
+				<username>free</username>
+				<password>free</password>
+			</apn>
+			<apn value="mmsfree">
+				<plan type="postpaid"/>
+				<usage type="mms"/>
+				<name>Free-Mobile</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Orange</name>
 		<gsm>
 			<network-id mcc="208" mnc="01"/>
