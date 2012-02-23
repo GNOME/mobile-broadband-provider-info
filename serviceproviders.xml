@@ -7677,6 +7677,13 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<name>Ptcl EVO</name>
+		<cdma>
+			<username>vwireless@ptcl.com</username>
+			<password>ptcl</password>
+		</cdma>
+	</provider>
 </country>
 
 <!-- Poland -->
