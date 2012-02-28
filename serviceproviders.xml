@@ -7684,6 +7684,10 @@ conceived.
 			<password>ptcl</password>
 		</cdma>
 	</provider>
+	<provider>
+		<name>WorldCall Wireless</name>
+		<cdma/>
+	</provider>
 </country>
 
 <!-- Poland -->
