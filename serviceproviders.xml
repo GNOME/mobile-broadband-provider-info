@@ -8481,82 +8481,11 @@ conceived.
 
 		<gsm>
 			<network-id mcc="250" mnc="02"/>
-
-			<apn value="internet.nw">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>NW</name>
-				<name xml:lang="ru">Северо-Запад</name>
-				<dns>10.140.142.42</dns>
-				<dns>10.140.142.45</dns>
-			</apn>
-			<apn value="internet.ugsm">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>UGSM</name>
-				<name xml:lang="ru">Урал</name>
-				<dns>83.149.32.2</dns>
-				<dns>83.149.33.2</dns>
-			</apn>
-			<apn value="internet.usi.ru">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>usi</name>
-				<dns>212.120.160.130</dns>
-				<dns>212.120.160.130</dns>
-			</apn>
-			<apn value="internet.dv">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>DV</name>
-				<name xml:lang="ru">Дальний Восток</name>
-				<dns>83.149.52.77</dns>
-				<dns>194.186.112.18</dns>
-			</apn>
-			<apn value="internet.kvk">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>kvk</name>
-				<name xml:lang="ru">Кавказ</name>
-				<dns>83.149.24.244</dns>
-				<dns>62.183.50.230</dns>
-			</apn>
-			<apn value="internet.ltmsk">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>ltmsk</name>
-				<dns>10.22.10.20</dns>
-				<dns>10.22.10.21</dns>
-			</apn>
-			<apn value="internet.sib">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>sib</name>
-				<name xml:lang="ru">Сибирь</name>
-				<dns>83.149.51.65</dns>
-				<dns>83.149.50.65</dns>
-			</apn>
-			<apn value="internet.volga">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>volga</name>
-				<name xml:lang="ru">Поволжье</name>
-				<dns>83.149.16.7</dns>
-				<dns>195.128.128.1</dns>
-			</apn>
-			<apn value="internet.mc">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>mc</name>
-				<name xml:lang="ru">Центр</name>
-				<dns>81.18.129.252</dns>
-				<dns>217.150.34.1</dns>
-			</apn>
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<name>Moscow</name>
-				<name xml:lang="ru">Москва</name>
+				<name>RUS</name>
+				<name xml:lang="ru">Россия</name>
 				<username>gdata</username>
 				<password>gdata</password>
 			</apn>
