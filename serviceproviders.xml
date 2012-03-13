@@ -7061,7 +7061,7 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
-	<provider>
+	<provider primary="true">
 		<name>T-Mobile</name>
 		<gsm>
 			<network-id mcc="204" mnc="16"/>
