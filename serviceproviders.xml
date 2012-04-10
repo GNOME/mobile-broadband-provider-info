@@ -5113,6 +5113,11 @@ conceived.
 				<usage type="wap"/>
 				<name>Smart WAP</name>
 			</apn>
+			<apn value="rcomnet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Netconnect (RCOMNET)</name>
+			</apn>
 		</gsm>
 		<cdma>
 			<name>Reliance Netconnect</name>
