@@ -2851,6 +2851,17 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<!-- Onfone: https://www.onfone.dk/Kundeservice/mobil/saet_din_mobil_op/internet-gprs-3g/ --> 
+	<provider>
+		<name>Onfone Internet DK</name>
+		<gsm>
+			<network-id mcc="238" mnc="01"/>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Dominican Republic -->
