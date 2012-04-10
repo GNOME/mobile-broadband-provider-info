@@ -5676,7 +5676,7 @@ conceived.
 <!-- Kenya -->
 <country code="ke">
 	<provider>
-		<name>Zain / Celtel</name>
+		<name>Airtel</name>
 		<gsm>
 			<network-id mcc="639" mnc="03"/>
 			<apn value="ke.celtel.com">
