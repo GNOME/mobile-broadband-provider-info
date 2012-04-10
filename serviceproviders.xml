@@ -745,6 +745,12 @@ conceived.
 				<usage type="mms"/>
 				<name>Telstra MMS</name>
 			</apn>
+			<apn value="telstra.bigpond">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Telstra BigPond</name>
+				<!-- username/password per-user -->
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
