@@ -6080,6 +6080,45 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<name>Lao Telecom</name>
+		<gsm>
+			<network-id mcc="457" mnc="01"/>
+			<balance-check>
+				<ussd>*122#</ussd>
+			</balance-check>			
+			<apn value="ltcnet">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Unitel</name>
+		<gsm>
+			<network-id mcc="457" mnc="03"/>
+			<apn value="startelecom">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>Unitel (2G)</name>
+			</apn>
+			<apn value="unitel3g">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>Unitel (3G)</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Beeline (Tigo)</name>
+		<gsm>
+			<network-id mcc="457" mnc="08"/>
+			<apn value="beelinenet">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Lebanon -->
