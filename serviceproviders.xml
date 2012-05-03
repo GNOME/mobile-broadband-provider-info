@@ -7563,6 +7563,13 @@ conceived.
 				<username>tim</username>
 				<password>tulibertad</password>
 			</apn>
+			<apn value="ba.amx">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>Internet Móvil Prepago</name>
+				<username>amx</username>
+				<password>amx</password>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
