@@ -9450,39 +9450,30 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Vodafone / KKTC Telsim</name>
+		<name>Vodafone</name>
 		<gsm>
 			<network-id mcc="286" mnc="02"/><!-- mnc="0251" in Vodofone XML -->
 			<msisdn-query>
 				<ussd>*101#</ussd>
 			</msisdn-query>
-			<apn value="edje.kktctelsim.com">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>Faturali / Kontorlu</name>
-			</apn>
 			<apn value="internet">
-				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<name>KKTC Telsim</name>
+				<name>Vodafone Internet</name>
 				<username>vodafone</username>
 				<password>vodafone</password>
 			</apn>
-			<apn value="telsim">
+			<!--
+				KKTC Telsim was a subsidiary of Telsim Group in Turkey which was taken
+				over by the Vodafone Group 2006 and rebranded as Vodafone in 2007.
+				Due to the political situation in Northern Cyprus the company shares the
+				Vodafone Turkey MCC and MNC codes although it is logically a separate
+				operator. The brand KKTC Telsim is still used in Northern Cyprus due to
+				Vodafone Group agreements with Cytamobile-Vodafone in Southern Cyprus.
+			-->
+			<apn value="edge.kktctelsim.com">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<name>Postpaid</name>
-				<username>telsim</username>
-				<password>telsim</password>
-				<dns>212.65.128.20</dns>
-				<dns>212.156.4.7</dns>
-			</apn>
-			<apn value="prepaidgprs">
-				<plan type="prepaid"/>
-				<usage type="internet"/>
-				<name>Prepaid</name>
-				<dns>212.65.128.20</dns>
-				<dns>212.156.4.7</dns>
+				<name>KKTC Telsim</name>
 			</apn>
 		</gsm>
 	</provider>
