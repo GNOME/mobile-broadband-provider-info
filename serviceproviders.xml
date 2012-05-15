@@ -6042,7 +6042,7 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Neo</name>
+		<name>Tele2</name>
 		<gsm>
 			<network-id mcc="401" mnc="77"/>
 			<apn value="internet">
