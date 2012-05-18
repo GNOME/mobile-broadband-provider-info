@@ -9187,7 +9187,7 @@ conceived.
 <!-- Slovakia -->
 <country code="sk">
 	<provider>
-		<name>T-Mobile (EuroTel)</name>
+		<name>Slovak Telekom</name>
 		<gsm>
 			<network-id mcc="231" mnc="02"/>
 			<network-id mcc="231" mnc="04"/>
