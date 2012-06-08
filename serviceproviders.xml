@@ -4027,6 +4027,12 @@ conceived.
 		<name>MTN</name>
 		<gsm>
 			<network-id mcc="620" mnc="01"/>
+			<balance-check>
+				<ussd>*124#</ussd>
+			</balance-check>
+			<balance-top-up>
+				<ussd replacement="CODE">*125*CODE#</ussd>
+			</balance-top-up>
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -4034,12 +4040,18 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Vodafone (ONEtouch)</name>
+		<name>Vodafone</name>
 		<gsm>
 			<network-id mcc="620" mnc="02"/>
 			<msisdn-query>
 				<ussd>*127#</ussd>
 			</msisdn-query>
+			<balance-check>
+				<ussd>*122#</ussd>
+			</balance-check>
+			<balance-top-up>
+				<ussd replacement="CODE">*123*CODE#</ussd>
+			</balance-top-up>
 			<apn value="browse">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -4050,6 +4062,12 @@ conceived.
 		<name>Tigo</name>
 		<gsm>
 			<network-id mcc="620" mnc="03"/>
+			<balance-check>
+				<ussd>*820#</ussd>
+			</balance-check>
+			<balance-top-up>
+				<ussd replacement="CODE">*842*CODE#</ussd>
+			</balance-top-up>
 			<apn value="web.tigo.com.gh">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -4058,9 +4076,15 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Zain</name>
+		<name>Airtel</name>
 		<gsm>
 			<network-id mcc="620" mnc="06"/>
+			<balance-check>
+				<ussd>*133#</ussd>
+			</balance-check>
+			<balance-top-up>
+				<ussd replacement="CODE">*134*CODE#</ussd>
+			</balance-top-up>
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -4068,8 +4092,27 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Kasapa</name>
-		<cdma/>
+		<name>GloGhana</name>
+		<gsm>
+			<network-id mcc="620" mnc="07"/>
+			<balance-check>
+				<ussd>*124#</ussd>
+			</balance-check>
+			<balance-top-up>
+				<ussd replacement="CODE">*123*CODE#</ussd>
+			</balance-top-up>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Expresso</name>
+		<cdma>
+			<username>evdo@expresso.com</username>
+			<password>evdo</password>
+		</cdma>
 	</provider>
 </country>
 
