@@ -1452,6 +1452,9 @@ conceived.
 		<name>velcom</name>
 		<gsm>
 			<network-id mcc="257" mnc="01"/>
+			<balance-check>
+				<ussd>*100#</ussd>
+			</balance-check>
 			<apn value="wap.velcom.by">
 				<plan type="postpaid"/>
 				<usage type="wap"/>
@@ -1514,6 +1517,9 @@ conceived.
 		<name>MTS</name>
 		<gsm>
 			<network-id mcc="257" mnc="02"/>
+			<balance-check>
+				<ussd>*100#</ussd>
+			</balance-check>
 			<apn value="internet.mts.by">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -1527,6 +1533,9 @@ conceived.
 		<name>life:)</name>
 		<gsm>
 			<network-id mcc="257" mnc="03"/>
+			<balance-check>
+				<ussd>*100#</ussd>
+			</balance-check>
 			<apn value="internet.life.com.by">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
