@@ -8588,6 +8588,9 @@ conceived.
 		<gsm>
 			<network-id mcc="250" mnc="28"/>
 			<network-id mcc="250" mnc="99"/>
+			<balance-check>
+				<ussd>*102#</ussd>
+			</balance-check>
 			<apn value="home.beeline.ru">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -8624,6 +8627,9 @@ conceived.
 		<name>MTS</name>
 		<gsm>
 			<network-id mcc="250" mnc="01"/>
+			<balance-check>
+				<ussd>*100#</ussd>
+			</balance-check>
 			<apn value="internet.mts.ru">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -8640,6 +8646,9 @@ conceived.
 
 		<gsm>
 			<network-id mcc="250" mnc="02"/>
+			<balance-check>
+				<ussd>*100#</ussd>
+			</balance-check>
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -8835,6 +8844,9 @@ conceived.
 		<name>U-tel</name>
 		<gsm>
 			<network-id mcc="250" mnc="39"/>
+			<balance-check>
+				<ussd>*100#</ussd>
+			</balance-check>
 			<apn value="internet.usi.ru">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
