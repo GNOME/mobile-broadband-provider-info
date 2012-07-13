@@ -3688,6 +3688,11 @@ conceived.
 				<usage type="internet"/>
 				<name>Full Internet (Webphone)</name>
 			</apn>
+			<apn value="internetneuf">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Internet (Neuf Telecom)</name>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
