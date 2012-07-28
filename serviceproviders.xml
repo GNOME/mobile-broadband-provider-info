@@ -7360,6 +7360,17 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<!-- MVNO operating on KPN's network -->
+		<name>Galaxy</name>
+		<gsm>
+			<network-id mcc="204" mnc="08"/>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Norway -->
