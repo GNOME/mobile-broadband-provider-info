@@ -4919,6 +4919,36 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>GolanTelecom</name>
+		<gsm>
+			<network-id mcc="425" mnc="08"/>
+			<apn value="internet.golantelecom.net.il">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Home Cellular</name>
+		<gsm>
+			<network-id mcc="425" mnc="15"/>
+			<apn value="hcminternet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Hot Mobile</name>
+		<gsm>
+			<network-id mcc="425" mnc="07"/>
+			<apn value="net.hotm">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Orange</name>
 		<gsm>
 			<network-id mcc="425" mnc="01"/>
@@ -4941,6 +4971,28 @@ conceived.
 				<name>3G</name>
 				<username>pcl@3g</username>
 				<password>pcl</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Rami Levi</name>
+		<gsm>
+			<network-id mcc="425" mnc="16"/>
+			<apn value="internet.rl">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<username>rl@3g</username>
+				<password>rl</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>YouPhone 3G</name>
+		<gsm>
+			<network-id mcc="425" mnc="14"/>
+			<apn value="data.youphone.co.il">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 			</apn>
 		</gsm>
 	</provider>
