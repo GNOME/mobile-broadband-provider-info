@@ -3242,13 +3242,22 @@ conceived.
 				<dtmf>2266</dtmf>
 			</balance-check>
 
+			<!-- http://comunidad.movistar.es/t5/Asistencia-T%C3%A9cnica-Terminales-y/es-posible-capar-el-3g-desde-movistar/m-p/752106#M30907 -->
+			<apn value="telefonica.es">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Telefónica</name>
+				<username>telefonica</username>
+				<password>telefonica</password>
+				<dns>194.179.1.100</dns>
+				<dns>194.179.1.101</dns>
+			</apn>
 			<apn value="movistar.es">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<name>Movistar (USB modems)</name>
 				<username>movistar</username>
 				<password>movistar</password>
-				<dns>194.179.1.100</dns>
-				<dns>194.179.1.101</dns>
 			</apn>
 		</gsm>
 	</provider>
