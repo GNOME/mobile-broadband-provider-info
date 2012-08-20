@@ -9566,14 +9566,18 @@ conceived.
 	<provider>
 		<name>Turkcell</name>
 		<gsm>
+			<!-- http://www.turkcell.com.tr/Downloads/servis-yazilimi/3g/VINN3GModemE180/VINN_2_0_sms_profil_sebeke_aygit_bilgisi.pdf -->
+			<!-- http://www.turkcell.com.tr/bireysel/cihazlar/Sayfalar/vinnailesi/Turkcell-DC-VINN.aspx -->
 			<network-id mcc="286" mnc="01"/>
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<username>gprs</username>
-				<password>gprs</password>
-				<dns>86.108.136.27</dns>
-				<dns>86.108.136.26</dns>
+				<name>Turkcell internet</name>
+			</apn>
+			<apn value="mgb">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Turkcell 3G</name>
 			</apn>
 		</gsm>
 	</provider>
