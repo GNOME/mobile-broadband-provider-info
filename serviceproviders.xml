@@ -2424,7 +2424,12 @@ conceived.
 		<name>Congstar</name>
 		<gsm>
 			<network-id mcc="262" mnc="01"/>
-
+			<balance-check>
+				<ussd>*100#</ussd>
+			</balance-check>
+			<balance-top-up>
+				<ussd replacement="CODE">*101*CODE#</ussd>
+			</balance-top-up>
 			<apn value="internet.t-mobile">
 				<plan type="prepaid"/>
 				<usage type="internet"/>
