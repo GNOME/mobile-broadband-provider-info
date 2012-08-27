@@ -6641,6 +6641,42 @@ conceived.
 	</provider>
 </country>
 
+<!-- Madagascar -->
+<country code="mg">
+	<provider>
+		<name>Airtel</name>
+		<gsm>
+			<network-id mcc="646" mnc="01"/>
+			<apn value="internet">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Orange</name>
+		<gsm>
+			<network-id mcc="646" mnc="02"/>
+			<apn value="orangeworld">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<username>world</username>
+				<password>orange</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Telma</name>
+		<gsm>
+			<network-id mcc="646" mnc="04"/>
+			<apn value="internet">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+</country>
+
 <!-- Mali -->
 <country code="ml">
 	<provider>
