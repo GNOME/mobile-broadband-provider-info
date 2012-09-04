@@ -442,6 +442,17 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<!-- MVNO operating on T-Mobile's network -->
+		<name>VOLmobil</name>
+		<gsm>
+			<network-id mcc="232" mnc="03"/>
+			<apn value="volmobil">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Australia -->
