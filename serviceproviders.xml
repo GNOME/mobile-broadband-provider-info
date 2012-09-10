@@ -6691,29 +6691,42 @@ conceived.
 <!-- Mali -->
 <country code="ml">
 	<provider>
+		<name>Malitel</name>
+		<gsm>
+			<network-id mcc="610" mnc="01"/>
+			<apn value="web.malitel3.ml">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>3G+</name>
+				<username>internet</username>
+				<password>internet</password>
+			</apn>
+		</gsm>
+		<cdma>
+			<name>Internet Mobile+</name>
+			<username>card</username>
+			<password>card</password>
+		</cdma>
+	</provider>
+	<provider>
 		<name>Orange</name>
 		<gsm>
 			<network-id mcc="610" mnc="02"/>
 			<apn value="iew">
 				<plan type="prepaid"/>
 				<usage type="internet"/>
+				<name>Internet Every Where</name>
 				<username>iew</username>
 				<password>iew</password>
 			</apn>
 			<apn value="internet">
 				<plan type="prepaid"/>
 				<usage type="internet"/>
+				<name>Internet</name>
 				<username>internet</username>
 				<password>internet</password>
 			</apn>
 		</gsm>
-	</provider>
-	<provider>
-		<name>Malitel</name>
-		<cdma>
-			<username>card</username>
-			<password>card</password>
-		</cdma>
 	</provider>
 </country>
 
