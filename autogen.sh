@@ -15,8 +15,7 @@ PKG_NAME=mobile-broadband-provider-info
 
 
 (cd $srcdir;
-    autoreconf --install --symlink &&
-    autoreconf &&
-    ./configure $@
+    autoreconf --force --install --verbose
+    test -n "$NOCONFIGURE" || ./configure "$@"
 )
 
