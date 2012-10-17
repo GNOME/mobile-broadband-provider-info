@@ -3778,14 +3778,19 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>GiffGaff</name>
+		<name>giffgaff</name>
 		<gsm>
 			<network-id mcc="234" mnc="02"/>
 			<network-id mcc="234" mnc="10"/>
 			<network-id mcc="234" mnc="11"/>
+			<voicemail>443</voicemail>
+			<balance-check>
+				<ussd>*100#</ussd>
+			</balance-check>
 			<apn value="giffgaff.com">
-				<plan type="postpaid"/>
+				<plan type="prepaid"/>
 				<usage type="internet"/>
+				<name>Mobile Broadband</name>
 				<username>giffgaff</username>
 				<password>password</password>
 			</apn>
