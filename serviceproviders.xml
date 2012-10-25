@@ -9909,9 +9909,13 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Life</name>
+		<!-- http://www.life.com.ua/index.php?area=lifebox&lng=en&page=15-12 -->
+		<name>life:)</name>
 		<gsm>
 			<network-id mcc="255" mnc="06"/>
+			<balance-check>
+				<ussd>*111#</ussd>
+			</balance-check>
 
 			<apn value="internet">
 				<plan type="postpaid"/>
