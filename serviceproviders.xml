@@ -9520,6 +9520,34 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<name>MTN</name>
+		<!-- http://www.mtn.sd/en/section/faq  "Manual configuration of settings" -->
+		<gsm>
+			<network-id mcc="634" mnc="02"/>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Sudani</name>
+		<!-- http://sudani.sd/PublicOne/Content/Support/HowTo.ConnectToInternet -->
+		<gsm>
+			<network-id mcc="634" mnc="07"/>
+			<apn value="sudaninet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<username>sudani</username>
+				<password>sudani</password>
+			</apn>
+		</gsm>
+		<cdma>
+			<username>sudani</username>
+			<password>sudani</password>
+		</cdma>
+	</provider>
 </country>
 
 <!-- Thailand -->
