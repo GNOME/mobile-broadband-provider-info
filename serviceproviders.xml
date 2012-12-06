@@ -3858,6 +3858,17 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<!-- http://sales.talktalk.co.uk/products/mobile/faq/started.html#A12 -->
+		<name>TalkTalk</name>
+		<gsm>
+			<apn value="mobile.talktalk.co.uk">
+				<gateway>212.183.137.12:8799</gateway>
+				<username>wap</username>
+				<password>wap</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>T-Mobile</name>
 		<gsm>
 			<network-id mcc="234" mnc="30"/>
