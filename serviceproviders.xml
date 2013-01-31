@@ -2747,9 +2747,16 @@ conceived.
 		<name>OiSTER</name>
 		<gsm>
 			<network-id mcc="238" mnc="06"/>
+			<!-- http://www.oister.dk/kundeservice/mobilt-bredband/opsatning/andre-opsatninger/ -->
 			<apn value="bredband.oister.dk">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<name>Mobile Broadband</name>
+			</apn>
+			<apn value="data.dk">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Mobile Internet</name>
 			</apn>
 		</gsm>
 	</provider>
