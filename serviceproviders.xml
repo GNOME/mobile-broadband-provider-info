@@ -10165,6 +10165,7 @@ conceived.
 	<provider>
 		<name>T-Mobile</name>
 		<gsm>
+			<network-id mcc="310" mnc="026"/>
 			<network-id mcc="310" mnc="160"/>
 			<network-id mcc="310" mnc="200"/>
 			<network-id mcc="310" mnc="210"/>
