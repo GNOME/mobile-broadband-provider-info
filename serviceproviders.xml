@@ -3994,7 +3994,7 @@ conceived.
 				<usage type="internet"/>
 				<name>Handsets</name>
 				<dns>172.30.139.17</dns>
-				<dns>172.30.140.69</dns>
+				<dns>172.31.139.17</dns>
 			</apn>
 		</gsm>
 	</provider>
