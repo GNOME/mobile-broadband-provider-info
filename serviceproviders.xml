@@ -5841,7 +5841,21 @@ conceived.
 	<provider>
 		<name>Safaricom</name>
 		<gsm>
+			<!--http://www.safaricom.co.ke/personal/internet/getting-started/handset-setting -->
 			<network-id mcc="639" mnc="02"/>
+			<balance-check>
+				<ussd>*144#</ussd>
+			</balance-check>
+			<balance-top-up>
+				<ussd replacement="CODE">*544*CODE#</ussd>
+			</balance-top-up>
+			<apn value="safaricom">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>Safaricom (Prepaid)</name>
+				<username>saf</username>
+				<password>data</password>
+			</apn>
 			<apn value="safaricom">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
