@@ -6829,6 +6829,23 @@ conceived.
 	</provider>
 </country>
 
+<!-- Myanmar -->
+<country code="mm">
+	<provider>
+		<name>MPT</name>
+		<gsm>
+			<network-id mcc="414" mnc="01"/>
+			<apn value="mptnet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>MPTNET</name>
+				<username>mptnet</username>
+				<password>mptnet</password>
+			</apn>
+		</gsm>
+	</provider>
+</country>
+
 <!-- Mongolia -->
 <country code="mn">
 	<provider>
