@@ -160,6 +160,23 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<name>Karabakh Telecom</name>
+		<gsm>
+			<network-id mcc="283" mnc="04"/>
+			<balance-check>
+				<ussd>*122#</ussd>
+			</balance-check>
+			<balance-top-up>
+				<ussd replacement="CODE">*123*CODE#</ussd>
+			</balance-top-up>
+			<apn value="connect.kt.am">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>KT_MARK</name>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 
