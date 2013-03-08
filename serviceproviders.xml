@@ -2101,7 +2101,7 @@ conceived.
 <!-- Colombia -->
 <country code="co">
 	<provider>
-		<name>Comcel</name>
+		<name>Claro</name>
 		<gsm>
 			<network-id mcc="732" mnc="101"/>
 			<apn value="internet.comcel.com.co">
@@ -2157,13 +2157,32 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<!-- MVNO operating on Tigo's network -->
 		<name>UNE</name>
 		<gsm>
+			<network-id mcc="732" mnc="103"/>
+			<network-id mcc="732" mnc="111"/>
 			<apn value="www.une.net.co">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<username>une</username>
 				<password>une</password>
+			</apn>
+			<apn value="une4glte.net.co">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>LTE (4G)</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<!-- MVNO operating on Telefonica's network -->
+		<name>Virgin Mobile</name>
+		<gsm>
+			<network-id mcc="732" mnc="123"/>
+			<apn value="web.vmc.net.co">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 			</apn>
 		</gsm>
 	</provider>
