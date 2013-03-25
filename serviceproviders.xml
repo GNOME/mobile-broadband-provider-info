@@ -373,6 +373,9 @@ conceived.
 		<name>tele.ring</name>
 		<gsm>
 			<network-id mcc="232" mnc="07"/>
+			<balance-check>
+				<ussd>*102#</ussd>
+			</balance-check>
 			<apn value="web">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
