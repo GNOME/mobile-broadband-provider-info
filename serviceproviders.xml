@@ -7247,6 +7247,12 @@ conceived.
 		<gsm>
 			<network-id mcc="621" mnc="20"/>
 			<network-id mcc="621" mnc="80"/>
+			<balance-check>
+				<ussd>*123#</ussd>
+			</balance-check>
+			<balance-top-up>
+				<ussd replacement="CODE">*126*CODE#</ussd>
+			</balance-top-up>
 			<apn value="wap">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
