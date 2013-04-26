@@ -7270,7 +7270,8 @@ conceived.
 <!-- Nigeria -->
 <country code="ng">
 	<provider>
-		<name>Zain</name>
+		<name>Airtel NG</name>
+		<!-- http://www.airtel.com/wps/wcm/connect/africaairtel/nigeria/3g/home/3gpower/PG_Internet_Settings -->
 		<gsm>
 			<network-id mcc="621" mnc="20"/>
 			<network-id mcc="621" mnc="80"/>
@@ -7280,11 +7281,11 @@ conceived.
 			<balance-top-up>
 				<ussd replacement="CODE">*126*CODE#</ussd>
 			</balance-top-up>
-			<apn value="wap">
-				<plan type="postpaid"/>
+			<apn value="internet.ng.airtel.com.ng">
+				<plan type="prepaid"/>
 				<usage type="internet"/>
-				<username>web</username>
-				<password>web</password>
+				<username>internet</username>
+				<password>internet</password>
 			</apn>
 		</gsm>
 	</provider>
@@ -7293,8 +7294,14 @@ conceived.
 		<gsm>
 			<network-id mcc="621" mnc="30"/>
 			<network-id mcc="621" mnc="60"/>
+			<balance-check>
+				<ussd>*556#</ussd>
+			</balance-check>
+			<balance-top-up>
+				<ussd replacement="CODE">*555*CODE#</ussd>
+			</balance-top-up>
 			<apn value="web.gprs.mtnnigeria.net">
-				<plan type="postpaid"/>
+				<plan type="prepaid"/>
 				<usage type="internet"/>
 				<username>web</username>
 				<password>web</password>
@@ -7306,6 +7313,13 @@ conceived.
 		<gsm>
 			<network-id mcc="621" mnc="50"/>
 			<network-id mcc="621" mnc="70"/>
+			<balance-check>
+				<ussd>#124#</ussd>
+				<ussd-response>4</ussd-response>
+			</balance-check>
+			<balance-top-up>
+				<ussd replacement="CODE">*123*CODE#</ussd>
+			</balance-top-up>
 			<apn value="glosecure">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -7326,6 +7340,12 @@ conceived.
 		<name>Etisalat</name>
 		<gsm>
 			<network-id mcc="621" mnc="90"/>
+			<balance-check>
+				<ussd>*232#</ussd>
+			</balance-check>
+			<balance-top-up>
+				<ussd replacement="CODE">*222*CODE#</ussd>
+			</balance-top-up>
 			<apn value="etisalat">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -7339,6 +7359,17 @@ conceived.
 			<username>your_phone_number@starcomms.com</username>
 			<password>your_phone_number</password>
 			<sid value="2"/>
+		</cdma>
+	</provider>
+	<provider>
+		<name>Multilinks</name>
+		<cdma>
+			<!-- cid: "109" --><!--
+			username must be (yournumber)@multilinks.com and
+			password must be your last 4 number
+			<username>number@multilinks.com</username>
+			<password></password>
+			-->
 		</cdma>
 	</provider>
 </country>
