@@ -1184,6 +1184,20 @@ conceived.
 	</provider>
 </country>
 
+<!-- Burkina Faso -->
+<country code="bf">
+	<provider>
+		<name>Airtel 3G</name>
+		<gsm>
+			<network-id mcc="613" mnc="02"/>
+			<apn value="internet">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+</country>
+
 <!-- Bulgaria -->
 <country code="bg">
 	<provider>
