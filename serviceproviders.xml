@@ -5681,6 +5681,19 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<!-- MVNO operating on 3's network -->
+		<!-- www.bip.it -->
+		<name>Bip</name>
+		<gsm>
+			<network-id mcc="222" mnc="99"/>
+			<apn value="internet.vistream.it">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>Megabip Internet</name>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Jersey -->
