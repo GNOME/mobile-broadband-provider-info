@@ -5311,6 +5311,16 @@ conceived.
 		<gsm>
 			<network-id mcc="404" mnc="68"/>
 			<network-id mcc="404" mnc="69"/>
+			<apn value="mtnl.net">
+				<usage type="internet"/>
+				<name>Delhi (3G Prepaid / Postpaid)</name>
+				<username>mtnl</username>
+				<password>mtnl123</password>
+			</apn>
+			<apn value="mtnl.net">
+				<usage type="internet"/>
+				<name>Mumbai (3G Prepaid / Postpaid)</name>
+			</apn>
 			<apn value="gprsmtnldel">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
