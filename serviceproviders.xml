@@ -3239,9 +3239,15 @@ conceived.
 		<name>Pepephone</name>
 		<gsm>
 			<network-id mcc="214" mnc="06"/>
-			<apn value="gprs.pepephone.com" >
+			<apn value="gprs.pepephone.com">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<name>Pepephone</name>
+			</apn>
+			<apn value="gprsmov.pepephone.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Pepephone (Mobile)</name>
 			</apn>
 		</gsm>
 	</provider>
