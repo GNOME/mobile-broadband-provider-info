@@ -6215,7 +6215,14 @@ conceived.
 		</cdma>
 	</provider>
 	<provider>
-		<name>LGTelecom</name>
+		<name>LGUPlus</name>
+		<gsm>
+			<network-id mcc="450" mnc="06"/>
+			<apn value="internet.lguplus.co.kr">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
 		<cdma>
 			<!-- cid: "109" -->
 			<!--
