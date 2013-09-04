@@ -3478,6 +3478,36 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>Dna</name>
+		<gsm>
+			<network-id mcc="244" mnc="04"/>
+			<apn value="internet">
+				<usage type="internet"/>
+				<name>dna internet</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Dna</name>
+		<gsm>
+			<network-id mcc="244" mnc="12"/>
+			<apn value="internet">
+				<usage type="internet"/>
+				<name>dna internet</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Dna</name>
+		<gsm>
+			<network-id mcc="244" mnc="13"/>
+			<apn value="internet">
+				<usage type="internet"/>
+				<name>dna internet</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Elisa</name>
 		<gsm>
 			<network-id mcc="244" mnc="05"/>
