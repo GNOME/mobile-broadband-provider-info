@@ -217,6 +217,18 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>Personal</name>
+		<gsm>
+			<network-id mcc="722" mnc="34"/>
+			<apn value="datos.personal.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<username>datos</username>
+				<password>datos</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Arnet</name>
 		<gsm>
 			<network-id mcc="722" mnc="340"/>
