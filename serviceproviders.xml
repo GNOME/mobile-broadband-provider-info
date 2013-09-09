@@ -1773,6 +1773,11 @@ conceived.
 		<gsm>
 			<network-id mcc="302" mnc="500"/>
 			<network-id mcc="302" mnc="510"/>
+			<apn value="media.videotron">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Telephony data</name>
+			</apn>
 			<apn value="ihvm.videotron">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
