@@ -11168,6 +11168,17 @@ conceived.
 			<sid value="3102"/>
 		</cdma>
 	</provider>
+	<provider>
+		<!-- MVNO operating on AT&T's network -->
+		<name>Straight Talk</name>
+		<gsm>
+			<network-id mcc="310" mnc="410"/>
+			<apn value="att.mvno">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Uruguay -->
