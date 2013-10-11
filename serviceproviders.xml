@@ -10423,6 +10423,11 @@ conceived.
 				<usage type="internet"/>
 				<name>Data Connect (old)</name>
 			</apn>
+			<apn value="pta">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>LTE</name>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
