@@ -6810,13 +6810,22 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Eventis</name>
+		<name>Unité</name>
 		<gsm>
-			<network-id mcc="259" mnc="04"/>
-			<apn value="internet.md">
+			<network-id mcc="259" mnc="05"/>
+			<apn value="internet.unite.md">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<name>Internet</name>
+				<name>Internet cu abonament</name>
+				<username>gprs</username>
+				<password>gprs</password>
+			</apn>
+			<apn value="internet3g.unite.md">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>Internet fără abonament</name>
+				<username>gprs</username>
+				<password>gprs</password>
 			</apn>
 		</gsm>
 	</provider>
@@ -6828,6 +6837,8 @@ conceived.
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<name>Internet</name>
+				<username>gprs</username>
+				<password>gprs</password>
 			</apn>
 		</gsm>
 	</provider>
