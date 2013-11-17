@@ -9789,6 +9789,12 @@ conceived.
 		<name>Zain</name>
 		<gsm>
 			<network-id mcc="634" mnc="01"/>
+			<balance-check>
+				<ussd>*888#</ussd>
+			</balance-check>
+			<balance-top-up>
+				<ussd replacement="CODE">*888*CODE#</ussd>
+			</balance-top-up>
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
