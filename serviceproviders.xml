@@ -2263,6 +2263,9 @@ conceived.
 		<name>Vodafone</name>
 		<gsm>
 			<network-id mcc="230" mnc="03"/>
+			<balance-check>
+				<ussd>*22#</ussd>
+			</balance-check>
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
