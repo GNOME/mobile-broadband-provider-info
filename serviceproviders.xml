@@ -4301,6 +4301,19 @@ conceived.
 	</provider>
 </country>
 
+<!-- Greenland -->
+<country code="gl">
+    <!-- http://www.tele.gl/da-DK/Privat/Info/Selvbetjening/Mobilopsaetning/Sider/ManuelOpsaetning.aspx -->
+    <provider>
+        <name>Tele Greenland A/S</name>
+        <gsm>
+             <apn value="internet">
+				<usage type="internet"/>
+             </apn>
+        </gsm>
+    </provider>
+</country>
+
 <!-- Greece -->
 <country code="gr">
 	<provider>
