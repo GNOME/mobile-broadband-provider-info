@@ -13,12 +13,14 @@
 
 <!ELEMENT gsm (network-id*, msisdn-query*, voicemail*, balance-check*, balance-top-up*, apn*)>
 <!ELEMENT apn (plan*,
-               usage*,
+               usage?,
                name*,
                gateway?,
                username?,
                password?,
-               dns*)>
+               dns*,
+               mmsc?,
+               mmsproxy?)>
 <!ATTLIST apn value CDATA #REQUIRED>
 
 <!ELEMENT msisdn-query (ussd*, sms*)>
@@ -110,4 +112,8 @@
 <!ELEMENT name (#PCDATA)>
 <!ATTLIST name xml:lang CDATA #IMPLIED>
 
+<!-- MMS proxy in HOST:PORT format -->
+<!ELEMENT mmsproxy (#PCDATA)>
 
+<!-- MMS Center URL -->
+<!ELEMENT mmsc (#PCDATA)>
