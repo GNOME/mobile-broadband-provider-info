@@ -23,8 +23,7 @@ edit.
 The database is released under Creative Commons Public Domain (CC-PD).
 
 for more info, see:
-http://live.gnome.org/NetworkManager/MobileBroadband/ServiceProviders
-
+https://wiki.gnome.org/Projects/NetworkManager/MobileBroadband/ServiceProviders
 
 If you are using pkg-config, variable MOBILE_BROADBAND_PROVIDER_INFO contains
 the full path to the database.
