@@ -272,6 +272,7 @@ conceived.
 			<apn value="internet.gprs.unifon.com.ar">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<name>WAP</name>
 				<username>wap</username>
 				<password>wap</password>
 			</apn>
