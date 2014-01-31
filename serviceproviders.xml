@@ -206,23 +206,20 @@ conceived.
 		<name>Personal</name>
 		<gsm>
 			<network-id mcc="722" mnc="341"/>
+			<network-id mcc="722" mnc="34"/>
 			<apn value="gprs.personal.com">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<name>GPRS</name>
 				<username>gprs</username>
 				<password>adgj</password>
 				<dns>172.25.7.6</dns>
 				<dns>172.25.7.7</dns>
 			</apn>
-		</gsm>
-	</provider>
-	<provider>
-		<name>Personal</name>
-		<gsm>
-			<network-id mcc="722" mnc="34"/>
 			<apn value="datos.personal.com">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<name>DATOS</name>
 				<username>datos</username>
 				<password>datos</password>
 			</apn>
