@@ -2295,6 +2295,11 @@ conceived.
 				<dns>160.218.10.200</dns>
 				<dns>160.218.43.200</dns>
 			</apn>
+			<apn value="internet">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>Prepaid</name>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
