@@ -10493,6 +10493,11 @@ conceived.
 			<network-id mcc="310" mnc="800"/>
 
 			<voicemail>123</voicemail>
+			<apn value="fast.t-mobile.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>LTE</name>
+			</apn>
 			<apn value="epc.tmobile.com">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
