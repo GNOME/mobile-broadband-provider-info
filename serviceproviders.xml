@@ -6102,6 +6102,9 @@ conceived.
 		<name>Beeline</name>
 		<gsm>
 			<network-id mcc="437" mnc="01"/>
+			<balance-check>
+				<ussd>*102#</ussd>
+			</balance-check>
 			<apn value="internet.beeline.kg">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
