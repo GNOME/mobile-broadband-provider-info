@@ -6908,6 +6908,30 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider primary="true">
+		<!-- Full MVNO with an own MNC code -->
+		<name>Nòverca</name>
+		<gsm>
+			<network-id mcc="222" mnc="07"/>
+			<apn value="web.noverca.it">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>Noverca WEB</name>
+			</apn>
+			<apn value="mms.noverca.it">
+				<usage type="mms"/>
+				<name>Noverca MMS</name>
+				<mmsc>http://mms.noverca.it/</mmsc>
+				<mmsproxy>10.248.1.12:80</mmsproxy>
+			</apn>
+			<apn value="wap.noverca.it">
+				<plan type="postpaid"/>
+				<usage type="wap"/>
+				<name>Noverca WAP</name>
+				<gateway>10.248.1.12:80</gateway>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Jersey -->
