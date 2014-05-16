@@ -4193,6 +4193,19 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<!-- from http://www.tuenti.com/movil/apn-tuenti-movil-android -->
+		<name>Tuenti Móvil</name>
+		<gsm>
+			<network-id mcc="214" mnc="05"/>
+			<apn value="tuenti.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<username>tuenti</username>
+				<password>tuenti</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<!-- from http://www.eroskimovil.es/geomv/c/pub/en/servicios/datos -->
 		<name>Eroski Móvil</name>
 		<gsm>
@@ -4201,6 +4214,28 @@ conceived.
 				<name>Eroski Móvil GPRS</name>
 				<username>wap@wap</username>
 				<password>wap125</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<!-- from http://www.llamayamovil.com/internet -->
+		<name>LlamaYa móvil</name>
+		<gsm>
+			<network-id mcc="214" mnc="03"/>
+			<apn value="moreinternet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Amena</name>
+		<gsm>
+			<apn value="orangeworld">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<username>orange</username>
+				<password>orange</password>
 			</apn>
 		</gsm>
 	</provider>
