@@ -3994,7 +3994,8 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>moviData</name>
+		<!-- http://www.happymovil.es/es/prepago/internet-movil -->
+		<name>Happy Móvil/moviData</name>
 		<gsm>
 			<network-id mcc="214" mnc="03"/>
 			<apn value="INTERNETTPH">
@@ -4057,7 +4058,7 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Simyo/Blau</name>
+		<name>Simyo</name>
 		<gsm>
 			<network-id mcc="214" mnc="19"/>
 			<apn value="gprs-service.com">
