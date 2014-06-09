@@ -4229,8 +4229,11 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<!-- MVNO operating on Orange's network -->
+		<!-- www.amena.com -->
 		<name>Amena</name>
 		<gsm>
+			<network-id mcc="214" mnc="03"/>
 			<apn value="orangeworld">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
