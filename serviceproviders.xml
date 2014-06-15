@@ -9671,6 +9671,23 @@ conceived.
 	</provider>
 </country>
 
+<!-- Papua New Guinea -->
+<country code="pg">
+	<provider>
+		<name>Digicel</name>
+		<gsm>
+			<network-id mcc="537" mnc="03"/>
+			<apn value="internet.digicelpng.com">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>Prepaid</name>
+				<dns>10.149.64.77</dns>
+				<dns>8.8.8.8</dns>
+			</apn>
+		</gsm>
+	</provider>
+</country>
+
 <!-- Philippines -->
 <country code="ph">
 	<provider>
