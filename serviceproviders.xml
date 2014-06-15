@@ -4288,6 +4288,16 @@ conceived.
 <!-- Finland -->
 <country code="fi">
 	<provider>
+		<name>Kuiri</name>
+		<gsm>
+			<network-id mcc="244" mnc="31"/>
+			<apn value="kuirinet">
+			<usage type="internet"/>
+				<name>Kuiri Internet</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Dna</name>
 		<gsm>
 			<network-id mcc="244" mnc="03"/>
