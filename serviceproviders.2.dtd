@@ -18,6 +18,7 @@
                gateway?,
                username?,
                password?,
+               authentication?,
                dns*,
                mmsc?,
                mmsproxy?)>
@@ -80,6 +81,10 @@
 
 <!ELEMENT password (#PCDATA)>
 <!-- password required for authentication when starting a packet data session -->
+
+<!ELEMENT authentication EMPTY>
+<!ATTLIST authentication method (chap|pap) #REQUIRED>
+<!-- method to use for authentication when starting a packet data session -->
 
 <!ELEMENT dns (#PCDATA)>
 <!-- Any static IPv4 DNS servers required for the provider; usually these are
