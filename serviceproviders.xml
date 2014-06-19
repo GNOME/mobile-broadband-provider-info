@@ -9181,6 +9181,13 @@ conceived.
 				<username>vodafone</username>
 				<password>vodafone</password>
 			</apn>
+			<apn value="m2m.global.vodafone.nl">
+				<usage type="internet"/>
+				<name>M2M</name>
+				<username>web</username>
+				<password>web</password>
+				<authentication method="pap"/>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
