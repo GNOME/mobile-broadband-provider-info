@@ -13200,6 +13200,10 @@ conceived.
 				<plan type="prepaid"/>
 				<usage type="internet"/>
 			</apn>
+			<apn value="tfdata">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+			</apn>
 		</gsm>
 	</provider>
 </country>
