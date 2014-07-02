@@ -7318,6 +7318,9 @@ conceived.
 		<name>MegaCom</name>
 		<gsm>
 			<network-id mcc="437" mnc="05"/>
+			<balance-check>
+				<ussd>*500#</ussd>
+			</balance-check>
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -7328,6 +7331,9 @@ conceived.
 		<name>O!</name>
 		<gsm>
 			<network-id mcc="437" mnc="09"/>
+			<balance-check>
+				<ussd>*100#</ussd>
+			</balance-check>
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
