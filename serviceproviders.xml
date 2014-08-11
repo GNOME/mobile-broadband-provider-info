@@ -3974,6 +3974,15 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>Lebara</name>
+		<gsm>
+			<apn value="gprsmov.lebaramobile.es">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Másmovil</name>
 		<gsm>
 			<network-id mcc="214" mnc="03"/>
