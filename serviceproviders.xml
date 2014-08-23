@@ -2352,6 +2352,12 @@ conceived.
 		<name>Orange</name>
 		<gsm>
 			<network-id mcc="228" mnc="03"/>
+			<balance-check>
+				<ussd>#121#</ussd>
+			</balance-check>
+			<balance-top-up>
+				<ussd replacement="CODE">#121*CODE#</ussd>
+			</balance-top-up>
 			<apn value="mobileoffice3g">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
