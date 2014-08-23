@@ -4607,6 +4607,9 @@ conceived.
 			<balance-check>
 				<ussd>#123#</ussd>
 			</balance-check>
+			<balance-top-up>
+				<ussd replacement="CODE">#124*CODE#</ussd>
+			</balance-top-up>
 
 			<apn value="orange.fr">
 				<plan type="postpaid"/>
