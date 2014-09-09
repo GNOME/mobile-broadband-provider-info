@@ -6999,6 +6999,18 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<!-- MVNO operating on TIM's network -->
+		<name>Tiscali</name>
+		<gsm>
+			<network-id mcc="222" mnc="01"/>
+			<apn value="tiscalimobileinternet">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>Tiscali Internet</name>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Jersey -->
