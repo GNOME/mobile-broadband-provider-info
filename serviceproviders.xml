@@ -1320,7 +1320,7 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Warid</name>
+		<name>Airtel (Warid)</name>
 		<gsm>
 			<network-id mcc="470" mnc="07"/>
 			<apn value="internet">
@@ -1334,6 +1334,24 @@ conceived.
 				<name>Airtel MMS</name>
 				<mmsc>http://10.6.0.21/servlets/mms</mmsc>
 				<mmsproxy>10.6.0.2:8080</mmsproxy>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<!-- http://www.teletalk.com.bd/cpoint/3G/MMS_Internet_service.php -->
+		<name>Teletalk</name>
+		<gsm>
+			<network-id mcc="470" mnc="04"/>
+			<apn value="wap">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>Internet</name>
+			</apn>
+			<apn value="mms">
+				<usage type="mms"/>
+				<name>Airtel MMS</name>
+				<mmsc>http://10.5.4.22:38090/was</mmsc>
+				<mmsproxy>10.5.4.40:8080</mmsproxy>
 			</apn>
 		</gsm>
 	</provider>
