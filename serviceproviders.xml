@@ -4014,7 +4014,7 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Vodafone (Airtel)</name>
+		<name>Vodafone</name>
 		<gsm>
 			<network-id mcc="214" mnc="01"/>
 			<network-id mcc="214" mnc="06"/>
