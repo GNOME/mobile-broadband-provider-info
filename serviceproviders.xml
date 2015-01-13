@@ -3876,6 +3876,17 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>Lowi</name>
+		<gsm>
+			<!-- Reuses Vodafone's MCCMNC -->
+			<!--network-id mcc="214" mnc="06"/-->
+			<apn value="lowi.private.omv.es">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Másmovil</name>
 		<gsm>
 			<network-id mcc="214" mnc="03"/>
