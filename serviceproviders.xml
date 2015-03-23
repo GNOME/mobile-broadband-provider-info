@@ -6444,6 +6444,9 @@ conceived.
 			<network-id mcc="405" mnc="05"/>
 			<network-id mcc="405" mnc="10"/>
 			<network-id mcc="405" mnc="13"/>
+			<balance-check>
+				<ussd> *111*1*3#</ussd>
+			</balance-check>
 			<apn value="smartnet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
