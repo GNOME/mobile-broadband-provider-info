@@ -2615,6 +2615,41 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<!-- http://www.chw.net/foro/virgin/965115-apn-internet-movil-y-mms.html -->
+		<name>Virgin Mobile</name>
+		<gsm>
+			<network-id mcc="730" mnc="07"/>
+			<apn value="imovil.virginmobile.cl">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<!-- http://www.chw.net/foro/vtr-movil/965343-apns-vtr-movil.html -->
+		<name>VTR Movil</name>
+		<gsm>
+			<network-id mcc="730" mnc="08"/>
+			<apn value="movil.vtr.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<username>vtrmovil</username>
+				<password>vtrmovil</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<!-- http://www.nextel.cl/ayuda/apn/ -->
+		<name>Nextel</name>
+		<gsm>
+			<network-id mcc="730" mnc="09"/>
+			<apn value="wap.nextelmovil.cl">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Cameroon -->
