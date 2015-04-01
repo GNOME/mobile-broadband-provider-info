@@ -11601,7 +11601,7 @@ conceived.
 	<provider>
 		<name>Claro</name>
 		<gsm>
-			<network-id mcc="706" mnc="10"/>
+			<network-id mcc="706" mnc="01"/>
 			<apn value="internet.ideasclaro">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
