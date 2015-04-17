@@ -9243,11 +9243,16 @@ conceived.
 				<sms text="saldo">2525</sms>
 			</balance-check>
 
-			<apn value="telenor">
+			<apn value="telenor.smart">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<dns>212.17.131.3</dns>
-				<dns>148.122.161.2</dns>
+				<name>Telenor</name>
+			</apn>
+			<apn value="telenor.smart">
+				<usage type="mms"/>
+				<name>Telenor MMS</name>
+				<mmsc>http://mmsc</mmsc>
+				<mmsproxy>mms-proxy.telenor.no:8080</mmsproxy>
 			</apn>
 			<apn value="mms.ventelo.no">
 				<usage type="mms"/>
