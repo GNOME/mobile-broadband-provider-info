@@ -4693,26 +4693,6 @@ conceived.
 <!-- Britain -->
 <country code="gb">
 	<provider>
-		<name>Asda Mobile</name>
-		<gsm>
-			<network-id mcc="234" mnc="15"/>
-			<apn value="asdamobiles.co.uk">
-				<plan type="prepaid"/>
-				<usage type="internet"/>
-				<username>web</username>
-				<password>web</password>
-			</apn>
-			<apn value="asdamobiles.co.uk">
-				<usage type="mms"/>
-				<name>ASDA MMS</name>
-				<username>wap</username>
-				<password>wap</password>
-				<mmsc>http://mms.asdamobiles.co.uk/servlets/mms</mmsc>
-				<mmsproxy>212.183.137.12:8799</mmsproxy>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
 		<name>BT Mobile</name>
 		<gsm>
 			<network-id mcc="234" mnc="00"/>
@@ -4939,6 +4919,26 @@ conceived.
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<name>TopUp and Go (older 1GB SIMs)</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Asda Mobile</name>
+		<gsm>
+			<network-id mcc="234" mnc="15"/>
+			<apn value="asdamobiles.co.uk">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<username>web</username>
+				<password>web</password>
+			</apn>
+			<apn value="asdamobiles.co.uk">
+				<usage type="mms"/>
+				<name>ASDA MMS</name>
+				<username>wap</username>
+				<password>wap</password>
+				<mmsc>http://mms.asdamobiles.co.uk/servlets/mms</mmsc>
+				<mmsproxy>212.183.137.12:8799</mmsproxy>
 			</apn>
 		</gsm>
 	</provider>
