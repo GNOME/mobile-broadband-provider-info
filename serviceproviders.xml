@@ -4705,33 +4705,6 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>giffgaff</name>
-		<gsm>
-			<network-id mcc="234" mnc="02"/>
-			<network-id mcc="234" mnc="10"/>
-			<network-id mcc="234" mnc="11"/>
-			<voicemail>443</voicemail>
-			<balance-check>
-				<ussd>*100#</ussd>
-			</balance-check>
-			<apn value="giffgaff.com">
-				<plan type="prepaid"/>
-				<usage type="internet"/>
-				<name>Mobile Broadband</name>
-				<username>giffgaff</username>
-				<password>password</password>
-			</apn>
-			<apn value="wap.o2.co.uk">
-				<usage type="mms"/>
-				<name>O2 MMS</name>
-				<username>o2wap</username>
-				<password>password</password>
-				<mmsc>http://mmsc.mms.o2.co.uk:8002</mmsc>
-				<mmsproxy>193.113.200.195:8080</mmsproxy>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
 		<name>O2</name>
 		<gsm>
 			<network-id mcc="234" mnc="02"/>
@@ -4789,6 +4762,33 @@ conceived.
 				<name>WAP</name>
 				<username>o2wap</username>
 				<password>password</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>giffgaff</name>
+		<gsm>
+			<network-id mcc="234" mnc="02"/>
+			<network-id mcc="234" mnc="10"/>
+			<network-id mcc="234" mnc="11"/>
+			<voicemail>443</voicemail>
+			<balance-check>
+				<ussd>*100#</ussd>
+			</balance-check>
+			<apn value="giffgaff.com">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>Mobile Broadband</name>
+				<username>giffgaff</username>
+				<password>password</password>
+			</apn>
+			<apn value="wap.o2.co.uk">
+				<usage type="mms"/>
+				<name>O2 MMS</name>
+				<username>o2wap</username>
+				<password>password</password>
+				<mmsc>http://mmsc.mms.o2.co.uk:8002</mmsc>
+				<mmsproxy>193.113.200.195:8080</mmsproxy>
 			</apn>
 		</gsm>
 	</provider>
