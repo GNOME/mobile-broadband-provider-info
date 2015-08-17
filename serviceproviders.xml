@@ -2255,7 +2255,18 @@ conceived.
 		<cdma/>
 	</provider>
 	<provider>
-		<name>SaskTel</name>
+		<name>SaskTel Mobility</name>
+		<gsm>
+			<network-id mcc="302" mnc="680"/>
+			<network-id mcc="302" mnc="750"/>
+			<network-id mcc="302" mnc="780"/>
+			<network-id mcc="302" mnc="880"/>
+			<apn value="inet.stm.sk.ca">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Data Device or Tethering</name>
+			</apn>
+		</gsm>
 		<cdma>
 			<sid value="16410"/>
 			<sid value="16412"/>
