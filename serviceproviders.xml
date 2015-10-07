@@ -39,6 +39,26 @@ conceived.
 
 <serviceproviders format="2.0">
 
+<!-- Andorra -->
+<country code="ad">
+	<provider>
+		<name>Andorra Telecom (Mobiland)</name>
+		<gsm>
+			<network-id mcc="213" mnc="03"/>
+			<apn value="internetand">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Mobiland</name>
+			</apn>
+			<apn value="internetclic">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>Mobiland Click!</name>
+			</apn>
+		</gsm>
+	</provider>
+</country>
+
 <!-- United Arab Emirates -->
 <country code="ae">
 	<provider>
