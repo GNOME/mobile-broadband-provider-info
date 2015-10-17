@@ -8406,6 +8406,32 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<name>Telenor</name>
+		<gsm>
+			<network-id mcc="414" mnc="06"/>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Telenor</name>
+				<username>internet</username>
+				<password>internet</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Ooredoo</name>
+		<gsm>
+			<network-id mcc="414" mnc="05"/>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Ooredoo</name>
+				<username>internet</username>
+				<password>internet</password>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Mongolia -->
