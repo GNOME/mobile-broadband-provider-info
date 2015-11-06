@@ -527,6 +527,28 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<!-- https://www.hot.at/config/faqs/HoT_Einstellungen_Endgera_te.pdf -->
+		<name>HoT</name>
+		<gsm>
+			<network-id mcc="232" mnc="07"/>
+			<apn value="webaut">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<username></username>
+				<password></password>
+			</apn>
+			<apn value="mmsaut">
+				<plan type="prepaid"/>
+				<usage type="mms"/>
+				<name>HoT MMS</name>
+				<username></username>
+				<password></password>
+				<mmsc>http://mmsaut.at/send</mmsc>
+				<mmsproxy>212.95.31.50:80</mmsproxy>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>T-Mobile</name>
 		<gsm>
 			<network-id mcc="232" mnc="03"/>
