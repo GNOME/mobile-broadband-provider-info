@@ -8592,6 +8592,20 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>Melita</name>
+		<gsm>
+			<network-id mcc="278" mnc="77"/>
+			<balance-check>
+				<sms text="melita">16877</sms>
+			</balance-check>
+			<apn value="web.melita">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Melita Connector</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Vodafone</name>
 		<gsm>
 			<network-id mcc="278" mnc="01"/>
