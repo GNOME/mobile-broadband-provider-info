@@ -3005,6 +3005,12 @@ conceived.
 	<provider>
 		<name>O2</name>
 		<gsm>
+			<balance-check>
+				<ussd>*104*#</ussd>
+			</balance-check>
+			<balance-top-up>
+				<ussd replacement="CODE">*102*CODE#</ussd>
+			</balance-top-up>
 			<network-id mcc="230" mnc="02"/>
 			<apn value="internet">
 				<plan type="postpaid"/>
