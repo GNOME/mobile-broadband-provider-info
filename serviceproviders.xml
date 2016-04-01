@@ -3210,6 +3210,12 @@ conceived.
 		<name>T-Mobile</name>
 		<gsm>
 			<network-id mcc="230" mnc="01"/>
+			<balance-check>
+				<ussd>*101*#</ussd>
+			</balance-check>
+			<balance-top-up>
+				<ussd replacement="CODE">*102*CODE#</ussd>
+			</balance-top-up>
 			<apn value="internet.t-mobile.cz">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
