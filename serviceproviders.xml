@@ -9196,16 +9196,27 @@ conceived.
 		<name>T-Mobile</name>
 		<gsm>
 			<network-id mcc="204" mnc="16"/>
+			<balance-check>
+				<sms text="SALDO">1144</sms>
+			</balance-check>
 			<apn value="internet">
 				<plan type="postpaid"/>
+				<plan type="prepaid"/>
 				<usage type="internet"/>
-				<dns>193.78.240.12</dns>
-				<dns>193.79.242.39</dns>
+				<name>T-Mobile Internet</name>
 			</apn>
-			<apn value="mms.ben">
+			<apn value="smartsites.t-mobile">
+				<plan type="postpaid"/>
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>T-Mobile NL</name>
+			</apn>
+			<apn value="mms">
 				<usage type="mms"/>
-				<name>Ben MMS</name>
-				<mmsc>http://benmms</mmsc>
+				<name>T-Mobile NL MMS</name>
+				<username>tmobilemms</username>
+				<password>tmobilemms</password>
+				<mmsc>http://t-mobilemms</mmsc>
 				<mmsproxy>10.10.10.11:8080</mmsproxy>
 			</apn>
 		</gsm>
