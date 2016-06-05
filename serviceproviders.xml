@@ -1311,8 +1311,23 @@ conceived.
 		<name>Robi (AKTel)</name>
 		<gsm>
 			<network-id mcc="470" mnc="02"/>
+			<msisdn-query>
+				<ussd>*140*2*4#</ussd>
+			</msisdn-query>
+			<balance-check>
+				<ussd>*222#</ussd>
+			</balance-check>
+			<balance-top-up>
+				<ussd replacement="CODE">*111*CODE#</ussd>
+			</balance-top-up>
 			<apn value="internet">
 				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Internet</name>
+				<dns>192.168.23.7</dns>
+			</apn>
+			<apn value="internet">
+				<plan type="prepaid"/>
 				<usage type="internet"/>
 				<name>Internet</name>
 				<dns>192.168.23.7</dns>
@@ -1329,8 +1344,23 @@ conceived.
 		<name>Banglalink</name>
 		<gsm>
 			<network-id mcc="470" mnc="03"/>
+			<msisdn-query>
+				<ussd>*511#</ussd>
+			</msisdn-query>
+			<balance-check>
+				<ussd>*124#</ussd>
+			</balance-check>
+			<balance-top-up>
+				<ussd replacement="CODE">*123*CODE#</ussd>
+			</balance-top-up>
 			<apn value="blweb">
 				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Web</name>
+				<dns>10.10.55.34</dns>
+			</apn>
+			<apn value="blweb">
+				<plan type="prepaid"/>
 				<usage type="internet"/>
 				<name>Web</name>
 				<dns>10.10.55.34</dns>
@@ -1347,9 +1377,28 @@ conceived.
 		<name>GrameenPhone</name>
 		<gsm>
 			<network-id mcc="470" mnc="01"/>
+			<msisdn-query>
+				<ussd>*2#</ussd>
+			</msisdn-query>
+			<balance-check>
+				<ussd>*566#</ussd>
+			</balance-check>
+			<balance-top-up>
+				<ussd replacement="CODE">*555*CODE#</ussd>
+			</balance-top-up>
 			<apn value="gpinternet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<username>gp</username>
+				<password>gp</password>
+				<dns>202.56.4.120</dns>
+				<dns>202.56.4.121</dns>
+			</apn>
+			<apn value="gpinternet">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<username>gp</username>
+				<password>gp</password>
 				<dns>202.56.4.120</dns>
 				<dns>202.56.4.121</dns>
 			</apn>
@@ -1365,8 +1414,23 @@ conceived.
 		<name>Airtel (Warid)</name>
 		<gsm>
 			<network-id mcc="470" mnc="07"/>
+			<msisdn-query>
+				<ussd>*121*6*3#</ussd>
+			</msisdn-query>
+			<balance-check>
+				<ussd>*778#</ussd>
+			</balance-check>
+			<balance-top-up>
+				<ussd replacement="CODE">*787*CODE#</ussd>
+			</balance-top-up>
 			<apn value="internet">
 				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Internet</name>
+				<dns>10.6.0.2</dns>
+			</apn>
+			<apn value="internet">
+				<plan type="prepaid"/>
 				<usage type="internet"/>
 				<name>Internet</name>
 				<dns>10.6.0.2</dns>
@@ -1384,6 +1448,15 @@ conceived.
 		<name>Teletalk</name>
 		<gsm>
 			<network-id mcc="470" mnc="04"/>
+			<msisdn-query>
+				<ussd>*551#</ussd>
+			</msisdn-query>
+			<balance-check>
+				<ussd>*152#</ussd>
+			</balance-check>
+			<balance-top-up>
+				<ussd replacement="CODE">#151*CODE#</ussd>
+			</balance-top-up>
 			<apn value="wap">
 				<plan type="prepaid"/>
 				<usage type="internet"/>
@@ -3005,13 +3078,13 @@ conceived.
 	<provider>
 		<name>O2</name>
 		<gsm>
+			<network-id mcc="230" mnc="02"/>
 			<balance-check>
 				<ussd>*104*#</ussd>
 			</balance-check>
 			<balance-top-up>
 				<ussd replacement="CODE">*102*CODE#</ussd>
 			</balance-top-up>
-			<network-id mcc="230" mnc="02"/>
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
