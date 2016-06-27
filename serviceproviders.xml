@@ -9238,11 +9238,25 @@ conceived.
 		<name>Ben</name>
 		<gsm>
 			<network-id mcc="204" mnc="16"/>
+			<apn value="basic.internet.ben.data">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>Ben internet (prepaid)</name>
+				<dns>193.78.240.12</dns>
+				<dns>193.79.242.39</dns>
+			</apn>
 			<apn value="internet.ben">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<name>Ben internet</name>
 				<dns>193.78.240.12</dns>
 				<dns>193.79.242.39</dns>
+			</apn>
+			<apn value="mms.ben">
+				<usage type="mms"/>
+				<name>Ben MMS</name>
+				<mmsc>http://benmms</mmsc>
+				<mmsproxy>10.10.10.11:8080</mmsproxy>
 			</apn>
 		</gsm>
 	</provider>
