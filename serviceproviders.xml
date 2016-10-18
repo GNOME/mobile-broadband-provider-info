@@ -2708,6 +2708,7 @@ conceived.
 	<provider>
 		<name>Movistar</name>
 		<gsm>
+			<network-id mcc="730" mnc="02"/>
 			<network-id mcc="730" mnc="10"/>
 			<apn value="web.tmovil.cl">
 				<plan type="postpaid"/>
