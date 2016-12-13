@@ -102,7 +102,7 @@
 <!ATTLIST plan type (prepaid|postpaid) #REQUIRED>
 
 <!ELEMENT usage EMPTY>
-<!ATTLIST usage type (internet|mms|wap) #REQUIRED>
+<!ATTLIST usage type (internet|mms|wap|ia) #REQUIRED>
 
 <!ELEMENT cdma (name*,
                 username?,
