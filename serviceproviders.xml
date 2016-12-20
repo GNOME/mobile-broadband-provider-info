@@ -7564,27 +7564,35 @@ conceived.
 <!-- Korea, Republic of -->
 <country code="kr">
 	<provider>
-		<name>KTF</name>
+		<name>KT</name>
 		<gsm>
 			<network-id mcc="450" mnc="08"/>
-			<apn value="hsdpa-internet.ktfwing.com">
-				<plan type="postpaid"/>
+			<apn value="alwayson.ktfwing.com">
 				<usage type="internet"/>
+				<name>KT 3G</name>
+			</apn>
+			<apn value="lte.ktfwing.com">
+				<usage type="internet"/>
+				<name>KT LTE</name>
+			</apn>
+			<apn value="lte.ktfwing.com">
+				<usage type="mms"/>
+				<name>KT MMS</name>
+				<mmsc>http://mmsc.ktfwing.com:9082</mmsc>
 			</apn>
 		</gsm>
-		<cdma>
-			<!-- cid: "016" -->
-			<username>ktf</username>
-			<password>ktf</password>
-		</cdma>
 	</provider>
 	<provider>
-		<name>LGUPlus</name>
+		<name>LG U+</name>
 		<gsm>
 			<network-id mcc="450" mnc="06"/>
 			<apn value="internet.lguplus.co.kr">
-				<plan type="postpaid"/>
 				<usage type="internet"/>
+			</apn>
+			<apn value="internet.lguplus.co.kr">
+				<usage type="mms"/>
+				<name>LG U+ MMS</name>
+				<mmsc>http://omammsc.uplus.co.kr:9084</mmsc>
 			</apn>
 		</gsm>
 		<cdma>
@@ -7598,14 +7606,18 @@ conceived.
 		</cdma>
 	</provider>
 	<provider>
-		<name>SKTelecom</name>
+		<name>SK Telecom</name>
 		<gsm>
 			<network-id mcc="450" mnc="05"/>
-			<apn value="nate.sktelecom.com">
-				<plan type="postpaid"/>
+			<apn value="web.sktelecom.com">
 				<usage type="internet"/>
+				<name>SKT 3G</name>
 			</apn>
-			<apn value="mms.sktelecom.com">
+			<apn value="lte.sktelecom.com">
+				<usage type="internet"/>
+				<name>SKT LTE</name>
+			</apn>
+			<apn value="lte.sktelecom.com">
 				<usage type="mms"/>
 				<name>SKT MMS</name>
 				<mmsc>http://omms.nate.com:9082/oma_mms</mmsc>
