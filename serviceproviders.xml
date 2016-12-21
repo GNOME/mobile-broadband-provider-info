@@ -6858,6 +6858,11 @@ conceived.
 			<apn value="web.omnitel.it">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<name>Vodafone Internet Key</name>
+			</apn>
+			<apn value="web.omnitel.it">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<name>Internet Facile (old)</name>
 				<dns>83.224.70.62</dns>
 				<dns>83.224.70.78</dns>
