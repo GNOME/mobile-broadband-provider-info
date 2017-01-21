@@ -2000,6 +2000,19 @@ conceived.
 	</provider>
 </country>
 
+<!-- Bermuda -->
+<country code="bm">
+	<provider>
+		<name>CellOne</name>
+		<gsm>
+			<network-id mcc="350" mnc="00"/>
+			<apn value="web.c1.bm">
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+</country>
+
 <!-- Brunei -->
 <country code="bn">
 	<provider>
