@@ -5796,6 +5796,48 @@ conceived.
 				<dns>80.244.97.30</dns>
 				<dns>80.244.96.1</dns>
 			</apn>
+			<apn value="mms.vodafone.net">
+				<usage type="mms"/>
+				<name>Netfone MMS</name>
+				<mmsc>http://mms.vodafone.hu/servlets/mms</mmsc>
+				<mmsproxy>80.244.97.2:8080</mmsproxy>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Netfone</name>
+		<gsm>
+			<!-- Using Vodafone's network -->
+			<network-id mcc="216" mnc="70"/>
+			<apn value="internet.netfone.hu">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Netfone</name>
+			</apn>
+			<apn value="mms.vodafone.net">
+				<usage type="mms"/>
+				<name>Netfone MMS</name>
+				<mmsc>http://mms.vodafone.hu/servlets/mms</mmsc>
+				<mmsproxy>80.244.97.2:8080</mmsproxy>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>UPC</name>
+		<gsm>
+			<network-id mcc="216" mnc="71"/>
+			<apn value="internet.hu.upcmobile.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>UPC</name>
+			</apn>
+			<apn value="mms.hu.upcmobile.com">
+				<usage type="mms"/>
+				<name>UPC MMS</name>
+				<mmsc>http://mms.hu.upcmobile.com:8080/servlets/mms</mmsc>
+				<mmsproxy>62.179.127.18:8080</mmsproxy>
+				<authentication method="pap"/>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
