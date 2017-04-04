@@ -6863,7 +6863,7 @@ conceived.
 		<name>Síminn</name>
 		<gsm>
 			<network-id mcc="274" mnc="01"/>
-			<apn value="wap.simi.is">
+			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<dns>194.105.224.1</dns>
