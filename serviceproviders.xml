@@ -7432,29 +7432,6 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
-	<provider>
-		<name>FONEX</name>
-		<cdma>
-			<username>cdma</username>
-			<password>cdma</password>
-		</cdma>
-	</provider>
-	<provider>
-		<name>nexi (mir+kg)</name>
-		<name xml:lang="ru">Зона Мир+КГ</name>
-		<cdma>
-			<username>555@mir</username>
-			<password>555</password>
-		</cdma>
-	</provider>
-	<provider>
-		<name>nexi (kg)</name>
-		<name xml:lang="ru">Зона КГ</name>
-		<cdma>
-			<username>999@kg</username>
-			<password>999</password>
-		</cdma>
-	</provider>
 </country>
 
 <!-- Cambodia -->
