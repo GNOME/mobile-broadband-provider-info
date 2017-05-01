@@ -7750,18 +7750,14 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Pathword</name>
-		<cdma>
-			<username>Pathword</username>
-			<password>Pathword</password>
-		</cdma>
-	</provider>
-	<provider>
-		<name>Dalacom</name>
-		<cdma>
-			<username>Dalacom</username>
-			<password>Dalacom</password>
-		</cdma>
+		<name>Altel 4G</name>
+		<gsm>
+			<network-id mcc="401" mnc="77"/>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
 	</provider>
 </country>
 
