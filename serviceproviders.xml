@@ -5737,13 +5737,19 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Three</name>
+		<name>3</name>
 		<gsm>
 			<network-id mcc="454" mnc="03"/>
 			<network-id mcc="454" mnc="04"/>
 			<apn value="mobile.three.com.hk">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<name>3G</name>
+			</apn>
+			<apn value="mobile.lte.three.com.hk">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>4G LTE</name>
 			</apn>
 		</gsm>
 	</provider>
