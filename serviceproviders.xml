@@ -3256,14 +3256,6 @@ conceived.
 				<dns>212.23.97.2</dns>
 				<dns>212.23.97.3</dns>
 			</apn>
-			<apn value="tagesflat.eplus.de">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>24 Hour Flatrate</name>
-				<name xml:lang="de">Tages-Flatrate</name>
-				<username>eplus</username>
-				<password>gprs</password>
-			</apn>
 			<apn value="mms.eplus.de">
 				<usage type="mms"/>
 				<name>E-plus MMS</name>
