@@ -13847,22 +13847,22 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>MTS (Uzdunrobita)</name>
-		<gsm>
-			<network-id mcc="434" mnc="07"/>
-			<apn value="net.mts.uz">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<username>mts</username>
-				<password>mts</password>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
 		<name>Ucell</name>
 		<gsm>
 			<network-id mcc="434" mnc="05"/>
 			<apn value="internet">
+				<username/>
+				<password/>
+			</apn>
+		</gsm>
+	</provider>
+    <provider>
+		<name>UMS</name>
+		<gsm>
+			<network-id mcc="434" mnc="07"/>
+			<apn value="net.ums.uz">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 				<username/>
 				<password/>
 			</apn>
