@@ -4847,6 +4847,40 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>Prixtel</name>
+		<gsm>
+			<network-id mcc="208" mnc="01"/>
+			<network-id mcc="208" mnc="10"/>
+			<voicemail>789</voicemail>
+			<apn value="Orange">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>via Orange</name>
+				<username>orange</username>
+				<password>orange</password>
+			</apn>
+			<apn value="orange.acte">
+				<usage type="mms"/>
+				<name>via Orange</name>
+				<username>orange</username>
+				<password>orange</password>
+				<mmsc>http://mms.orange.fr</mmsc>
+				<mmsproxy>192.168.10.200:8080</mmsproxy>
+			</apn>
+			<apn value="sl2sfr">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>via SFR</name>
+			</apn>
+			<apn value="sl2sfr">
+				<usage type="mms"/>
+				<name>via SFR</name>
+				<mmsc>http://mms1</mmsc>
+				<mmsproxy>10.151.0.1:8080</mmsproxy>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>SFR</name>
 		<gsm>
 			<!-- http://assistance.sfr.fr/internet-partout/Mobile/difference-wap-web/fc-2302-62196 -->
