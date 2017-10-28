@@ -2256,6 +2256,16 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<name>Orange</name>
+		<gsm>
+			<network-id mcc="652" mnc="02"/>
+			<apn value="internet.orange.co.bw">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Burundi -->
@@ -5617,6 +5627,32 @@ conceived.
 	</provider>
 </country>
 
+<!-- Guinea -->
+<country code="gn">
+	<provider>
+		<name>Orange</name>
+		<gsm>
+			<network-id mcc="611" mnc="01"/>
+			<apn value="internetogn">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Cellcom</name>
+		<gsm>
+			<network-id mcc="611" mnc="05"/>
+			<apn value="internet.cellcom.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<username>internet</username>
+				<password>cellcom</password>
+			</apn>
+		</gsm>
+	</provider>
+</country>
+
 <!-- Guyana -->
 <country code="gy">
 	<provider>
@@ -8078,6 +8114,20 @@ conceived.
 				<username>mtctouch</username>
 				<mmsc>http://mms:8088/mms/</mmsc>
 				<mmsproxy>192.168.4.103:8080</mmsproxy>
+			</apn>
+		</gsm>
+	</provider>
+</country>
+
+<!-- Liechtenstein -->
+<country code="li">
+	<provider>
+		<name>Datamobile</name>
+		<gsm>
+			<network-id mcc="295" mnc="05"/>
+			<apn value="datamobile.ag">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 			</apn>
 		</gsm>
 	</provider>
