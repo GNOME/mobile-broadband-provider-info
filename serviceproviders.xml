@@ -12138,6 +12138,16 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>Swan</name>
+		<gsm>
+			<network-id mcc="231" mnc="03"/>
+			<apn value="internet">
+				<usage type="internet"/>
+				<name>4ka Internet</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>O2</name>
 		<gsm>
 			<network-id mcc="231" mnc="06"/>
