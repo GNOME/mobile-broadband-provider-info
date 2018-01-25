@@ -4627,7 +4627,7 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Sonera</name>
+		<name>Telia</name>
 		<gsm>
 			<network-id mcc="244" mnc="91"/>
 
