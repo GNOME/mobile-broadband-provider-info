@@ -4544,11 +4544,6 @@ conceived.
 		<name>DNA</name>
 		<gsm>
 			<network-id mcc="244" mnc="12"/>
-			<apn value="data.dna.fi">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>Postpaid (contract) public IP address</name>
-			</apn>
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -4558,6 +4553,11 @@ conceived.
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<name>Postpaid (contract) public IP address (Dec 2016 and later individual subscriptions)</name>
+			</apn>
+			<apn value="data.dna.fi">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Postpaid (contract) public IP address (Nov 2016 and earlier individual, and all company subscriptions)</name>
 			</apn>
 		</gsm>
 	</provider>
