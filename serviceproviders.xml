@@ -4554,6 +4554,11 @@ conceived.
 				<usage type="internet"/>
 				<name>Postpaid (contract) NAT (available for all subscribers)</name>
 			</apn>
+			<apn value="julkinen.dna.fi">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Postpaid (contract) public IP address (Dec 2016 and later individual subscriptions)</name>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
