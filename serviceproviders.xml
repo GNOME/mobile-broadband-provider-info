@@ -4645,6 +4645,13 @@ conceived.
 				<dns>192.89.123.230</dns>
 				<dns>192.89.123.231</dns>
 			</apn>
+			<apn value="opengate">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Open Gate (public IP, open ports; needs to be ordered)</name>
+				<dns>192.89.123.230</dns>
+				<dns>192.89.123.231</dns>
+			</apn>
 			<apn value="prointernet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
