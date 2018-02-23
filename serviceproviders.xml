@@ -5160,6 +5160,30 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>4GEE</name>
+		<gsm>
+			<network-id mcc="234" mnc="30" />
+			<apn value="everywhere">
+				<name>EE Internet</name>
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<username>eesecure</username>
+				<password>secure</password>
+				<authentication method="pap"/>
+			</apn>
+			<apn value="eezone">
+				<name>EE MMS</name>
+				<plan type="postpaid"/>
+				<usage type="mms"/>
+				<username>eesecure</username>
+				<password>secure</password>
+				<mmsc>http://mmsc/</mmsc>
+				<mmsproxy>149.254.201.135:8080</mmsproxy>
+				<authentication method="pap"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Tesco Mobile</name>
 		<gsm>
 			<network-id mcc="234" mnc="02"/>
