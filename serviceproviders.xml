@@ -12112,6 +12112,23 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<name>Telemach</name>
+		<gsm>
+			<network-id mcc="293" mnc="70"/>
+			<balance-check>
+				<ussd>*123#</ussd>
+			</balance-check>
+			<balance-top-up>
+				<ussd replacement="CODE">*123*CODE#</ussd>
+			</balance-top-up>
+			<apn value="internet">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>NET2GO/FREE2GO</name>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Slovakia -->
