@@ -7368,6 +7368,22 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<name>Iliad</name>
+		<gsm>
+			<network-id mcc="222" mnc="50"/>
+			<apn value="iliad">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>Iliad</name>
+			</apn>
+			<apn value="mms.iliad.it">
+				<usage type="mms"/>
+				<name>Iliad MMS</name>
+				<mmsc>http://mms.iliad.it</mmsc>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Jersey -->
