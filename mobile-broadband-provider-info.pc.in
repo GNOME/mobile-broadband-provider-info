@@ -1,9 +1,7 @@
 prefix=@prefix@
 exec_prefix=@exec_prefix@
-libdir=@libdir@
 datarootdir = @datarootdir@
 pkgdatadir=${datarootdir}/@PACKAGE@
-includedir=@includedir@
 database=${pkgdatadir}/serviceproviders.xml
 
 Name: mobile-broadband-provider-info
