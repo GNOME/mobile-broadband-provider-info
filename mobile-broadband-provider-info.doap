@@ -8,7 +8,7 @@
   <shortdesc xml:lang="en">Mobile broadband settings for various service providers</shortdesc>
   <description>The mobile-broadband-provider-info package contains listings of mobile
 broadband (3G) providers and associated network and plan information.</description>
-  <bug-database rdf:resource="https://bugzilla.gnome.org/browse.cgi?product=NetworkManager" />
+  <bug-database rdf:resource="https://gitlab.gnome.org/GNOME/mobile-broadband-provider-info/issues/" />
 
   <!-- Maintainers -->
   <maintainer>
