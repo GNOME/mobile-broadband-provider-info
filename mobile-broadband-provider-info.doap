@@ -9,6 +9,7 @@
   <description>The mobile-broadband-provider-info package contains listings of mobile
 broadband (3G) providers and associated network and plan information.</description>
   <bug-database rdf:resource="https://gitlab.gnome.org/GNOME/mobile-broadband-provider-info/issues/" />
+  <mailing-list rdf:resource="https://mail.gnome.org/mailman/listinfo/networkmanager-list" />
 
   <!-- Maintainers -->
   <maintainer>
