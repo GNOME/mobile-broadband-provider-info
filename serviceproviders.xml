@@ -4565,6 +4565,11 @@ conceived.
 				<usage type="internet"/>
 				<name>Postpaid (contract) public IP address (Nov 2016 and earlier individual, and all company subscriptions)</name>
 			</apn>
+			<apn value="data.moimobile.fi">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Moi Mobiili</name>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
