@@ -7538,7 +7538,7 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
-	<provider>
+	<provider primary="false">
 		<name>b-mobile</name>
 		<gsm>
 			<network-id mcc="440" mnc="10"/>
@@ -7563,7 +7563,7 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
-	<provider>
+	<provider primary="true">
 		<name>NTTdocomo</name>
 		<gsm>
 			<network-id mcc="440" mnc="01"/>
