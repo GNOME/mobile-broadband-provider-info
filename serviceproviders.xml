@@ -7549,6 +7549,13 @@ conceived.
 				<username>bmobile@u300</username>
 				<password>bmobile</password>
 			</apn>
+			<apn value="bmobile.ne.jp">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>Visitor SIM</name>
+				<username>bmobile@4g</username>
+				<password>bmobile</password>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
