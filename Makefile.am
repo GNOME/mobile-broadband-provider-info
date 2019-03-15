@@ -9,6 +9,11 @@ EXTRA_DIST = mobile-broadband-provider-info.pc.in
 pkgconfigdir = $(datadir)/pkgconfig
 pkgconfig_DATA = mobile-broadband-provider-info.pc
 
+apns-conf.xml: $(top_srcdir)/apns-conf.xsl $(top_srcdir)/$(SP_XML_DB)
+	$(AM_V_GEN) $(XSLTPROC) --output $@ $^
+
+pkgdata_DATA = apns-conf.xml
+
 check-local:
 	xmllint --valid $(top_srcdir)/$(SP_XML_DB) 2>&1 > /dev/null || exit 1;
 
