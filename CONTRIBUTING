@@ -1,0 +1,9 @@
+Edit instructions are found from:
+http://live.gnome.org/NetworkManager/MobileBroadband/ServiceProviders
+
+MAKE SURE YOU VALIDATE THE DATABASE AFTER CHANGES!!
+
+
+If you wish to install the package execute:
+    $ autoreconf -i
+to bootstrap the package.
