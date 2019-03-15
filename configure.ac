@@ -4,6 +4,11 @@ AC_INIT(mobile-broadband-provider-info, 20190116, dcbw@redhat.com, mobile-broadb
 AM_INIT_AUTOMAKE([-Wall -Werror foreign no-dist-gzip dist-bzip2])
 AM_MAINTAINER_MODE([enable])
 
+AC_PATH_PROG(XSLTPROC, xsltproc)
+if test -z "$XSLTPROC"; then
+	AC_MSG_ERROR([xsltproc not found])
+fi
+
 AC_CONFIG_FILES([
 	Makefile
 	mobile-broadband-provider-info.pc
