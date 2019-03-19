@@ -638,62 +638,11 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Orange</name>
-		<gsm>
-			<network-id mcc="232" mnc="05"/>
-			<apn value="web.one.at">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>OneNet Web</name>
-				<username>web</username>
-				<password>web</password>
-				<dns>194.24.128.100</dns>
-				<dns>194.24.128.102</dns>
-			</apn>
-			<apn value="wap.one.at">
-				<plan type="postpaid"/>
-				<usage type="wap"/>
-				<name>Orange WAP</name>
-				<username>wap</username>
-				<password>wap</password>
-			</apn>
-			<apn value="mms.one.at">
-				<plan type="postpaid"/>
-				<usage type="mms"/>
-				<name>Orange MMS</name>
-				<username>mms</username>
-				<password>mms</password>
-			</apn>
-			<apn value="fullspeed">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>Web (no filtering)</name>
-				<username>web</username>
-				<password>web</password>
-			</apn>
-			<apn value="orange.web">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>Orange Web</name>
-				<username>Orange</username>
-				<password>Orange</password>
-				<dns>81.3.216.100</dns>
-				<dns>194.24.128.100</dns>
-			</apn>
-			<apn value="orange.mms">
-				<plan type="postpaid"/>
-				<usage type="mms"/>
-				<name>Orange Web</name>
-				<username>mms</username>
-				<password>mms</password>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
 		<name>Drei (3)</name>
 		<name xml:lang="de">Drei</name>
 		<gsm>
 			<network-id mcc="232" mnc="10"/>
+			<network-id mcc="232" mnc="05"/>
 			<apn value="drei.at">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
