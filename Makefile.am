@@ -4,7 +4,10 @@ SP_XML_DB = serviceproviders.xml
 
 dist_pkgdata_DATA = $(SP_XML_DB) serviceproviders.2.dtd
 
-EXTRA_DIST = mobile-broadband-provider-info.pc.in
+EXTRA_DIST = mobile-broadband-provider-info.pc.in \
+	apns-conf.xsl
+
+CLEANFILES = apns-conf.xml
 
 pkgconfigdir = $(datadir)/pkgconfig
 pkgconfig_DATA = mobile-broadband-provider-info.pc
