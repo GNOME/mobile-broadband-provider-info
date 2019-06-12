@@ -3584,15 +3584,15 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
-    <provider>
-        <name>winSIM</name>
-        <gsm>
-            <apn value="internet">
-                <plan type="postpaid"/>
-                <usage type="internet"/>
-            </apn>
-        </gsm>
-    </provider>
+	<provider>
+		<name>winSIM</name>
+		<gsm>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Denmark -->
@@ -3605,7 +3605,7 @@ conceived.
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<name>Bredbånd (standard)</name>
- 			</apn>
+			</apn>
 			<apn value="net.tre.dk">
 				<plan type="prepaid"/>
 				<usage type="internet"/>
