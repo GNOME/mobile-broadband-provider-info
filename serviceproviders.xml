@@ -14305,5 +14305,47 @@ conceived.
 	</provider>
 </country>
 
+<!-- Eswatini (Swaziland) -->
+<country code="sz">
+	<provider>
+		<name>MTN Eswatini</name>
+		<gsm>
+			<network-id mcc="653" mnc="10"/>
+			<msisdn-query>
+				<ussd>*123#</ussd>
+			</msisdn-query>
+			<balance-check>
+				<ussd>*556#</ussd>
+			</balance-check>
+			<balance-top-up>
+				<ussd replacement="CODE">*555*CODE#</ussd>
+			</balance-top-up>
+			<apn value="mymtn.co.sz">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Eswatini Mobile</name>
+		<gsm>
+			<network-id mcc="653" mnc="02"/>
+			<msisdn-query>
+				<ussd>*123#</ussd>
+			</msisdn-query>
+			<balance-check>
+				<ussd>*202#</ussd>
+			</balance-check>
+			<balance-top-up>
+				<ussd replacement="CODE">*200*CODE#</ussd>
+			</balance-top-up>
+			<apn value="internet">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+</country>
+
 </serviceproviders>
 
