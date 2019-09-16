@@ -9057,6 +9057,24 @@ conceived.
 <!-- Malawi -->
 <country code="mw">
 	<provider>
+		<name>Airtel MW</name>
+		<gsm>
+			<network-id mcc="650" mnc="10"/>
+			<balance-check>
+				<ussd>*137#</ussd>
+			</balance-check>
+			<balance-top-up>
+				<ussd replacement="CODE">*136*CODE#</ussd>
+			</balance-top-up>
+			<apn value="internet">
+				<plan type="prepaid"/>
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>All plans</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>TNM</name>
 		<gsm>
 			<network-id mcc="650" mnc="01"/>
