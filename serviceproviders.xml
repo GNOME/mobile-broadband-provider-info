@@ -2906,6 +2906,31 @@ conceived.
 	</provider>
 	<provider>
 		<name>China Telecom</name>
+		<gsm>
+			<network-id mcc="460" mnc="11"/>
+			<apn value="ctnet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>CTNET</name>
+				<username>ctnet@mycdma.cn</username>
+				<password>vnet.mobi</password>
+			</apn>
+			<apn value="ctlte">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>CTLTE</name>
+				<username>ctlte@mycdma.cn</username>
+				<password>vnet.mobi</password>
+			</apn>
+			<apn value="ctwap">
+				<usage type="mms"/>
+				<name>电信彩信</name>
+				<username>ctwap@mycdma.cn</username>
+				<password>vnet.mobi</password>
+				<mmsc>http://mmsc.vnet.mobi</mmsc>
+				<mmsproxy>10.0.0.200:80</mmsproxy>
+			</apn>
+		</gsm>
 		<cdma>
 			<username>ctnet@mycdma.cn</username>
 			<password>vnet.mobi</password>
