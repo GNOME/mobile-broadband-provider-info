@@ -3836,7 +3836,7 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
-	<!-- Onfone: https://www.onfone.dk/Kundeservice/mobil/saet_din_mobil_op/internet-gprs-3g/ --> 
+	<!-- Onfone: https://www.onfone.dk/Kundeservice/mobil/saet_din_mobil_op/internet-gprs-3g/ -->
 	<provider>
 		<name>Onfone Internet DK</name>
 		<gsm>
@@ -8085,7 +8085,7 @@ conceived.
 			<network-id mcc="457" mnc="01"/>
 			<balance-check>
 				<ussd>*122#</ussd>
-			</balance-check>			
+			</balance-check>
 			<apn value="ltcnet">
 				<plan type="prepaid"/>
 				<usage type="internet"/>
@@ -11831,7 +11831,7 @@ conceived.
 		<gsm>
 			<network-id mcc="240" mnc="01"/>
 			<network-id mcc="240" mnc="05"/>
-			
+
 			<!-- http://multicomsecurity.se/produkter-tjanster/mobil-datakommunikation/mobiflex/ -->
 			<apn value="mobiflex.telia.se">
 				<plan type="postpaid"/>
@@ -13895,6 +13895,24 @@ conceived.
 			<apn value="tfdata">
 				<plan type="prepaid"/>
 				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<!-- MVNO operating on T-Mobile/Sprint -->
+		<name>SpeedTalk Mobile</name>
+		<gsm>
+			<network-id mcc="310" mnc="260"/>
+			<apn value="mobilenet">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>Broadband</name>
+			</apn>
+			<apn value="wholesale">
+				<plan type="prepaid"/>
+				<usage type="mms"/>
+				<name>Cellular (MMS)</name>
+				<mmsc>http://wholesale.mmsmvno.com/mms/wapenc</mmsc>
 			</apn>
 		</gsm>
 	</provider>
