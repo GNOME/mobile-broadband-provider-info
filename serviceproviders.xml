@@ -12057,6 +12057,9 @@ conceived.
 		<name>Starhub</name>
 		<gsm>
 			<network-id mcc="525" mnc="05"/>
+			<balance-check>
+				<ussd>*123*1*1#</ussd>
+			</balance-check>
 			<apn value="shwap">
 				<plan type="postpaid"/>
 				<usage type="wap"/>
