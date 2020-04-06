@@ -531,6 +531,12 @@ conceived.
 		<name>HoT</name>
 		<gsm>
 			<network-id mcc="232" mnc="07"/>
+			<balance-check>
+				<ussd>*101#</ussd>
+			</balance-check>
+			<balance-top-up>
+				<ussd replacement="CODE">*103*CODE#</ussd>
+			</balance-top-up>
 			<apn value="webaut">
 				<plan type="prepaid"/>
 				<usage type="internet"/>
