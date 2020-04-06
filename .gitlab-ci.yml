@@ -1,0 +1,12 @@
+test:
+  image: debian:buster
+  stage: test
+  before_script:
+    - echo "man-db man-db/auto-update boolean false" | debconf-set-selections
+    - export DEBIAN_FRONTEND=noninteractive
+    - apt-get update
+    - apt-get -y install libxml2-utils xsltproc automake make
+  script:
+    - ./autogen.sh
+    - make check
+
