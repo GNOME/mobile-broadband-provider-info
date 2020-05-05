@@ -1998,6 +1998,15 @@ conceived.
 <!-- Bahamas -->
 <country code="bs">
 	<provider>
+		<name>Aliv</name>
+		<gsm>
+			<network-id mcc="364" mnc="49"/>
+			<apn value="pda.newcomobile.com">
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Batelco</name>
 		<gsm>
 			<network-id mcc="364" mnc="390"/>
