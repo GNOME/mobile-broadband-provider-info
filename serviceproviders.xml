@@ -6541,7 +6541,7 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Orange</name>
+		<name>Partner</name>
 		<gsm>
 			<network-id mcc="425" mnc="01"/>
 			<apn value="uinternet">
