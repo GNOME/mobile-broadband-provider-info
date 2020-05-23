@@ -6587,6 +6587,16 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>We4G</name>
+		<gsm>
+			<network-id mcc="425" mnc="09"/>
+			<apn value="we">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>YouPhone 3G</name>
 		<gsm>
 			<network-id mcc="425" mnc="14"/>
