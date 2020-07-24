@@ -10560,14 +10560,14 @@ conceived.
 			<balance-top-up>
 				<ussd replacement="CODE">*123*CODE#</ussd>
 			</balance-top-up>
-			<apn value="www.plusgsm.pl">
+			<apn value="internet">
 				<plan type="postpaid"/>
 				<plan type="prepaid"/>
 				<usage type="internet"/>
 				<name>Standard access</name>
 				<name xml:lang="pl">Dostęp standardowy</name>
-				<username>plusgsm</username>
-				<password>plusgsm</password>
+				<username>internet</username>
+				<password>internet</password>
 				<dns>212.2.96.51</dns>
 				<dns>212.2.96.52</dns>
 			</apn>
