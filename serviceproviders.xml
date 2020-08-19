@@ -10668,16 +10668,6 @@ conceived.
 			<password>orange</password>
 		</cdma>
 	</provider>
-	<provider primary="false">
-		<name>FreeM</name>
-		<gsm>
-			<network-id mcc="260" mnc="01"/>
-			<apn value="freedata.pl">
-				<plan type="prepaid"/>
-				<usage type="internet"/>
-			</apn>
- 		</gsm>
- 	</provider>
  	<provider primary="false">
  		<name>Heyah</name>
  		<gsm>
@@ -10718,31 +10708,6 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
-	<provider primary="false">
-		<name>GaduAIR</name>
-		<gsm>
-			<network-id mcc="260" mnc="01"/>
-			<balance-check>
-				<ussd>*101#</ussd>
-			</balance-check>
-			<apn value="internet.gadu-gadu.pl">
-				<plan type="prepaid"/>
-				<usage type="internet"/>
-			</apn>
-		</gsm>
-	</provider>
-	<provider primary="false">
-		<name>Aster</name>
- 		<gsm>
- 			<network-id mcc="260" mnc="03"/>
-			<apn value="aster.internet">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
- 				<username>internet</username>
- 				<password>internet</password>
- 			</apn>
- 		</gsm>
- 	</provider>
  	<provider primary="false">
 		<name>Netia</name>
 		<gsm>
@@ -10764,19 +10729,6 @@ conceived.
 		</gsm>
 	</provider>
 	<provider primary="false">
-		<name>mBank mobile</name>
- 		<gsm>
- 			<network-id mcc="260" mnc="01"/>
-			<balance-check>
-				<ussd>*100#</ussd>
-			</balance-check>
-			<apn value="www.mobile.pl">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-			</apn>
-		</gsm>
-	</provider>
-	<provider primary="false">
 		<name>INEA</name>
 		<gsm>
 			<network-id mcc="260" mnc="03"/>
@@ -10785,30 +10737,6 @@ conceived.
 				<usage type="internet"/>
 				<username>internet</username>
  			</apn>
- 		</gsm>
- 	</provider>
- 	<provider primary="false">
-		<name>Mobilking</name>
-		<gsm>
-			<network-id mcc="260" mnc="02"/>
-			<apn value="wapMOBILKING">
-				<plan type="prepaid"/>
-				<usage type="internet"/>
-				<username>mobilking</username>
-				<password>mobilking</password>
-			</apn>
-		</gsm>
-	</provider>
-	<provider primary="false">
-		<name>SamiSwoi</name>
- 		<gsm>
- 			<network-id mcc="260" mnc="01"/>
-			<apn value="www.plusgsm.pl">
-				<plan type="prepaid"/>
-				<usage type="internet"/>
-				<username>internet</username>
-				<password>internet</password>
-			</apn>
  		</gsm>
  	</provider>
 	<provider primary="false">
