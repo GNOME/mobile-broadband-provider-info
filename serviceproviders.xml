@@ -10771,6 +10771,74 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider primary="false">
+		<name>nju mobile</name>
+		<gsm>
+			<network-id mcc="260" mnc="03"/>
+			<voicemail>*501</voicemail>
+			<balance-check>
+				<ussd>*127*1*#</ussd>
+			</balance-check>
+			<balance-top-up>
+				<ussd replacement="CODE">*128*CODE#</ussd>
+			</balance-top-up>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>Standard access</name>
+				<name xml:lang="pl">Dostęp standardowy</name>
+				<username>internet</username>
+				<password>internet</password>
+				<dns>194.204.159.1</dns>
+				<dns>194.204.152.34</dns>
+			</apn>
+			<apn value="internetipv6">
+				<plan type="postpaid"/>
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>Standard access (IPv6)</name>
+				<name xml:lang="pl">Dostęp standardowy (IPv6)</name>
+				<username>internetipv6</username>
+				<password>internetipv6</password>
+				<dns>194.204.159.1</dns>
+				<dns>194.204.152.34</dns>
+			</apn>
+			<apn value="mms">
+				<usage type="mms"/>
+				<name>MMS</name>
+				<username>mms</username>
+				<password>mms</password>
+				<mmsc>http://mms.njumobile.pl</mmsc>
+				<mmsproxy>192.168.6.104:8080</mmsproxy>
+			</apn>
+		</gsm>
+	</provider>
+	<provider primary="false">
+		<name>Virgin Mobile</name>
+		<gsm>
+			<network-id mcc="260" mnc="02"/>
+			<network-id mcc="260" mnc="06"/>
+			<balance-check>
+				<ussd>*101#</ussd>
+			</balance-check>
+			<balance-top-up>
+				<ussd replacement="CODE">*100*CODE#</ussd>
+			</balance-top-up>
+			<apn value="virgin-internet">
+				<plan type="postpaid"/>
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>Internet</name>
+			</apn>
+			<apn value="virgin-mms">
+				<usage type="mms"/>
+				<name>MMS</name>
+				<mmsc>http://mms.virginpol.jsc</mmsc>
+				<mmsproxy>wap.virginpol.jsc:8080</mmsproxy>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Portugal -->
