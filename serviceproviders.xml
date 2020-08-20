@@ -3208,10 +3208,10 @@ conceived.
 		</gsm>
 	</provider>
 	<!-- Czech MVNO operators -->
- 	<provider primary="false">
+	<provider primary="false">
 		<!-- MVNO operating on T-Mobile's network -->
- 		<name>MOBIL.CZ</name>
- 		<gsm>
+		<name>MOBIL.CZ</name>
+		<gsm>
 			<network-id mcc="230" mnc="01"/>
 			<!-- http://www.mobil.cz/kredit.aspx#jakDobit -->
 			<balance-check>
@@ -3222,10 +3222,10 @@ conceived.
 			</balance-top-up>
 			<!-- http://www.mobil.cz/podpora-kredit.aspx#internet-1 -->
 			<apn value="internet.t-mobile.cz">
- 				<plan type="prepaid"/>
+				<plan type="prepaid"/>
 				<usage type="internet"/>
- 				<username>gprs</username>
- 				<password>gprs</password>
+				<username>gprs</username>
+				<password>gprs</password>
 			</apn>
 		</gsm>
 	</provider>
@@ -10668,47 +10668,47 @@ conceived.
 			<password>orange</password>
 		</cdma>
 	</provider>
- 	<provider primary="false">
- 		<name>Heyah</name>
- 		<gsm>
- 			<network-id mcc="260" mnc="02"/>
+	<provider primary="false">
+		<name>Heyah</name>
+		<gsm>
+			<network-id mcc="260" mnc="02"/>
 			<balance-check>
 				<ussd>*108#</ussd>
 			</balance-check>
 			<balance-top-up>
 				<ussd replacement="CODE">*109*CODE#</ussd>
 			</balance-top-up>
- 			<apn value="heyah.pl">
+			<apn value="heyah.pl">
 				<plan type="prepaid"/>
 				<usage type="internet"/>
 				<name>heyah.pl</name>
 			</apn>
- 			<apn value="internet">
- 				<plan type="postpaid"/>
+			<apn value="internet">
+				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<name>internet</name>
 			</apn>
 			<apn value="heyahmms">
- 				<plan type="prepaid"/>
+				<plan type="prepaid"/>
 				<usage type="mms"/>
 				<name>heyahmms</name>
- 				<username>heyah</username>
- 				<password>heyah</password>
+				<username>heyah</username>
+				<password>heyah</password>
 				<mmsc>http://mms.heyah.pl/servlets/mms</mmsc>
 				<mmsproxy>213.158.194.226:8080</mmsproxy>
 			</apn>
 			<apn value="mms">
- 				<plan type="postpaid"/>
+				<plan type="postpaid"/>
 				<usage type="mms"/>
 				<name>mms</name>
- 				<username>mms</username>
- 				<password>mms</password>
+				<username>mms</username>
+				<password>mms</password>
 				<mmsc>http://mms/servlets/mms</mmsc>
 				<mmsproxy>213.158.194.226:8080</mmsproxy>
 			</apn>
 		</gsm>
 	</provider>
- 	<provider primary="false">
+	<provider primary="false">
 		<name>Netia</name>
 		<gsm>
 			<network-id mcc="260" mnc="06"/>
@@ -10736,9 +10736,9 @@ conceived.
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<username>internet</username>
- 			</apn>
- 		</gsm>
- 	</provider>
+			</apn>
+		</gsm>
+	</provider>
 	<provider primary="false">
 		<name>Sferia</name>
 		<cdma>
