@@ -10777,7 +10777,7 @@ conceived.
 			<network-id mcc="260" mnc="03"/>
 			<voicemail>*501</voicemail>
 			<balance-check>
-				<ussd>*127*1*#</ussd>
+				<ussd>*127*1#</ussd>
 			</balance-check>
 			<balance-top-up>
 				<ussd replacement="CODE">*128*CODE#</ussd>
