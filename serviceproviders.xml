@@ -12427,6 +12427,28 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+
+	<provider>
+		<name>AIS (AWN)</name>
+		<gsm>
+			<network-id mcc="520" mnc="03"/>
+			<apn value="internet">
+				<usage type="internet"/>
+				<name>AIS internet</name>
+				<authentication method="chap"/>
+				<dns>202.183.255.20</dns>
+				<dns>202.183.255.21</dns>
+			</apn>
+			<apn value="mms">
+				<usage type="mms"/>
+				<name>AIS MMS</name>
+				<authentication method="chap"/>
+				<mmsc>http://mms.ais.co.th</mmsc>
+				<mmsproxy>203.170.229.34:8080</mmsproxy>
+			</apn>
+		</gsm>
+	</provider>
+
 	<provider>
 		<name>DTAC</name>
 		<gsm>
