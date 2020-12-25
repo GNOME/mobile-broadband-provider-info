@@ -4,7 +4,7 @@
          xmlns:gnome="http://api.gnome.org/doap-extensions#"
          xmlns="http://usefulinc.com/ns/doap#">
 
-  <name xml:lang="en"></name>
+  <name xml:lang="en">mobile-broadband-provider-info</name>
   <shortdesc xml:lang="en">Mobile broadband settings for various service providers</shortdesc>
   <description>The mobile-broadband-provider-info package contains listings of mobile
 broadband (3G) providers and associated network and plan information.</description>
