@@ -4574,6 +4574,14 @@ conceived.
 				<usage type="internet"/>
 				<name>Moi Mobiili</name>
 			</apn>
+			<apn value="mms">
+				<usage type="mms"/>
+				<name>MMS</name>
+				<username>dna</username>
+				<password>mms</password>
+				<mmsc>http://mmsc.dnafinland.fi</mmsc>
+				<mmsproxy>10.1.1.2:8080</mmsproxy>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
