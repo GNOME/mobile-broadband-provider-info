@@ -9294,6 +9294,16 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>Movitel</name>
+		<gsm>
+			<network-id mcc="643" mnc="03"/>
+			<apn value="default">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Vodacom</name>
 		<gsm>
 			<network-id mcc="643" mnc="04"/>
