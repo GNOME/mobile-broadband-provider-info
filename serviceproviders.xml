@@ -3458,6 +3458,14 @@ conceived.
 				<dns>10.74.83.22</dns>
 				<dns>193.254.160.1</dns>
 			</apn>
+			<apn value="internet.v6.telekom">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+			<apn value="internet.telekom">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
 			<apn value="internet.t-mobile">
 				<usage type="mms"/>
 				<name>T-Mobile MMS</name>
