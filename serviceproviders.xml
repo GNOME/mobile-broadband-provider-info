@@ -3466,6 +3466,11 @@ conceived.
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 			</apn>
+			<apn value="iot.telekom.net">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>Business Smart Connect</name>
+			</apn>
 			<apn value="internet.t-mobile">
 				<usage type="mms"/>
 				<name>T-Mobile MMS</name>
