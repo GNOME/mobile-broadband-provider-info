@@ -13259,7 +13259,7 @@ conceived.
 			<network-id mcc="310" mnc="660"/>
 			<network-id mcc="310" mnc="800"/>
 
-			<voicemail>123</voicemail>
+			<voicemail>127</voicemail>
 			<apn value="fast.t-mobile.com">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
