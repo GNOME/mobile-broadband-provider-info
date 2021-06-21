@@ -11,7 +11,7 @@
 <!-- that piggy-back on the primary provider. -->
 <!ATTLIST provider primary (true|false) #IMPLIED>
 
-<!ELEMENT gsm (network-id*, msisdn-query*, voicemail*, balance-check*, balance-top-up*, apn*)>
+<!ELEMENT gsm (network-id*, msisdn-query*, voicemail*, visual-voicemail*, balance-check*, balance-top-up*, apn*)>
 <!ELEMENT apn (plan*,
                usage?,
                name*,
@@ -31,6 +31,23 @@
 <!-- contains dial string used to access voicemail services for this provider -->
 <!-- for historical/legacy reasons network providers may support various alternative -->
 <!-- dial strings that can be used to access voicemail services -->
+
+<!ELEMENT visual-voicemail (standard*,
+                            destination-number*,
+                            carrier-prefix)>
+
+<!ELEMENT standard EMPTY>
+<!ATTLIST standard type (cvvm|otmp) #REQUIRED>
+<!-- Whether the carrier supports OTMP or CVVM for Visual Voicemail -->
+
+<!ELEMENT destination-number (#PCDATA)>
+<!-- This is the destination number to activate/deactivate Visual
+     voicemail over SMS.
+-->
+
+<!ELEMENT carrier-prefix (#PCDATA)>
+<!-- At the beginning of an SMS "Status" or "Sync" message, this will appear.
+-->
 
 <!ELEMENT balance-check (ussd*,
                          dtmf*,
