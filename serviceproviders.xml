@@ -2190,7 +2190,7 @@ conceived.
 		<!-- http://life.com.by/en/services/internet-105.html -->
 		<name>life:)</name>
 		<gsm>
-			<network-id mcc="257" mnc="03"/>
+			<network-id mcc="257" mnc="04"/>
 			<balance-check>
 				<ussd>*100#</ussd>
 			</balance-check>
