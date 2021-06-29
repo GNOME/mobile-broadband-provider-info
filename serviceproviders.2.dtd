@@ -34,11 +34,13 @@
 
 <!ELEMENT visual-voicemail (standard*,
                             destination-number*,
-                            carrier-prefix)>
+                            carrier-prefix?)>
 
 <!ELEMENT standard EMPTY>
-<!ATTLIST standard type (cvvm|otmp) #REQUIRED>
-<!-- Whether the carrier supports OTMP or CVVM for Visual Voicemail -->
+<!ATTLIST standard type (cvvm|otmp|proprietary) #REQUIRED>
+<!-- Whether the carrier supports OTMP or CVVM for Visual Voicemail
+     Some carriers impliment their own proprietary standard.
+-->
 
 <!ELEMENT destination-number (#PCDATA)>
 <!-- This is the destination number to activate/deactivate Visual
