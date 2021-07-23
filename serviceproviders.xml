@@ -725,6 +725,19 @@ conceived.
      http://ausdroid.net/apns/ -->
 <country code="au">
 	<provider>
+		<name>Aldi Mobile AU</name>
+		<!-- https://www.aldimobile.com.au/blogs/using-and-managing-your-service/what-are-the-data-internet-settings-for-my-aldimobile-service -->
+		<gsm>
+			<network-id mcc="505" mnc="01"/>
+			<apn value="mdata.net.au">
+				<usage type="mms"/>
+				<name>Mobile Data</name>
+				<mmsc>http://mmsc.mdata.net.au:8003</mmsc>
+				<mmsproxy>10.1.1.180</mmsproxy>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Amaysim</name>
 		<!-- http://www.amaysim.com.au/help-support/amaysim-mobile-broadband.html/ -->
 		<gsm>
