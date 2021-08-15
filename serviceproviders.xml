@@ -7688,6 +7688,106 @@ conceived.
 			<dns>210.141.112.163</dns>
 		</cdma>
 	</provider>
+	<provider primary="true">
+		<name>楽天モバイル</name>
+		<gsm>
+			<network-id mcc="440" mnc="11"/>
+			<!-- Roaming -->
+			<network-id mcc="440" mnc="53"/>
+			<apn value="rakuten.jp">
+				<usage type="internet"/>
+				<name>楽天 (rakuten.jp)</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<!-- MVNO operating on NTT docomo network -->
+		<name>OCN</name>
+		<gsm>
+			<network-id mcc="440" mnc="10"/>
+			<network-id mcc="440" mnc="13"/>
+			<apn value="3g-d-2.ocn.ne.jp">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>OCN モバイル ONE (3G)</name>
+				<username>mobileid@ocn</username>
+				<password>mobile</password>
+				<authentication method="chap"/>
+			</apn>
+			<apn value="lte-d.ocn.ne.jp">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>OCN モバイル ONE</name>
+				<username>mobileid@ocn</username>
+				<password>mobile</password>
+				<authentication method="chap"/>
+			</apn>
+			<apn value="lte.ocn.ne.jp">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>OCN モバイル ONE (新コース)</name>
+				<username>mobileid@ocn</username>
+				<password>mobile</password>
+				<authentication method="chap"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<!-- MVNO operating on NTT docomo and au(KDDI) network -->
+		<name>Excite</name>
+		<gsm>
+			<network-id mcc="440" mnc="10"/>
+			<network-id mcc="440" mnc="51"/>
+			<apn value="vmobile.jp">
+				<usage type="internet"/>
+				<name>エキサイトモバイル</name>
+				<username>bb@excite.co.jp</username>
+				<password>excite</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<!-- MVNO operating on NTT docomo, au(KDDI) and Softbank network -->
+		<name>Mineo</name>
+		<gsm>
+			<network-id mcc="440" mnc="10"/>
+			<apn value="mineo-d.jp">
+				<usage type="internet"/>
+				<name>Mineo (Dプラン)</name>
+				<username>mineo@k-opti.com</username>
+				<password>mineo</password>
+				<authentication method="chap"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<!-- MVNO operating on NTT docomo, au(KDDI) and Softbank network -->
+		<name>Mineo</name>
+		<gsm>
+			<network-id mcc="440" mnc="51"/>
+			<apn value="mineo.jp">
+				<usage type="internet"/>
+				<name>Mineo (Aプラン)</name>
+				<username>mineo@k-opti.com</username>
+				<password>mineo</password>
+				<authentication method="chap"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<!-- MVNO operating on NTT docomo, au(KDDI) and Softbank network -->
+		<name>Mineo</name>
+		<gsm>
+			<network-id mcc="440" mnc="20"/>
+			<apn value="mineo-s.jp">
+				<usage type="internet"/>
+				<name>Mineo (Sプラン)</name>
+				<username>mineo@k-opti.com</username>
+				<password>mineo</password>
+				<authentication method="chap"/>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Kenya -->
