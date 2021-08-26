@@ -2720,30 +2720,16 @@ conceived.
 			<apn value="bam.clarochile.cl">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<name>Internet Movil</name>
 				<username>clarochile</username>
 				<password>clarochile</password>
 			</apn>
 			<apn value="bap.clarochile.cl">
 				<plan type="prepaid"/>
 				<usage type="internet"/>
-				<name>Prepago</name>
+				<name>Internet Movil</name>
 				<username>clarochile</username>
 				<password>clarochile</password>
-			</apn>
-			<apn value="wap.clarochile.cl">
-				<plan type="postpaid"/>
-				<usage type="wap"/>
-				<name>WAP</name>
-				<username>clarochile</username>
-				<password>clarochile</password>
-			</apn>
-			<apn value="mms.clarochile.cl">
-				<usage type="mms"/>
-				<name>MMS CLARO</name>
-				<username>clarochile</username>
-				<password>clarochile</password>
-				<mmsc>http://mms.clarochile.cl</mmsc>
-				<mmsproxy>172.23.200.200:8080</mmsproxy>
 			</apn>
 		</gsm>
 	</provider>
@@ -2754,24 +2740,16 @@ conceived.
 			<apn value="imovil.entelpcs.cl">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<name>Contract / Prepaid / WebSession</name>
+				<name>Banda Ancha Movil</name>
 				<username>entelpcs</username>
 				<password>entelpcs</password>
 			</apn>
 			<apn value="bam.entelpcs.cl">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<name>WAP</name>
+				<name>Internet Movil</name>
 				<username>entelpcs</username>
 				<password>entelpcs</password>
-			</apn>
-			<apn value="mms.entelpcs.cl">
-				<usage type="mms"/>
-				<name>MMS Entel PCS</name>
-				<username>entelmms</username>
-				<password>entelpcs</password>
-				<mmsc>http://mmsc.entelpcs.cl</mmsc>
-				<mmsproxy>10.99.0.10:8080</mmsproxy>
 			</apn>
 		</gsm>
 	</provider>
@@ -2779,71 +2757,67 @@ conceived.
 		<name>Movistar</name>
 		<gsm>
 			<network-id mcc="730" mnc="02"/>
-			<network-id mcc="730" mnc="10"/>
 			<apn value="web.tmovil.cl">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<name>Web</name>
+				<name>Banda Ancha Movil</name>
 				<username>web</username>
 				<password>web</password>
 			</apn>
 			<apn value="wap.tmovil.cl">
 				<plan type="postpaid"/>
-				<usage type="wap"/>
-				<name>WAP</name>
+				<usage type="internet"/>
+				<name>Internet Movil</name>
 				<username>wap</username>
 				<password>wap</password>
-			</apn>
-			<apn value="dst.mms">
-				<usage type="mms"/>
-				<name>DSTMMS</name>
-				<username>mms</username>
-				<password>mms</password>
-				<mmsc>http://mms.dst.com.bn/mmsc</mmsc>
-				<mmsproxy>10.100.6.101:3130</mmsproxy>
-			</apn>
-			<apn value="dst.mms">
-				<usage type="mms"/>
-				<name>DSTMMS</name>
-				<username>mms</username>
-				<password>mms</password>
-				<mmsc>http://mms.dst.com.bn/mmsc</mmsc>
-				<mmsproxy>10.100.6.101:3130</mmsproxy>
 			</apn>
 		</gsm>
 	</provider>
 	<provider>
-		<!-- http://www.chw.net/foro/virgin/965115-apn-internet-movil-y-mms.html -->
+		<name>GTD Movil</name>
+		<gsm>
+			<network-id mcc="730" mnc="07"/>
+			<apn value="web.gtdmovil.cl">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Internet Movil</name>
+				<username>webgtd</username>
+				<password>webgtd</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Virgin Mobile</name>
 		<gsm>
 			<network-id mcc="730" mnc="07"/>
 			<apn value="imovil.virginmobile.cl">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<name>Internet Movil</name>
 			</apn>
 		</gsm>
 	</provider>
 	<provider>
-		<!-- http://www.chw.net/foro/vtr-movil/965343-apns-vtr-movil.html -->
 		<name>VTR Movil</name>
 		<gsm>
 			<network-id mcc="730" mnc="08"/>
 			<apn value="movil.vtr.com">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<name>Internet Movil</name>
 				<username>vtrmovil</username>
 				<password>vtrmovil</password>
 			</apn>
 		</gsm>
 	</provider>
 	<provider>
-		<!-- http://www.nextel.cl/ayuda/apn/ -->
-		<name>Nextel</name>
+		<name>Wom</name>
 		<gsm>
 			<network-id mcc="730" mnc="09"/>
-			<apn value="wap.nextelmovil.cl">
+			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<name>Internet Movil</name>
 			</apn>
 		</gsm>
 	</provider>
