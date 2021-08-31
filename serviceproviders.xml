@@ -2516,6 +2516,23 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<name>Public Mobile</name>
+		<gsm>
+			<network-id mcc="302" mnc="220"/>
+			<apn value="sp.mb.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Internet</name>
+			</apn>
+			<apn value="sp.mb.com">
+				<usage type="mms"/>
+				<name>Public Mobile MMS</name>
+				<mmsc>http://aliasredirect.net/proxy/mb/mmsc</mmsc>
+				<mmsproxy>74.49.0.18</mmsproxy>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Congo (Dem. Rep.) -->
