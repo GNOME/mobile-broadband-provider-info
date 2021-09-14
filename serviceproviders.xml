@@ -13409,7 +13409,7 @@ conceived.
 			<apn value="fast.t-mobile.com">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<name>LTE</name>
+				<name>T-Mobile LTE</name>
 			</apn>
 			<apn value="epc.tmobile.com">
 				<plan type="postpaid"/>
