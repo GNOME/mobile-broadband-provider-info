@@ -13410,6 +13410,7 @@ conceived.
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<name>T-Mobile LTE</name>
+				<mmsc>http://mms.msg.eng.t-mobile.com/mms/wapenc</mmsc>
 			</apn>
 			<apn value="epc.tmobile.com">
 				<plan type="postpaid"/>
