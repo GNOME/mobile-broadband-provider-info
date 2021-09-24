@@ -2281,11 +2281,11 @@ conceived.
 		<name>Fido</name>
 		<gsm>
 			<network-id mcc="302" mnc="370"/>
-			<apn value="internet.fido.ca">
+			<apn value="ltemobile.apn">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<username>fido</username>
-				<password>fido</password>
+				<username></username>
+				<password></password>
 				<dns>204.92.15.211</dns>
 				<dns>207.181.101.4</dns>
 			</apn>
