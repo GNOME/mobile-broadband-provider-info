@@ -14203,6 +14203,23 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<name>Mint Mobile</name>
+		<gsm>
+			<network-id mcc="310" mnc="260"/>
+			<visual-voicemail>
+				<standard type="cvvm"/>
+				<destination-number>127</destination-number>
+				<carrier-prefix>//VVM</carrier-prefix>
+			</visual-voicemail>
+			<apn value="wholesale">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>mint</name>
+				<mmsc>http://wholesale.mmsmvno.com/mms/wapenc</mmsc>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Uruguay -->
