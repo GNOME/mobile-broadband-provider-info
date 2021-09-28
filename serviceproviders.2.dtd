@@ -39,7 +39,7 @@
 <!ELEMENT standard EMPTY>
 <!ATTLIST standard type (cvvm|otmp|proprietary) #REQUIRED>
 <!-- Whether the carrier supports OTMP or CVVM for Visual Voicemail
-     Some carriers impliment their own proprietary standard.
+     Some carriers implement their own proprietary standard.
 -->
 
 <!ELEMENT destination-number (#PCDATA)>
