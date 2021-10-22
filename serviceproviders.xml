@@ -7380,6 +7380,17 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>Rabona Mobile</name>
+		<gsm>
+			<network-id mcc="222" mnc="54"/>
+			<apn value="rabona.it">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>RABONA WEB</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<!-- MVNO operating on 3's network -->
 		<!-- www.bip.it -->
 		<name>Bip</name>
