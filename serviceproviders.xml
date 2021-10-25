@@ -11976,30 +11976,6 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Glocalnet</name>
-		<gsm>
-			<network-id mcc="240" mnc="08"/>
-			<!-- http://glocalnet.se/mobiltbredband -->
-			<apn value="bredband.glocalnet.se">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>Mobilt Bredband</name>
-			</apn>
-			<!-- http://kundservice.glocalnet.se/Kundservice/Mobiltelefoni/Installningar/ -->
-			<apn value="internet.glocalnet.se">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>Glocalnet Internet</name>
-			</apn>
-			<apn value="services.glocalnet.se">
-				<usage type="mms"/>
-				<name>Glocalnet MMS</name>
-				<mmsc>http://mms</mmsc>
-				<mmsproxy>172.30.253.241:8799</mmsproxy>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
 		<name>Halebop</name>
 		<gsm>
 			<network-id mcc="240" mnc="01"/>
@@ -12201,33 +12177,6 @@ conceived.
 			<apn value="bredband.comhem.se">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
-		<name>Parlino</name>
-		<gsm>
-			<network-id mcc="240" mnc="07"/>
-			<apn value="internet.parlino.se">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
-		<name>Universal Telecom</name>
-		<gsm>
-			<!-- http://www.uvtc.com/SWEDEN/internet/mobiltbredband/Default.aspx -->
-			<apn value="sp-internet">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>Mobilt Bredband</name>
-			</apn>
-			<!-- http://www.uvtc.com/sweden/Mobil/Faq/default.aspx -->
-			<apn value="internet.uvtc.com">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>Mobilt Internet</name>
 			</apn>
 		</gsm>
 	</provider>
