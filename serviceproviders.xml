@@ -1316,7 +1316,7 @@ conceived.
 		<gsm>
 			<network-id mcc="470" mnc="02"/>
 			<msisdn-query>
-				<ussd>*140*2*4#</ussd>
+				<ussd>*2#</ussd>
 			</msisdn-query>
 			<balance-check>
 				<ussd>*222#</ussd>
@@ -1327,18 +1327,18 @@ conceived.
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<name>Internet</name>
+				<name>Robi Internet</name>
 				<dns>192.168.23.7</dns>
 			</apn>
 			<apn value="internet">
 				<plan type="prepaid"/>
 				<usage type="internet"/>
-				<name>Internet</name>
+				<name>Robi Internet</name>
 				<dns>192.168.23.7</dns>
 			</apn>
 			<apn value="wap">
 				<usage type="mms"/>
-				<name>AKTEL-MMS 2 0</name>
+				<name>Robi MMS</name>
 				<mmsc>http://192.168.23.4/was</mmsc>
 				<mmsproxy>192.168.23.7:9028</mmsproxy>
 			</apn>
@@ -1360,18 +1360,18 @@ conceived.
 			<apn value="blweb">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<name>Web</name>
+				<name>Banglalink Web</name>
 				<dns>10.10.55.34</dns>
 			</apn>
 			<apn value="blweb">
 				<plan type="prepaid"/>
 				<usage type="internet"/>
-				<name>Web</name>
+				<name>Banglalink Web</name>
 				<dns>10.10.55.34</dns>
 			</apn>
 			<apn value="blmms">
 				<usage type="mms"/>
-				<name>blmms</name>
+				<name>Banglalink MMS</name>
 				<mmsc>http://mmsc1:10021/mmsc/01</mmsc>
 				<mmsproxy>10.10.55.34:8799</mmsproxy>
 			</apn>
@@ -1393,6 +1393,7 @@ conceived.
 			<apn value="gpinternet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<name>GP Internet</name>
 				<username>gp</username>
 				<password>gp</password>
 				<dns>202.56.4.120</dns>
@@ -1401,10 +1402,7 @@ conceived.
 			<apn value="gpinternet">
 				<plan type="prepaid"/>
 				<usage type="internet"/>
-				<username>gp</username>
-				<password>gp</password>
-				<dns>202.56.4.120</dns>
-				<dns>202.56.4.121</dns>
+				<name>GP Internet</name>
 			</apn>
 			<apn value="gpmms">
 				<usage type="mms"/>
@@ -1419,10 +1417,10 @@ conceived.
 		<gsm>
 			<network-id mcc="470" mnc="07"/>
 			<msisdn-query>
-				<ussd>*121*6*3#</ussd>
+				<ussd>*2#</ussd>
 			</msisdn-query>
 			<balance-check>
-				<ussd>*778#</ussd>
+				<ussd>*1#</ussd>
 			</balance-check>
 			<balance-top-up>
 				<ussd replacement="CODE">*787*CODE#</ussd>
@@ -1430,13 +1428,13 @@ conceived.
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<name>Internet</name>
+				<name>Airtel Internet</name>
 				<dns>10.6.0.2</dns>
 			</apn>
 			<apn value="internet">
 				<plan type="prepaid"/>
 				<usage type="internet"/>
-				<name>Internet</name>
+				<name>Airtel Internet</name>
 				<dns>10.6.0.2</dns>
 			</apn>
 			<apn value="mms">
@@ -1448,7 +1446,7 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<!-- http://www.teletalk.com.bd/cpoint/3G/MMS_Internet_service.php -->
+		<!-- https://www.teletalk.com.bd/internet/supporting-information -->
 		<name>Teletalk</name>
 		<gsm>
 			<network-id mcc="470" mnc="04"/>
@@ -1464,11 +1462,11 @@ conceived.
 			<apn value="wap">
 				<plan type="prepaid"/>
 				<usage type="internet"/>
-				<name>Internet</name>
+				<name>Teletalk Internet</name>
 			</apn>
 			<apn value="mms">
 				<usage type="mms"/>
-				<name>Airtel MMS</name>
+				<name>Teletalk MMS</name>
 				<mmsc>http://10.5.4.22:38090/was</mmsc>
 				<mmsproxy>10.5.4.40:8080</mmsproxy>
 			</apn>
