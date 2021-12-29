@@ -1059,11 +1059,6 @@ conceived.
 				<usage type="wap"/>
 				<name>Telstra Internet/Wap</name>
 			</apn>
-			<apn value="telstra.mms">
-				<plan type="postpaid"/>
-				<usage type="mms"/>
-				<name>Telstra MMS</name>
-			</apn>
 			<apn value="telstra.bigpond">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
