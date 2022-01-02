@@ -14179,6 +14179,20 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<!-- MVNO operating on T-Mobile / Verizon -->
+		<name>US Mobile</name>
+		<gsm>
+			<network-id mcc="310" mnc="260"/>
+			<voicemail>123</voicemail>
+			<apn value="pwg">
+				<!-- T-Mobile network combined MMS / Cellular Data APN -->
+				<usage type="internet"/>
+				<name>US Mobile</name>
+				<mmsc>http://pwg.mmsmvno.com/mms/wapenc</mmsc>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Uruguay -->
