@@ -14033,6 +14033,30 @@ conceived.
 		</cdma>
 	</provider>
 	<provider>
+		<name>Ting</name>
+		<gsm>
+			<!-- Assignments taken from https://help.ting.com/hc/en-us/articles/205428698-GSM-Android-APN-setup-guide -->
+			<network-id mcc="310" mnc="240"/>
+			<!-- Mobile Data settings for X3 SIM card -->
+			<apn value="wireless.dish.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Ting Data</name>
+			</apn>
+			<apn value="wireless.dish.com">
+				<usage type="mms"/>
+				<name>MMS</name>
+				<mmsc>http://wholesale.mmsmvno.com/mms/wapenc</mmsc>
+			</apn>
+			<!-- Tethering settings for X3 SIM card -->
+			<apn value="tethering.dish.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Ting Data</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Leap Wireless</name>
 		<cdma/>
 	</provider>
