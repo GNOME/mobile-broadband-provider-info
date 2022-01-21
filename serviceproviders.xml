@@ -14164,6 +14164,25 @@ conceived.
 	</provider>
 	<provider>
 		<!-- MVNO operating on AT&T's network -->
+		<name>AweSIM</name>
+		<gsm>
+			<network-id mcc="310" mnc="410"/>
+			<apn value="NXTGENPHONE">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>AweSIM Internet</name>
+			</apn>
+			<apn value="NXTGENPHONE">
+				<plan type="prepaid"/>
+				<usage type="mms"/>
+				<name>AweSIM MMS</name>
+				<mmsc>http://mmsc.mobile.att.net</mmsc>
+				<mmsproxy>proxy.mobile.att.net:80</mmsproxy>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<!-- MVNO operating on AT&T's network -->
 		<name>Straight Talk</name>
 		<gsm>
 			<network-id mcc="310" mnc="410"/>
