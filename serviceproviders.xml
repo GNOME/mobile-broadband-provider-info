@@ -13319,6 +13319,7 @@ conceived.
 			<network-id mcc="310" mnc="038"/>
 			<network-id mcc="310" mnc="090"/>
 			<network-id mcc="310" mnc="150"/>
+			<network-id mcc="310" mnc="280"/>
 			<network-id mcc="310" mnc="410"/>
 			<network-id mcc="310" mnc="560"/>
 			<network-id mcc="310" mnc="680"/>
