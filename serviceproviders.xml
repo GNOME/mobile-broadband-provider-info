@@ -4915,6 +4915,8 @@ conceived.
 				<name>Orange MMS</name>
 				<username>orange</username>
 				<password>orange</password>
+				<mmsc>http://mms.orange.fr</mmsc>
+				<mmsproxy>192.168.10.200:8080</mmsproxy>
 			</apn>
 			<apn value="orange.ie">
 				<plan type="postpaid"/>
