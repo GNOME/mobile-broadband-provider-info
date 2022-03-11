@@ -6504,6 +6504,12 @@ conceived.
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 			</apn>
+			<apn value="mms.golantelecom.net.il">
+				<usage type="mms"/>
+				<name>Golan Telecom MMS</name>
+				<mmsc>http://mmsc.golantelecom.co.il</mmsc>
+				<mmsproxy>10.224.228.81:80</mmsproxy>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -6523,6 +6529,12 @@ conceived.
 			<apn value="net.hotm">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+			</apn>
+			<apn value="mms.hotm">
+				<usage type="mms"/>
+				<name>MMS HOT Mobile</name>
+				<mmsc>http://mms.hotmobile.co.il</mmsc>
+				<mmsproxy>80.246.131.99</mmsproxy>
 			</apn>
 		</gsm>
 	</provider>
