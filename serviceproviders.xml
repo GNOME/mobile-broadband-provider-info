@@ -4120,6 +4120,15 @@ conceived.
 				<dns>163.121.128.134</dns>
 				<dns>212.103.160.18</dns>
 			</apn>
+			<apn value="mms.vodafone.eg">
+				<usage type="mms"/>
+				<name>MMS Vodafone.eg</name>
+				<username>mms</username>
+				<password>mms</password>
+				<mmsc>http://mmsc.vodafone.com.eg/servlets/mms</mmsc>
+				<mmsproxy>163.121.178.2:8080</mmsproxy>
+			</apn>
+
 		</gsm>
 	</provider>
 	<provider>
