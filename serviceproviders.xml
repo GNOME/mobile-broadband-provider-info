@@ -13502,6 +13502,11 @@ conceived.
 		<gsm>
 			<network-id mcc="310" mnc="995"/>
 			<network-id mcc="311" mnc="480"/>
+			<visual-voicemail>
+				<standard type="vvm3"/>
+				<destination-number>900080006200</destination-number>
+				<carrier-prefix>//VZWVVM</carrier-prefix>
+			</visual-voicemail>
 			<apn value="vzwims">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
