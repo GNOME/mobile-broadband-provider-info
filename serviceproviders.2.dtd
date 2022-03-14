@@ -37,8 +37,8 @@
                             carrier-prefix?)>
 
 <!ELEMENT standard EMPTY>
-<!ATTLIST standard type (cvvm|otmp|proprietary) #REQUIRED>
-<!-- Whether the carrier supports OTMP or CVVM for Visual Voicemail
+<!ATTLIST standard type (cvvm|otmp|vvm3|proprietary) #REQUIRED>
+<!-- Whether the carrier supports OTMP, CVVM, or VVM3 for Visual Voicemail
      Some carriers implement their own proprietary standard.
 -->
 
