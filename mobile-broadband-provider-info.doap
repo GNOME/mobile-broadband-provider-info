@@ -33,5 +33,12 @@ broadband (3G) providers and associated network and plan information.</descripti
       <gnome:userid>jklimes</gnome:userid>
     </foaf:Person>
   </maintainer>
+  <maintainer>
+    <foaf:Person>
+      <foaf:name>Lubomir Rintel</foaf:name>
+      <foaf:mbox rdf:resource="mailto:lkundrak@v3.sk" />
+      <gnome:userid>lkundrak</gnome:userid>
+    </foaf:Person>
+  </maintainer>
 
 </Project>
