@@ -28,13 +28,6 @@ broadband (3G) providers and associated network and plan information.</descripti
   </maintainer>
   <maintainer>
     <foaf:Person>
-      <foaf:name>Jiří Klimeš</foaf:name>
-      <foaf:mbox rdf:resource="mailto:jklimes@redhat.com" />
-      <gnome:userid>jklimes</gnome:userid>
-    </foaf:Person>
-  </maintainer>
-  <maintainer>
-    <foaf:Person>
       <foaf:name>Lubomir Rintel</foaf:name>
       <foaf:mbox rdf:resource="mailto:lkundrak@v3.sk" />
       <gnome:userid>lkundrak</gnome:userid>
