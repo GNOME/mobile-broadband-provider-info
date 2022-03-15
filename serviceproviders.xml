@@ -4179,6 +4179,13 @@ conceived.
 				<username>CLIENTE</username>
 				<password>EUSKALTEL</password>
 			</apn>
+			<apn value="euskaltelmms.euskaltel.mobi">
+				<usage type="mms"/>
+				<name>Euskaltel MMS</name>
+				<mmsc>http://mms.euskaltel.mobi/</mmsc>
+				<mmsproxy>172.16.18.74</mmsproxy>
+			</apn>
+
 		</gsm>
 	</provider>
 	<provider>
