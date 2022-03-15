@@ -6560,6 +6560,12 @@ conceived.
 				<dns>158.43.192.1</dns>
 				<dns>158.43.128.1</dns>
 			</apn>
+			<apn value="wap.orange.co.il">
+				<usage type="mms"/>
+				<name>MMS Partner</name>
+				<mmsc>http://192.168.220.15:8080/servlets/mms</mmsc>
+			</apn>
+
 		</gsm>
 	</provider>
 	<provider>
