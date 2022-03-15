@@ -6631,6 +6631,12 @@ conceived.
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 			</apn>
+			<apn value="data.youphone.co.il">
+				<usage type="mms"/>
+				<name>Multimedia Youphone</name>
+				<mmsc>http://192.168.220.15/servlets/mms</mmsc>
+			</apn>
+
 		</gsm>
 	</provider>
 </country>
