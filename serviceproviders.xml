@@ -6495,6 +6495,9 @@ conceived.
 		<name>CellCom</name>
 		<gsm>
 			<network-id mcc="425" mnc="02"/>
+			<balance-check>
+				<ussd>*11777#</ussd>
+			</balance-check>
 			<apn value="internetg">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
