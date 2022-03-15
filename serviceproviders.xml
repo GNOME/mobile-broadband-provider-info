@@ -6599,6 +6599,15 @@ conceived.
 				<username>rl@3g</username>
 				<password>rl</password>
 			</apn>
+			<apn value="mms.rl">
+				<usage type="mms"/>
+				<name>Rami Levi MMS</name>
+				<username>rl@3g</username>
+				<password>rl</password>
+				<mmsc>http://mmsu.pelephone.net.il</mmsc>
+				<mmsproxy>10.170.9.54:9093</mmsproxy>
+			</apn>
+
 		</gsm>
 	</provider>
 	<provider>
