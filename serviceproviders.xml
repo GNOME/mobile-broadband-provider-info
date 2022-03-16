@@ -2974,10 +2974,10 @@ conceived.
 		<name>eTb</name>
 		<gsm>
 			<apn value="moviletb.net.co">
-			     <plan type="postpaid"/>
-			     <usage type="internet"/>
-			     <username>etb</username>
-			     <password>etb</password>
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<username>etb</username>
+				<password>etb</password>
 			</apn>
 		</gsm>
 	</provider>
@@ -5576,15 +5576,15 @@ conceived.
 
 <!-- Greenland -->
 <country code="gl">
-    <!-- http://www.tele.gl/da-DK/Privat/Info/Selvbetjening/Mobilopsaetning/Sider/ManuelOpsaetning.aspx -->
-    <provider>
-        <name>Tele Greenland A/S</name>
-        <gsm>
-             <apn value="internet">
+	<!-- http://www.tele.gl/da-DK/Privat/Info/Selvbetjening/Mobilopsaetning/Sider/ManuelOpsaetning.aspx -->
+	<provider>
+		<name>Tele Greenland A/S</name>
+		<gsm>
+			<apn value="internet">
 				<usage type="internet"/>
-             </apn>
-        </gsm>
-    </provider>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Greece -->
@@ -13257,7 +13257,7 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
-    <provider>
+	<provider>
 		<name>Orange</name>
 		<gsm>
 			<network-id mcc="641" mnc="14"/>
@@ -13272,7 +13272,7 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
-    <provider>
+	<provider>
 		<name>UTL</name>
 		<gsm>
 			<network-id mcc="641" mnc="11"/>
@@ -13294,7 +13294,7 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
-    <provider>
+	<provider>
 		<name>Warid</name>
 		<gsm>
 			<network-id mcc="641" mnc="22"/>
@@ -13305,7 +13305,7 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
-    <provider>
+	<provider>
 		<name>Zain</name>
 		<gsm>
 			<network-id mcc="641" mnc="01"/>
@@ -14371,7 +14371,7 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
-    <provider>
+	<provider>
 		<name>UMS</name>
 		<gsm>
 			<network-id mcc="434" mnc="07"/>
