@@ -14653,6 +14653,14 @@ conceived.
 				<dns>196.11.240.241</dns>
 				<dns>209.212.97.1</dns>
 			</apn>
+			<apn value="mymtn">
+				<usage type="mms"/>
+				<name>MTN MMS</name>
+				<username>mtnmms</username>
+				<password>mtnmms</password>
+				<mmsc>http://mms.mtn.co.za/mms/wapenc</mmsc>
+				<mmsproxy>196.11.240.211:8080</mmsproxy>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
