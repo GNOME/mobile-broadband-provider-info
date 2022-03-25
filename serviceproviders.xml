@@ -13572,9 +13572,20 @@ conceived.
 	<provider>
 		<name>Verizon</name>
 		<gsm>
-			<network-id mcc="310" mnc="995"/>
+			<network-id mcc="310" mnc="010"/>
+			<network-id mcc="310" mnc="011"/>
 			<network-id mcc="310" mnc="012"/>
 			<network-id mcc="311" mnc="480"/>
+			<network-id mcc="311" mnc="480"/>
+			<network-id mcc="311" mnc="481"/>
+			<network-id mcc="311" mnc="482"/>
+			<network-id mcc="311" mnc="483"/>
+			<network-id mcc="311" mnc="484"/>
+			<network-id mcc="311" mnc="485"/>
+			<network-id mcc="311" mnc="486"/>
+			<network-id mcc="311" mnc="487"/>
+			<network-id mcc="311" mnc="488"/>
+			<network-id mcc="311" mnc="489"/>
 			<visual-voicemail>
 				<standard type="vvm3"/>
 				<destination-number>900080006200</destination-number>
