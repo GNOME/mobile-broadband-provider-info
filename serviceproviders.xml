@@ -13590,6 +13590,7 @@ conceived.
 				<name>4G LTE Contract</name>
 				<dns>66.174.92.14</dns>
 				<dns>69.78.96.14</dns>
+				<mmsc>http://mms.vtext.com/servlets/mms</mmsc>
 			</apn>
 			<apn value="vzwapp">
 				<plan type="postpaid"/>
