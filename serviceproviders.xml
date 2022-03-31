@@ -13423,34 +13423,27 @@ conceived.
 				<standard type="proprietary"/>
 				<destination-number>94183567</destination-number>
 			</visual-voicemail>
-			<!-- http://www.wireless.att.com/answer-center/main.jsp?solutionId=35078&t=solutionTab -->
-			<apn value="wap.cingular">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>MEdia Net (phones)</name>
+			<!-- Assignments taken from https://www.att.com/support/article/wireless/KM1062162/ -->
+			<apn value="NXTGENPHONE">
+				<usage type="mms-internet-hipri"/>
+				<name>NXTGENPHONE</name>
+				<gateway>proxy.mobile.att.net:80</gateway>
+				<mmsc>http://mmsc.mobile.att.net</mmsc>
+				<mmsproxy>proxy.mobile.att.net:80</mmsproxy>
 			</apn>
-			<apn value="Broadband">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>LaptopConnect (data cards)</name>
+			<apn value="ENHANCEDPHONE">
+				<usage type="mms-internet-hipri"/>
+				<name>ENHANCEDPHONE</name>
+				<mmsc>http://mmsc.mobile.att.net</mmsc>
+				<mmsproxy>proxy.mobile.att.net:80</mmsproxy>
 			</apn>
-			<apn value="isp.cingular">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>Data Connect (old)</name>
+			<apn value="NRPHONE">
+				<usage type="mms-internet-hipri-fota"/>
+				<name>NRPHONE</name>
 			</apn>
-			<apn value="pta">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>LTE</name>
-			</apn>
-			<apn value="wap.cingular">
-				<usage type="mms"/>
-				<name>AT&amp;T MMS</name>
-				<username>WAP@CINGULARGPRS.COM</username>
-				<password>CINGULAR1</password>
-				<mmsc>http://mmsc.cingular.com</mmsc>
-				<mmsproxy>wireless.cingular.com:80</mmsproxy>
+			<apn value="broadband">
+				<usage type="mms-internet-hipri-fota"/>
+				<name>ATT Broadband</name>
 			</apn>
 		</gsm>
 	</provider>
