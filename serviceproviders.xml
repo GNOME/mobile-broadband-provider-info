@@ -135,6 +135,13 @@ conceived.
 				<username>awcc</username>
 				<password>1111</password>
 			</apn>
+			<apn value="mms1">
+				<usage type="mms"/>
+				<name>AWCC MMS</name>
+				<mmsc>http://172.17.81.2:8002</mmsc>
+				<mmsproxy>172.17.81.2:8002</mmsproxy>
+			</apn>
+
 		</gsm>
 	</provider>
 </country>
