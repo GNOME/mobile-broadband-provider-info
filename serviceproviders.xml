@@ -55,6 +55,13 @@ conceived.
 				<usage type="internet"/>
 				<name>Mobiland Click!</name>
 			</apn>
+			<apn value="mms">
+				<usage type="mms"/>
+				<name>Andorra Telecom MMS</name>
+				<mmsc>http://mms.ad/mmsc</mmsc>
+				<mmsproxy>192.168.21.50:8080</mmsproxy>
+			</apn>
+
 		</gsm>
 	</provider>
 </country>
