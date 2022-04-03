@@ -178,6 +178,18 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<name>Albania Mobile Communications (AMC)</name>
+		<gsm>
+			<network-id mcc="276" mnc="01"/>
+			<apn value="Internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>AMC internet</name>
+				<username>internet</username>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Armenia -->
