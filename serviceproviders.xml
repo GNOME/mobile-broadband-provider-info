@@ -5100,6 +5100,25 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<name>Simplus</name>
+		<gsm>
+			<network-id mcc="208" mnc="26"/>
+			<network-id mcc="208" mnc="260"/>
+			<voicemail>777</voicemail>
+			<apn value="fnetnrj">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>NRJWEB</name>
+			</apn>
+			<apn value="mmsnrj">
+				<usage type="mms"/>
+				<name>NRJMMS</name>
+				<mmsc>http://mmsnrj</mmsc>
+				<mmsproxy>10.143.156.5:8080</mmsproxy>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- Britain -->
