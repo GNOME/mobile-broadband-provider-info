@@ -9947,6 +9947,18 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<!-- MVNO operating on T-Mobile's network -->
+		<name>Simpel</name>
+		<gsm>
+			<network-id mcc="204" mnc="16"/>
+			<apn value="internet.access.nl">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Simpel</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Orange</name>
 		<gsm>
 			<network-id mcc="204" mnc="20"/>
@@ -10017,17 +10029,6 @@ conceived.
 		<gsm>
 			<network-id mcc="204" mnc="08"/>
 			<apn value="internet">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
-		<!-- MVNO operating on T-Mobile's network -->
-		<name>Simpel</name>
-		<gsm>
-			<network-id mcc="204" mnc="99"/>
-			<apn value="internet.access.nl">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 			</apn>
