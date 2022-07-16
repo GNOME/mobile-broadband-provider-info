@@ -6901,6 +6901,8 @@ conceived.
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<name>New GPRS/3G</name>
+				<username>MSISDN</username>
+				<password>MSISDN</password>
 			</apn>
 
 			<apn value="bsnlwap">
