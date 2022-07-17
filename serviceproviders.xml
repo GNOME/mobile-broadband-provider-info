@@ -14858,4 +14858,19 @@ conceived.
 	</provider>
 </country>
 
+<!-- Kosovo -->
+<country code="xk">
+	<provider>
+		<name>IPKO</name>
+		<gsm>
+			<network-id mcc="221" mnc="02"/>
+			<apn value="ipko">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>ipko</name>
+			</apn>
+		</gsm>
+	</provider>
+</country>
+
 </serviceproviders>
