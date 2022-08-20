@@ -78,7 +78,7 @@ conceived.
             </xsl:attribute>
           </xsl:if>
 
-          <xsl:if test="usage/@type = 'mms'">
+          <xsl:if test="contains(usage/@type,'mms')">
             <xsl:attribute name="mmsc">
               <xsl:value-of select="mmsc" />
             </xsl:attribute>
@@ -104,6 +104,8 @@ conceived.
             <xsl:value-of select="'default'" />
             <xsl:if test="usage/@type = 'internet'">,supl</xsl:if>
             <xsl:if test="usage/@type = 'mms'">,mms</xsl:if>
+            <xsl:if test="usage/@type = 'mms-internet-hipri'">,mms,supl,hipri</xsl:if>
+            <xsl:if test="usage/@type = 'mms-internet-hipri-fota'">,mms,supl,hipri,fota</xsl:if>
           </xsl:attribute>
         </apn>
         <xsl:text>&#xa;</xsl:text>

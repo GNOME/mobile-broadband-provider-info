@@ -121,7 +121,7 @@
 <!ATTLIST plan type (prepaid|postpaid) #REQUIRED>
 
 <!ELEMENT usage EMPTY>
-<!ATTLIST usage type (internet|mms|wap|ia) #REQUIRED>
+<!ATTLIST usage type (internet|mms|wap|ia|mms-internet-hipri|mms-internet-hipri-fota) #REQUIRED>
 
 <!ELEMENT cdma (name*,
                 username?,
