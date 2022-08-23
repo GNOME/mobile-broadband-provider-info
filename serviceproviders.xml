@@ -5145,6 +5145,40 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>EE</name>
+		<gsm>
+			<network-id mcc="234" mnc="30"/>
+			<network-id mcc="234" mnc="33"/>
+			<network-id mcc="234" mnc="34"/>
+			<network-id mcc="234" mnc="86"/>
+
+			<!-- https://ee.co.uk/help/help-new/getting-started-and-upgrading/using-your-phone-features/how-do-i-use-voicemail -->
+			<voicemail>222</voicemail>
+			<!-- https://ee.co.uk/help/help-new/billing-usage-and-top-up/topping-up-and-balance/how-can-i-check-my-balance -->
+			<balance-check>
+				<dtmf>150</dtmf>
+				<sms text="BALANCE">150</sms>
+				<sms text="APP">150</sms>
+			</balance-check>
+			<!-- https://setup-ee.wdsglobal.com/internet?step=modelselection.vm&contractId=230&countryId=36&networkId=2027&manufacturerId=475&captchaEnabled=false&phoneId=5872 -->
+			<apn value="everywhere">
+				<usage type="internet"/>
+				<name>EE Internet</name>
+				<username>eesecure</username>
+				<password>secure</password>
+			</apn>
+			<!-- https://ee.co.uk/help/help-new/phones-and-devices/ee/robin#calls-messaging-and-email/add-mms-apn -->
+			<apn value="eezone">
+				<usage type="mms"/>
+				<name>EE MMS</name>
+				<username>eesecure</username>
+				<password>secure</password>
+				<mmsc>http://mms/</mmsc>
+				<mmsproxy>149.254.201.135:8080</mmsproxy>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Lycamobile</name>
 		<gsm>
 			<network-id mcc="234" mnc="26"/>
@@ -5258,32 +5292,6 @@ conceived.
 				<gateway>212.183.137.12:8799</gateway>
 				<username>wap</username>
 				<password>wap</password>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
-		<name>T-Mobile</name>
-		<gsm>
-			<network-id mcc="234" mnc="30"/>
-			<voicemail>222</voicemail>
-			<balance-check>
-				<dtmf>150</dtmf>
-				<sms text="BA">150</sms>
-				<sms text="AL">150</sms>
-			</balance-check>
-			<apn value="general.t-mobile.uk">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<username>User</username>
-				<password>mms</password>
-				<dns>149.254.201.126</dns>
-				<dns>149.254.192.126</dns>
-			</apn>
-			<apn value="general.t-mobile.uk">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<dns>149.254.230.7</dns>
-				<dns>149.254.199.126</dns>
 			</apn>
 		</gsm>
 	</provider>
@@ -5415,44 +5423,6 @@ conceived.
 				<name>Handsets</name>
 				<dns>172.30.139.17</dns>
 				<dns>172.31.139.17</dns>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
-		<name>Orange</name>
-		<gsm>
-			<network-id mcc="234" mnc="33"/>
-			<network-id mcc="234" mnc="34"/>
-			<voicemail>123</voicemail>
-			<balance-check>
-				<dtmf>453</dtmf>
-			</balance-check>
-			<apn value="orangeinternet">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>Contract</name>
-				<username>orange</username>
-				<password>orange</password>
-				<dns>193.35.133.10</dns>
-				<dns>193.35.134.10</dns>
-			</apn>
-			<apn value="internetvpn">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>Contract (with VPN)</name>
-				<username>orange</username>
-				<password>orange</password>
-				<dns>193.35.133.10</dns>
-				<dns>193.35.134.10</dns>
-			</apn>
-			<apn value="orangewap">
-				<plan type="postpaid"/>
-				<usage type="wap"/>
-				<name>Orange WAP</name>
-				<username>orange</username>
-				<password>multimedia</password>
-				<dns>158.43.192.1</dns>
-				<dns>158.43.128.1</dns>
 			</apn>
 		</gsm>
 	</provider>
