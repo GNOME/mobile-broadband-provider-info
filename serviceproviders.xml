@@ -4832,6 +4832,15 @@ conceived.
 		<gsm>
 			<!-- http://mobile.free.fr/faq-config-apn-autres.html -->
 			<network-id mcc="208" mnc="15"/>
+			<voicemail>666</voicemail>
+			<visual-voicemail>
+				<standard type="proprietary"/>
+				<destination-number>2050</destination-number>
+				<carrier-prefix>//VVM</carrier-prefix>
+			</visual-voicemail>
+			<balance-check>
+				<sms text="conso">555</sms>
+			</balance-check>
 			<apn value="free">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
