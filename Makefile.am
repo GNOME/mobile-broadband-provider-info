@@ -18,5 +18,5 @@ apns-conf.xml: $(top_srcdir)/apns-conf.xsl $(top_srcdir)/$(SP_XML_DB)
 pkgdata_DATA = apns-conf.xml
 
 check-local:
-	grep $$'^[\t ]* <\|[ \t]$$' serviceproviders.xml && exit 1 || :
+	grep '^[[:blank:]]* [[:blank:]]*<\|[[:blank:]]$$' $(top_srcdir)/$(SP_XML_DB) && exit 1 || :
 	xmllint --valid $(top_srcdir)/$(SP_XML_DB) 2>&1 >/dev/null
