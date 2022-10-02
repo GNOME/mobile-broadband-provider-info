@@ -3448,6 +3448,7 @@ conceived.
 			<apn value="internet.t-d1.de">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<name>IPv4-only without NAT</name>
 				<password>t-d1</password>
 				<dns>193.254.160.1</dns>
 				<dns>193.254.160.130</dns>
@@ -3457,6 +3458,7 @@ conceived.
 			<apn value="internet.t-mobile">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<name>Dualstack with MMS and fixed DNSv4</name>
 				<username>t-mobile</username>
 				<password>tm</password>
 				<dns>10.74.83.22</dns>
@@ -3469,12 +3471,14 @@ conceived.
 			<apn value="internet.v6.telekom">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<name>IPv6-only</name>
 			</apn>
 			<!-- https://www.telekom.de/hilfe/mobilfunk-mobiles-internet/mobiles-internet-e-mail/apn-mobilfunk/wie-lauten-die-apn-fuer-mobilfunk -->
 			<!-- dual stack or ipv4-only APN, type ipv4v6 or ipv4 -->
 			<apn value="internet.telekom">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<name>Default dualstack</name>
 			</apn>
 			<apn value="iot.telekom.net">
 				<plan type="prepaid"/>
