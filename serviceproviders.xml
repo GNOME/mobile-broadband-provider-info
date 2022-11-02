@@ -14147,6 +14147,11 @@ conceived.
 			<!-- Assignments taken from https://help.ting.com/hc/en-us/articles/205428698-GSM-Android-APN-setup-guide -->
 			<network-id mcc="310" mnc="240"/>
 			<!-- Mobile Data settings for X3 SIM card -->
+			<visual-voicemail>
+				<standard type="cvvm"/>
+				<destination-number>122</destination-number>
+				<carrier-prefix>//VVM</carrier-prefix>
+			</visual-voicemail>
 			<apn value="wireless.dish.com">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
