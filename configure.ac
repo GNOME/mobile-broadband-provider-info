@@ -1,7 +1,7 @@
 AC_PREREQ(2.52)
 
 AC_INIT(mobile-broadband-provider-info,
-	20220725,
+	20221107,
 	[https://gitlab.gnome.org/GNOME/mobile-broadband-provider-info/issues],
 	mobile-broadband-provider-info)
 AM_INIT_AUTOMAKE([foreign no-dist-gzip dist-xz])
