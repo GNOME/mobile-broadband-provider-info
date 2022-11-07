@@ -13428,6 +13428,12 @@ conceived.
 				<usage type="mms-internet-hipri-fota"/>
 				<name>ATT Broadband</name>
 			</apn>
+			<apn value="RESELLER">
+				<usage type="mms-internet-hipri"/>
+				<name>RESELLER</name>
+				<mmsc>http://mmsc.mobile.att.net</mmsc>
+				<mmsproxy>proxy.mobile.att.net:80</mmsproxy>
+			</apn>
 		</gsm>
 	</provider>
 	<provider>
