@@ -10629,21 +10629,9 @@ conceived.
 <!-- Pakistan -->
 <country code="pk">
 	<provider>
-		<name>Djuice</name>
-		<gsm>
-			<network-id mcc="515" mnc="06"/>
-			<apn value="internet">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<username>telenor</username>
-				<password>telenor</password>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
 		<name>Mobilink</name>
 		<gsm>
-			<network-id mcc="515" mnc="01"/>
+			<network-id mcc="410" mnc="01"/>
 			<apn value="connect.mobilinkworld.com">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -10659,7 +10647,7 @@ conceived.
 	<provider>
 		<name>Telenor</name>
 		<gsm>
-			<network-id mcc="515" mnc="06"/>
+			<network-id mcc="410" mnc="06"/>
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -10691,7 +10679,7 @@ conceived.
 	<provider>
 		<name>Warid</name>
 		<gsm>
-			<network-id mcc="515" mnc="07"/>
+			<network-id mcc="410" mnc="07"/>
 			<apn value="warid">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -10707,7 +10695,7 @@ conceived.
 	<provider>
 		<name>ZONG</name>
 		<gsm>
-			<network-id mcc="515" mnc="04"/>
+			<network-id mcc="410" mnc="04"/>
 			<apn value="zonginternet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
