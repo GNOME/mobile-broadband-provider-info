@@ -1,7 +1,7 @@
 <!ELEMENT serviceproviders (country*)>
 <!ATTLIST serviceproviders format CDATA #REQUIRED>
 
-<!ELEMENT country (provider*)>
+<!ELEMENT country (name+, provider*)>
 <!ATTLIST country code CDATA #REQUIRED>
 
 <!ELEMENT provider (name+, gsm?, cdma?)>
