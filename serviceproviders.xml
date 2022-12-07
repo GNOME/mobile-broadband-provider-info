@@ -39,8 +39,8 @@ conceived.
 
 <serviceproviders format="2.0">
 
-<!-- Andorra -->
 <country code="ad">
+	<name>Andorra</name>
 	<provider>
 		<name>Andorra Telecom (Mobiland)</name>
 		<gsm>
@@ -66,8 +66,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- United Arab Emirates -->
 <country code="ae">
+	<name>United Arab Emirates</name>
 	<provider>
 		<name>Etisalat</name>
 		<gsm>
@@ -123,8 +123,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Afghanistan -->
 <country code="af">
+	<name>Afghanistan</name>
 	<provider>
 		<name>AWCC</name>
 		<gsm>
@@ -146,8 +146,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Albania -->
 <country code="al">
+	<name>Albania</name>
 	<provider>
 		<name>Vodafone</name>
 		<gsm>
@@ -192,8 +192,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Armenia -->
 <country code="am">
+	<name>Armenia</name>
 	<provider>
 		<name>Beeline</name>
 		<gsm>
@@ -332,8 +332,8 @@ conceived.
 </country>
 
 
-<!-- Angola -->
 <country code="ao">
+	<name>Angola</name>
 	<provider>
 		<name>Movinet</name>
 		<cdma>
@@ -357,8 +357,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Argentina -->
 <country code="ar">
+	<name>Argentina</name>
 	<provider>
 		<name>Personal</name>
 		<gsm>
@@ -463,8 +463,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Austria -->
 <country code="at">
+	<name>Austria</name>
 	<provider>
 		<name>A1/Telekom Austria</name>
 		<gsm>
@@ -747,10 +747,10 @@ conceived.
 	</provider>
 </country>
 
-<!-- Australia -->
 <!-- http://whirlpool.net.au/wiki/mobiles_apn
      http://ausdroid.net/apns/ -->
 <country code="au">
+	<name>Australia</name>
 	<provider>
 		<name>Aldi Mobile AU</name>
 		<!-- https://www.aldimobile.com.au/blogs/using-and-managing-your-service/what-are-the-data-internet-settings-for-my-aldimobile-service -->
@@ -1185,8 +1185,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Azerbaijan -->
 <country code="az">
+	<name>Azerbaijan</name>
 	<provider>
 		<name>Azercell</name>
 		<gsm>
@@ -1228,8 +1228,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Bosnia & Herzegovina -->
 <country code="ba">
+	<name>Bosnia and Herzegovina</name>
 	<provider>
 		<name>BH GSM</name>
 		<gsm>
@@ -1317,8 +1317,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Barbados -->
 <country code="bb">
+	<name>Barbados</name>
 	<provider>
 		<name>Digicel</name>
 		<gsm>
@@ -1331,8 +1331,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Bangladesh -->
 <country code="bd">
+	<name>Bangladesh</name>
 	<provider>
 		<name>Robi (AKTel)</name>
 		<gsm>
@@ -1496,8 +1496,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Belgium -->
 <country code="be">
+	<name>Belgium</name>
 	<provider>
 		<name>Lycamobile</name>
 		<gsm>
@@ -1667,8 +1667,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Burkina Faso -->
 <country code="bf">
+	<name>Burkina Faso</name>
 	<provider>
 		<name>Airtel 3G</name>
 		<gsm>
@@ -1681,8 +1681,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Bulgaria -->
 <country code="bg">
+	<name>Bulgaria</name>
 	<provider>
 		<name>GloBul</name>
 		<gsm>
@@ -1767,8 +1767,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Bahrain -->
 <country code="bh">
+	<name>Bahrain</name>
 	<provider>
 		<name>Batelco</name>
 		<gsm>
@@ -1831,8 +1831,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Brazil -->
 <country code="br">
+	<name>Brazil</name>
 	<provider>
 		<!-- Brasil Telecom was bought by Oi on 2009-01-09 and will be phased
 		     out and transitioned to Oi.
@@ -2018,8 +2018,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Bahamas -->
 <country code="bs">
+	<name>Bahamas</name>
 	<provider>
 		<name>Aliv</name>
 		<gsm>
@@ -2041,8 +2041,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Bermuda -->
 <country code="bm">
+	<name>Bermuda</name>
 	<provider>
 		<name>CellOne</name>
 		<gsm>
@@ -2054,8 +2054,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Brunei -->
 <country code="bn">
+	<name>Brunei</name>
 	<provider>
 		<name>B-Mobile</name>
 		<gsm>
@@ -2094,8 +2094,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Belarus -->
 <country code="by">
+	<name>Belarus</name>
 	<provider>
 		<!-- http://www.velcom.by/ru/services/gprs/settings/ -->
 		<name>velcom</name>
@@ -2225,8 +2225,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Botswana -->
 <country code="bw">
+	<name>Botswana</name>
 	<provider>
 		<name>Mascom Wireless</name>
 		<gsm>
@@ -2255,8 +2255,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Burundi -->
 <country code="bi">
+	<name>Burundi</name>
 	<provider>
 		<name>Leo/UCom</name>
 		<gsm>
@@ -2285,8 +2285,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Canada -->
 <country code="ca">
+	<name>Canada</name>
 	<provider>
 		<name>Fido</name>
 		<gsm>
@@ -2542,8 +2542,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Congo (Dem. Rep.) -->
 <country code="cd">
+	<name>Congo (Dem. Rep.)</name>
 	<provider>
 		<name>Vodacom</name>
 		<gsm>
@@ -2564,12 +2564,12 @@ conceived.
 	</provider>
 </country>
 
-<!-- Congo (Rep.) -->
 <country code="cg">
+	<name>Congo (Rep.)</name>
 </country>
 
-<!-- Switzerland -->
 <country code="ch">
+	<name>Switzerland</name>
 	<provider>
 		<name>Lycamobile</name>
 		<gsm>
@@ -2701,8 +2701,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Cote d'Ivoire -->
 <country code="ci">
+	<name>Cote d'Ivoire</name>
 	<provider>
 		<name>MTN</name>
 		<gsm>
@@ -2731,8 +2731,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Chile -->
 <country code="cl">
+	<name>Chile</name>
 	<provider>
 		<name>Claro Chile</name>
 		<gsm>
@@ -2843,8 +2843,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Cameroon -->
 <country code="cm">
+	<name>Cameroon</name>
 	<provider>
 		<name>Orange</name>
 		<gsm>
@@ -2871,8 +2871,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- China -->
 <country code="cn">
+	<name>China</name>
 	<provider>
 		<name>China Mobile</name>
 		<gsm>
@@ -2954,8 +2954,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Costa Rica -->
 <country code="cr">
+	<name>Costa Rica</name>
 	<provider>
 		<name>IceCelular</name>
 		<gsm>
@@ -2993,8 +2993,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Colombia -->
 <country code="co">
+	<name>Colombia</name>
 	<provider>
 		<name>Claro</name>
 		<gsm>
@@ -3107,8 +3107,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Cyprus -->
 <country code="cy">
+	<name>Cyprus</name>
 	<provider>
 		<name>Cytamobile-Vodafone</name>
 		<gsm>
@@ -3148,8 +3148,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Czech Republic -->
 <country code="cz">
+	<name>Czech Republic</name>
 	<provider>
 		<name>Vodafone</name>
 		<gsm>
@@ -3242,8 +3242,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Germany -->
 <country code="de">
+	<name>Germany</name>
 	<provider>
 		<name>AldiTalk/MedionMobile</name>
 		<gsm>
@@ -3666,8 +3666,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Denmark -->
 <country code="dk">
+	<name>Denmark</name>
 	<provider primary="true">
 		<name>3</name>
 		<gsm>
@@ -3914,8 +3914,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Dominican Republic -->
 <country code="do">
+	<name>Dominican Republic</name>
 	<provider>
 		<name>Orange</name>
 		<gsm>
@@ -3965,8 +3965,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Algeria -->
 <country code="dz">
+	<name>Algeria</name>
 	<provider>
 		<name>Djezzy</name>
 		<gsm>
@@ -4027,8 +4027,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Ecuador -->
 <country code="ec">
+	<name>Ecuador</name>
 	<provider>
 		<name>Movistar UMTS</name>
 		<gsm>
@@ -4069,8 +4069,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Estonia -->
 <country code="ee">
+	<name>Estonia</name>
 	<provider>
 		<name>EMT</name>
 		<gsm>
@@ -4144,8 +4144,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Egypt -->
 <country code="eg">
+	<name>Egypt</name>
 	<provider>
 		<name>Vodafone</name>
 		<gsm>
@@ -4208,8 +4208,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Spain -->
 <country code="es">
+	<name>Spain</name>
 	<provider>
 		<name>Euskaltel</name>
 		<gsm>
@@ -4550,8 +4550,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Ethiopia -->
 <country code="et">
+	<name>Ethiopia</name>
 	<provider>
 		<name>Ethio Telecom</name>
 		<gsm>
@@ -4574,8 +4574,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Faroe Islands -->
 <country code="fo">
+	<name>Faroe Islands</name>
 	<provider>
 		<name>Vodafone FO</name>
 		<gsm>
@@ -4591,8 +4591,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Finland -->
 <country code="fi">
+	<name>Finland</name>
 	<provider>
 		<name>Kuiri</name>
 		<gsm>
@@ -4755,8 +4755,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Fiji -->
 <country code="fj">
+	<name>Fiji</name>
 	<provider>
 		<name>Vodafone / Kidanet</name>
 		<gsm>
@@ -4781,8 +4781,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- France -->
 <country code="fr">
+	<name>France</name>
 	<provider>
 		<name>A Mobile (Auchan Telecom)</name>
 		<gsm>
@@ -5144,8 +5144,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Britain -->
 <country code="gb">
+	<name>Britain</name>
 	<provider>
 		<name>BT Mobile</name>
 		<gsm>
@@ -5457,8 +5457,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Georgia -->
 <country code="ge">
+	<name>Georgia</name>
 	<provider>
 		<name>Geocell</name>
 		<gsm>
@@ -5479,8 +5479,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Guernsey -->
 <country code="gg">
+	<name>Guernsey</name>
 	<provider>
 		<name>Airtel-Vodaphone</name>
 		<gsm>
@@ -5534,8 +5534,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Ghana -->
 <country code="gh">
+	<name>Ghana</name>
 	<provider>
 		<name>MTN</name>
 		<gsm>
@@ -5635,8 +5635,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Greenland -->
 <country code="gl">
+	<name>Greenland</name>
 	<!-- http://www.tele.gl/da-DK/Privat/Info/Selvbetjening/Mobilopsaetning/Sider/ManuelOpsaetning.aspx -->
 	<provider>
 		<name>Tele Greenland A/S</name>
@@ -5648,8 +5648,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Greece -->
 <country code="gr">
+	<name>Greece</name>
 	<provider>
 		<name>Cosmote</name>
 		<gsm>
@@ -5722,8 +5722,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Guatemala -->
 <country code="gt">
+	<name>Guatemala</name>
 	<provider>
 		<name>Claro</name>
 		<gsm>
@@ -5766,8 +5766,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Guinea -->
 <country code="gn">
+	<name>Guinea</name>
 	<provider>
 		<name>Orange</name>
 		<gsm>
@@ -5792,8 +5792,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Guyana -->
 <country code="gy">
+	<name>Guyana</name>
 	<provider>
 		<name>GT&amp;T Cellink Plus</name>
 		<gsm>
@@ -5828,8 +5828,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Hong Kong -->
 <country code="hk">
+	<name>Hong Kong</name>
 	<provider>
 		<name>CSL</name>
 		<gsm>
@@ -5982,8 +5982,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Honduras -->
 <country code="hn">
+	<name>Honduras</name>
 	<provider>
 		<name>Tigo</name>
 		<gsm>
@@ -5996,8 +5996,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Croatia -->
 <country code="hr">
+	<name>Croatia</name>
 	<provider>
 		<name>T-Mobile</name>
 		<gsm>
@@ -6094,8 +6094,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Hungary -->
 <country code="hu">
+	<name>Hungary</name>
 	<provider>
 		<name>Telenor</name>
 		<gsm>
@@ -6197,8 +6197,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Indonesia -->
 <country code="id">
+	<name>Indonesia</name>
 	<provider>
 		<name>3</name>
 		<gsm>
@@ -6391,8 +6391,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Ireland -->
 <country code="ie">
+	<name>Ireland</name>
 	<provider>
 		<name>Lycamobile</name>
 		<gsm>
@@ -6550,8 +6550,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Israel -->
 <country code="il">
+	<name>Israel</name>
 	<provider>
 		<name>CellCom</name>
 		<gsm>
@@ -6702,8 +6702,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Isle of Man -->
 <country code="im">
+	<name>Isle of Man</name>
 	<provider>
 		<name>Manx Telecom</name>
 		<gsm>
@@ -6741,8 +6741,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- India -->
 <country code="in">
+	<name>India</name>
 	<provider>
 		<name>AIRCEL</name>
 		<gsm>
@@ -7202,8 +7202,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Iraq -->
 <country code="iq">
+	<name>Iraq</name>
 	<provider>
 		<name>Itisaluna</name>
 		<cdma>
@@ -7255,8 +7255,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Iran -->
 <country code="ir">
+	<name>Iran</name>
 	<provider>
 		<name>همراه اول</name>
 		<gsm>
@@ -7279,8 +7279,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Iceland -->
 <country code="is">
+	<name>Iceland</name>
 	<provider>
 		<name>Vodafone</name>
 		<gsm>
@@ -7332,8 +7332,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Italy -->
 <country code="it">
+	<name>Italy</name>
 	<provider>
 		<name>Vodafone</name>
 		<gsm>
@@ -7573,8 +7573,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Jersey -->
 <country code="je">
+	<name>Jersey</name>
 	<provider>
 		<name>Airtel-Vodaphone</name>
 		<gsm>
@@ -7617,8 +7617,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Jamaica -->
 <country code="jm">
+	<name>Jamaica</name>
 	<provider>
 		<name>Cable &amp; Wireless</name>
 		<gsm>
@@ -7645,8 +7645,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Hashemite Kingdom of Jordan -->
 <country code="jo">
+	<name>Hashemite Kingdom of Jordan</name>
 	<provider>
 		<name>Orange</name>
 		<gsm>
@@ -7681,8 +7681,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Japan -->
 <country code="jp">
+	<name>Japan</name>
 	<provider>
 		<name>Softbank Mobile</name>
 		<gsm>
@@ -7920,8 +7920,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Kenya -->
 <country code="ke">
+	<name>Kenya</name>
 	<provider>
 		<name>Airtel</name>
 		<gsm>
@@ -7996,8 +7996,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Kyrgyzstan -->
 <country code="kg">
+	<name>Kyrgyzstan</name>
 	<provider>
 		<name>Beeline</name>
 		<gsm>
@@ -8039,8 +8039,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Cambodia -->
 <country code="kh">
+	<name>Cambodia</name>
 	<provider>
 		<name>Cellcard</name>
 		<gsm>
@@ -8178,8 +8178,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Korea, Republic of -->
 <country code="kr">
+	<name>Korea, Republic of</name>
 	<provider>
 		<name>KT</name>
 		<gsm>
@@ -8248,8 +8248,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Kuwait -->
 <country code="kw">
+	<name>Kuwait</name>
 	<provider>
 		<name>Zain</name>
 		<gsm>
@@ -8302,8 +8302,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Kazakhstan -->
 <country code="kz">
+	<name>Kazakhstan</name>
 	<provider>
 		<name>Beeline</name>
 		<gsm>
@@ -8366,8 +8366,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Laos -->
 <country code="la">
+	<name>Laos</name>
 	<provider>
 		<name>ETL</name>
 		<gsm>
@@ -8420,8 +8420,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Lebanon -->
 <country code="lb">
+	<name>Lebanon</name>
 	<provider>
 		<name>MTC Touch</name>
 		<gsm>
@@ -8441,8 +8441,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Liechtenstein -->
 <country code="li">
+	<name>Liechtenstein</name>
 	<provider>
 		<name>Datamobile</name>
 		<gsm>
@@ -8455,8 +8455,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- St Lucia -->
 <country code="lc">
+	<name>St Lucia</name>
 	<provider>
 		<name>Cable &amp; Wireless</name>
 		<gsm>
@@ -8475,8 +8475,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Sri Lanka -->
 <country code="lk">
+	<name>Sri Lanka</name>
 	<provider>
 		<name>Airtel</name>
 		<gsm>
@@ -8557,8 +8557,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Lesotho -->
 <country code="ls">
+	<name>Lesotho</name>
 	<provider>
 		<name>Vodacom Lesotho</name>
 		<gsm>
@@ -8571,8 +8571,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Lithuania -->
 <country code="lt">
+	<name>Lithuania</name>
 	<provider>
 		<name>Bite</name>
 		<gsm>
@@ -8651,8 +8651,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Luxembourg -->
 <country code="lu">
+	<name>Luxembourg</name>
 	<provider>
 		<name>LUXGSM</name>
 		<gsm>
@@ -8739,8 +8739,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Latvia -->
 <country code="lv">
+	<name>Latvia</name>
 	<provider>
 		<name>LMT</name>
 		<gsm>
@@ -8815,8 +8815,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Morocco -->
 <country code="ma">
+	<name>Morocco</name>
 	<provider>
 		<name>Ittissalat Al Maghrib (IAM)</name>
 		<gsm>
@@ -8886,8 +8886,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Moldova -->
 <country code="md">
+	<name>Moldova</name>
 	<provider>
 		<name>Moldcell</name>
 		<gsm>
@@ -8942,8 +8942,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Montenegro -->
 <country code="me">
+	<name>Montenegro</name>
 	<provider>
 		<name>ProMonte GSM</name>
 		<gsm>
@@ -9012,8 +9012,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Madagascar -->
 <country code="mg">
+	<name>Madagascar</name>
 	<provider>
 		<name>Airtel</name>
 		<gsm>
@@ -9048,8 +9048,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Mali -->
 <country code="ml">
+	<name>Mali</name>
 	<provider>
 		<name>Malitel</name>
 		<gsm>
@@ -9090,8 +9090,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Myanmar -->
 <country code="mm">
+	<name>Myanmar</name>
 	<provider>
 		<name>MPT</name>
 		<gsm>
@@ -9133,8 +9133,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Mongolia -->
 <country code="mn">
+	<name>Mongolia</name>
 	<provider>
 		<name>MobiCom</name>
 		<gsm>
@@ -9153,8 +9153,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Macau -->
 <country code="mo">
+	<name>Macau</name>
 	<provider>
 		<name>3 / Hutchison</name>
 		<gsm>
@@ -9199,8 +9199,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Macedonia -->
 <country code="mk">
+	<name>Macedonia</name>
 	<provider>
 		<name>T-Mobile</name>
 		<gsm>
@@ -9262,8 +9262,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Malta -->
 <country code="mt">
+	<name>Malta</name>
 	<provider>
 		<name>GO Mobile</name>
 		<gsm>
@@ -9316,8 +9316,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Mauritius -->
 <country code="mu">
+	<name>Mauritius</name>
 	<provider>
 		<name>Emtel</name>
 		<gsm>
@@ -9330,8 +9330,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Maldives -->
 <country code="mv">
+	<name>Maldives</name>
 	<provider>
 		<name>Dhiraagu</name>
 		<gsm>
@@ -9360,8 +9360,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Malawi -->
 <country code="mw">
+	<name>Malawi</name>
 	<provider>
 		<name>Airtel MW</name>
 		<gsm>
@@ -9392,8 +9392,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Mexico -->
 <country code="mx">
+	<name>Mexico</name>
 	<provider>
 		<name>Telcel</name>
 		<gsm>
@@ -9444,8 +9444,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Malaysia -->
 <country code="my">
+	<name>Malaysia</name>
 	<provider>
 		<name>DiGi</name>
 		<gsm>
@@ -9535,8 +9535,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Mozambique -->
 <country code="mz">
+	<name>Mozambique</name>
 	<provider>
 		<name>MCel</name>
 		<gsm>
@@ -9580,8 +9580,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Namibia -->
 <country code="na">
+	<name>Namibia</name>
 	<provider>
 		<name>MTC</name>
 		<gsm>
@@ -9628,8 +9628,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Nigeria -->
 <country code="ng">
+	<name>Nigeria</name>
 	<provider>
 		<name>Airtel NG</name>
 		<!-- http://www.airtel.com/wps/wcm/connect/africaairtel/nigeria/3g/home/3gpower/PG_Internet_Settings -->
@@ -9735,8 +9735,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Nicaragua -->
 <country code="ni">
+	<name>Nicaragua</name>
 	<provider>
 		<name>Claro</name>
 		<gsm>
@@ -9786,8 +9786,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Netherlands -->
 <country code="nl">
+	<name>Netherlands</name>
 	<provider>
 		<name>Hi</name>
 		<gsm>
@@ -10047,8 +10047,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Norway -->
 <country code="no">
+	<name>Norway</name>
 	<provider>
 		<name>Netcom</name>
 		<gsm>
@@ -10275,8 +10275,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Nepal -->
 <country code="np">
+	<name>Nepal</name>
 	<provider>
 		<name>Nepal Telecom</name>
 		<gsm>
@@ -10299,8 +10299,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- New Zealand -->
 <country code="nz">
+	<name>New Zealand</name>
 	<provider>
 		<name>Telecom New Zealand</name>
 		<gsm>
@@ -10409,8 +10409,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Oman -->
 <country code="om">
+	<name>Oman</name>
 	<provider>
 		<name>Oman Mobile</name>
 		<gsm>
@@ -10456,8 +10456,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Panama -->
 <country code="pa">
+	<name>Panama</name>
 	<provider>
 		<name>Cable and Wireless</name>
 		<gsm>
@@ -10490,8 +10490,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Peru -->
 <country code="pe">
+	<name>Peru</name>
 	<provider>
 		<name>Claro</name>
 		<gsm>
@@ -10541,8 +10541,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- French Polynesia -->
 <country code="pf">
+	<name>French Polynesia</name>
 	<provider>
 		<name>Vini</name>
 		<gsm>
@@ -10555,8 +10555,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Papua New Guinea -->
 <country code="pg">
+	<name>Papua New Guinea</name>
 	<provider>
 		<name>Digicel</name>
 		<gsm>
@@ -10572,8 +10572,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Philippines -->
 <country code="ph">
+	<name>Philippines</name>
 	<provider>
 		<name>Globe Telecom</name>
 		<gsm>
@@ -10651,8 +10651,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Pakistan -->
 <country code="pk">
+	<name>Pakistan</name>
 	<provider>
 		<name>Mobilink</name>
 		<gsm>
@@ -10740,8 +10740,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Poland -->
 <country code="pl">
+	<name>Poland</name>
 	<!-- Polish physical operators -->
 	<provider primary="true">
 		<name>T-Mobile</name>
@@ -11123,8 +11123,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Portugal -->
 <country code="pt">
+	<name>Portugal</name>
 	<provider>
 		<name>Kanguru</name>
 		<gsm>
@@ -11296,8 +11296,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Paraguay -->
 <country code="py">
+	<name>Paraguay</name>
 	<provider>
 		<name>VOX</name>
 		<gsm>
@@ -11354,8 +11354,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Qatar -->
 <country code="qa">
+	<name>Qatar</name>
 	<provider>
 		<name>Vodafone</name>
 		<gsm>
@@ -11398,8 +11398,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Réunion (France) -->
 <country code="re">
+	<name>Réunion (France)</name>
 	<provider>
 		<name>SFR Réunion</name>
 		<gsm>
@@ -11439,8 +11439,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Romania -->
 <country code="ro">
+	<name>Romania</name>
 	<provider>
 		<name>Orange</name>
 		<gsm>
@@ -11545,8 +11545,8 @@ conceived.
 
 </country>
 
-<!-- Serbia -->
 <country code="rs">
+	<name>Serbia</name>
 	<provider>
 		<name>Telenor</name>
 		<gsm>
@@ -11608,8 +11608,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Rwanda -->
 <country code="rw">
+	<name>Rwanda</name>
 	<provider>
 		<name>MTN</name>
 		<gsm>
@@ -11632,8 +11632,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Russia -->
 <country code="ru">
+	<name>Russia</name>
 	<provider>
 		<name>+7Telecom</name>
 		<name xml:lang="ru">+7Телеком</name>
@@ -11978,8 +11978,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Saudi Arabia -->
 <country code="sa">
+	<name>Saudi Arabia</name>
 	<provider>
 		<name>Mobily</name>
 		<gsm>
@@ -12039,8 +12039,8 @@ conceived.
 </country>
 
 
-<!-- Sweden -->
 <country code="se">
+	<name>Sweden</name>
 	<provider primary="true">
 		<name>3</name>
 		<gsm>
@@ -12290,8 +12290,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Singapore -->
 <country code="sg">
+	<name>Singapore</name>
 	<provider>
 		<name>M1</name>
 		<gsm>
@@ -12397,8 +12397,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Slovenia -->
 <country code="si">
+	<name>Slovenia</name>
 	<provider>
 		<name>Mobitel</name>
 		<gsm>
@@ -12483,8 +12483,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Slovakia -->
 <country code="sk">
+	<name>Slovakia</name>
 	<provider>
 		<name>Slovak Telekom</name>
 		<gsm>
@@ -12539,8 +12539,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Senegal -->
 <country code="sn">
+	<name>Senegal</name>
 	<provider>
 		<name>Tigo</name>
 		<gsm>
@@ -12555,8 +12555,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- El Salvador -->
 <country code="sv">
+	<name>El Salvador</name>
 	<provider>
 		<name>Movistar</name>
 		<gsm>
@@ -12608,8 +12608,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Sudan -->
 <country code="sd">
+	<name>Sudan</name>
 	<provider>
 		<name>Zain</name>
 		<gsm>
@@ -12656,8 +12656,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Thailand -->
 <country code="th">
+	<name>Thailand</name>
 	<provider>
 		<name>AIS</name>
 		<gsm>
@@ -12748,8 +12748,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Tunisia -->
 <country code="tn">
+	<name>Tunisia</name>
 	<provider>
 		<name>Orange</name>
 		<gsm>
@@ -12849,8 +12849,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Turkey -->
 <country code="tr">
+	<name>Turkey</name>
 	<provider>
 		<name>Avea</name>
 		<gsm>
@@ -12936,8 +12936,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Trinidad & Tobago -->
 <country code="tt">
+	<name>Trinidad and Tobago</name>
 	<provider>
 		<name>Digicel</name>
 		<gsm>
@@ -12978,8 +12978,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Taiwan -->
 <country code="tw">
+	<name>Taiwan</name>
 	<provider>
 		<name>Chunghwa Telecom (emome)</name>
 		<name xml:lang="zh">中華電信 (emome)</name>
@@ -13079,8 +13079,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Tanzania, United Republic of -->
 <country code="tz">
+	<name>Tanzania</name>
 	<provider>
 		<name>Airtel Tanzania</name>
 		<gsm>
@@ -13140,8 +13140,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Ukraine -->
 <country code="ua">
+	<name>Ukraine</name>
 	<provider>
 		<name>kyivstar</name>
 		<gsm>
@@ -13325,8 +13325,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Uganda -->
 <country code="ug">
+	<name>Uganda</name>
 	<provider>
 		<name>MTN</name>
 		<gsm>
@@ -13436,8 +13436,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- United States -->
 <country code="us">
+	<name>United States</name>
 	<provider>
 		<name>AT&amp;T</name>
 		<gsm>
@@ -14419,8 +14419,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Uruguay -->
 <country code="uy">
+	<name>Uruguay</name>
 	<provider>
 		<name>Ancel</name>
 		<gsm>
@@ -14497,8 +14497,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Uzbekistan -->
 <country code="uz">
+	<name>Uzbekistan</name>
 	<provider>
 		<name>Beeline</name>
 		<gsm>
@@ -14535,8 +14535,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- St Vincent -->
 <country code="vc">
+	<name>St Vincent</name>
 	<provider>
 		<name>Digicel</name>
 		<gsm>
@@ -14551,8 +14551,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Venezuela -->
 <country code="ve">
+	<name>Venezuela</name>
 	<provider>
 		<name>Digitel TIM</name>
 		<gsm>
@@ -14604,8 +14604,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Viet Nam -->
 <country code="vn">
+	<name>Viet Nam</name>
 	<provider>
 		<name>MobiFone</name>
 		<gsm>
@@ -14730,8 +14730,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- South Africa -->
 <country code="za">
+	<name>South Africa</name>
 	<provider>
 		<name>Cell-c</name>
 		<gsm>
@@ -14867,8 +14867,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Eswatini (Swaziland) -->
 <country code="sz">
+	<name>Eswatini</name>
 	<provider>
 		<name>MTN Eswatini</name>
 		<gsm>
@@ -14909,8 +14909,8 @@ conceived.
 	</provider>
 </country>
 
-<!-- Kosovo -->
 <country code="xk">
+	<name>Kosovo</name>
 	<provider>
 		<name>IPKO</name>
 		<gsm>
