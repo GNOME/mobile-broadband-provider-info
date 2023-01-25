@@ -3749,8 +3749,8 @@ conceived.
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<dns>212.88.64.199</dns>
-				<dns>212.88.64.14</dns>
+				<dns>212.242.40.3</dns>
+				<dns>212.242.40.51</dns>
 			</apn>
 			<apn value="telenor">
 				<usage type="mms"/>
