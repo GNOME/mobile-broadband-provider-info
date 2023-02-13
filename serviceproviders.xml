@@ -5262,6 +5262,21 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<!-- https://help.superdrugmobile.com/en/articles/3395643-android-set-your-phone-to-work-abroad -->
+		<name>Superdrug</name>
+		<gsm>
+			<network-id mcc="234" mnc="20"/>
+			<apn value="superdrug.net">
+				<usage type="internet"/>
+			</apn>
+			<apn value="superdrug.net">
+				<usage type="mms"/>
+				<mmsc>http://mms.um.three.co.uk:10021/mmsc</mmsc>
+				<mmsproxy>217.171.129.2:8799</mmsproxy>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>giffgaff</name>
 		<gsm>
 			<network-id mcc="234" mnc="02"/>
