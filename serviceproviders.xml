@@ -2319,6 +2319,16 @@ conceived.
 				<dns>207.181.101.4</dns>
 				<dns>207.181.101.5</dns>
 			</apn>
+			<apn value="ltemobile.apn">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Rogers Internet</name>
+			</apn>
+			<apn value="ltedata.apn">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Rogers Tethering</name>
+			</apn>
 			<apn value="media.com">
 				<usage type="mms"/>
 				<name>Rogers Media</name>
