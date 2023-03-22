@@ -11675,6 +11675,7 @@ conceived.
 			<apn value="internet.mts.ru">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<name>MTS internet</name>
 				<username>mts</username>
 				<password>mts</password>
 				<dns>213.87.0.1</dns>
@@ -11735,7 +11736,9 @@ conceived.
 			<apn value="inet.ycc.ru">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<name>MOTIV</name>
 				<username>motiv</username>
+				<password>motiv</password>
 				<dns>217.148.52.34</dns>
 				<dns>217.148.52.3</dns>
 			</apn>
@@ -11749,6 +11752,7 @@ conceived.
 			<apn value="internet.tele2.ru">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+				<name>TELE2 internet</name>
 				<dns>130.244.127.161</dns>
 				<dns>130.244.127.169</dns>
 			</apn>
