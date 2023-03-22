@@ -11635,28 +11635,6 @@ conceived.
 <!-- Russia -->
 <country code="ru">
 	<provider>
-		<name>BaikalWestCom</name>
-		<name xml:lang="ru">БайкалВестКом</name>
-		<gsm>
-			<network-id mcc="250" mnc="12"/>
-			<apn value="inet.bwc.ru">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<username>bwc</username>
-				<password>bwc</password>
-				<dns>81.18.113.2</dns>
-				<dns>81.18.112.50</dns>
-			</apn>
-			<apn value="mms.bwc.ru">
-				<usage type="mms"/>
-				<name>MMS</name>
-				<username>bwc</username>
-				<mmsc>http://mmsc/mms</mmsc>
-				<mmsproxy>10.10.17.2:9201</mmsproxy>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
 		<name>Beeline</name>
 		<name xml:lang="ru">Билайн</name>
 		<gsm>
@@ -11684,16 +11662,6 @@ conceived.
 				<password>beeline</password>
 				<dns>217.118.66.243</dns>
 				<dns>217.118.66.244</dns>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
-		<name>ETK</name>
-		<gsm>
-			<network-id mcc="250" mnc="05"/>
-			<apn value="wap.etk.ru">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
 			</apn>
 		</gsm>
 	</provider>
@@ -11742,19 +11710,6 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>NCC</name>
-		<gsm>
-			<network-id mcc="250" mnc="03"/>
-			<apn value="internet">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<username>ncc</username>
-				<dns>10.0.3.5</dns>
-				<dns>10.0.3.2</dns>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
 		<name>NTC</name>
 		<gsm>
 			<network-id mcc="250" mnc="16"/>
@@ -11773,20 +11728,6 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Enisey TeleCom</name>
-		<name xml:lang="ru">Енисей Телеком</name>
-		<gsm>
-			<network-id mcc="250" mnc="05"/>
-			<apn value="internet.etk.ru">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<username>etk</username>
-				<dns>10.10.30.3</dns>
-				<dns>10.10.30.4</dns>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
 		<name>Motiv</name>
 		<name xml:lang="ru">Мотив</name>
 		<gsm>
@@ -11797,20 +11738,6 @@ conceived.
 				<username>motiv</username>
 				<dns>217.148.52.34</dns>
 				<dns>217.148.52.3</dns>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
-		<name>Tatincom</name>
-		<name xml:lang="ru">Татинком</name>
-		<gsm>
-			<apn value="internet.tatincom.ru">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<username>tatincom</username>
-				<password>tatincom</password>
-				<dns>89.207.96.2</dns>
-				<dns>89.207.97.18</dns>
 			</apn>
 		</gsm>
 	</provider>
@@ -11927,25 +11854,6 @@ conceived.
 			<sid value="12094"/>  <!-- Yamal-Nenets district -->
 			<sid value="12095"/>  <!-- Kamchatka -->
 		</cdma>
-	</provider>
-	<provider>
-		<name>U-tel</name>
-		<gsm>
-			<network-id mcc="250" mnc="39"/>
-			<balance-check>
-				<ussd>*100#</ussd>
-			</balance-check>
-			<apn value="internet.usi.ru">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-			</apn>
-			<apn value="mnc039.mcc250.gprs">
-				<usage type="mms"/>
-				<name>mms</name>
-				<mmsc>mms.usi.ru</mmsc>
-				<mmsproxy>192.168.168.192:8080</mmsproxy>
-			</apn>
-		</gsm>
 	</provider>
 	<provider>
 		<name>Yota</name>
