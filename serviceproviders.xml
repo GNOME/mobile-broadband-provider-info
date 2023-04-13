@@ -11635,6 +11635,21 @@ conceived.
 <!-- Russia -->
 <country code="ru">
 	<provider>
+		<name>+7Telecom</name>
+		<name xml:lang="ru">+7Телеком</name>
+		<gsm>
+			<network-id mcc="250" mnc="96"/>
+			<balance-check>
+				<ussd>*100#</ussd>
+			</balance-check>
+			<apn value="internet ">
+				<usage type="internet"/>
+				<username>internet</username>
+				<password>internet</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Beeline</name>
 		<name xml:lang="ru">Билайн</name>
 		<gsm>
@@ -11680,6 +11695,26 @@ conceived.
 				<password>mts</password>
 				<dns>213.87.0.1</dns>
 				<dns>213.87.1.1</dns>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Gazprombank Mobile</name>
+		<name xml:lang="ru">Газпромбанк Мобайл</name>
+		<gsm>
+			<network-id mcc="250" mnc="45"/>
+			<apn value="gpb">
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Letai</name>
+		<name xml:lang="ru">Летай</name>
+		<gsm>
+			<network-id mcc="250" mnc="27"/>
+			<apn value="internet.letai.ru">
+				<usage type="internet"/>
 			</apn>
 		</gsm>
 	</provider>
@@ -11755,6 +11790,38 @@ conceived.
 				<name>TELE2 internet</name>
 				<dns>130.244.127.161</dns>
 				<dns>130.244.127.169</dns>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Phoenix</name>
+		<name xml:lang="ru">Феникс</name>
+		<gsm>
+			<network-id mcc="250" mnc="97"/>
+			<apn value="internet">
+				<usage type="internet"/>
+				<name>Phoenix</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>SberMobile</name>
+		<name xml:lang="ru">СберМобайл</name>
+		<gsm>
+			<network-id mcc="250" mnc="50"/>
+			<apn value="internet.sberbank-tele.com">
+				<usage type="internet"/>
+				<name>SberMobile Internet</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>STS</name>
+		<name xml:lang="ru">СТС</name>
+		<gsm>
+			<network-id mcc="250" mnc="33"/>
+			<apn value="internet.sts.ru">
+				<usage type="internet"/>
 			</apn>
 		</gsm>
 	</provider>
@@ -11858,6 +11925,38 @@ conceived.
 			<sid value="12094"/>  <!-- Yamal-Nenets district -->
 			<sid value="12095"/>  <!-- Kamchatka -->
 		</cdma>
+	</provider>
+	<provider>
+		<name>Tinkoff Mobile</name>
+		<name xml:lang="ru">Тинькофф Мобайл</name>
+		<gsm>
+			<network-id mcc="250" mnc="62"/>
+			<apn value="m.tinkoff">
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Vainah Telecom</name>
+		<name xml:lang="ru">Вайнах Телеком</name>
+		<gsm>
+			<network-id mcc="250" mnc="08"/>
+			<apn value="vtk">
+				<usage type="internet"/>
+				<name>vtk</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>VTB Mobile</name>
+		<name xml:lang="ru">ВТБ Мобайл</name>
+		<gsm>
+			<network-id mcc="250" mnc="26"/>
+			<apn value="VTB">
+				<usage type="internet"/>
+				<name>VTB</name>
+			</apn>
+		</gsm>
 	</provider>
 	<provider>
 		<name>Yota</name>
@@ -13295,6 +13394,43 @@ conceived.
 			<apn value="web.ug.zain.com">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+
+	<!-- Operators below use Russia's country code, but operate in
+	     a territory that's part of Ukraine. -->
+	<provider>
+		<name>Krymtelekom</name>
+		<name xml:lang="ru">Крымтелеком</name>
+		<gsm>
+			<network-id mcc="250" mnc="34"/>
+			<apn value="internet.ktkru.ru">
+				<usage type="internet"/>
+				<name>KTK</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Volna mobile</name>
+		<name xml:lang="ru">Волна мобайл</name>
+		<gsm>
+			<network-id mcc="250" mnc="60"/>
+			<apn value="internet">
+				<usage type="internet"/>
+				<name>internet</name>
+				<username>internet</username>
+				<password>internet</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Win Mobile</name>
+		<gsm>
+			<network-id mcc="250" mnc="32"/>
+			<apn value="internet">
+				<usage type="internet"/>
+				<name>internet</name>
 			</apn>
 		</gsm>
 	</provider>
