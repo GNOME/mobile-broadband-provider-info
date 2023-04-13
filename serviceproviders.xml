@@ -11927,6 +11927,16 @@ conceived.
 		</cdma>
 	</provider>
 	<provider>
+		<name>Tinkoff Mobile</name>
+		<name xml:lang="ru">Тинькофф Мобайл</name>
+		<gsm>
+			<network-id mcc="250" mnc="62"/>
+			<apn value="m.tinkoff">
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>VTB Mobile</name>
 		<name xml:lang="ru">ВТБ Мобайл</name>
 		<gsm>
