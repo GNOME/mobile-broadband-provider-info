@@ -11635,6 +11635,21 @@ conceived.
 <!-- Russia -->
 <country code="ru">
 	<provider>
+		<name>+7Telecom</name>
+		<name xml:lang="ru">+7Телеком</name>
+		<gsm>
+			<network-id mcc="250" mnc="96"/>
+			<balance-check>
+				<ussd>*100#</ussd>
+			</balance-check>
+			<apn value="internet ">
+				<usage type="internet"/>
+				<username>internet</username>
+				<password>internet</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Beeline</name>
 		<name xml:lang="ru">Билайн</name>
 		<gsm>
