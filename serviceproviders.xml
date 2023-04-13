@@ -11860,6 +11860,17 @@ conceived.
 		</cdma>
 	</provider>
 	<provider>
+		<name>VTB Mobile</name>
+		<name xml:lang="ru">ВТБ Мобайл</name>
+		<gsm>
+			<network-id mcc="250" mnc="26"/>
+			<apn value="VTB">
+				<usage type="internet"/>
+				<name>VTB</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Yota</name>
 		<gsm>
 			<network-id mcc="250" mnc="11"/>
