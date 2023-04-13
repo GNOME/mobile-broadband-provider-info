@@ -11709,6 +11709,16 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>Letai</name>
+		<name xml:lang="ru">Летай</name>
+		<gsm>
+			<network-id mcc="250" mnc="27"/>
+			<apn value="internet.letai.ru">
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Megafon</name>
 		<name xml:lang="ru">Мегафон</name>
 
