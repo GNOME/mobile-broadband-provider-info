@@ -11805,6 +11805,17 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>SberMobile</name>
+		<name xml:lang="ru">СберМобайл</name>
+		<gsm>
+			<network-id mcc="250" mnc="50"/>
+			<apn value="internet.sberbank-tele.com">
+				<usage type="internet"/>
+				<name>SberMobile Internet</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Skylink</name>
 		<name xml:lang="ru">Скайлинк</name>
 		<cdma>
