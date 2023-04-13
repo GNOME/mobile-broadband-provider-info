@@ -13298,6 +13298,20 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+
+	<!-- Operators below use Russia's country code, but operate in
+	     a territory that's part of Ukraine. -->
+	<provider>
+		<name>Krymtelekom</name>
+		<name xml:lang="ru">Крымтелеком</name>
+		<gsm>
+			<network-id mcc="250" mnc="34"/>
+			<apn value="internet.ktkru.ru">
+				<usage type="internet"/>
+				<name>KTK</name>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <!-- United States -->
