@@ -11816,6 +11816,16 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>STS</name>
+		<name xml:lang="ru">СТС</name>
+		<gsm>
+			<network-id mcc="250" mnc="33"/>
+			<apn value="internet.sts.ru">
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Skylink</name>
 		<name xml:lang="ru">Скайлинк</name>
 		<cdma>
