@@ -11635,21 +11635,6 @@ conceived.
 <country code="ru">
 	<name>Russia</name>
 	<provider>
-		<name>+7Telecom</name>
-		<name xml:lang="ru">+7Телеком</name>
-		<gsm>
-			<network-id mcc="250" mnc="96"/>
-			<balance-check>
-				<ussd>*100#</ussd>
-			</balance-check>
-			<apn value="internet ">
-				<usage type="internet"/>
-				<username>internet</username>
-				<password>internet</password>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
 		<name>Beeline</name>
 		<name xml:lang="ru">Билайн</name>
 		<gsm>
@@ -13400,6 +13385,21 @@ conceived.
 
 	<!-- Operators below use Russia's country code, but operate in
 	     a territory that's part of Ukraine. -->
+	<provider>
+		<name>+7Telecom</name>
+		<name xml:lang="ru">+7Телеком</name>
+		<gsm>
+			<network-id mcc="250" mnc="96"/>
+			<balance-check>
+				<ussd>*100#</ussd>
+			</balance-check>
+			<apn value="internet ">
+				<usage type="internet"/>
+				<username>internet</username>
+				<password>internet</password>
+			</apn>
+		</gsm>
+	</provider>
 	<provider>
 		<name>Krymtelekom</name>
 		<name xml:lang="ru">Крымтелеком</name>
