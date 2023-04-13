@@ -11794,6 +11794,17 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>Phoenix</name>
+		<name xml:lang="ru">Феникс</name>
+		<gsm>
+			<network-id mcc="250" mnc="97"/>
+			<apn value="internet">
+				<usage type="internet"/>
+				<name>Phoenix</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Skylink</name>
 		<name xml:lang="ru">Скайлинк</name>
 		<cdma>
