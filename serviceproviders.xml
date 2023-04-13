@@ -11937,6 +11937,17 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>Vainah Telecom</name>
+		<name xml:lang="ru">Вайнах Телеком</name>
+		<gsm>
+			<network-id mcc="250" mnc="08"/>
+			<apn value="vtk">
+				<usage type="internet"/>
+				<name>vtk</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>VTB Mobile</name>
 		<name xml:lang="ru">ВТБ Мобайл</name>
 		<gsm>
