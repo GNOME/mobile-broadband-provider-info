@@ -11699,6 +11699,16 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>Gazprombank Mobile</name>
+		<name xml:lang="ru">Газпромбанк Мобайл</name>
+		<gsm>
+			<network-id mcc="250" mnc="45"/>
+			<apn value="gpb">
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Megafon</name>
 		<name xml:lang="ru">Мегафон</name>
 
