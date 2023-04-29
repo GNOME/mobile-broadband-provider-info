@@ -5282,7 +5282,7 @@ conceived.
 			<apn value="superdrug.net">
 				<usage type="mms"/>
 				<mmsc>http://mms.um.three.co.uk:10021/mmsc</mmsc>
-				<mmsproxy>217.171.129.2:8799</mmsproxy>
+				<mmsproxy>mms.three.co.uk:8799</mmsproxy>
 			</apn>
 		</gsm>
 	</provider>
