@@ -5159,6 +5159,21 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>Lebara UK</name>
+		<gsm>
+			<network-id mcc="234" mnc="15"/>
+			<apn value="uk.lebara.mobi">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>Lebara UK</name>
+				<username>wap</username>
+				<password>wap</password>
+				<mmsc>http://mms.lebara.co.uk/servlets/mms</mmsc>
+				<mmsproxy>212.183.137.12:8799</mmsproxy>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>EE</name>
 		<gsm>
 			<network-id mcc="234" mnc="30"/>
