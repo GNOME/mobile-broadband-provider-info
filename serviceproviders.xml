@@ -13247,6 +13247,8 @@ conceived.
 			<apn value="internet">
 				<usage type="internet"/>
 				<name>internet</name>
+				<username>internet</username>
+				<password>internet</password>
 			</apn>
 		</gsm>
 	</provider>
