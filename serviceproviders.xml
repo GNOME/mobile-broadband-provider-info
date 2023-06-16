@@ -1147,6 +1147,12 @@ conceived.
 		<gsm>
 			<!-- http://www.vodafone.com.au/personal/mobile-broadband/modem-setup/index.htm -->
 			<network-id mcc="505" mnc="03"/>
+			<voicemail>121</voicemail>
+			<visual-voicemail>
+				<standard type="ios"/>
+				<destination-number>121</destination-number>
+				<carrier-prefix>//VVM</carrier-prefix>
+			</visual-voicemail>
 			<apn value="vfinternet.au">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
