@@ -21,7 +21,8 @@
                authentication?,
                dns*,
                mmsc?,
-               mmsproxy?)>
+               mmsproxy?,
+               mmsattachmentsize?)>
 <!ATTLIST apn value CDATA #REQUIRED>
 
 <!ELEMENT msisdn-query (ussd*, sms*)>
@@ -141,3 +142,6 @@
 
 <!-- MMS Center URL -->
 <!ELEMENT mmsc (#PCDATA)>
+
+<!-- Maximum Size an MMS can be, in bytes -->
+<!ELEMENT mmsattachmentsize (#PCDATA)>

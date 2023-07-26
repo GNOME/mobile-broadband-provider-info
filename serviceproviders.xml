@@ -5170,6 +5170,7 @@ conceived.
 				<password>wap</password>
 				<mmsc>http://mms.lebara.co.uk/servlets/mms</mmsc>
 				<mmsproxy>212.183.137.12:8799</mmsproxy>
+				<mmsattachmentsize>306200</mmsattachmentsize>
 			</apn>
 		</gsm>
 	</provider>
