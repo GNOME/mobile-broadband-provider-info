@@ -13512,7 +13512,7 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
-	<provider>
+	<provider primary="true">
 		<name>T-Mobile</name>
 		<gsm>
 			<network-id mcc="310" mnc="026"/>
@@ -14372,7 +14372,7 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
-	<provider>
+	<provider primary="false">
 		<!-- MVNO operating on T-Mobile/Sprint -->
 		<name>SpeedTalk Mobile</name>
 		<gsm>
@@ -14401,7 +14401,7 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
-	<provider>
+	<provider primary="false">
 		<name>Mint Mobile</name>
 		<gsm>
 			<network-id mcc="310" mnc="260"/>
@@ -14418,7 +14418,7 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
-	<provider>
+	<provider primary="false">
 		<!-- MVNO operating on T-Mobile / Verizon -->
 		<name>US Mobile</name>
 		<gsm>
