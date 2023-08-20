@@ -13480,8 +13480,9 @@ conceived.
 			<network-id mcc="310" mnc="680"/>
 			<voicemail>+17249209990</voicemail>
 			<visual-voicemail>
-				<standard type="proprietary"/>
+				<standard type="ios"/>
 				<destination-number>94183567</destination-number>
+				<carrier-prefix>//VVM</carrier-prefix>
 			</visual-voicemail>
 			<!-- Assignments taken from https://www.att.com/support/article/wireless/KM1062162/ -->
 			<apn value="NXTGENPHONE">
