@@ -4848,7 +4848,7 @@ conceived.
 			<network-id mcc="208" mnc="15"/>
 			<voicemail>666</voicemail>
 			<visual-voicemail>
-				<standard type="proprietary"/>
+				<standard type="ios"/>
 				<destination-number>2050</destination-number>
 				<carrier-prefix>//VVM</carrier-prefix>
 			</visual-voicemail>

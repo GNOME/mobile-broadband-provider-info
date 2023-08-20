@@ -38,9 +38,12 @@
                             carrier-prefix?)>
 
 <!ELEMENT standard EMPTY>
-<!ATTLIST standard type (cvvm|otmp|vvm3|proprietary) #REQUIRED>
+<!ATTLIST standard type (cvvm|otmp|vvm3|proprietary|ios) #REQUIRED>
 <!-- Whether the carrier supports OTMP, CVVM, or VVM3 for Visual Voicemail
-     Some carriers implement their own proprietary standard.
+     Some carriers implement their own proprietary standard, or the standard
+     for iOS.
+     More information about all standards can be found here:
+     https://gitlab.com/kop316/vvmplayer/-/wikis/Visual-Voicemail-Standards
 -->
 
 <!ELEMENT destination-number (#PCDATA)>
