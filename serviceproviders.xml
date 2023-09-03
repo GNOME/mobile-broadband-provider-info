@@ -6765,70 +6765,7 @@ conceived.
 
 <country code="in">
 	<name>India</name>
-	<provider>
-		<name>AIRCEL</name>
-		<gsm>
-			<network-id mcc="404" mnc="17"/>
-			<network-id mcc="404" mnc="28"/>
-			<network-id mcc="404" mnc="29"/>
-			<network-id mcc="404" mnc="37"/>
-			<network-id mcc="404" mnc="41"/>
-			<network-id mcc="404" mnc="42"/>
-			<network-id mcc="404" mnc="91"/>
-			<network-id mcc="405" mnc="800"/>
-			<network-id mcc="405" mnc="801"/>
-			<network-id mcc="405" mnc="802"/>
-			<network-id mcc="405" mnc="803"/>
-			<network-id mcc="405" mnc="804"/>
-			<network-id mcc="405" mnc="805"/>
-			<network-id mcc="405" mnc="806"/>
-			<network-id mcc="405" mnc="807"/>
-			<network-id mcc="405" mnc="808"/>
-			<network-id mcc="405" mnc="809"/>
-			<network-id mcc="405" mnc="810"/>
-			<network-id mcc="405" mnc="811"/>
-			<network-id mcc="405" mnc="812"/>
 
-			<apn value="aircelweb">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>Web</name>
-			</apn>
-			<apn value="aircelgprs">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>GPRS</name>
-			</apn>
-			<apn value="aircelgprs.po">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>GPRS (Postpaid)</name>
-			</apn>
-			<apn value="aircelgprs.pr">
-				<plan type="prepaid"/>
-				<usage type="internet"/>
-				<name>GPRS (Prepaid)</name>
-			</apn>
-			<apn value="aircelmms">
-				<usage type="mms"/>
-				<name>Aircel MMS</name>
-				<mmsc>http://172.17.83.67/servlets/mms</mmsc>
-				<mmsproxy>172.17.83.69:8080</mmsproxy>
-			</apn>
-			<apn value="aircelmms.po">
-				<usage type="mms"/>
-				<name>Aircel MMS</name>
-				<mmsc>http://mmsc/mmrelay.app</mmsc>
-				<mmsproxy>192.168.35.196:8081</mmsproxy>
-			</apn>
-			<apn value="aircelmms">
-				<usage type="mms"/>
-				<name>Aircel MMS</name>
-				<mmsc>http://mmsc/mmrelay.app</mmsc>
-				<mmsproxy>192.168.35.196:8081</mmsproxy>
-			</apn>
-		</gsm>
-	</provider>
 	<provider>
 		<name>Airtel</name>
 		<gsm>
@@ -6866,23 +6803,37 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Vodafone</name>
+		<name>V! (Vodafone Idea)</name>
 		<gsm>
 			<network-id mcc="404" mnc="01"/>
+			<network-id mcc="404" mnc="04"/>
 			<network-id mcc="404" mnc="05"/>
+			<network-id mcc="404" mnc="07"/>
 			<network-id mcc="404" mnc="11"/>
 			<network-id mcc="404" mnc="13"/>
+			<network-id mcc="404" mnc="14"/>
 			<network-id mcc="404" mnc="15"/>
+			<network-id mcc="404" mnc="19"/>
 			<network-id mcc="404" mnc="20"/>
+			<network-id mcc="404" mnc="22"/>
+			<network-id mcc="404" mnc="24"/>
 			<network-id mcc="404" mnc="27"/>
 			<network-id mcc="404" mnc="30"/>
 			<network-id mcc="404" mnc="43"/>
+			<network-id mcc="404" mnc="44"/>
 			<network-id mcc="404" mnc="46"/>
+			<network-id mcc="404" mnc="56"/>
 			<network-id mcc="404" mnc="60"/>
+			<network-id mcc="404" mnc="78"/>
+			<network-id mcc="404" mnc="82"/>
 			<network-id mcc="404" mnc="84"/>
 			<network-id mcc="404" mnc="86"/>
+			<network-id mcc="404" mnc="87"/>
 			<network-id mcc="404" mnc="88"/>
+			<network-id mcc="404" mnc="89"/>
 			<network-id mcc="405" mnc="66"/>
+			<network-id mcc="405" mnc="67"/>
+			<network-id mcc="405" mnc="70"/>
 			<network-id mcc="405" mnc="750"/>
 			<network-id mcc="405" mnc="751"/>
 			<network-id mcc="405" mnc="752"/>
@@ -6890,15 +6841,22 @@ conceived.
 			<network-id mcc="405" mnc="754"/>
 			<network-id mcc="405" mnc="755"/>
 			<network-id mcc="405" mnc="756"/>
-			<apn value="www">
-				<plan type="postpaid"/>
+			<network-id mcc="405" mnc="799"/>
+			<apn value="internet">
+				<plan type="prepaid"/>
 				<usage type="internet"/>
-				<name>Vodafone Connect</name>
+				<name>IDEA</name>
 			</apn>
-			<apn value="portalnmms">
-				<plan type="postpaid"/>
+			<apn value="www">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>V!</name>
+			</apn>
+			<apn value="mmsc">
 				<usage type="mms"/>
-				<name>Vodafone Live</name>
+				<name>IDEA MMS</name>
+				<mmsc>http://10.4.42.21:8002</mmsc>
+				<mmsproxy>10.4.42.15:8080</mmsproxy>
 			</apn>
 		</gsm>
 	</provider>
@@ -6927,54 +6885,11 @@ conceived.
 			<network-id mcc="404" mnc="80"/>
 			<network-id mcc="404" mnc="81"/>
 
-			<!-- http://cellone.in/cellone_msp.htm -->
 			<apn value="bsnlnet">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>New GPRS/3G</name>
-				<username>MSISDN</username>
-				<password>MSISDN</password>
-			</apn>
-
-			<apn value="bsnlwap">
-				<plan type="postpaid"/>
-				<usage type="wap"/>
-				<name>New WAP</name>
-			</apn>
-
-			<apn value="bsnlsouth">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>Old South Zone A (Karnatka, Andhra Pradesh, Chennai, Tamil Nadu, Kerala)</name>
-			</apn>
-			<apn value="gprssouth.cellone.in">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>Old South Zone B (Karnatka, Andhra Pradesh, Chennai, Tamil Nadu, Kerala)</name>
-			</apn>
-			<apn value="gprsnorth.cellone.in">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>Old North Zone (Haryana, Punjab, UP(East), UP(West), Himachal Pradesh, Rajasthan, Jammu &amp; Kashmir)</name>
-			</apn>
-			<apn value="gprswest.cellone.in">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>Old West Zone (Maharashtra, Gujrat, Madhya Pradesh, Chattishgarh)</name>
-			</apn>
-			<apn value="www.e.pr">
 				<plan type="prepaid"/>
 				<usage type="internet"/>
-				<name>Old East Zone Prepaid (Jharkhand, Bihar, Kolkata, West Bengal, Orissa, Assam, North East, Adman Nicobar)</name>
-				<dns>218.248.240.208</dns>
-				<dns>218.248.240.135</dns>
-			</apn>
-			<apn value="www.e.po">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>Old East Zone Postpaid (Jharkhand, Bihar, Kolkata, West Bengal, Orissa, Assam, North East, Adman Nicobar)</name>
-				<dns>218.248.240.208</dns>
-				<dns>218.248.240.135</dns>
+				<name>GRPS</name>
+				<authentication method="pap"/>
 			</apn>
 			<apn value="bsnlmms">
 				<usage type="mms"/>
@@ -6985,38 +6900,34 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Idea Cellular</name>
+		<name>Reliance Jio</name>
 		<gsm>
-			<network-id mcc="404" mnc="04"/>
-			<network-id mcc="404" mnc="07"/>
-			<network-id mcc="404" mnc="12"/>
-			<network-id mcc="404" mnc="14"/>
-			<network-id mcc="404" mnc="19"/>
-			<network-id mcc="404" mnc="22"/>
-			<network-id mcc="404" mnc="24"/>
-			<network-id mcc="404" mnc="44"/>
-			<network-id mcc="404" mnc="56"/>
-			<network-id mcc="404" mnc="82"/>
-			<network-id mcc="405" mnc="70"/>
-			<network-id mcc="405" mnc="799"/>
-			<network-id mcc="405" mnc="845"/>
-			<network-id mcc="405" mnc="848"/>
-			<network-id mcc="405" mnc="850"/>
-			<apn value="internet">
-				<plan type="postpaid"/>
+			<network-id mcc="405" mnc="840"/>
+			<network-id mcc="405" mnc="854"/>
+			<network-id mcc="405" mnc="855"/>
+			<network-id mcc="405" mnc="856"/>
+			<network-id mcc="405" mnc="857"/>
+			<network-id mcc="405" mnc="858"/>
+			<network-id mcc="405" mnc="859"/>
+			<network-id mcc="405" mnc="860"/>
+			<network-id mcc="405" mnc="861"/>
+			<network-id mcc="405" mnc="862"/>
+			<network-id mcc="405" mnc="863"/>
+			<network-id mcc="405" mnc="864"/>
+			<network-id mcc="405" mnc="865"/>
+			<network-id mcc="405" mnc="866"/>
+			<network-id mcc="405" mnc="867"/>
+			<network-id mcc="405" mnc="868"/>
+			<network-id mcc="405" mnc="869"/>
+			<network-id mcc="405" mnc="870"/>
+			<network-id mcc="405" mnc="871"/>
+			<network-id mcc="405" mnc="872"/>
+			<network-id mcc="405" mnc="873"/>
+			<network-id mcc="405" mnc="874"/>
+			<apn value="jionet">
+				<plan type="prepaid"/>
 				<usage type="internet"/>
-			</apn>
-			<apn value="mms">
-				<usage type="mms"/>
-				<name>MMS Idea GPRS</name>
-				<mmsc>http://mms.idea.pl</mmsc>
-				<mmsproxy>192.168.6.104:8080</mmsproxy>
-			</apn>
-			<apn value="mmsc">
-				<usage type="mms"/>
-				<name>Idea MMS</name>
-				<mmsc>http://10.4.42.21:8002</mmsc>
-				<mmsproxy>10.4.42.15:8080</mmsproxy>
+				<name>Internet</name>
 			</apn>
 		</gsm>
 	</provider>
@@ -7063,164 +6974,6 @@ conceived.
 				<mmsproxy>172.16.31.136:9401</mmsproxy>
 			</apn>
 		</gsm>
-	</provider>
-	<provider>
-		<name>Reliance</name>
-		<gsm>
-			<network-id mcc="404" mnc="09"/>
-			<network-id mcc="404" mnc="36"/>
-			<network-id mcc="404" mnc="52"/>
-			<network-id mcc="404" mnc="83"/>
-			<network-id mcc="404" mnc="85"/>
-			<network-id mcc="405" mnc="05"/>
-			<network-id mcc="405" mnc="10"/>
-			<network-id mcc="405" mnc="13"/>
-			<balance-check>
-				<ussd> *111*1*3#</ussd>
-			</balance-check>
-			<apn value="smartnet">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>Smart Net</name>
-			</apn>
-			<apn value="smartwap">
-				<plan type="postpaid"/>
-				<usage type="wap"/>
-				<name>Smart WAP</name>
-			</apn>
-			<apn value="rcomnet">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>Netconnect (RCOMNET)</name>
-			</apn>
-			<apn value="mms">
-				<usage type="mms"/>
-				<name>RMMS</name>
-				<mmsc>http://10.239.221.47/mms/</mmsc>
-				<mmsproxy>10.239.221.7:8080</mmsproxy>
-			</apn>
-			<apn value="rcommms">
-				<usage type="mms"/>
-				<name>Reliance MMS</name>
-				<mmsc>http://mmsc.rcom.co.in/mms/</mmsc>
-				<mmsproxy>10.239.221.5:8080</mmsproxy>
-			</apn>
-		</gsm>
-		<cdma>
-			<name>Reliance Netconnect</name>
-			<sid value="14655"/>
-			<sid value="14656"/>
-			<sid value="14657"/>
-			<sid value="14658"/>
-			<sid value="14659"/>
-			<sid value="14660"/>
-			<sid value="14661"/>
-			<sid value="14662"/>
-			<sid value="14663"/>
-			<sid value="14664"/>
-			<sid value="14665"/>
-			<sid value="14666"/>
-			<sid value="14667"/>
-			<sid value="14668"/>
-			<sid value="14669"/>
-			<sid value="14670"/>
-			<sid value="14671"/>
-			<sid value="14672"/>
-			<sid value="14673"/>
-			<sid value="14674"/>
-			<sid value="14675"/>
-		</cdma>
-	</provider>
-	<provider>
-		<name>Spice telecom</name>
-		<gsm>
-			<network-id mcc="404" mnc="14"/>
-			<network-id mcc="404" mnc="44"/>
-
-			<apn value="Simplyenjoy">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<username>spice</username>
-				<password>spice</password>
-			</apn>
-			<apn value="simplydownload">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>kar</name>
-			</apn>
-			<apn value="mmsc">
-				<usage type="mms"/>
-				<name>Idea MMS</name>
-				<mmsc>http://10.4.42.21:8002/</mmsc>
-				<mmsproxy>10.4.42.15:8080</mmsproxy>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
-		<name>Tata Docomo</name>
-		<gsm>
-			<network-id mcc="405" mnc="025"/>
-			<network-id mcc="405" mnc="026"/>
-			<network-id mcc="405" mnc="027"/>
-			<network-id mcc="405" mnc="029"/>
-			<network-id mcc="405" mnc="030"/>
-			<network-id mcc="405" mnc="031"/>
-			<network-id mcc="405" mnc="032"/>
-			<network-id mcc="405" mnc="034"/>
-			<network-id mcc="405" mnc="035"/>
-			<network-id mcc="405" mnc="036"/>
-			<network-id mcc="405" mnc="037"/>
-			<network-id mcc="405" mnc="038"/>
-			<network-id mcc="405" mnc="039"/>
-			<network-id mcc="405" mnc="041"/>
-			<network-id mcc="405" mnc="042"/>
-			<network-id mcc="405" mnc="043"/>
-			<network-id mcc="405" mnc="044"/>
-			<network-id mcc="405" mnc="045"/>
-			<network-id mcc="405" mnc="046"/>
-			<network-id mcc="405" mnc="047"/>
-
-			<apn value="TATA.DOCOMO.INTERNET">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>Internet</name>
-			</apn>
-			<apn value="TATADOCOMO3G">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>Internet</name>
-			</apn>
-			<apn value="TATA.DOCOMO.MMS">
-				<usage type="mms"/>
-				<name>TATA DOCOMO MMS</name>
-				<mmsc>http://mmsc/</mmsc>
-				<mmsproxy>10.124.26.94:8799</mmsproxy>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
-		<name>Tata Indicom (Plug2Surf)</name>
-		<cdma>
-			<username>internet</username>
-			<password>internet</password>
-		</cdma>
-	</provider>
-	<provider>
-		<name>Tata Indicom (Photon+)</name>
-		<cdma>
-			<username>internet</username>
-			<password>internet</password>
-			<sid value="14836"/>
-		</cdma>
-	</provider>
-	<provider>
-		<name>MTS MBlaze</name>
-		<cdma>
-			<username>internet@internet.mtsindia.in</username>
-			<password>mts</password>
-			<sid value="14554"/>
-			<sid value="14555"/>
-		</cdma>
 	</provider>
 </country>
 
