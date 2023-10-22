@@ -5298,6 +5298,7 @@ conceived.
 		<name>Superdrug</name>
 		<gsm>
 			<network-id mcc="234" mnc="20"/>
+			<voicemail>123</voicemail>
 			<apn value="superdrug.net">
 				<usage type="internet"/>
 			</apn>
