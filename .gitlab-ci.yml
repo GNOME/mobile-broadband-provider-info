@@ -1,5 +1,5 @@
 test:
-  image: debian:buster
+  image: debian:bookworm
   stage: test
   before_script:
     - echo "man-db man-db/auto-update boolean false" | debconf-set-selections
