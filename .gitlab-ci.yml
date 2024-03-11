@@ -1,12 +1,11 @@
 test:
-  image: debian:buster
+  image: debian:bookworm
   stage: test
   before_script:
     - echo "man-db man-db/auto-update boolean false" | debconf-set-selections
     - export DEBIAN_FRONTEND=noninteractive
     - apt-get update
-    - apt-get -y install libxml2-utils xsltproc automake make
+    - apt-get -y install libxml2-utils xsltproc meson
   script:
-    - ./autogen.sh
-    - make check
-
+    - meson setup _build
+    - meson test -C _build
