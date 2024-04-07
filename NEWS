@@ -1,0 +1,20 @@
+20240407
+--------
+* Switch to meson
+* Support MMS attachment size
+* New providers:
+  - uk: Lebara
+- Updated providers:
+  - in: Multiple providers
+  - uk: Superdrug
+* Voicemail fixes:
+  - au:Vodafone
+  - us:AT&T
+  - fr:FreeMobile
+* Contributors:
+    * Chris Talbot
+    * Guido Günther
+    * Hemish
+    * t1627
+    * UltrasonicMadness
+
