@@ -5460,6 +5460,32 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider primary="false">
+		<!-- https://www.1pmobile.com/ask-penny/?help=data-and-internet -->
+		<name>1pMobile</name>
+		<gsm>
+			<!-- 1pMobile is MVNO with same MCC/MNC as EE -->
+			<network-id mcc="234" mnc="30"/>
+			<balance-check>
+				<dtmf>150</dtmf>
+			</balance-check>
+			<apn value="data.uk">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>1pMobile</name>
+				<username>user</username>
+				<password>one2one</password>
+			</apn>
+			<apn value="data.uk">
+				<usage type="mms"/>
+				<name>1pMobile</name>
+				<username>user</username>
+				<password>one2one</password>
+				<mmsc>http://mms/</mmsc>
+				<mmsproxy>149.254.201.135:8080</mmsproxy>
+			</apn>
+		</gsm>
+	</provider>
 	<provider>
 		<name>3</name>
 		<gsm>
