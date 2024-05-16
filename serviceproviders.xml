@@ -7361,6 +7361,15 @@ conceived.
 		<name>Iliad</name>
 		<gsm>
 			<network-id mcc="222" mnc="50"/>
+			<voicemail>401</voicemail>
+			<visual-voicemail>
+				<standard type="ios"/>
+				<destination-number>2050</destination-number>
+				<carrier-prefix>//VVM</carrier-prefix>
+			</visual-voicemail>
+			<balance-check>
+				<sms text="Credito">400</sms>
+			</balance-check>
 			<apn value="iliad">
 				<plan type="prepaid"/>
 				<usage type="internet"/>
