@@ -13394,6 +13394,40 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>FirstNet</name>
+		<gsm>
+			<network-id mcc="312" mnc="670"/>
+			<network-id mcc="313" mnc="100"/>
+			<network-id mcc="313" mnc="110"/>
+			<network-id mcc="313" mnc="120"/>
+			<network-id mcc="313" mnc="130"/>
+			<network-id mcc="313" mnc="140"/>
+			<network-id mcc="313" mnc="150"/>
+			<network-id mcc="313" mnc="150"/>
+			<network-id mcc="313" mnc="160"/>
+			<network-id mcc="313" mnc="170"/>
+			<network-id mcc="313" mnc="180"/>
+			<network-id mcc="313" mnc="190"/>
+			<voicemail>+17249209990</voicemail>
+			<visual-voicemail>
+				<standard type="ios"/>
+				<destination-number>94183567</destination-number>
+				<carrier-prefix>//VVM</carrier-prefix>
+			</visual-voicemail>
+			<apn value="firstnet-phone">
+				<usage type="mms-internet-hipri"/>
+				<name>firstnet-phone</name>
+				<gateway>proxy.mobile.att.net:80</gateway>
+				<mmsc>http://mmsc.mobile.att.net</mmsc>
+				<mmsproxy>proxy.mobile.att.net:80</mmsproxy>
+			</apn>
+			<apn value="firstnet-broadband">
+				<usage type="mms-internet-hipri"/>
+				<name>firstnet-broadband</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Sprint</name>
 		<cdma>
 			<!-- Assignments taken from IFAST: http://www.ifast.org/files/NationalSID.htm -->
