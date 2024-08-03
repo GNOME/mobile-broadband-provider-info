@@ -4805,6 +4805,11 @@ conceived.
 			<network-id mcc="208" mnc="21"/>
 
 			<voicemail>660</voicemail>
+			<visual-voicemail>
+				<standard type="vvm3"/>
+				<destination-number>22344</destination-number>
+				<carrier-prefix>//VVM</carrier-prefix>
+			</visual-voicemail>
 			<balance-check>
 				<dtmf>630</dtmf>
 			</balance-check>
