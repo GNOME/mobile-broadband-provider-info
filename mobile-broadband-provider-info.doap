@@ -14,13 +14,6 @@ broadband (3G) providers and associated network and plan information.</descripti
   <!-- Maintainers -->
   <maintainer>
     <foaf:Person>
-      <foaf:name>Antti Kaijanmäki</foaf:name>
-      <foaf:mbox rdf:resource="mailto:antti.kaijanmaki.net"/>
-      <gnome:userid>kaijanma</gnome:userid>
-    </foaf:Person>
-  </maintainer>
-  <maintainer>
-    <foaf:Person>
       <foaf:name>Dan Williams</foaf:name>
       <foaf:mbox rdf:resource="mailto:dcbw@redhat.com" />
       <gnome:userid>dcbw</gnome:userid>
