@@ -13338,7 +13338,7 @@ conceived.
 			<voicemail>123</voicemail>
 			<visual-voicemail>
 				<standard type="cvvm"/>
-				<destination-number>127</destination-number>
+				<destination-number>122</destination-number>
 				<carrier-prefix>//VVM</carrier-prefix>
 			</visual-voicemail>
 			<apn value="fast.t-mobile.com">
