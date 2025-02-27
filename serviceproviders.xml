@@ -11074,23 +11074,26 @@ conceived.
 			<network-id mcc="268" mnc="01"/>
 			<apn value="internet.vodafone.pt">
 				<plan type="postpaid"/>
+				<plan type="prepaid"/>
 				<usage type="internet"/>
 				<username>vodafone</username>
 				<password>vodafone</password>
-				<dns>212.18.160.133</dns>
-				<dns>212.18.160.134</dns>
 			</apn>
 			<apn value="net2.vodafone.pt">
+				<plan type="prepaid"/>
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<name>Vodafone Internet</name>
+				<name>Vodafone / Yorn (Internet)</name>
+				<username>vodafone</username>
+				<password>vodafone</password>
 			</apn>
-			<apn value="vas.vodafone.pt">
-				<plan type="postpaid"/>
+			<apn value="net2.vodafone.pt">
 				<usage type="mms"/>
-				<name>Vodafone MMS</name>
-				<username>vas</username>
-				<password>vas</password>
+				<name>Vodafone / Yorn (MMS)</name>
+				<username>vodafone</username>
+				<password>vodafone</password>
+				<mmsc>http://mms.vodafone.pt/servlets/mms</mmsc>
+				<mmsproxy>iproxy.vodafone.pt:80</mmsproxy>
 			</apn>
 		</gsm>
 	</provider>
