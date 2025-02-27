@@ -11095,32 +11095,6 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>ZON</name>
-		<gsm>
-			<network-id mcc="268" mnc="01"/>
-			<apn value="internet.zon.pt">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>Dados Móveis</name>
-			</apn>
-			<apn value="vas.zon.pt">
-				<plan type="postpaid"/>
-				<usage type="mms"/>
-				<name>MMS</name>
-				<username>vas</username>
-				<password>vas</password>
-			</apn>
-			<apn value="vas.zon.pt">
-				<usage type="mms"/>
-				<name>ZON MMS</name>
-				<username>vas</username>
-				<password>vas</password>
-				<mmsc>http://mms/servlets/mms</mmsc>
-				<mmsproxy>213.30.27.63:8799</mmsproxy>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
 		<name>Digi PT</name>
 		<gsm>
 			<network-id mcc="268" mnc="02"/>
