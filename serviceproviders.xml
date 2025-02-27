@@ -10991,17 +10991,6 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<!-- Merged with Optimus in 2010 -->
-		<name>Clix</name>
-		<gsm>
-			<network-id mcc="268" mnc="03"/>
-			<apn value="clixinternetmovel">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
 		<name>Optimus</name>
 		<gsm>
 			<network-id mcc="268" mnc="03"/>
