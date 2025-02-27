@@ -600,6 +600,16 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>Spusu</name>
+		<gsm>
+			<network-id mcc="232" mnc="17"/>
+			<apn value="web">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>T-Mobile</name>
 		<gsm>
 			<network-id mcc="232" mnc="03"/>
