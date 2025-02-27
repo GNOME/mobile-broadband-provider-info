@@ -11120,6 +11120,18 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<name>Digi PT</name>
+		<gsm>
+			<network-id mcc="268" mnc="02"/>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Digi.mobil</name>
+				<authentication method="pap"/>
+			</apn>
+		</gsm>
+</provider>
 </country>
 
 <country code="py">
