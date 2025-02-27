@@ -3521,14 +3521,24 @@ conceived.
 			<balance-top-up>
 				<ussd replacement="CODE">*101*CODE#</ussd>
 			</balance-top-up>
-			<apn value="internet.t-mobile">
+			<apn value="internet.telekom">
 				<plan type="prepaid"/>
 				<usage type="internet"/>
 				<name>Prepaid Contracts</name>
-				<username>t-mobile</username>
-				<password>tm</password>
+				<username>congstar</username>
+				<password>cs</password>
 				<dns>193.254.160.1</dns>
 				<dns>10.74.83.22</dns>
+			</apn>
+			<!-- https://forum.congstar.de/thread/46325-mobil-surfen-mit-congstar-manuelle-einstellungen-zum-mobilen-internet-apn/ !-->
+			<apn value="internet.telekom">
+				<plan type="prepaid"/>
+				<usage type="mms"/>
+				<name>Congstar MMS</name>
+				<username>telekom</username>
+				<password>telekom</password>
+				<mmsc>https://www.mms.telekon.de/OTP/</mmsc>
+				<mmsproxy>109.231.176.193:8008</mmsproxy>
 			</apn>
 		</gsm>
 	</provider>
