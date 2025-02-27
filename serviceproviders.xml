@@ -11037,32 +11037,20 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>TMN</name>
+		<name>MEO</name>
 		<gsm>
 			<network-id mcc="268" mnc="06"/>
 			<apn value="internet">
+				<plan type="prepaid"/>
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<name>Tmn Internet</name>
-				<username>tmn</username>
-				<password>tmn</password>
+				<name>MEO (Internet)</name>
 				<dns>88.214.178.1</dns>
 				<dns>88.214.182.2</dns>
 			</apn>
 			<apn value="mmsc.tmn.pt">
-				<plan type="postpaid"/>
 				<usage type="mms"/>
-				<name>Tmn Mms</name>
-				<username>tmn</username>
-				<password>tmnnet</password>
-				<dns>194.65.3.20</dns>
-				<dns>194.65.3.21</dns>
-			</apn>
-			<apn value="mmsc.tmn.pt">
-				<usage type="mms"/>
-				<name>MMSgprs</name>
-				<username>tmn</username>
-				<password>tmnnet</password>
+				<name>MEO (MMS)</name>
 				<mmsc>http://mmsc/</mmsc>
 				<mmsproxy>10.111.2.16:8080</mmsproxy>
 			</apn>
