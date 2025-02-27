@@ -10952,58 +10952,32 @@ conceived.
 <country code="pt">
 	<name>Portugal</name>
 	<provider>
-		<name>Kanguru</name>
+		<name>NOS</name>
 		<gsm>
 			<network-id mcc="268" mnc="03"/>
-			<apn value="kanguru-portatil">
+			<balance-check>
+				<ussd>*111#</ussd>
+			</balance-check>
+			<apn value="utms">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<name>Portable</name>
-				<name xml:lang="pt">Portátil</name>
-				<dns>62.169.67.172</dns>
-				<dns>62.169.67.171</dns>
+				<name>NOS / WTF Pós-Pago (internet)</name>
 			</apn>
-			<apn value="kanguru-tempo">
+			<apn value="utms">
 				<plan type="prepaid"/>
 				<usage type="internet"/>
-				<name>Tempo (Prepaid)</name>
-				<dns>62.169.67.172</dns>
-				<dns>62.169.67.171</dns>
+				<name>NOS / WTF Pré-Pago (internet)</name>
 			</apn>
-			<apn value="kangurufixo">
+			<apn value="myconnection">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<name>Fixo</name>
-				<dns>62.169.67.172</dns>
-				<dns>62.169.67.171</dns>
-			</apn>
-			<apn value="noapn">
-				<name>Apn dinâmico (no apn)</name>
-				<dns>62.169.67.172</dns>
-				<dns>62.169.67.171</dns>
+				<name>NOS Kanguru Net Móvel (internet)</name>
 			</apn>
 			<apn value="umts">
 				<usage type="mms"/>
-				<name>Optimus MMS</name>
+				<name>NOS (MMS)</name>
 				<mmsc>http://mmsc:10021/mmsc</mmsc>
 				<mmsproxy>62.169.66.5:8799</mmsproxy>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
-		<name>Optimus</name>
-		<gsm>
-			<network-id mcc="268" mnc="03"/>
-			<apn value="umts">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>3G</name>
-			</apn>
-			<apn value="internet">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>GPRS</name>
-				<dns>194.79.69.129</dns>
 			</apn>
 		</gsm>
 	</provider>
