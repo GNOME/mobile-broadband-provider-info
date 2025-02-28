@@ -3627,6 +3627,20 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>sipgate</name>
+		<gsm>
+			<network-id mcc="262" mnc="03"/> <!-- this value is listed in the sipgate forum, presuambly an MVNO of this provider!-->
+			<network-id mcc="262" mnc="33"/>
+			<apn value="sipgate">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>sipgate</name>
+				<username>sipgate</username>
+				<password>sipgate</password>
+		</apn>
+	</gsm>
+	</provider>
+	<provider>
 		<name>Alice</name>
 		<gsm>
 			<network-id mcc="262" mnc="07"/>
