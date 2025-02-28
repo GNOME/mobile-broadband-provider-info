@@ -10952,69 +10952,33 @@ conceived.
 <country code="pt">
 	<name>Portugal</name>
 	<provider>
-		<name>Kanguru</name>
+		<name>NOS</name>
 		<gsm>
 			<network-id mcc="268" mnc="03"/>
-			<apn value="kanguru-portatil">
+			<voicemail>133</voicemail>
+			<balance-check>
+				<ussd>*111#</ussd>
+			</balance-check>
+			<apn value="utms">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<name>Portable</name>
-				<name xml:lang="pt">Portátil</name>
-				<dns>62.169.67.172</dns>
-				<dns>62.169.67.171</dns>
+				<name>NOS / WTF Pós-Pago (internet)</name>
 			</apn>
-			<apn value="kanguru-tempo">
+			<apn value="utms">
 				<plan type="prepaid"/>
 				<usage type="internet"/>
-				<name>Tempo (Prepaid)</name>
-				<dns>62.169.67.172</dns>
-				<dns>62.169.67.171</dns>
+				<name>NOS / WTF Pré-Pago (internet)</name>
 			</apn>
-			<apn value="kangurufixo">
+			<apn value="myconnection">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<name>Fixo</name>
-				<dns>62.169.67.172</dns>
-				<dns>62.169.67.171</dns>
-			</apn>
-			<apn value="noapn">
-				<name>Apn dinâmico (no apn)</name>
-				<dns>62.169.67.172</dns>
-				<dns>62.169.67.171</dns>
+				<name>NOS Kanguru Net Móvel (internet)</name>
 			</apn>
 			<apn value="umts">
 				<usage type="mms"/>
-				<name>Optimus MMS</name>
+				<name>NOS (MMS)</name>
 				<mmsc>http://mmsc:10021/mmsc</mmsc>
 				<mmsproxy>62.169.66.5:8799</mmsproxy>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
-		<!-- Merged with Optimus in 2010 -->
-		<name>Clix</name>
-		<gsm>
-			<network-id mcc="268" mnc="03"/>
-			<apn value="clixinternetmovel">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
-		<name>Optimus</name>
-		<gsm>
-			<network-id mcc="268" mnc="03"/>
-			<apn value="umts">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>3G</name>
-			</apn>
-			<apn value="internet">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>GPRS</name>
-				<dns>194.79.69.129</dns>
 			</apn>
 		</gsm>
 	</provider>
@@ -11022,6 +10986,7 @@ conceived.
 		<name>Lycamobile</name>
 		<gsm>
 			<network-id mcc="268" mnc="04"/>
+			<voicemail>200</voicemail>
 			<balance-check>
 				<ussd>*123#</ussd>
 			</balance-check>
@@ -11037,32 +11002,24 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>TMN</name>
+		<name>MEO</name>
 		<gsm>
 			<network-id mcc="268" mnc="06"/>
+			<voicemail>200</voicemail>
+			<balance-check>
+				<ussd>*#123#</ussd>
+			</balance-check>
 			<apn value="internet">
+				<plan type="prepaid"/>
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<name>Tmn Internet</name>
-				<username>tmn</username>
-				<password>tmn</password>
+				<name>MEO (Internet)</name>
 				<dns>88.214.178.1</dns>
 				<dns>88.214.182.2</dns>
 			</apn>
 			<apn value="mmsc.tmn.pt">
-				<plan type="postpaid"/>
 				<usage type="mms"/>
-				<name>Tmn Mms</name>
-				<username>tmn</username>
-				<password>tmnnet</password>
-				<dns>194.65.3.20</dns>
-				<dns>194.65.3.21</dns>
-			</apn>
-			<apn value="mmsc.tmn.pt">
-				<usage type="mms"/>
-				<name>MMSgprs</name>
-				<username>tmn</username>
-				<password>tmnnet</password>
+				<name>MEO (MMS)</name>
 				<mmsc>http://mmsc/</mmsc>
 				<mmsproxy>10.111.2.16:8080</mmsproxy>
 			</apn>
@@ -11072,51 +11029,56 @@ conceived.
 		<name>Vodafone</name>
 		<gsm>
 			<network-id mcc="268" mnc="01"/>
+			<voicemail>123</voicemail>
+			<balance-check>
+				<ussd>*#123#</ussd>
+			</balance-check>
 			<apn value="internet.vodafone.pt">
 				<plan type="postpaid"/>
+				<plan type="prepaid"/>
 				<usage type="internet"/>
 				<username>vodafone</username>
 				<password>vodafone</password>
-				<dns>212.18.160.133</dns>
-				<dns>212.18.160.134</dns>
 			</apn>
 			<apn value="net2.vodafone.pt">
+				<plan type="prepaid"/>
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<name>Vodafone Internet</name>
+				<name>Vodafone / Yorn (Internet)</name>
+				<username>vodafone</username>
+				<password>vodafone</password>
 			</apn>
-			<apn value="vas.vodafone.pt">
-				<plan type="postpaid"/>
+			<apn value="net2.vodafone.pt">
 				<usage type="mms"/>
-				<name>Vodafone MMS</name>
-				<username>vas</username>
-				<password>vas</password>
+				<name>Vodafone / Yorn (MMS)</name>
+				<username>vodafone</username>
+				<password>vodafone</password>
+				<mmsc>http://mms.vodafone.pt/servlets/mms</mmsc>
+				<mmsproxy>iproxy.vodafone.pt:80</mmsproxy>
 			</apn>
 		</gsm>
 	</provider>
 	<provider>
-		<name>ZON</name>
+		<name>Digi PT</name>
 		<gsm>
-			<network-id mcc="268" mnc="01"/>
-			<apn value="internet.zon.pt">
+			<network-id mcc="268" mnc="02"/>
+			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<name>Dados Móveis</name>
+				<name>Digi.mobil</name>
+				<authentication method="pap"/>
 			</apn>
-			<apn value="vas.zon.pt">
+		</gsm>
+	</provider>
+	<provider>
+		<name>LigaT</name>
+		<gsm>
+			<network-id mcc="268" mnc="07"/>
+			<voicemail>200</voicemail>
+			<apn value="inet">
 				<plan type="postpaid"/>
-				<usage type="mms"/>
-				<name>MMS</name>
-				<username>vas</username>
-				<password>vas</password>
-			</apn>
-			<apn value="vas.zon.pt">
-				<usage type="mms"/>
-				<name>ZON MMS</name>
-				<username>vas</username>
-				<password>vas</password>
-				<mmsc>http://mms/servlets/mms</mmsc>
-				<mmsproxy>213.30.27.63:8799</mmsproxy>
+				<usage type="internet"/>
+				<name>LigaT (Internet)</name>
 			</apn>
 		</gsm>
 	</provider>
