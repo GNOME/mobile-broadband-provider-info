@@ -11070,6 +11070,18 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<name>LigaT</name>
+		<gsm>
+			<network-id mcc="268" mnc="07"/>
+			<voicemail>200</voicemail>
+			<apn value="inet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>LigaT (Internet)</name>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <country code="py">
