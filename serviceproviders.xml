@@ -10955,6 +10955,7 @@ conceived.
 		<name>NOS</name>
 		<gsm>
 			<network-id mcc="268" mnc="03"/>
+			<voicemail>133</voicemail>
 			<balance-check>
 				<ussd>*111#</ussd>
 			</balance-check>
@@ -10985,6 +10986,7 @@ conceived.
 		<name>Lycamobile</name>
 		<gsm>
 			<network-id mcc="268" mnc="04"/>
+			<voicemail>200</voicemail>
 			<balance-check>
 				<ussd>*123#</ussd>
 			</balance-check>
@@ -11003,6 +11005,10 @@ conceived.
 		<name>MEO</name>
 		<gsm>
 			<network-id mcc="268" mnc="06"/>
+			<voicemail>200</voicemail>
+			<balance-check>
+				<ussd>*#123#</ussd>
+			</balance-check>
 			<apn value="internet">
 				<plan type="prepaid"/>
 				<plan type="postpaid"/>
@@ -11023,6 +11029,10 @@ conceived.
 		<name>Vodafone</name>
 		<gsm>
 			<network-id mcc="268" mnc="01"/>
+			<voicemail>123</voicemail>
+			<balance-check>
+				<ussd>*#123#</ussd>
+			</balance-check>
 			<apn value="internet.vodafone.pt">
 				<plan type="postpaid"/>
 				<plan type="prepaid"/>
@@ -11059,7 +11069,7 @@ conceived.
 				<authentication method="pap"/>
 			</apn>
 		</gsm>
-</provider>
+	</provider>
 </country>
 
 <country code="py">
