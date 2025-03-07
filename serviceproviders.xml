@@ -2327,14 +2327,6 @@ conceived.
 		<name>Rogers</name>
 		<gsm>
 			<network-id mcc="302" mnc="720"/>
-			<apn value="internet.com">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<username>wapuser1</username>
-				<password>wap</password>
-				<dns>207.181.101.4</dns>
-				<dns>207.181.101.5</dns>
-			</apn>
 			<apn value="ltemobile.apn">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -2345,13 +2337,13 @@ conceived.
 				<usage type="internet"/>
 				<name>Rogers Tethering</name>
 			</apn>
-			<apn value="media.com">
+			<apn value="ltedata.apn">
 				<usage type="mms"/>
-				<name>Rogers Media</name>
-				<username>media</username>
-				<password>mda01</password>
+				<name>Rogers MMS</name>
+				<username></username>
+				<password></password>
 				<mmsc>http://mms.gprs.rogers.com</mmsc>
-				<mmsproxy>10.128.1.69:80</mmsproxy>
+				<mmsproxy>mmsproxy.rogers.com</mmsproxy>
 			</apn>
 		</gsm>
 	</provider>
