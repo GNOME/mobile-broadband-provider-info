@@ -8632,19 +8632,12 @@ conceived.
 		<name>Tango</name>
 		<gsm>
 			<network-id mcc="270" mnc="77"/>
-			<apn value="hspa">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>hspa</name>
-				<username>tango</username>
-				<password>tango</password>
-			</apn>
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<name>internet</name>
-				<username>tango</username>
-				<password>tango</password>
+				<username></username>
+				<password></password>
 				<dns>212.66.70.3</dns>
 				<dns>212.66.75.7</dns>
 			</apn>
