@@ -2586,6 +2586,17 @@ conceived.
 
 <country code="ch">
 	<name>Switzerland</name>
+	<emergency-numbers>
+		<emergency-number number="114">
+			<callee type="ambulance"/>
+		</emergency-number>
+		<emergency-number number="117">
+			<callee type="police"/>
+		</emergency-number>
+		<emergency-number number="118">
+			<callee type="fire-brigade"/>
+		</emergency-number>
+	</emergency-numbers>
 	<provider>
 		<name>Lycamobile</name>
 		<gsm>
@@ -3296,6 +3307,13 @@ conceived.
 			<channels start="4381" end="4381"/>
 		</level>
 	</cbs>
+	<emergency-numbers>
+		<emergency-number number="112">
+			<callee type="police"/>
+			<callee type="ambulance"/>
+			<callee type="fire-brigade"/>
+		</emergency-number>
+	</emergency-numbers>
 	<provider>
 		<name>AldiTalk/MedionMobile</name>
 		<gsm>
@@ -13380,6 +13398,13 @@ conceived.
 			<channels start="4379" end="4379"/>
 		</level>
 	</cbs>
+	<emergency-numbers>
+		<emergency-number number="911">
+			<callee type="police"/>
+			<callee type="ambulance"/>
+			<callee type="fire-brigade"/>
+		</emergency-number>
+	</emergency-numbers>
 	<provider>
 		<name>AT&amp;T</name>
 		<gsm>
