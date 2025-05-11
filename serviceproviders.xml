@@ -3260,6 +3260,42 @@ conceived.
 
 <country code="de">
 	<name>Germany</name>
+	<cbs>
+		<!-- MoWaS-Warnmeldungen der „Warnstufe 1, hoch“ -->
+		<level type="presidential">
+			<channels start="4370" end="4370"/>
+			<channels start="4383" end="4383"/>
+			<!-- Per DE-Alert -->
+			<channels start="919" end="919"/>
+		</level>
+		<!-- MoWaS-Warnmeldungen der „Warnstufe 2, mittel“ -->
+		<level type="extreme">
+			<channels start="4371" end="4371"/>
+			<channels start="4384" end="4384"/>
+			<channels start="4385" end="4385"/>
+		</level>
+		<level type="severe">
+			<channels start="4373" end="4378"/>
+			<channels start="4386" end="4391"/>
+		</level>
+		<!-- MoWaS-Warnmeldungen der „Warnstufe 3, niedrig“ -->
+		<level type="public-safety">
+			<channels start="4396" end="4396"/>
+			<channels start="4397" end="4397"/>
+		</level>
+		<level type="amber">
+			<channels start="4379" end="4379"/>
+			<channels start="4392" end="4392"/>
+		</level>
+		<level type="test">
+			<!-- EU monthly test -->
+			<channels start="4380" end="4380"/>
+			<!-- EU test -->
+			<channels start="4382" end="4382"/>
+			<!-- EU exercise -->
+			<channels start="4381" end="4381"/>
+		</level>
+	</cbs>
 	<provider>
 		<name>AldiTalk/MedionMobile</name>
 		<gsm>
@@ -9651,6 +9687,39 @@ conceived.
 
 <country code="nl">
 	<name>Netherlands</name>
+	<cbs>
+		<level type="presidential">
+			<channels start="4370" end="4370"/>
+			<channels start="4383" end="4383"/>
+			<!-- legacy block -->
+			<channels start="919" end="919"/>
+		</level>
+		<level type="extreme">
+			<channels start="4371" end="4371"/>
+			<channels start="4384" end="4384"/>
+			<channels start="4385" end="4385"/>
+		</level>
+		<level type="severe">
+			<channels start="4373" end="4378"/>
+			<channels start="4386" end="4391"/>
+		</level>
+		<level type="public-safety">
+			<channels start="4396" end="4396"/>
+			<channels start="4397" end="4397"/>
+		</level>
+		<level type="amber">
+			<channels start="4379" end="4379"/>
+			<channels start="4392" end="4392"/>
+		</level>
+		<level type="test">
+			<!-- EU monthly test -->
+			<channels start="4380" end="4380"/>
+			<!-- EU test -->
+			<channels start="4382" end="4382"/>
+			<!-- EU exercise -->
+			<channels start="4381" end="4381"/>
+		</level>
+	</cbs>
 	<provider>
 		<name>Hi</name>
 		<gsm>
@@ -13265,6 +13334,23 @@ conceived.
 
 <country code="us">
 	<name>United States</name>
+	<cbs>
+		<level type="presidential">
+			<channels start="4370" end="4370"/>
+		</level>
+		<level type="extreme">
+			<channels start="4371" end="4372"/>
+		</level>
+		<level type="severe">
+			<channels start="4373" end="4378"/>
+		</level>
+		<level type="public-safety">
+			<channels start="4397" end="4397"/>
+		</level>
+		<level type="amber">
+			<channels start="4379" end="4379"/>
+		</level>
+	</cbs>
 	<provider>
 		<name>AT&amp;T</name>
 		<gsm>
