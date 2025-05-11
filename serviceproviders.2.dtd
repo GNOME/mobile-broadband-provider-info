@@ -1,7 +1,7 @@
 <!ELEMENT serviceproviders (country*)>
 <!ATTLIST serviceproviders format CDATA #REQUIRED>
 
-<!ELEMENT country (name+, cbs*, provider*)>
+<!ELEMENT country (name+, cbs*, emergency-numbers*, provider*)>
 <!ATTLIST country code CDATA #REQUIRED>
 
 <!ELEMENT provider (name+, gsm?, cdma?)>
@@ -160,3 +160,15 @@
 <!ELEMENT channels EMPTY>
 <!ATTLIST channels start CDATA #REQUIRED>
 <!ATTLIST channels end CDATA #REQUIRED>
+
+<!-- A countries emergency numbers -->
+<!ELEMENT emergency-numbers (emergency-number+)>
+
+<!-- An emergency number -->
+<!ELEMENT emergency-number (callee+)>
+<!ATTLIST emergency-number number CDATA #REQUIRED>
+
+<!-- The callee belonging to an emergency number -->
+<!ELEMENT callee EMPTY>
+<!ATTLIST callee type (ambulance|police|fire-brigade) #REQUIRED>
+
