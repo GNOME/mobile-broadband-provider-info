@@ -3893,6 +3893,19 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>Telia IOT</name>
+		<gsm>
+			<network-id mcc="238" mnc="20"/>
+			<balance-check>
+				<ussd>*101#</ussd>
+			</balance-check>
+			<apn value="www.internet.mtelia.dk">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>BiBoB</name>
 		<gsm>
 			<network-id mcc="238" mnc="02"/>
