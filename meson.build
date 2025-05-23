@@ -47,4 +47,4 @@ test('check-blanks',
 
 test('xmllint',
      find_program('xmllint'),
-     args: ['--valid', sp_xml_db])
+     args: ['--postvalid', sp_xml_db])
