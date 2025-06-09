@@ -1,7 +1,7 @@
 <!ELEMENT serviceproviders (country*)>
 <!ATTLIST serviceproviders format CDATA #REQUIRED>
 
-<!ELEMENT country (name+, provider*)>
+<!ELEMENT country (name+, cbs*, provider*)>
 <!ATTLIST country code CDATA #REQUIRED>
 
 <!ELEMENT provider (name+, gsm?, cdma?)>
@@ -148,3 +148,15 @@
 
 <!-- Maximum Size an MMS can be, in bytes -->
 <!ELEMENT mmsattachmentsize (#PCDATA)>
+
+<!-- A countries cell broadcast service information -->
+<!ELEMENT cbs (level+)>
+
+<!-- Information about a particular severity level -->
+<!ELEMENT level (channels+)>
+<!ATTLIST level type (presidential|extreme|severe|public-safety|amber|test) #REQUIRED>
+
+<!-- The channels for this alert level -->
+<!ELEMENT channels EMPTY>
+<!ATTLIST channels start CDATA #REQUIRED>
+<!ATTLIST channels end CDATA #REQUIRED>
