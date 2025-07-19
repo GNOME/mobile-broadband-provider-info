@@ -6689,6 +6689,35 @@ conceived.
 
 <country code="il">
 	<name>Israel</name>
+	<cbs>
+		<level type="presidential">
+			<!-- 919 Hebrew, 920 English, 921 Russian, 922 Arabic -->
+			<channels start="919" end="922"/>
+			<!-- Future use per 2014 document -->
+			<channels start="923" end="928"/>
+		</level>
+		<level type="extreme">
+			<channels start="4370" end="4370"/>
+		</level>
+		<level type="severe">
+			<channels start="4371" end="4372"/>
+		</level>
+		<level type="public-safety">
+			<!-- technically declared as information -->
+			<channels start="4373" end="4378"/>
+		</level>
+		<level type="amber">
+			<channels start="4379" end="4379"/>
+		</level>
+		<level type="test">
+			<!-- general system test -->
+			<channels start="4380" end="4380"/>
+			<!-- training -->
+			<channels start="4381" end="4381"/>
+			<!-- future use -->
+			<channels start="4382" end="4382"/>
+		</level>
+	</cbs>
 	<provider>
 		<name>CellCom</name>
 		<gsm>
