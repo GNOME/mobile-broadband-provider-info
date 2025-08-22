@@ -3735,6 +3735,25 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>Willkommen</name>
+		<gsm>
+			<!-- Vodafone network -->
+			<network-id mcc="262" mnc="02"/>
+			<network-id mcc="262" mnc="23"/>
+
+			<voicemail>5500</voicemail>
+			<balance-check>
+				<ussd>*100#</ussd>
+			</balance-check>
+
+			<apn value="web.vodafone.de">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Mobile Broadband</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Netzclub</name>
 		<gsm>
 			<!-- O2 network -->
