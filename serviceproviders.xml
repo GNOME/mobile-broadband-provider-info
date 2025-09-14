@@ -1521,6 +1521,13 @@ conceived.
 
 <country code="be">
 	<name>Belgium</name>
+	<emergency-numbers>
+		<emergency-number number="112">
+			<callee type="ambulance"/>
+			<callee type="police"/>
+			<callee type="fire-brigade"/>
+		</emergency-number>
+	</emergency-numbers>
 	<provider>
 		<name>Lycamobile</name>
 		<gsm>
