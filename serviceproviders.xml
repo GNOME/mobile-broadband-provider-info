@@ -12933,6 +12933,15 @@ conceived.
 
 <country code="tw">
 	<name>Taiwan</name>
+	<emergency-numbers>
+		<emergency-number number="119">
+			<callee type="ambulance"/>
+			<callee type="fire-brigade"/>
+		</emergency-number>
+		<emergency-number number="110">
+			<callee type="police"/>
+		</emergency-number>
+	</emergency-numbers>
 	<provider>
 		<name>Chunghwa Telecom (emome)</name>
 		<name xml:lang="zh">中華電信 (emome)</name>
