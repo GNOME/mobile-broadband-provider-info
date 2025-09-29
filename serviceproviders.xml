@@ -9857,30 +9857,7 @@ conceived.
 		<name>KPN NL</name>
 		<gsm>
 			<network-id mcc="204" mnc="08"/>
-			<apn value="prepaidinternet">
-				<plan type="prepaid"/>
-				<usage type="internet"/>
-				<name>KPN Prepaid Mobiel Internet</name>
-			</apn>
-			<apn value="fastinternet">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>KPN 3G/2G LTE Mobiel Internet</name>
-			</apn>
 			<apn value="internet">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<username>KPN</username>
-				<password>gprs</password>
-				<dns>62.133.126.28</dns>
-				<dns>62.133.126.29</dns>
-			</apn>
-			<apn value="KPN4G.nl">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>KPN 4G LTE Mobiel Internet</name>
-			</apn>
-			<apn value="portalmmm.nl">
 				<plan type="postpaid"/>
 				<plan type="prepaid"/>
 				<usage type="internet"/>
