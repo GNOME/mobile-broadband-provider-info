@@ -414,14 +414,12 @@ conceived.
 			<network-id mcc="722" mnc="310"/>
 			<network-id mcc="722" mnc="320"/>
 			<network-id mcc="722" mnc="330"/>
-			<apn value="gprs.claro.com.ar">
+			<apn value="igprs.claro.com.ar">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<name>3G Internet</name>
-				<username>clarogprs</username>
-				<password>clarogprs999</password>
-				<dns>170.51.255.100</dns>
-				<dns>170.51.242.18</dns>
+				<name>Claro AR</name>
+				<username></username>
+				<password></password>
 			</apn>
 			<apn value="internet.ctimovil.com.ar">
 				<plan type="postpaid"/>
