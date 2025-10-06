@@ -11417,40 +11417,10 @@ conceived.
 	<provider>
 		<name>Vodafone</name>
 		<gsm>
-			<network-id mcc="226" mnc="01"/>
-			<apn value="tobe.vodafone.ro">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>Mobile Internet (Prepaid)</name>
-				<username>tobe.vodafone.ro</username>
-				<password>vodafone</password>
-			</apn>
-			<apn value="internet.vodafone.ro">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>Mobile Internet (Postpaid)</name>
-				<username>internet.vodafone.ro</username>
-				<password>vodafone</password>
-			</apn>
-			<apn value="internet.pre.vodafone.ro">
-				<plan type="prepaid"/>
-				<usage type="internet"/>
-				<name>Mobile Internet (Prepaid)</name>
-				<username>internet.pre.vodafone.ro</username>
-				<password>vodafone</password>
-			</apn>
 			<apn value="live.vodafone.com">
-				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<name>Live! (Postpaid)</name>
+				<name>Live!</name>
 				<username>live</username>
-				<password>vodafone</password>
-			</apn>
-			<apn value="live.pre.vodafone.ro">
-				<plan type="prepaid"/>
-				<usage type="internet"/>
-				<name>Live! (Prepaid)</name>
-				<username>live.pre.vodafone.com</username>
 				<password>vodafone</password>
 			</apn>
 		</gsm>
