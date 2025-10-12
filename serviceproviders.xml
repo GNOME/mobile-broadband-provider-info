@@ -7896,6 +7896,17 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<!-- MVNO operating on au(KDDI) network -->
+		<name>povo</name>
+		<gsm>
+			<network-id mcc="440" mnc="51"/>
+			<apn value="povo.jp">
+				<usage type="internet"/>
+				<name>povo</name>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <country code="ke">
