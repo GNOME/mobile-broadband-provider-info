@@ -1,3 +1,22 @@
+20251101
+--------
+* Add support for emergency number information
+* Add emergency number information for AT, BE, CH, DE, JP, TW, US
+* Add cbd channel information for IL
+* New providers
+  - de: Willkommen
+  - jp: provo
+* Updated providers
+  - ar: Claro
+  - ca: Rogers
+  - lu: Tango
+* Contributors:
+  - Agustín González
+  - Bardia Moshiri
+  - Boris Shtrasman
+  - Guido Günther
+  - HackingGate
+
 20250613
 --------
 * Add support for Cell Broadcast channel information to schema
