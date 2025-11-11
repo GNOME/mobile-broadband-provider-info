@@ -9857,30 +9857,7 @@ conceived.
 		<name>KPN NL</name>
 		<gsm>
 			<network-id mcc="204" mnc="08"/>
-			<apn value="prepaidinternet">
-				<plan type="prepaid"/>
-				<usage type="internet"/>
-				<name>KPN Prepaid Mobiel Internet</name>
-			</apn>
-			<apn value="fastinternet">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>KPN 3G/2G LTE Mobiel Internet</name>
-			</apn>
 			<apn value="internet">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<username>KPN</username>
-				<password>gprs</password>
-				<dns>62.133.126.28</dns>
-				<dns>62.133.126.29</dns>
-			</apn>
-			<apn value="KPN4G.nl">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>KPN 4G LTE Mobiel Internet</name>
-			</apn>
-			<apn value="portalmmm.nl">
 				<plan type="postpaid"/>
 				<plan type="prepaid"/>
 				<usage type="internet"/>
@@ -11440,40 +11417,10 @@ conceived.
 	<provider>
 		<name>Vodafone</name>
 		<gsm>
-			<network-id mcc="226" mnc="01"/>
-			<apn value="tobe.vodafone.ro">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>Mobile Internet (Prepaid)</name>
-				<username>tobe.vodafone.ro</username>
-				<password>vodafone</password>
-			</apn>
-			<apn value="internet.vodafone.ro">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>Mobile Internet (Postpaid)</name>
-				<username>internet.vodafone.ro</username>
-				<password>vodafone</password>
-			</apn>
-			<apn value="internet.pre.vodafone.ro">
-				<plan type="prepaid"/>
-				<usage type="internet"/>
-				<name>Mobile Internet (Prepaid)</name>
-				<username>internet.pre.vodafone.ro</username>
-				<password>vodafone</password>
-			</apn>
 			<apn value="live.vodafone.com">
-				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<name>Live! (Postpaid)</name>
+				<name>Live!</name>
 				<username>live</username>
-				<password>vodafone</password>
-			</apn>
-			<apn value="live.pre.vodafone.ro">
-				<plan type="prepaid"/>
-				<usage type="internet"/>
-				<name>Live! (Prepaid)</name>
-				<username>live.pre.vodafone.com</username>
 				<password>vodafone</password>
 			</apn>
 		</gsm>
