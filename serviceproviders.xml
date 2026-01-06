@@ -7448,6 +7448,7 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<!-- Old TIM network, mostly phased out by the end of 2025 -->
 	<provider>
 		<name>CoopVoce</name>
 		<gsm>
@@ -7456,6 +7457,24 @@ conceived.
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<name>Internet Mobile</name>
+			</apn>
+		</gsm>
+	</provider>
+	<!-- New Vodafone network -->
+	<provider>
+		<name>WEB CoopVoce</name>
+		<gsm>
+			<network-id mcc="222" mnc="10"/>
+			<network-id mcc="222" mnc="53"/>
+			<apn value="internet.coopvoce.it">
+				<usage type="internet"/>
+				<name>Internet</name>
+			</apn>
+			<apn value="message.coopvoce.it">
+				<usage type="mms"/>
+				<name>MMS</name>
+				<mmsc>http://mms.coop.it/servlets/mms</mmsc>
+				<mmsproxy>213.230.130.89:80</mmsproxy>
 			</apn>
 		</gsm>
 	</provider>
