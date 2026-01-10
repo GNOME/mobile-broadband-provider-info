@@ -1596,23 +1596,19 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Telenet Mobile</name>
+		<name>Telenet</name>
 		<gsm>
-			<network-id mcc="206" mnc="10"/>
-			<apn value="mobile.internet.be">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>Old Walk &amp; Surf</name>
-			</apn>
+			<network-id mcc="206" mnc="01"/>
+			<network-id mcc="206" mnc="05"/>
 			<apn value="telenetwap.be">
-				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<name>Walk &amp; Talk</name>
+				<name>Telenet Internet</name>
 			</apn>
-			<apn value="telenetwap.be">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>Walk &amp; Surf</name>
+			<apn value="mms.be">
+				<usage type="mms"/>
+				<name>Telenet MMS</name>
+				<mmsc>http://mmsc.telenet.be</mmsc>
+				<mmsproxy>195.130.149.100:80</mmsproxy>
 			</apn>
 		</gsm>
 	</provider>
