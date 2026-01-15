@@ -1,11 +1,36 @@
-test:
-  image: debian:bookworm
-  stage: test
+default:
+  image: debian:testing
   before_script:
     - echo "man-db man-db/auto-update boolean false" | debconf-set-selections
     - export DEBIAN_FRONTEND=noninteractive
     - apt-get update
-    - apt-get -y install libxml2-utils xsltproc meson
+    - apt-get -y install libxml2-utils xsltproc meson git
+
+include:
+  - component: "gitlab.gnome.org/GNOME/citemplates/release-service@master"
+    inputs:
+      job-stage: "release"
+      dist-job-name: "build-release-tarball"
+
+stages:
+  - build
+  - test
+  - release
+
+build-release-tarball:
+  stage: build
+  script:
+    - meson setup _build
+    - meson dist -C _build --include-subprojects
+    - cp -r _build/meson-dist/ "${CI_PROJECT_DIR}/public-dist/"
+  artifacts:
+    name: "${CI_JOB_NAME}-${CI_COMMIT_REF_NAME}"
+    when: "always"
+    paths:
+      - "public-dist"
+
+test:
+  stage: test
   script:
     - meson setup _build
     - meson test -C _build
