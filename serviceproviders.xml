@@ -1545,6 +1545,22 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>Neibo</name>
+		<gsm>
+			<network-id mcc="206" mnc="10"/>
+			<apn value="mworld.be">
+				<usage type="internet"/>
+				<name>Neibo Internet</name>
+			</apn>
+			<apn value="mms.be">
+				<usage type="mms"/>
+				<name>Neibo MMS</name>
+				<mmsc>http://mmsc.mobistar.be</mmsc>
+				<mmsproxy>212.65.63.143:8080</mmsproxy>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Mobistar</name>
 		<gsm>
 			<network-id mcc="206" mnc="10"/>
