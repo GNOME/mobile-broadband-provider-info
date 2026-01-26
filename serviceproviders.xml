@@ -11490,8 +11490,9 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Vodafone</name>
+		<name>Vodafone RO</name>
 		<gsm>
+			<network-id mcc="226" mnc="01"/>
 			<apn value="live.vodafone.com">
 				<usage type="internet"/>
 				<name>Live!</name>
