@@ -8662,28 +8662,18 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Omnitel (contract)</name>
+		<name>Telia LT</name>
 		<gsm>
 			<network-id mcc="246" mnc="01"/>
-			<apn value="gprs.omnitel.net">
-				<plan type="postpaid"/>
+			<apn value="omnitel">
 				<usage type="internet"/>
-				<name>Contract</name>
-				<dns>194.176.32.129</dns>
-				<dns>195.22.175.1</dns>
-			</apn>
-			<apn value="gprs.startas.lt">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>No contract</name>
+				<name>Telia Internet</name>
 				<username>omni</username>
 				<password>omni</password>
-				<dns>194.176.32.129</dns>
-				<dns>195.22.175.1</dns>
 			</apn>
 			<apn value="gprs.mms.lt">
 				<usage type="mms"/>
-				<name>Omnitel MMS</name>
+				<name>Telia MMS</name>
 				<username>mms</username>
 				<password>mms</password>
 				<mmsc>http://mms.omnitel.net:8002/</mmsc>
