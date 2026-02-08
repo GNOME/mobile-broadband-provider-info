@@ -4,7 +4,7 @@ default:
     - echo "man-db man-db/auto-update boolean false" | debconf-set-selections
     - export DEBIAN_FRONTEND=noninteractive
     - apt-get update
-    - apt-get -y install libxml2-utils xsltproc meson git
+    - apt-get -y install libxml2-utils xsltproc meson git build-essential
 
 include:
   - component: "gitlab.gnome.org/GNOME/citemplates/release-service@master"
