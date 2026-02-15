@@ -11,7 +11,14 @@
 <!-- that piggy-back on the primary provider. -->
 <!ATTLIST provider primary (true|false) #IMPLIED>
 
-<!ELEMENT gsm (network-id*, msisdn-query*, voicemail*, visual-voicemail*, balance-check*, balance-top-up*, apn*)>
+<!ELEMENT gsm (network-id*,
+               gid1*,
+               msisdn-query*,
+               voicemail*,
+               visual-voicemail*,
+               balance-check*,
+               balance-top-up*,
+               apn*)>
 <!ELEMENT apn (plan*,
                usage?,
                name*,
@@ -172,3 +179,5 @@
 <!ELEMENT callee EMPTY>
 <!ATTLIST callee type (ambulance|police|fire-brigade) #REQUIRED>
 
+<!-- Some providers require the extra GID1 data to fully identify -->
+<!ELEMENT gid1 (#PCDATA)>
