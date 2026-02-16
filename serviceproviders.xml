@@ -2473,7 +2473,7 @@ conceived.
 				<usage type="mms"/>
 				<name>TELUS MMS</name>
 				<mmsc>http://aliasredirect.net/proxy/mmsc</mmsc>
-				<mmsproxy>74.49.0.18:80</mmsproxy>
+				<mmsproxy>mmscproxy.mobility.ca:8799</mmsproxy>
 			</apn>
 		</gsm>
 		<cdma>
