@@ -691,6 +691,7 @@ conceived.
 		<gsm>
 			<network-id mcc="232" mnc="10"/>
 			<network-id mcc="232" mnc="05"/>
+			<gid1>0303</gid1>
 			<apn value="drei.at">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
