@@ -3799,9 +3799,11 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
-	<provider>
+	<provider primary="false">
 		<name>winSIM</name>
 		<gsm>
+			<network-id mcc="262" mnc="23"/>
+			<gid1>d3e35801ffffffffffffffffffffffffffffffff</gid1>
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
