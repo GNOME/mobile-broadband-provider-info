@@ -11558,6 +11558,22 @@ conceived.
 
 <country code="ru">
 	<name>Russia</name>
+	<emergency-numbers>
+		<emergency-number number="112">
+			<callee type="fire-brigade"/>
+			<callee type="police"/>
+			<callee type="ambulance"/>
+		</emergency-number>
+		<emergency-number number="101">
+			<callee type="fire-brigade"/>
+		</emergency-number>
+		<emergency-number number="102">
+			<callee type="police"/>
+		</emergency-number>
+		<emergency-number number="103">
+			<callee type="ambulance"/>
+		</emergency-number>
+	</emergency-numbers>
 	<provider>
 		<name>Beeline</name>
 		<name xml:lang="ru">Билайн</name>
