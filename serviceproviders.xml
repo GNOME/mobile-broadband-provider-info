@@ -4865,10 +4865,10 @@ conceived.
 				<dns>192.89.123.230</dns>
 				<dns>192.89.123.231</dns>
 			</apn>
-			<apn value="telefinland">
+			<apn value="mms">
 				<usage type="mms"/>
-				<name>TeleFinland MMS</name>
-				<mmsc>http://mms.sonera.net:8002</mmsc>
+				<name>Telia MMS</name>
+				<mmsc>http://mms/</mmsc>
 				<mmsproxy>195.156.25.33:8080</mmsproxy>
 			</apn>
 		</gsm>
