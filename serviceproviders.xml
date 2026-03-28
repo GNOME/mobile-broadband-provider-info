@@ -4842,7 +4842,7 @@ conceived.
 				 - Others case by case
 			<voicemail/> -->
 			<balance-check>
-					<sms text="EASY SALDO">15400</sms>
+					<sms text="PREPAID SALDO">15400</sms>
 			</balance-check>
 
 			<apn value="internet">
