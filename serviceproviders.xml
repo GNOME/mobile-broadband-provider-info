@@ -1693,6 +1693,21 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<name>Telavox</name>
+		<gsm>
+			<network-id mcc="206" mnc="14"/>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+			<apn value="mms">
+				<usage type="mms"/>
+				<name>Telavox MMS</name>
+				<mmsc>http://mms.media</mmsc>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <country code="bf">
@@ -10265,6 +10280,21 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<name>Telavox</name>
+		<gsm>
+			<network-id mcc="242" mnc="15"/>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+			<apn value="mms">
+				<usage type="mms"/>
+				<name>Telavox MMS</name>
+				<mmsc>http://mms.media</mmsc>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <country code="np">
@@ -12210,6 +12240,21 @@ conceived.
 				<usage type="internet"/>
 				<username>lmse</username>
 				<password>plus</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Telavox</name>
+		<gsm>
+			<network-id mcc="240" mnc="50"/>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+			<apn value="mms">
+				<usage type="mms"/>
+				<name>Telavox MMS</name>
+				<mmsc>http://mms.media</mmsc>
 			</apn>
 		</gsm>
 	</provider>
