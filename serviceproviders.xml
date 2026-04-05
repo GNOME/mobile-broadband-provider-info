@@ -4738,6 +4738,13 @@ conceived.
 
 <country code="fi">
 	<name>Finland</name>
+	<emergency-numbers>
+		<emergency-number number="112">
+			<callee type="ambulance"/>
+			<callee type="fire-brigade"/>
+			<callee type="police"/>
+		</emergency-number>
+	</emergency-numbers>
 	<provider>
 		<name>Kuiri</name>
 		<gsm>
