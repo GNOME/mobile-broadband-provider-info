@@ -9825,6 +9825,13 @@ conceived.
 			<channels start="4381" end="4381"/>
 		</level>
 	</cbs>
+	<emergency-numbers>
+		<emergency-number number="112">
+			<callee type="ambulance"/>
+			<callee type="fire-brigade"/>
+			<callee type="police"/>
+		</emergency-number>
+	</emergency-numbers>
 	<provider>
 		<name>Hi</name>
 		<gsm>
