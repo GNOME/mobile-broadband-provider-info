@@ -5062,6 +5062,17 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>Lebara</name>
+		<gsm>
+			<network-id mcc="208" mnc="10"/>
+			<network-id mcc="208" mnc="38"/>
+			<apn value="fr.lebara.mobi">
+				<usage type="internet"/>
+				<name>Lebara Internet</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Orange</name>
 		<gsm>
 			<network-id mcc="208" mnc="01"/>
