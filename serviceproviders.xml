@@ -1545,6 +1545,22 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
+		<name>Neibo</name>
+		<gsm>
+			<network-id mcc="206" mnc="10"/>
+			<apn value="mworld.be">
+				<usage type="internet"/>
+				<name>Neibo Internet</name>
+			</apn>
+			<apn value="mms.be">
+				<usage type="mms"/>
+				<name>Neibo MMS</name>
+				<mmsc>http://mmsc.mobistar.be</mmsc>
+				<mmsproxy>212.65.63.143:8080</mmsproxy>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
 		<name>Mobistar</name>
 		<gsm>
 			<network-id mcc="206" mnc="10"/>
@@ -1596,23 +1612,19 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Telenet Mobile</name>
+		<name>Telenet</name>
 		<gsm>
-			<network-id mcc="206" mnc="10"/>
-			<apn value="mobile.internet.be">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>Old Walk &amp; Surf</name>
-			</apn>
+			<network-id mcc="206" mnc="01"/>
+			<network-id mcc="206" mnc="05"/>
 			<apn value="telenetwap.be">
-				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<name>Walk &amp; Talk</name>
+				<name>Telenet Internet</name>
 			</apn>
-			<apn value="telenetwap.be">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>Walk &amp; Surf</name>
+			<apn value="mms.be">
+				<usage type="mms"/>
+				<name>Telenet MMS</name>
+				<mmsc>http://mmsc.telenet.be</mmsc>
+				<mmsproxy>195.130.149.100:80</mmsproxy>
 			</apn>
 		</gsm>
 	</provider>
@@ -2461,7 +2473,7 @@ conceived.
 				<usage type="mms"/>
 				<name>TELUS MMS</name>
 				<mmsc>http://aliasredirect.net/proxy/mmsc</mmsc>
-				<mmsproxy>74.49.0.18:80</mmsproxy>
+				<mmsproxy>mmscproxy.mobility.ca:8799</mmsproxy>
 			</apn>
 		</gsm>
 		<cdma>
@@ -3607,21 +3619,20 @@ conceived.
 			<apn value="internet.telekom">
 				<plan type="prepaid"/>
 				<usage type="internet"/>
-				<name>Prepaid Contracts</name>
-				<username>congstar</username>
-				<password>cs</password>
+				<name>Congstar Internet</name>
+				<username>telekom</username>
+				<password>telekom</password>
 				<dns>193.254.160.1</dns>
 				<dns>10.74.83.22</dns>
 			</apn>
-			<!-- https://forum.congstar.de/thread/46325-mobil-surfen-mit-congstar-manuelle-einstellungen-zum-mobilen-internet-apn/ !-->
-			<apn value="internet.telekom">
+			<apn value="hos">
 				<plan type="prepaid"/>
 				<usage type="mms"/>
 				<name>Congstar MMS</name>
 				<username>telekom</username>
 				<password>telekom</password>
-				<mmsc>https://www.mms.telekon.de/OTP/</mmsc>
-				<mmsproxy>109.231.176.193:8008</mmsproxy>
+				<mmsc>http://mms.t-mobile.de/servlets/mms</mmsc>
+				<mmsproxy>109.237.176.193:8008</mmsproxy>
 			</apn>
 		</gsm>
 	</provider>
@@ -5016,8 +5027,8 @@ conceived.
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<name>Free-Mobile</name>
-				<username>free</username>
-				<password>free</password>
+				<username></username>
+				<password></password>
 			</apn>
 			<apn value="mmsfree">
 				<plan type="postpaid"/>
@@ -5047,6 +5058,17 @@ conceived.
 				<usage type="internet"/>
 				<username>lmfr</username>
 				<password>plus</password>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Lebara</name>
+		<gsm>
+			<network-id mcc="208" mnc="10"/>
+			<network-id mcc="208" mnc="38"/>
+			<apn value="fr.lebara.mobi">
+				<usage type="internet"/>
+				<name>Lebara Internet</name>
 			</apn>
 		</gsm>
 	</provider>
@@ -7448,6 +7470,7 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<!-- Old TIM network, mostly phased out by the end of 2025 -->
 	<provider>
 		<name>CoopVoce</name>
 		<gsm>
@@ -7456,6 +7479,24 @@ conceived.
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 				<name>Internet Mobile</name>
+			</apn>
+		</gsm>
+	</provider>
+	<!-- New Vodafone network -->
+	<provider>
+		<name>WEB CoopVoce</name>
+		<gsm>
+			<network-id mcc="222" mnc="10"/>
+			<network-id mcc="222" mnc="53"/>
+			<apn value="internet.coopvoce.it">
+				<usage type="internet"/>
+				<name>Internet</name>
+			</apn>
+			<apn value="message.coopvoce.it">
+				<usage type="mms"/>
+				<name>MMS</name>
+				<mmsc>http://mms.coop.it/servlets/mms</mmsc>
+				<mmsproxy>213.230.130.89:80</mmsproxy>
 			</apn>
 		</gsm>
 	</provider>
@@ -8631,28 +8672,18 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Omnitel (contract)</name>
+		<name>Telia LT</name>
 		<gsm>
 			<network-id mcc="246" mnc="01"/>
-			<apn value="gprs.omnitel.net">
-				<plan type="postpaid"/>
+			<apn value="omnitel">
 				<usage type="internet"/>
-				<name>Contract</name>
-				<dns>194.176.32.129</dns>
-				<dns>195.22.175.1</dns>
-			</apn>
-			<apn value="gprs.startas.lt">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>No contract</name>
+				<name>Telia Internet</name>
 				<username>omni</username>
 				<password>omni</password>
-				<dns>194.176.32.129</dns>
-				<dns>195.22.175.1</dns>
 			</apn>
 			<apn value="gprs.mms.lt">
 				<usage type="mms"/>
-				<name>Omnitel MMS</name>
+				<name>Telia MMS</name>
 				<username>mms</username>
 				<password>mms</password>
 				<mmsc>http://mms.omnitel.net:8002/</mmsc>
@@ -11459,8 +11490,9 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Vodafone</name>
+		<name>Vodafone RO</name>
 		<gsm>
+			<network-id mcc="226" mnc="01"/>
 			<apn value="live.vodafone.com">
 				<usage type="internet"/>
 				<name>Live!</name>
