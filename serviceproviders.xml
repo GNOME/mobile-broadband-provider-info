@@ -5059,8 +5059,8 @@ conceived.
 			<apn value="data.lycamobile.fr">
 				<plan type="prepaid"/>
 				<usage type="internet"/>
-				<username>lmfr</username>
-				<password>plus</password>
+				<username></username>
+				<password></password>
 			</apn>
 		</gsm>
 	</provider>
