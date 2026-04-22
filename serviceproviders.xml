@@ -598,8 +598,8 @@ conceived.
 			<apn value="data.lycamobile.at">
 				<plan type="prepaid"/>
 				<usage type="internet"/>
-				<username>lmat</username>
-				<password>plus</password>
+				<username></username>
+				<password></password>
 				<mmsc>http://lyca.mmsmvno.com/mms/wapenc</mmsc>
 			</apn>
 		</gsm>
