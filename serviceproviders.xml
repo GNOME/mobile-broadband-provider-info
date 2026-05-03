@@ -691,6 +691,7 @@ conceived.
 		<gsm>
 			<network-id mcc="232" mnc="10"/>
 			<network-id mcc="232" mnc="05"/>
+			<gid1>0303</gid1>
 			<apn value="drei.at">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
@@ -3798,9 +3799,11 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
-	<provider>
+	<provider primary="false">
 		<name>winSIM</name>
 		<gsm>
+			<network-id mcc="262" mnc="23"/>
+			<gid1>d3e35801ffffffffffffffffffffffffffffffff</gid1>
 			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
