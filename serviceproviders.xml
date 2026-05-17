@@ -10243,12 +10243,20 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<!-- https://no.mycall.no/mms-mobildata-android -->
 	<provider>
 		<name>MyCall</name>
 		<gsm>
 			<network-id mcc="242" mnc="05"/>
 			<apn value="internet">
 				<usage type="internet"/>
+				<name>MyCall Internet</name>
+			</apn>
+			<apn value="mms">
+				<usage type="mms"/>
+				<name>MyCall MMS</name>
+				<mmsc>http://mms.nwn.no</mmsc>
+				<mmsproxy>188.149.250.10</mmsproxy>
 			</apn>
 		</gsm>
 	</provider>
