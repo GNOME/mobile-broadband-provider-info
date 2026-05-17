@@ -10346,16 +10346,6 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Phonero</name>
-		<gsm>
-			<network-id mcc="242" mnc="01"/>
-			<apn value="internet.phonero.no">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
 		<name>Lycamobile</name>
 		<gsm>
 			<network-id mcc="242" mnc="23"/>
