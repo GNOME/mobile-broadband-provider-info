@@ -10244,16 +10244,6 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Ludo Mobil</name>
-		<gsm>
-			<network-id mcc="242" mnc="07"/>
-			<apn value="internet.ventelo.no">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
 		<name>Tele2</name>
 		<gsm>
 			<network-id mcc="242" mnc="02"/>
