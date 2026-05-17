@@ -10185,27 +10185,6 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
-	<provider>
-		<!-- MVNO operating on NetCom's network -->
-		<name>Chess</name>
-		<gsm>
-			<network-id mcc="242" mnc="02"/>
-			<apn value="netcom">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<username>chess</username>
-				<password>chess</password>
-			</apn>
-			<apn value="mms.netcom.no">
-				<usage type="mms"/>
-				<name>Chess MMS</name>
-				<username>chess</username>
-				<password>chess</password>
-				<mmsc>http://mms/</mmsc>
-				<mmsproxy>212.169.66.4:8080</mmsproxy>
-			</apn>
-		</gsm>
-	</provider>
 	<!-- http://www.ice.no/Mobilt-bredb%C3%A5nd-1046.aspx -->
 	<provider>
 		<name>ice.net (Nordisk Mobiltelefon)</name>
