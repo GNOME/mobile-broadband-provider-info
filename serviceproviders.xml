@@ -10226,6 +10226,43 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+
+	<!-- https://happybytes.no/kundeservice/mobilinnstillinger/ -->
+	<provider primary="false">
+		<name>Happybytes</name>
+		<gsm>
+			<network-id mcc="242" mnc="01"/>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Happybytes Internet</name>
+			</apn>
+			<apn value="mms">
+				<usage type="mms"/>
+				<name>Happybytes MMS</name>
+				<mmsc>http://mms.media</mmsc>
+			</apn>
+		</gsm>
+	</provider>
+
+	<!-- https://www.sagamobil.no/brukerveiledninger/ -->
+	<provider primary="false">
+		<name>Saga Mobil</name>
+		<gsm>
+			<network-id mcc="242" mnc="01"/>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Saga Mobil Internet</name>
+			</apn>
+			<apn value="mms">
+				<usage type="mms"/>
+				<name>Saga Mobil MMS</name>
+				<mmsc>http://mms.media</mmsc>
+			</apn>
+		</gsm>
+	</provider>
+
 	<!-- https://onecall.no/kundeservice/oppsett-manuelt -->
 	<provider>
 		<name>OneCall</name>
