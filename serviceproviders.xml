@@ -10261,15 +10261,6 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>Altibox</name>
-		<gsm>
-			<apn value="internet">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
 		<name>Lycamobile</name>
 		<gsm>
 			<network-id mcc="242" mnc="23"/>
