@@ -10214,14 +10214,6 @@ conceived.
 				<mmsc>http://mmsc</mmsc>
 				<mmsproxy>mms-proxy.telenor.no:8080</mmsproxy>
 			</apn>
-			<apn value="mms.ventelo.no">
-				<usage type="mms"/>
-				<name>Ventelo MMS</name>
-				<username>ventelo</username>
-				<password>1111</password>
-				<mmsc>http://mmsc/</mmsc>
-				<mmsproxy>10.10.10.11:8080</mmsproxy>
-			</apn>
 		</gsm>
 	</provider>
 	<provider>
@@ -10246,16 +10238,6 @@ conceived.
 		<name>Altibox</name>
 		<gsm>
 			<apn value="internet">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
-		<name>Ventelo</name>
-		<gsm>
-			<network-id mcc="242" mnc="07"/>
-			<apn value="internet.ventelo.no">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 			</apn>
