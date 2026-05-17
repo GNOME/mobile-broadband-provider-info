@@ -10225,18 +10225,6 @@ conceived.
 		</gsm>
 	</provider>
 	<provider>
-		<name>TDC</name>
-		<gsm>
-			<network-id mcc="242" mnc="08"/>
-			<apn value="internet.no">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<dns>80.232.41.10</dns>
-				<dns>80.232.41.20</dns>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
 		<name>Network Norway</name>
 		<gsm>
 			<network-id mcc="242" mnc="05"/>
