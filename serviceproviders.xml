@@ -2172,6 +2172,30 @@ conceived.
 	</provider>
 </country>
 
+<country code="bo">
+	<name>Bolivia</name>
+	<provider>
+		<name>Entel</name>
+		<gsm>
+			<network-id mcc="736" mnc="02"/>
+			<apn value="4g.entel">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Tigo</name>
+		<gsm>
+			<network-id mcc="736" mnc="03"/>
+			<apn value="internet.tigo.bo">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+</country>
+
 <country code="by">
 	<name>Belarus</name>
 	<provider>
