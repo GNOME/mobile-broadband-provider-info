@@ -10126,6 +10126,25 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<!-- MVNO operating on KPN's network -->
+		<name>Simyo</name>
+		<gsm>
+			<network-id mcc="204" mnc="08"/>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>KPN GPRS</name>
+				<username>KPN</username>
+				<password>gprs</password>
+			</apn>
+			<apn value="portalmmm.nl">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Simyo Mobiel Internet</name>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <country code="no">
