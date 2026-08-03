@@ -10149,8 +10149,10 @@ conceived.
 
 <country code="no">
 	<name>Norway</name>
+
+	<!-- https://www.telia.no/mobilabonnement/hjelp/mobiloppsett/ -->
 	<provider>
-		<name>Netcom</name>
+		<name>Telia</name>
 		<gsm>
 			<network-id mcc="242" mnc="02"/>
 
@@ -10158,52 +10160,48 @@ conceived.
 				<ussd>*150#</ussd>
 			</balance-check>
 
-			<apn value="internet.netcom.no">
+			<apn value="telia">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<username>netcom</username>
-				<password>netcom</password>
-				<dns>212.169.123.67</dns>
-				<dns>212.45.188.254</dns>
+				<name>Telia</name>
 			</apn>
-			<apn value="mms.netcom.no">
+			<apn value="mms">
 				<usage type="mms"/>
-				<name>NetCom mms</name>
-				<username>mms</username>
-				<password>netcom</password>
-				<mmsc>http://mms/</mmsc>
+				<name>Telia mms</name>
+				<mmsc>http://mm/</mmsc>
+				<mmsproxy>212.169.66.4:8080</mmsproxy>
+			</apn>
+
+			<apn value="telia">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Fjordkraft Mobil</name>
+			</apn>
+			<apn value="mms">
+				<usage type="mms"/>
+				<name>Fjordkraft Mobil MMS</name>
+				<mmsc>http://mm/</mmsc>
 				<mmsproxy>212.169.66.4:8080</mmsproxy>
 			</apn>
 		</gsm>
 	</provider>
+	<!-- https://www.ice.no/kundeservice/mobiloppsett/mobildata-og-internettinnstillinger/ -->
+	<!-- https://www.ice.no/kundeservice/ny-kunde/mobildata-og-mms-innstillinger/ -->
 	<provider>
-		<!-- MVNO operating on NetCom's network -->
-		<name>Chess</name>
+		<name>Ice</name>
 		<gsm>
-			<network-id mcc="242" mnc="02"/>
-			<apn value="netcom">
+			<network-id mcc="242" mnc="14"/>
+			<apn value="ice.net">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<username>chess</username>
-				<password>chess</password>
 			</apn>
-			<apn value="mms.netcom.no">
+			<apn value="mms.ice.net">
 				<usage type="mms"/>
-				<name>Chess MMS</name>
-				<username>chess</username>
-				<password>chess</password>
-				<mmsc>http://mms/</mmsc>
-				<mmsproxy>212.169.66.4:8080</mmsproxy>
+				<username>mms</username>
+				<mmsc>http://mms</mmsc>
+				<mmsproxy>10.10.10.10</mmsproxy>
 			</apn>
 		</gsm>
-	</provider>
-	<!-- http://www.ice.no/Mobilt-bredb%C3%A5nd-1046.aspx -->
-	<provider>
-		<name>ice.net (Nordisk Mobiltelefon)</name>
-		<cdma>
-			<username>cdma</username>
-			<password>cdma</password>
-		</cdma>
 	</provider>
 	<provider>
 		<name>Telenor</name>
@@ -10226,132 +10224,76 @@ conceived.
 				<mmsc>http://mmsc</mmsc>
 				<mmsproxy>mms-proxy.telenor.no:8080</mmsproxy>
 			</apn>
-			<apn value="mms.ventelo.no">
-				<usage type="mms"/>
-				<name>Ventelo MMS</name>
-				<username>ventelo</username>
-				<password>1111</password>
-				<mmsc>http://mmsc/</mmsc>
-				<mmsproxy>10.10.10.11:8080</mmsproxy>
-			</apn>
 		</gsm>
 	</provider>
-	<provider>
-		<name>TDC</name>
+
+	<!-- https://happybytes.no/kundeservice/mobilinnstillinger/ -->
+	<provider primary="false">
+		<name>Happybytes</name>
 		<gsm>
-			<network-id mcc="242" mnc="08"/>
-			<apn value="internet.no">
+			<network-id mcc="242" mnc="01"/>
+			<apn value="internet">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
-				<dns>80.232.41.10</dns>
-				<dns>80.232.41.20</dns>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
-		<name>Network Norway</name>
-		<gsm>
-			<network-id mcc="242" mnc="05"/>
-			<apn value="internet">
-				<usage type="internet"/>
+				<name>Happybytes Internet</name>
 			</apn>
 			<apn value="mms">
 				<usage type="mms"/>
-				<name>NWN MMS</name>
-				<mmsc>http://mms.nwn.no</mmsc>
-				<mmsproxy>89.254.65.20:80</mmsproxy>
+				<name>Happybytes MMS</name>
+				<mmsc>http://mms.media</mmsc>
 			</apn>
 		</gsm>
 	</provider>
+
+	<!-- https://www.sagamobil.no/brukerveiledninger/ -->
+	<provider primary="false">
+		<name>Saga Mobil</name>
+		<gsm>
+			<network-id mcc="242" mnc="01"/>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Saga Mobil Internet</name>
+			</apn>
+			<apn value="mms">
+				<usage type="mms"/>
+				<name>Saga Mobil MMS</name>
+				<mmsc>http://mms.media</mmsc>
+			</apn>
+		</gsm>
+	</provider>
+
+	<!-- https://onecall.no/kundeservice/oppsett-manuelt -->
 	<provider>
 		<name>OneCall</name>
 		<gsm>
 			<network-id mcc="242" mnc="05"/>
 			<apn value="internet">
 				<usage type="internet"/>
+				<name>OneCall internet</name>
+			</apn>
+			<apn value="mms">
+				<usage type="mms"/>
+				<name>OneCall MMS</name>
+				<mmsc>http://mmsc/</mmsc>
+				<mmsproxy>10.100.100.100</mmsproxy>
 			</apn>
 		</gsm>
 	</provider>
+	<!-- https://no.mycall.no/mms-mobildata-android -->
 	<provider>
 		<name>MyCall</name>
 		<gsm>
 			<network-id mcc="242" mnc="05"/>
 			<apn value="internet">
 				<usage type="internet"/>
+				<name>MyCall Internet</name>
 			</apn>
-		</gsm>
-	</provider>
-	<provider>
-		<name>Altibox</name>
-		<gsm>
-			<apn value="internet">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
-		<name>Telipol</name>
-		<gsm>
-			<network-id mcc="242" mnc="05"/>
-			<apn value="internet">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
-		<name>Ventelo</name>
-		<gsm>
-			<network-id mcc="242" mnc="07"/>
-			<apn value="internet.ventelo.no">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
-		<name>Ludo Mobil</name>
-		<gsm>
-			<network-id mcc="242" mnc="07"/>
-			<apn value="internet.ventelo.no">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
-		<name>Tele2</name>
-		<gsm>
-			<network-id mcc="242" mnc="02"/>
-			<network-id mcc="242" mnc="04"/>
-
-			<voicemail>47230000</voicemail>
-			<balance-check>
-				<ussd>*111#</ussd>
-				<dtmf>47300000</dtmf>
-			</balance-check>
-
-			<apn value="internet.tele2.no">
-				<plan type="postpaid"/>
-				<usage type="wap"/>
-				<name>Mobilt internet</name>
-			</apn>
-			<!-- http://www.tele2.no/mobilt-bredbaand.html -->
-			<apn value="mobileinternet.tele2.no">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
-				<name>Mobilt bredbånd</name>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
-		<name>Phonero</name>
-		<gsm>
-			<network-id mcc="242" mnc="01"/>
-			<apn value="internet.phonero.no">
-				<plan type="postpaid"/>
-				<usage type="internet"/>
+			<apn value="mms">
+				<usage type="mms"/>
+				<name>MyCall MMS</name>
+				<mmsc>http://mms.nwn.no</mmsc>
+				<mmsproxy>188.149.250.10</mmsproxy>
 			</apn>
 		</gsm>
 	</provider>
@@ -10373,6 +10315,7 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<!-- https://support.telavox.com/sv_SE/sim-och-esim/apn-norge -->
 	<provider>
 		<name>Telavox</name>
 		<gsm>
