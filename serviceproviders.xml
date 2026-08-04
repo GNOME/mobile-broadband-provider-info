@@ -121,6 +121,17 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider primary="false">
+		<name>Webbing</name>
+		<gsm>
+			<network-id mcc="424" mnc="02"/>
+			<gid1>536E617065</gid1>
+			<apn value="wbdata">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <country code="af">
@@ -2069,6 +2080,17 @@ conceived.
 				<password>vivo</password>
 				<mmsc>http://termnat.vivomms.com.br:8088/mms</mmsc>
 				<mmsproxy>200.142.130.104:80</mmsproxy>
+			</apn>
+		</gsm>
+	</provider>
+	<provider primary="false">
+		<name>Webbing</name>
+		<gsm>
+			<network-id mcc="724" mnc="18"/>
+			<gid1>536E617065</gid1>
+			<apn value="wbdata">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 			</apn>
 		</gsm>
 	</provider>
@@ -5324,6 +5346,17 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider primary="false">
+		<name>Webbing</name>
+		<gsm>
+			<network-id mcc="208" mnc="01"/>
+			<gid1>536E617065</gid1>
+			<apn value="wbdata">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <country code="gb">
@@ -6220,6 +6253,19 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider primary="false">
+		<name>Webbing</name>
+		<gsm>
+			<network-id mcc="454" mnc="00"/>
+			<network-id mcc="454" mnc="12"/>
+			<network-id mcc="454" mnc="35"/>
+			<gid1>536E617065</gid1>
+			<apn value="wbdata">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <country code="hn">
@@ -6969,6 +7015,17 @@ conceived.
 
 		</gsm>
 	</provider>
+	<provider primary="false">
+		<name>Webbing</name>
+		<gsm>
+			<network-id mcc="425" mnc="04"/>
+			<gid1>536E617065</gid1>
+			<apn value="wbdata">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <country code="im">
@@ -7629,6 +7686,17 @@ conceived.
 				<usage type="mms"/>
 				<name>Iliad MMS</name>
 				<mmsc>http://mms.iliad.it</mmsc>
+			</apn>
+		</gsm>
+	</provider>
+	<provider primary="false">
+		<name>Webbing</name>
+		<gsm>
+			<network-id mcc="222" mnc="01"/>
+			<gid1>536E617065</gid1>
+			<apn value="wbdata">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 			</apn>
 		</gsm>
 	</provider>
@@ -10126,6 +10194,17 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider primary="false">
+		<name>Webbing</name>
+		<gsm>
+			<network-id mcc="204" mnc="04"/>
+			<gid1>536E617065</gid1>
+			<apn value="wbdata">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
 	<provider>
 		<!-- MVNO operating on KPN's network -->
 		<name>Simyo</name>
@@ -11176,6 +11255,17 @@ conceived.
 				<name>MMS</name>
 				<mmsc>http://mms.virginpol.jsc</mmsc>
 				<mmsproxy>wap.virginpol.jsc:8080</mmsproxy>
+			</apn>
+		</gsm>
+	</provider>
+	<provider primary="false">
+		<name>Webbing</name>
+		<gsm>
+			<network-id mcc="260" mnc="06"/>
+			<gid1>536E617065</gid1>
+			<apn value="wbdata">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 			</apn>
 		</gsm>
 	</provider>
@@ -14500,6 +14590,17 @@ conceived.
 				<usage type="internet"/>
 				<name>US Mobile</name>
 				<mmsc>http://pwg.mmsmvno.com/mms/wapenc</mmsc>
+			</apn>
+		</gsm>
+	</provider>
+	<provider primary="false">
+		<name>Webbing</name>
+		<gsm>
+			<network-id mcc="311" mnc="588"/>
+			<gid1>536E617065</gid1>
+			<apn value="wbdata">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
 			</apn>
 		</gsm>
 	</provider>
