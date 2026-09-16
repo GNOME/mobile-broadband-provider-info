@@ -1898,6 +1898,60 @@ conceived.
 	</provider>
 </country>
 
+<country code="bo">
+	<name>Bolivia</name>
+	<provider>
+		<name>Viva</name>
+		<gsm>
+			<network-id mcc="736" mnc="01"/>
+			<apn value="internet.nuevatel.com">
+				<usage type="internet"/>
+				<name>Viva Internet</name>
+			</apn>
+			<apn value="mms.nuevatel.com">
+				<usage type="mms"/>
+				<name>Viva MMS</name>
+				<mmsc>http://mmsgw.nuevatel.com:1981</mmsc>
+				<mmsproxy>192.168.101.4:3128</mmsproxy>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Entel</name>
+		<gsm>
+			<network-id mcc="736" mnc="02"/>
+			<apn value="4g.entel">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>Entel Internet</name>
+			</apn>
+			<apn value="mms.movil.com.bo">
+				<usage type="mms"/>
+				<name>Entel MMS</name>
+				<mmsc>http://mms.movil.com.bo/servlets/mms</mmsc>
+				<mmsproxy>172.27.7.10:8080</mmsproxy>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Tigo</name>
+		<gsm>
+			<network-id mcc="736" mnc="03"/>
+			<apn value="internet.tigo.bo">
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<name>Tigo Internet</name>
+			</apn>
+			<apn value="mms.tigo.bo">
+				<usage type="mms"/>
+				<name>Tigo MMS</name>
+				<mmsc>http://mms</mmsc>
+				<mmsproxy>172.25.100.8:8888</mmsproxy>
+			</apn>
+		</gsm>
+	</provider>
+</country>
+
 <country code="br">
 	<name>Brazil</name>
 	<provider>
@@ -2167,30 +2221,6 @@ conceived.
 				<password>MOVISTAR</password>
 				<mmsc>http://mms.movistar.com</mmsc>
 				<mmsproxy>10.138.255.5:8080</mmsproxy>
-			</apn>
-		</gsm>
-	</provider>
-</country>
-
-<country code="bo">
-	<name>Bolivia</name>
-	<provider>
-		<name>Entel</name>
-		<gsm>
-			<network-id mcc="736" mnc="02"/>
-			<apn value="4g.entel">
-				<plan type="prepaid"/>
-				<usage type="internet"/>
-			</apn>
-		</gsm>
-	</provider>
-	<provider>
-		<name>Tigo</name>
-		<gsm>
-			<network-id mcc="736" mnc="03"/>
-			<apn value="internet.tigo.bo">
-				<plan type="prepaid"/>
-				<usage type="internet"/>
 			</apn>
 		</gsm>
 	</provider>
