@@ -5932,6 +5932,27 @@ conceived.
 	</provider>
 </country>
 
+<country code="gi">
+	<name>Gibraltar</name>
+	<provider>
+		<name>Gibtelcom</name>
+		<gsm>
+			<network-id mcc="266" mnc="01"/>
+			<apn value="www.gibtele.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Gibtelecom</name>
+			</apn>
+			<apn value="mms.gibtele.com">
+				<usage type="mms"/>
+				<name>Gibtelecom</name>
+				<mmsc>http://mms:8081</mmsc>
+				<mmsproxy>172.17.0.5:8080</mmsproxy>
+			</apn>
+		</gsm>
+	</provider>
+</country>
+
 <country code="gl">
 	<name>Greenland</name>
 	<!-- http://www.tele.gl/da-DK/Privat/Info/Selvbetjening/Mobilopsaetning/Sider/ManuelOpsaetning.aspx -->
