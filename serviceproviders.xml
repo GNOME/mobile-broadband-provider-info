@@ -12874,6 +12874,84 @@ conceived.
 	</provider>
 </country>
 
+<country code="tj">
+	<name>Tajikistan</name>
+	<provider>
+		<name>Beeline TJ</name>
+		<gsm>
+			<network-id mcc="436" mnc="05"/>
+			<apn value="internet.beeline.tj">
+				<plan type="postpaid"/>
+				<plan type="prepaid"/>
+				<usage type="internet"/>
+				<username>beeline</username>
+				<password>beeline</password>
+			</apn>
+			<apn value="mms.beeline.tj">
+				<usage type="mms"/>
+				<name>Beeline TJ MMS</name>
+				<username>beeline</username>
+				<password>beeline</password>
+				<mmsc>http://172.28.253.211/mms/wapenc</mmsc>
+				<mmsproxy>172.28.253.69:8080</mmsproxy>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Megafon</name>
+		<gsm>
+			<network-id mcc="436" mnc="03"/>
+			<apn value="internet">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+			<apn value="megafon mms">
+				<usage type="mms"/>
+				<name>megafon mms</name>
+				<username>mms</username>
+				<password>mms</password>
+				<mmsc>http://mmsc:8002</mmsc>
+				<mmsproxy>10.10.10.10:8080</mmsproxy>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Tcell</name>
+		<gsm>
+			<network-id mcc="436" mnc="01"/>
+			<network-id mcc="436" mnc="02"/>
+			<network-id mcc="436" mnc="12"/>
+			<apn value="tcell">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+			<apn value="tcell">
+				<usage type="mms"/>
+				<name>megafon mms</name>
+			</apn>
+		</gsm>
+	</provider>
+	<provider>
+		<name>Babilon Mobile</name>
+		<gsm>
+			<network-id mcc="436" mnc="04"/>
+			<network-id mcc="436" mnc="10"/>
+			<apn value="babilon">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+			<apn value="mms">
+				<usage type="mms"/>
+				<name>Babilon MMS</name>
+				<username>mms</username>
+				<password>mms</password>
+				<mmsc>http://mmscdb</mmsc>
+				<mmsproxy>129.9.0.50:8080</mmsproxy>
+			</apn>
+		</gsm>
+	</provider>
+</country>
+
 <country code="tn">
 	<name>Tunisia</name>
 	<provider>
