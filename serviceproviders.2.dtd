@@ -2,6 +2,7 @@
 <!ATTLIST serviceproviders format CDATA #REQUIRED>
 
 <!ELEMENT country (name+, cbs*, emergency-numbers*, provider*)>
+<!-- Country codes per ISO 3166-1 alpha-2 -->
 <!ATTLIST country code CDATA #REQUIRED>
 
 <!ELEMENT provider (name+, gsm?, cdma?)>
