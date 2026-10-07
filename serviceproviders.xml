@@ -14744,16 +14744,66 @@ conceived.
 		</gsm>
 	</provider>
 	<provider primary="false">
-		<!-- MVNO operating on T-Mobile / Verizon -->
-		<name>US Mobile</name>
+		<!-- MVNO operating on T-Mobile -->
+		<name>US Mobile (Light Speed)</name>
 		<gsm>
 			<network-id mcc="310" mnc="260"/>
-			<voicemail>123</voicemail>
-			<apn value="pwg">
-				<!-- T-Mobile network combined MMS / Cellular Data APN -->
+			<network-id mcc="310" mnc="240"/>
+			<voicemail>122</voicemail>
+			<visual-voicemail>
+				<standard type="cvvm"/>
+				<destination-number>122</destination-number>
+				<carrier-prefix>//VVM</carrier-prefix>
+			</visual-voicemail>
+			<!-- New Network -->
+			<apn value="wholesale">
 				<usage type="internet"/>
-				<name>US Mobile</name>
+				<name>Light Speed (New Network)</name>
+			</apn>
+			<apn value="wholesale">
+				<usage type="mms"/>
+				<name>Light Speed (New Network) MMS</name>
+				<mmsc>http://wholesale.mmsmvno.com/mms/wapenc</mmsc>
+			</apn>
+			<!-- Legacy Network -->
+			<apn value="pwg">
+				<usage type="internet"/>
+				<name>Light Speed (Legacy Network)</name>
+			</apn>
+			<apn value="pwg">
+				<usage type="mms"/>
+				<name>Light Speed (Legacy Network) MMS</name>
 				<mmsc>http://pwg.mmsmvno.com/mms/wapenc</mmsc>
+			</apn>
+		</gsm>
+	</provider>
+	<provider primary="false">
+		<!-- MVNO operating on AT&T -->
+		<name>US Mobile (Dark Star)</name>
+		<gsm>
+			<network-id mcc="310" mnc="410"/>
+			<network-id mcc="310" mnc="280"/>
+			<apn value="ereseller">
+				<usage type="internet"/>
+				<name>Dark Star</name>
+			</apn>
+			<apn value="ereseller">
+				<usage type="mms"/>
+				<name>Dark Star MMS</name>
+				<mmsc>http://mmsc.mobile.att.net</mmsc>
+				<mmsproxy>proxy.mobile.att.net:80</mmsproxy>
+			</apn>
+		</gsm>
+	</provider>
+	<provider primary="false">
+		<!-- MVNO operating on Verizon -->
+		<name>US Mobile (Warp)</name>
+		<gsm>
+			<network-id mcc="311" mnc="480"/>
+			<apn value="vzwinternet">
+				<usage type="internet"/>
+				<name>Warp</name>
+				<mmsc>http://mms.vtext.com/servlets/mms</mmsc>
 			</apn>
 		</gsm>
 	</provider>
