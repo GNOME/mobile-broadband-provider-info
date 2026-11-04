@@ -2664,6 +2664,24 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider primary="false">
+		<name>Koodo</name>
+		<gsm>
+			<network-id mcc="302" mnc="220"/>
+			<gid1>4b4f</gid1>
+			<apn value="sp.koodo.com">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<name>Internet</name>
+			</apn>
+			<apn value="sp.koodo.com">
+				<usage type="mms"/>
+				<name>Koodo MMS</name>
+				<mmsc>http://aliasredirect.net/proxy/koodo/mmsc</mmsc>
+				<mmsproxy>mmscproxy.mobility.ca</mmsproxy>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <country code="cd">
