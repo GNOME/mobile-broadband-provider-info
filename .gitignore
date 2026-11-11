@@ -1,12 +1,3 @@
-/Makefile
-/Makefile.in
-/aclocal.m4
 /apns-conf.xml
-/autom4te.cache/
-/config.log
-/config.status
-/configure
-/install-sh
-/missing
 /mobile-broadband-provider-info.pc
 *.sw?
