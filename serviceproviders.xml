@@ -14715,6 +14715,24 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider>
+		<!-- MVNO operating on AT&T's network -->
+		<name>RedPocket Mobile</name>
+		<gsm>
+			<network-id mcc="310" mnc="410"/>
+			<network-id mcc="310" mnc="280"/>
+			<network-id mcc="310" mnc="950"/>
+			<network-id mcc="311" mnc="180"/>
+			<gid1>4201</gid1>
+			<apn value="ERESELLER">
+				<plan type="prepaid"/>
+				<usage type="mms-internet-hipri-fota"/>
+				<name>RedPocket Mobile</name>
+				<mmsc>http://mmsc.mobile.att.net</mmsc>
+				<mmsproxy>proxy.mobile.att.net:80</mmsproxy>
+			</apn>
+		</gsm>
+	</provider>
 	<provider primary="false">
 		<!-- MVNO operating on T-Mobile/Sprint -->
 		<name>SpeedTalk Mobile</name>
