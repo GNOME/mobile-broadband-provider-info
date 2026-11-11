@@ -1,3 +1,61 @@
+20251111
+--------
+* Add `gid1` element to identify MVNOs
+* Add emergency number information for FI, IL, IR, NL, RU
+* New providers:
+  - ae: Webbing
+  - be: Neibo
+  - bo: Entel, Tido, Viva
+  - br: Webbing
+  - ca: Kodoo
+  - fr: Webbing, Lebara
+  - gb: iD Mobile
+  - gi: Gibtelcom
+  - hk: Webbing
+  - it: Webbing
+  - nl: Simyo, Webbing
+  - no: Happybytes, Saga Mobil
+  - pl: Webbing
+  - tj: Beeline TJ, Megafon, Tcell, Babilon Mobile
+  - us: Webbing
+* Updated providers:
+  - at: Drei, Lycamobile
+  - be: Telavox, Telenet
+  - ca: Telus
+  - de: Congstar, WinSIM
+  - fi: Telia
+  - fr: Free, Lycamobile
+  - il: Webbing
+  - it: CoopVoce
+  - lt: Omnitel
+  - nl: KPN NL, Webbing
+  - no: Ice, OneCall, MyCall, Telavox, Telia
+  - ro: Vodafone
+  - ru: Beeline
+  - se: Telavox
+  - us: US Mobile
+* Removed providres:
+  - no: Altibox, Chess, Network Norway, Phonero, Ludo Mobil, TDC, Tele2, Telipol, Ventelo
+* Contributors:
+    * Achill Gilgenast
+    * Alexander Karlstad
+    * Andrey Skvortsov
+    * Bardia Moshiri
+    * Bart Ribbers
+    * BTP
+    * Clayton Craft
+    * Danial Behzadi
+    * Efraim Flashner
+    * Guido Günther
+    * Jan Vlug
+    * Jason Beetham
+    * Luis Büchi
+    * Luis Mita
+    * Mikko Korpela
+    * Nicklas Nordhöj
+    * Pekka Vuorela
+    * Tiago Vaz
+
 20251101
 --------
 * Add support for emergency number information
@@ -58,4 +116,3 @@
     * Hemish
     * t1627
     * UltrasonicMadness
-
