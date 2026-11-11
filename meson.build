@@ -1,7 +1,7 @@
 project(
   'mobile-broadband-provider-info',
   'c',
-  version: '20251101',
+  version: '20261111',
   license: 'CERTIFICATION 1.0 US Deed ',
   meson_version: '>= 1.0.0',
 )
