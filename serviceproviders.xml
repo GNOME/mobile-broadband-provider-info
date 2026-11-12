@@ -8714,6 +8714,16 @@ conceived.
 			<callee type="ambulance"/>
 		</emergency-number>
 	</emergency-numbers>
+	<provider primary="true">
+		<name>7acht</name>
+		<gsm>
+			<network-id mcc="295" mnc="02"/>
+			<apn value="internet-ofl">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
 	<provider>
 		<name>Datamobile</name>
 		<gsm>
