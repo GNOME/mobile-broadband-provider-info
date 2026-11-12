@@ -8698,6 +8698,22 @@ conceived.
 
 <country code="li">
 	<name>Liechtenstein</name>
+	<emergency-numbers>
+		<emergency-number number="112">
+			<callee type="ambulance"/>
+			<callee type="fire-brigade"/>
+			<callee type="police"/>
+		</emergency-number>
+		<emergency-number number="117">
+			<callee type="police"/>
+		</emergency-number>
+		<emergency-number number="118">
+			<callee type="fire-brigade"/>
+		</emergency-number>
+		<emergency-number number="144">
+			<callee type="ambulance"/>
+		</emergency-number>
+	</emergency-numbers>
 	<provider>
 		<name>Datamobile</name>
 		<gsm>
