@@ -8734,6 +8734,19 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider primary="true">
+		<name>FL1</name>
+		<gsm>
+			<network-id mcc="295" mnc="05"/>
+			<apn value="fl1">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<username>gprs@a1plus.at</username>
+				<password>fl1</password>
+				<authentication method="pap"/>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <country code="lc">
