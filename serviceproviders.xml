@@ -8747,6 +8747,16 @@ conceived.
 			</apn>
 		</gsm>
 	</provider>
+	<provider primary="true">
+		<name>Swisscom</name>
+		<gsm>
+			<network-id mcc="295" mnc="01"/>
+			<apn value="gprs.swisscom.ch">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
 </country>
 
 <country code="lc">
