@@ -8698,11 +8698,60 @@ conceived.
 
 <country code="li">
 	<name>Liechtenstein</name>
+	<emergency-numbers>
+		<emergency-number number="112">
+			<callee type="ambulance"/>
+			<callee type="fire-brigade"/>
+			<callee type="police"/>
+		</emergency-number>
+		<emergency-number number="117">
+			<callee type="police"/>
+		</emergency-number>
+		<emergency-number number="118">
+			<callee type="fire-brigade"/>
+		</emergency-number>
+		<emergency-number number="144">
+			<callee type="ambulance"/>
+		</emergency-number>
+	</emergency-numbers>
+	<provider primary="true">
+		<name>7acht</name>
+		<gsm>
+			<network-id mcc="295" mnc="02"/>
+			<apn value="internet-ofl">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
 	<provider>
 		<name>Datamobile</name>
 		<gsm>
 			<network-id mcc="295" mnc="05"/>
 			<apn value="datamobile.ag">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider primary="true">
+		<name>FL1</name>
+		<gsm>
+			<network-id mcc="295" mnc="05"/>
+			<apn value="fl1">
+				<plan type="postpaid"/>
+				<usage type="internet"/>
+				<username>gprs@a1plus.at</username>
+				<password>fl1</password>
+				<authentication method="pap"/>
+			</apn>
+		</gsm>
+	</provider>
+	<provider primary="true">
+		<name>Swisscom</name>
+		<gsm>
+			<network-id mcc="295" mnc="01"/>
+			<apn value="gprs.swisscom.ch">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
 			</apn>
