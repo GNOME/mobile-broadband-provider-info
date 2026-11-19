@@ -7623,7 +7623,9 @@ conceived.
 	<provider>
 		<name>Fastweb</name>
 		<gsm>
+			<network-id mcc="222" mnc="08"/>
 			<network-id mcc="222" mnc="99"/>
+			<gid1>D8FFFFFFFFFFFFFF</gid1>
 			<apn value="apn.fastweb.it">
 				<plan type="postpaid"/>
 				<usage type="internet"/>
